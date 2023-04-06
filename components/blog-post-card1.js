@@ -15,9 +15,6 @@ const BlogPostCard1 = (props) => {
           <span className="blog-post-card1-text">{props.label}</span>
           <span className="blog-post-card1-text1">{props.title}</span>
           <span className="blog-post-card1-text2">{props.description}</span>
-          <div className="blog-post-card1-container1">
-            <div className="blog-post-card1-profile"></div>
-          </div>
         </div>
       </div>
       <style jsx>
@@ -63,26 +60,6 @@ const BlogPostCard1 = (props) => {
             color: #595959;
             font-weight: 400;
             margin-bottom: 32px;
-          }
-          .blog-post-card1-container1 {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            padding-top: var(--dl-space-space-unit);
-            border-color: var(--dl-color-gray-900);
-            border-width: 1px;
-            flex-direction: row;
-            justify-content: space-between;
-            border-left-width: 0px;
-            border-right-width: 0px;
-            border-bottom-width: 0px;
-          }
-          .blog-post-card1-profile {
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
           }
 
           @media (max-width: 991px) {

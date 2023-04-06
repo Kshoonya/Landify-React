@@ -64,6 +64,9 @@ const TestimonialsCard = (props) => {
           .testimonials-card-root-class-name {
             align-self: center;
           }
+          .testimonials-card-root-class-name1 {
+            align-self: center;
+          }
         `}
       </style>
     </>

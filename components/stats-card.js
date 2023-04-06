@@ -73,6 +73,19 @@ const StatsCard = (props) => {
             margin-right: 15px;
             margin-bottom: var(--dl-space-space-halfunit);
           }
+          .stats-card-root-class-name6 {
+            top: 16px;
+            flex: 1;
+            left: 16px;
+            width: auto;
+            position: 0px;
+          }
+          .stats-card-root-class-name7 {
+            width: auto;
+          }
+          .stats-card-root-class-name8 {
+            width: auto;
+          }
         `}
       </style>
     </>
