@@ -13,8 +13,8 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Landify</title>
-          <meta property="og:title" content="Landify" />
+          <title>Kshoonya Inc</title>
+          <meta property="og:title" content="Kshoonya Inc" />
         </Head>
         <div data-role="Header" className="home-header-container">
           <header className="home-header">
