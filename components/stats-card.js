@@ -50,22 +50,28 @@ const StatsCard = (props) => {
             width: auto;
           }
           .stats-card-root-class-name3 {
-            top: 306px;
-            left: 616px;
+            top: 250px;
+            left: 403px;
             width: auto;
-            position: absolute;
+            position: static;
+            margin-top: 100px;
           }
           .stats-card-root-class-name4 {
-            top: 455px;
-            left: 618px;
+            top: 381px;
+            left: 404px;
             width: auto;
-            position: absolute;
+            position: static;
+            margin-top: 90px;
           }
           .stats-card-root-class-name5 {
-            top: 181px;
-            left: 615px;
+            top: 142px;
+            left: 400px;
             width: auto;
-            position: absolute;
+            position: static;
+            margin-top: -25px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-bottom: var(--dl-space-space-halfunit);
           }
         `}
       </style>

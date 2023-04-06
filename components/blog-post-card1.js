@@ -16,14 +16,7 @@ const BlogPostCard1 = (props) => {
           <span className="blog-post-card1-text1">{props.title}</span>
           <span className="blog-post-card1-text2">{props.description}</span>
           <div className="blog-post-card1-container1">
-            <div className="blog-post-card1-profile">
-              <img
-                alt={props.profile_alt}
-                src={props.profile_src}
-                image_src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTYyNjQzMTMwMw&amp;ixlib=rb-1.2.1&amp;h=1200"
-                className="blog-post-card1-image1"
-              />
-            </div>
+            <div className="blog-post-card1-profile"></div>
           </div>
         </div>
       </div>
@@ -85,16 +78,11 @@ const BlogPostCard1 = (props) => {
             border-bottom-width: 0px;
           }
           .blog-post-card1-profile {
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: flex-start;
-          }
-          .blog-post-card1-image1 {
-            width: 139px;
-            height: 126px;
-            object-fit: cover;
-            border-radius: var(--dl-radius-radius-round);
           }
 
           @media (max-width: 991px) {
@@ -110,8 +98,7 @@ const BlogPostCard1 = (props) => {
 
 BlogPostCard1.defaultProps = {
   rootClassName: '',
-  profile_src:
-    '/playground_assets/_58f88e87-bd15-4e6d-83e0-044008dee4d6-200h.jpeg',
+  profile_src: 'e3f2f3f5-8492-4592-8b30-47bdb826a156',
   time: '5 min read',
   profile_alt: 'profile',
   image_src:
