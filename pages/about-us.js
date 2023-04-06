@@ -32,22 +32,13 @@ const AboutUs = (props) => {
               <Link href="/journey-so-far">
                 <a className="about-us-link02">Journey So far</a>
               </Link>
-              <Link href="/supporters">
-                <a className="about-us-link03">Supporters</a>
-              </Link>
               <Link href="/jobs">
-                <a className="about-us-link04">Jobs</a>
+                <a className="about-us-link03">Jobs</a>
               </Link>
-              <Link href="/login">
-                <a className="about-us-link05">More</a>
-              </Link>
-              <Link href="/login">
-                <a className="about-us-link06">
-                  <svg viewBox="0 0 1024 1024" className="about-us-icon list">
-                    <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                  </svg>
-                </a>
-              </Link>
+              <span className="about-us-text">More</span>
+              <svg viewBox="0 0 1024 1024" className="about-us-icon list">
+                <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
+              </svg>
             </div>
             <div className="about-us-container01"></div>
             <div data-role="BurgerMenu" className="about-us-burger-menu">
@@ -74,12 +65,12 @@ const AboutUs = (props) => {
               </div>
             </div>
             <div className="about-us-mid">
-              <span className="about-us-text">About</span>
-              <span className="about-us-text01">Products</span>
-              <span className="about-us-text02">Pricing</span>
-              <span className="about-us-text03">Blog</span>
-              <span className="about-us-text04">Jobs</span>
-              <span className="about-us-text05">More</span>
+              <span className="about-us-text01">About</span>
+              <span className="about-us-text02">Products</span>
+              <span className="about-us-text03">Pricing</span>
+              <span className="about-us-text04">Blog</span>
+              <span className="about-us-text05">Jobs</span>
+              <span className="about-us-text06">More</span>
             </div>
             <div className="about-us-bot">
               <div className="about-us-container02">
@@ -87,7 +78,7 @@ const AboutUs = (props) => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="about-us-link07"
+                  className="about-us-link04"
                 >
                   <div className="about-us-container03">
                     <svg
@@ -102,7 +93,7 @@ const AboutUs = (props) => {
                   href="https://dribbble.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="about-us-link08"
+                  className="about-us-link05"
                 >
                   <div className="about-us-container04">
                     <svg
@@ -117,7 +108,7 @@ const AboutUs = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="about-us-link09"
+                  className="about-us-link06"
                 >
                   <div className="about-us-container05">
                     <svg
@@ -132,7 +123,7 @@ const AboutUs = (props) => {
                   href="https://youtube.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="about-us-link10"
+                  className="about-us-link07"
                 >
                   <div className="about-us-container06">
                     <svg viewBox="0 0 1024 1024" className="about-us-icon13">
@@ -168,14 +159,14 @@ const AboutUs = (props) => {
           />
           <div className="about-us-hero">
             <div className="about-us-container07">
-              <h1 className="about-us-text06">About Us</h1>
+              <h1 className="about-us-text07">About Us</h1>
             </div>
-            <h1 className="about-us-text07">Innovators. Dreamers.</h1>
+            <h1 className="about-us-text08">Innovators. Dreamers.</h1>
           </div>
         </div>
         <div className="about-us-features">
-          <h2 className="about-us-text08">
-            <span className="about-us-text09">
+          <h2 className="about-us-text09">
+            <span className="about-us-text10">
               The word ‘Kshoonya’ is an ancient Sanskrit word that literally
               means ‘Zero’ number, but philosophically may be interpreted as the
               limitless presence of nothingness, which is necessary for anything
@@ -188,8 +179,8 @@ const AboutUs = (props) => {
               Kshoonya that creates &amp; surrounds all entities.
             </span>
             <br></br>
-            <br className="about-us-text11"></br>
-            <span className="about-us-text12">
+            <br className="about-us-text12"></br>
+            <span className="about-us-text13">
               For us, Kshoonya is an entity that wants to dedicate its efforts
               towards adding limitless value to everyday lives of the masses.
               Through Kshoonya, we want to create technologies &amp; products
@@ -197,8 +188,8 @@ const AboutUs = (props) => {
               means, but lack the tools.
             </span>
             <br></br>
-            <br className="about-us-text14"></br>
-            <span className="about-us-text15">
+            <br className="about-us-text15"></br>
+            <span className="about-us-text16">
               The initial spark of Kshoonya comes from an academician’s mind for
               his visually impaired, slowly-going-blind partner. As the thought
               converted to conversations, the idea slowly solidified into a
@@ -216,13 +207,13 @@ const AboutUs = (props) => {
             className="about-us-image02"
           />
           <div className="about-us-testimonial">
-            <span className="about-us-text16">
+            <span className="about-us-text17">
               <span>Harshit, Ph.D.</span>
               <br></br>
               <span>Founder/CEO</span>
               <br></br>
             </span>
-            <span className="about-us-text21">
+            <span className="about-us-text22">
               Meet the brains behind Kshoonya, Harshit a highly experienced
               technology expert with an academic and professional background
               spanning nearly a decade in the fields of electrical engineering,
@@ -238,13 +229,13 @@ const AboutUs = (props) => {
         </div>
         <div className="about-us-testimonial-card1">
           <div className="about-us-testimonial1">
-            <span className="about-us-text22">
+            <span className="about-us-text23">
               <span>Sakshi</span>
               <br></br>
               <span>Co-Founder</span>
               <br></br>
             </span>
-            <span className="about-us-text27">
+            <span className="about-us-text28">
               {' '}
               Introducing Sakshi, an inspiring social entrepreneur, Sakshi! She
               brings her expertise in organization building, team management,
@@ -275,24 +266,24 @@ const AboutUs = (props) => {
             />
           </div>
           <div className="about-us-container11">
-            <span className="about-us-text28">
+            <span className="about-us-text29">
               <span>Jorden Lee</span>
               <br></br>
               <span>Head of Technology</span>
             </span>
-            <span className="about-us-text32">Technology Expert, Taiwan</span>
+            <span className="about-us-text33">Technology Expert, Taiwan</span>
           </div>
           <div className="about-us-testimonial2"></div>
         </div>
         <div className="about-us-steps">
           <div className="about-us-testimonial-card3">
             <div className="about-us-testimonial3">
-              <span className="about-us-text33">
+              <span className="about-us-text34">
                 <span>Amit Kumar Bedaka</span>
                 <br></br>
                 <span> Head of Design</span>
               </span>
-              <span className="about-us-text37">Researcher and Engineer</span>
+              <span className="about-us-text38">Researcher and Engineer</span>
             </div>
             <img
               alt="profile"
@@ -300,7 +291,7 @@ const AboutUs = (props) => {
               className="about-us-image05"
             />
           </div>
-          <h1 className="about-us-text38">Our Advisors</h1>
+          <h1 className="about-us-text39">Our Advisors</h1>
           <div className="about-us-banner">
             <div className="about-us-blog">
               <div className="about-us-container12">
@@ -324,8 +315,8 @@ const AboutUs = (props) => {
                 ></BlogPostCard2>
               </div>
               <div className="about-us-features1">
-                <h1 className="about-us-text39">We’re Here to Help</h1>
-                <span className="about-us-text40">
+                <h1 className="about-us-text40">We’re Here to Help</h1>
+                <span className="about-us-text41">
                   Quickly find out whether we have already addressed any
                   questions that may be on your mind. We welcome all inquiries
                   on matters big or small. If there is something that is on your
@@ -334,10 +325,10 @@ const AboutUs = (props) => {
                   capacities.
                 </span>
                 <div className="about-us-features2">
-                  <h1 className="about-us-text41">
+                  <h1 className="about-us-text42">
                     <span>Frequently Asked Questions</span>
                     <br></br>
-                    <span className="about-us-text44">
+                    <span className="about-us-text45">
                       Please reach us at contact@kshoonya.com if you cannot find
                       an answer to your question.
                     </span>
@@ -363,9 +354,9 @@ const AboutUs = (props) => {
                 </div>
               </div>
             </div>
-            <span className="about-us-text46">Kshoonya with us</span>
-            <h1 className="about-us-text47">Learn to keep it simple</h1>
-            <span className="about-us-text48">
+            <span className="about-us-text47">Kshoonya with us</span>
+            <h1 className="about-us-text48">Learn to keep it simple</h1>
+            <span className="about-us-text49">
               <span>
                 {' '}
                 Dive into the enriching world of knowledge acquisition, where
@@ -445,16 +436,16 @@ const AboutUs = (props) => {
             />
             <div className="about-us-container20">
               <Link href="/jobs">
-                <a className="about-us-link11">Careers</a>
+                <a className="about-us-link08">Careers</a>
               </Link>
               <Link href="/about-us">
-                <a className="about-us-link12">Help</a>
+                <a className="about-us-link09">Help</a>
               </Link>
-              <span className="about-us-text52">Privacy Policy</span>
+              <span className="about-us-text53">Privacy Policy</span>
             </div>
             <div className="about-us-divider"></div>
             <div className="about-us-container21">
-              <span className="about-us-text53 Body2">
+              <span className="about-us-text54 Body2">
                 © 2023 Kshoonya Inc. All rights reserved
               </span>
               <div className="about-us-container22">
@@ -462,7 +453,7 @@ const AboutUs = (props) => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="about-us-link13"
+                  className="about-us-link10"
                 >
                   <div className="about-us-container23">
                     <svg
@@ -477,7 +468,7 @@ const AboutUs = (props) => {
                   href="https://dribbble.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="about-us-link14"
+                  className="about-us-link11"
                 >
                   <div className="about-us-container24">
                     <svg
@@ -492,7 +483,7 @@ const AboutUs = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="about-us-link15"
+                  className="about-us-link12"
                 >
                   <div className="about-us-container25">
                     <svg
@@ -507,7 +498,7 @@ const AboutUs = (props) => {
                   href="https://youtube.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="about-us-link16"
+                  className="about-us-link13"
                 >
                   <div className="about-us-container26">
                     <svg viewBox="0 0 1024 1024" className="about-us-icon21">
@@ -600,23 +591,12 @@ const AboutUs = (props) => {
           .about-us-link03:hover {
             color: var(--dl-color-turquoise-default);
           }
-          .about-us-link04 {
-            transition: 0.3s;
-            margin-right: var(--dl-space-space-doubleunit);
-            text-decoration: none;
-          }
-          .about-us-link04:hover {
-            color: var(--dl-color-turquoise-default);
-          }
-          .about-us-link05 {
+          .about-us-text {
             transition: 0.3s;
             text-decoration: none;
           }
-          .about-us-link05:hover {
+          .about-us-text:hover {
             color: var(--dl-color-turquoise-default);
-          }
-          .about-us-link06 {
-            display: contents;
           }
           .about-us-icon {
             width: 24px;
@@ -691,13 +671,6 @@ const AboutUs = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .about-us-text {
-            transition: 0.3s;
-            margin-bottom: var(--dl-space-space-halfunit);
-          }
-          .about-us-text:hover {
-            color: var(--dl-color-turquoise-default);
-          }
           .about-us-text01 {
             transition: 0.3s;
             margin-bottom: var(--dl-space-space-halfunit);
@@ -728,8 +701,15 @@ const AboutUs = (props) => {
           }
           .about-us-text05 {
             transition: 0.3s;
+            margin-bottom: var(--dl-space-space-halfunit);
           }
           .about-us-text05:hover {
+            color: var(--dl-color-turquoise-default);
+          }
+          .about-us-text06 {
+            transition: 0.3s;
+          }
+          .about-us-text06:hover {
             color: var(--dl-color-turquoise-default);
           }
           .about-us-bot {
@@ -746,7 +726,7 @@ const AboutUs = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .about-us-link07 {
+          .about-us-link04 {
             display: contents;
           }
           .about-us-container03 {
@@ -766,7 +746,7 @@ const AboutUs = (props) => {
           .about-us-icon07:hover {
             fill: var(--dl-color-purple-default);
           }
-          .about-us-link08 {
+          .about-us-link05 {
             display: contents;
           }
           .about-us-container04 {
@@ -787,7 +767,7 @@ const AboutUs = (props) => {
           .about-us-icon09:hover {
             fill: var(--dl-color-pink-default);
           }
-          .about-us-link09 {
+          .about-us-link06 {
             display: contents;
           }
           .about-us-container05 {
@@ -808,7 +788,7 @@ const AboutUs = (props) => {
           .about-us-icon11:hover {
             fill: var(--dl-color-turquoise-default);
           }
-          .about-us-link10 {
+          .about-us-link07 {
             display: contents;
           }
           .about-us-container06 {
@@ -912,12 +892,12 @@ const AboutUs = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .about-us-text06 {
+          .about-us-text07 {
             font-size: 72px;
             align-self: flex-start;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
-          .about-us-text07 {
+          .about-us-text08 {
             font-size: 72px;
             align-self: flex-end;
             margin-bottom: var(--dl-space-space-doubleunit);
@@ -933,7 +913,7 @@ const AboutUs = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .about-us-text08 {
+          .about-us-text09 {
             color: var(--dl-color-gray-900);
             font-size: 16px;
             font-style: normal;
@@ -983,11 +963,11 @@ const AboutUs = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .about-us-text16 {
+          .about-us-text17 {
             font-size: 1.5rem;
             font-weight: 600;
           }
-          .about-us-text21 {
+          .about-us-text22 {
             color: rgb(89, 89, 89);
             font-size: 1.15rem;
             text-align: justify;
@@ -1010,11 +990,11 @@ const AboutUs = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .about-us-text22 {
+          .about-us-text23 {
             font-size: 1.5rem;
             font-weight: 600;
           }
-          .about-us-text27 {
+          .about-us-text28 {
             color: rgb(89, 89, 89);
             font-size: 1.15rem;
             text-align: justify;
@@ -1060,11 +1040,11 @@ const AboutUs = (props) => {
             align-items: space-between;
             flex-direction: column;
           }
-          .about-us-text28 {
+          .about-us-text29 {
             font-size: 1.5rem;
             font-weight: 600;
           }
-          .about-us-text32 {
+          .about-us-text33 {
             color: rgb(89, 89, 89);
             font-size: 1.15rem;
             margin-bottom: 32px;
@@ -1102,11 +1082,11 @@ const AboutUs = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .about-us-text33 {
+          .about-us-text34 {
             font-size: 1.5rem;
             font-weight: 600;
           }
-          .about-us-text37 {
+          .about-us-text38 {
             color: rgb(89, 89, 89);
             font-size: 1.15rem;
             margin-bottom: 32px;
@@ -1118,7 +1098,7 @@ const AboutUs = (props) => {
             flex-shrink: 0;
             border-radius: var(--dl-radius-radius-round);
           }
-          .about-us-text38 {
+          .about-us-text39 {
             color: var(--dl-color-gray-black);
             font-size: 3rem;
           }
@@ -1167,11 +1147,11 @@ const AboutUs = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .about-us-text39 {
+          .about-us-text40 {
             font-size: 3rem;
             margin-bottom: 32px;
           }
-          .about-us-text40 {
+          .about-us-text41 {
             color: var(--dl-color-gray-700);
             width: 70%;
             font-size: 1.15rem;
@@ -1184,11 +1164,11 @@ const AboutUs = (props) => {
             max-width: 1400px;
             flex-direction: column;
           }
-          .about-us-text41 {
+          .about-us-text42 {
             font-size: 3rem;
             margin-bottom: 48px;
           }
-          .about-us-text44 {
+          .about-us-text45 {
             font-size: 1rem;
             font-weight: 400;
           }
@@ -1198,7 +1178,7 @@ const AboutUs = (props) => {
             grid-gap: 32px;
             grid-template-columns: 1fr 1fr;
           }
-          .about-us-text46 {
+          .about-us-text47 {
             font-size: 0.75rem;
             text-align: center;
             font-weight: 600;
@@ -1206,12 +1186,12 @@ const AboutUs = (props) => {
             letter-spacing: 2px;
             text-transform: uppercase;
           }
-          .about-us-text47 {
+          .about-us-text48 {
             font-size: 3rem;
             text-align: center;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .about-us-text48 {
+          .about-us-text49 {
             max-width: 1400px;
             text-align: center;
             margin-bottom: 32px;
@@ -1344,27 +1324,27 @@ const AboutUs = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .about-us-link11 {
+          .about-us-link08 {
             transition: 0.3s;
             margin-right: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .about-us-link11:hover {
+          .about-us-link08:hover {
             color: var(--dl-color-turquoise-default);
           }
-          .about-us-link12 {
+          .about-us-link09 {
             transition: 0.3s;
             margin-right: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .about-us-link12:hover {
+          .about-us-link09:hover {
             color: var(--dl-color-turquoise-default);
           }
-          .about-us-text52 {
+          .about-us-text53 {
             transition: 0.3s;
             white-space: nowrap;
           }
-          .about-us-text52:hover {
+          .about-us-text53:hover {
             color: var(--dl-color-turquoise-default);
           }
           .about-us-divider {
@@ -1381,7 +1361,7 @@ const AboutUs = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .about-us-text53 {
+          .about-us-text54 {
             color: var(--dl-color-gray-300);
             margin-top: var(--dl-space-space-unit);
           }
@@ -1392,7 +1372,7 @@ const AboutUs = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .about-us-link13 {
+          .about-us-link10 {
             display: contents;
           }
           .about-us-container23 {
@@ -1412,7 +1392,7 @@ const AboutUs = (props) => {
           .about-us-icon15:hover {
             fill: var(--dl-color-purple-default);
           }
-          .about-us-link14 {
+          .about-us-link11 {
             display: contents;
           }
           .about-us-container24 {
@@ -1433,7 +1413,7 @@ const AboutUs = (props) => {
           .about-us-icon17:hover {
             fill: var(--dl-color-pink-default);
           }
-          .about-us-link15 {
+          .about-us-link12 {
             display: contents;
           }
           .about-us-container25 {
@@ -1454,7 +1434,7 @@ const AboutUs = (props) => {
           .about-us-icon19:hover {
             fill: var(--dl-color-turquoise-default);
           }
-          .about-us-link16 {
+          .about-us-link13 {
             display: contents;
           }
           .about-us-container26 {
@@ -1487,13 +1467,10 @@ const AboutUs = (props) => {
               align-items: center;
               margin-bottom: var(--dl-space-space-doubleunit);
             }
-            .about-us-text06 {
-              text-align: center;
-            }
             .about-us-text07 {
               text-align: center;
             }
-            .about-us-text38 {
+            .about-us-text08 {
               text-align: center;
             }
             .about-us-text39 {
@@ -1502,7 +1479,10 @@ const AboutUs = (props) => {
             .about-us-text40 {
               text-align: center;
             }
-            .about-us-text48 {
+            .about-us-text41 {
+              text-align: center;
+            }
+            .about-us-text49 {
               width: 100%;
             }
             .about-us-container18 {
@@ -1516,30 +1496,30 @@ const AboutUs = (props) => {
             .about-us-burger-menu {
               display: block;
             }
-            .about-us-text06 {
-              font-size: 50px;
-              text-align: center;
-            }
             .about-us-text07 {
               font-size: 50px;
               text-align: center;
             }
             .about-us-text08 {
-              font-size: 40px;
+              font-size: 50px;
+              text-align: center;
             }
             .about-us-text09 {
               font-size: 40px;
             }
-            .about-us-text11 {
+            .about-us-text10 {
               font-size: 40px;
             }
             .about-us-text12 {
               font-size: 40px;
             }
-            .about-us-text14 {
+            .about-us-text13 {
               font-size: 40px;
             }
             .about-us-text15 {
+              font-size: 40px;
+            }
+            .about-us-text16 {
               font-size: 40px;
             }
             .about-us-testimonial-card {
@@ -1586,7 +1566,7 @@ const AboutUs = (props) => {
               padding-left: 32px;
               padding-right: 32px;
             }
-            .about-us-text39 {
+            .about-us-text40 {
               text-align: center;
             }
             .about-us-features2 {
@@ -1596,7 +1576,7 @@ const AboutUs = (props) => {
             .about-us-container14 {
               grid-template-columns: 1fr;
             }
-            .about-us-text48 {
+            .about-us-text49 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
@@ -1607,7 +1587,7 @@ const AboutUs = (props) => {
             .about-us-container21 {
               flex-direction: column;
             }
-            .about-us-text53 {
+            .about-us-text54 {
               margin-top: var(--dl-space-space-unit);
               margin-bottom: var(--dl-space-space-unit);
             }
@@ -1619,22 +1599,22 @@ const AboutUs = (props) => {
             .about-us-bot {
               width: 100%;
             }
-            .about-us-text08 {
-              text-align: center;
-            }
             .about-us-text09 {
               text-align: center;
             }
-            .about-us-text11 {
+            .about-us-text10 {
               text-align: center;
             }
             .about-us-text12 {
               text-align: center;
             }
-            .about-us-text14 {
+            .about-us-text13 {
               text-align: center;
             }
             .about-us-text15 {
+              text-align: center;
+            }
+            .about-us-text16 {
               text-align: center;
             }
             .about-us-testimonial-card {
@@ -1649,7 +1629,7 @@ const AboutUs = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .about-us-text21 {
+            .about-us-text22 {
               text-align: left;
             }
             .about-us-testimonial-card1 {
@@ -1664,7 +1644,7 @@ const AboutUs = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .about-us-text27 {
+            .about-us-text28 {
               text-align: left;
             }
             .about-us-testimonial-card2 {
@@ -1674,7 +1654,7 @@ const AboutUs = (props) => {
               flex-direction: column;
               padding-bottom: 32px;
             }
-            .about-us-text32 {
+            .about-us-text33 {
               text-align: left;
             }
             .about-us-testimonial2 {
@@ -1700,7 +1680,7 @@ const AboutUs = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .about-us-text37 {
+            .about-us-text38 {
               text-align: left;
             }
             .about-us-banner {

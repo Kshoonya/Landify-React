@@ -37,20 +37,13 @@ const Home = (props) => {
               <Link href="/journey-so-far">
                 <a className="home-link02">Journey So far</a>
               </Link>
-              <Link href="/supporters">
-                <a className="home-link03">Supporters</a>
-              </Link>
               <Link href="/jobs">
-                <a className="home-link04">Jobs</a>
+                <a className="home-link03">Jobs</a>
               </Link>
               <span className="home-text">More</span>
-              <Link href="/login">
-                <a className="home-link05">
-                  <svg viewBox="0 0 1024 1024" className="home-icon list">
-                    <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                  </svg>
-                </a>
-              </Link>
+              <svg viewBox="0 0 1024 1024" className="home-icon list">
+                <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
+              </svg>
             </div>
             <div className="home-container01"></div>
             <div data-role="BurgerMenu" className="home-burger-menu">
@@ -90,7 +83,7 @@ const Home = (props) => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link06"
+                  className="home-link04"
                 >
                   <div className="home-container03">
                     <svg
@@ -105,7 +98,7 @@ const Home = (props) => {
                   href="https://dribbble.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link07"
+                  className="home-link05"
                 >
                   <div className="home-container04">
                     <svg
@@ -120,7 +113,7 @@ const Home = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link08"
+                  className="home-link06"
                 >
                   <div className="home-container05">
                     <svg
@@ -135,7 +128,7 @@ const Home = (props) => {
                   href="https://youtube.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link09"
+                  className="home-link07"
                 >
                   <div className="home-container06">
                     <svg viewBox="0 0 1024 1024" className="home-icon13">
@@ -164,7 +157,7 @@ const Home = (props) => {
                 <span>Support.</span>
               </h1>
               <Link href="/journey-so-far">
-                <a className="home-link10">
+                <a className="home-link08">
                   <PrimaryButton
                     button="Dream with Kshoonya – unleash your potential"
                     className="home-component"
@@ -203,7 +196,7 @@ const Home = (props) => {
         <div className="home-features">
           <h2 className="home-text11">Introducing Kshoonya Technologies</h2>
           <Link href="/about-us">
-            <a className="home-link11">Learn more about us</a>
+            <a className="home-link09">Learn more about us</a>
           </Link>
           <div className="home-features1">
             <FeatureCard
@@ -258,7 +251,7 @@ const Home = (props) => {
               </span>
             </span>
             <Link href="/about-us">
-              <a className="home-link12 button">Read More</a>
+              <a className="home-link10 button">Read More</a>
             </Link>
           </div>
         </div>
@@ -667,13 +660,13 @@ const Home = (props) => {
             />
             <div className="home-container44">
               <Link href="/jobs">
-                <a className="home-link13">Careers</a>
+                <a className="home-link11">Careers</a>
               </Link>
               <Link href="/supporters">
-                <a className="home-link14">Help</a>
+                <a className="home-link12">Help</a>
               </Link>
               <Link href="/about-us">
-                <a className="home-link15">Privacy Policy</a>
+                <a className="home-link13">Privacy Policy</a>
               </Link>
             </div>
             <div className="home-divider"></div>
@@ -686,7 +679,7 @@ const Home = (props) => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link16"
+                  className="home-link14"
                 >
                   <div className="home-container47">
                     <svg
@@ -701,7 +694,7 @@ const Home = (props) => {
                   href="https://dribbble.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link17"
+                  className="home-link15"
                 >
                   <div className="home-container48">
                     <svg
@@ -716,7 +709,7 @@ const Home = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link18"
+                  className="home-link16"
                 >
                   <div className="home-container49">
                     <svg
@@ -731,7 +724,7 @@ const Home = (props) => {
                   href="https://youtube.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link19"
+                  className="home-link17"
                 >
                   <div className="home-container50">
                     <svg viewBox="0 0 1024 1024" className="home-icon30">
@@ -821,23 +814,12 @@ const Home = (props) => {
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
-          .home-link03:hover {
-            color: var(--dl-color-turquoise-default);
-          }
-          .home-link04 {
-            transition: 0.3s;
-            margin-right: var(--dl-space-space-doubleunit);
-            text-decoration: none;
-          }
 
           .home-text {
             transition: 0.3s;
           }
           .home-text:hover {
             color: var(--dl-color-turquoise-default);
-          }
-          .home-link05 {
-            display: contents;
           }
           .home-icon {
             width: 24px;
@@ -967,7 +949,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-link06 {
+          .home-link04 {
             display: contents;
           }
           .home-container03 {
@@ -987,7 +969,7 @@ const Home = (props) => {
           .home-icon07:hover {
             fill: var(--dl-color-purple-default);
           }
-          .home-link07 {
+          .home-link05 {
             display: contents;
           }
           .home-container04 {
@@ -1008,7 +990,7 @@ const Home = (props) => {
           .home-icon09:hover {
             fill: var(--dl-color-pink-default);
           }
-          .home-link08 {
+          .home-link06 {
             display: contents;
           }
           .home-container05 {
@@ -1029,7 +1011,7 @@ const Home = (props) => {
           .home-icon11:hover {
             fill: var(--dl-color-turquoise-default);
           }
-          .home-link09 {
+          .home-link07 {
             display: contents;
           }
           .home-container06 {
@@ -1098,7 +1080,7 @@ const Home = (props) => {
             font-size: 72px;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
-          .home-link10 {
+          .home-link08 {
             display: contents;
           }
           .home-component {
@@ -1173,7 +1155,7 @@ const Home = (props) => {
             text-transform: none;
             text-decoration: none;
           }
-          .home-link11 {
+          .home-link09 {
             max-width: 500px;
             text-align: center;
             text-decoration: none;
@@ -1204,7 +1186,7 @@ const Home = (props) => {
             text-align: center;
             margin-bottom: 32px;
           }
-          .home-link12 {
+          .home-link10 {
             transition: 0.3s;
             padding-top: var(--dl-space-space-unit);
             padding-left: 32px;
@@ -1212,7 +1194,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .home-link12:hover {
+          .home-link10:hover {
             transform: scale(1.02);
           }
           .home-testimonials {
@@ -1975,28 +1957,28 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
+          .home-link11 {
+            transition: 0.3s;
+            margin-right: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .home-link11:hover {
+            color: var(--dl-color-turquoise-default);
+          }
+          .home-link12 {
+            transition: 0.3s;
+            margin-right: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .home-link12:hover {
+            color: var(--dl-color-turquoise-default);
+          }
           .home-link13 {
-            transition: 0.3s;
-            margin-right: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
-          .home-link13:hover {
-            color: var(--dl-color-turquoise-default);
-          }
-          .home-link14 {
-            transition: 0.3s;
-            margin-right: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
-          .home-link14:hover {
-            color: var(--dl-color-turquoise-default);
-          }
-          .home-link15 {
             transition: 0.3s;
             white-space: nowrap;
             text-decoration: none;
           }
-          .home-link15:hover {
+          .home-link13:hover {
             color: var(--dl-color-turquoise-default);
           }
           .home-divider {
@@ -2024,7 +2006,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-link16 {
+          .home-link14 {
             display: contents;
           }
           .home-container47 {
@@ -2044,7 +2026,7 @@ const Home = (props) => {
           .home-icon24:hover {
             fill: var(--dl-color-purple-default);
           }
-          .home-link17 {
+          .home-link15 {
             display: contents;
           }
           .home-container48 {
@@ -2065,7 +2047,7 @@ const Home = (props) => {
           .home-icon26:hover {
             fill: var(--dl-color-pink-default);
           }
-          .home-link18 {
+          .home-link16 {
             display: contents;
           }
           .home-container49 {
@@ -2086,7 +2068,7 @@ const Home = (props) => {
           .home-icon28:hover {
             fill: var(--dl-color-turquoise-default);
           }
-          .home-link19 {
+          .home-link17 {
             display: contents;
           }
           .home-container50 {
@@ -2473,7 +2455,7 @@ const Home = (props) => {
             .home-text11 {
               text-align: center;
             }
-            .home-link11 {
+            .home-link09 {
               text-align: center;
             }
             .home-banner {
