@@ -105,25 +105,25 @@ const BlogPostCard3 = (props) => {
 }
 
 BlogPostCard3.defaultProps = {
-  image_src:
-    'https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHdvcmtpbmclMjBkZXNrfGVufDB8fHx8MTYyNjI1MDYwMg&ixlib=rb-1.2.1&h=1200',
-  rootClassName: '',
-  image_alt: 'image',
   label: 'ENTERPRISE',
+  author: 'by Jon Doe 5 hours ago',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non volutpat turpis. Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor. Lorem ipsum dolor sit amet, consectetur adipiscing ...',
+  rootClassName: '',
+  image_src:
+    'https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHdvcmtpbmclMjBkZXNrfGVufDB8fHx8MTYyNjI1MDYwMg&ixlib=rb-1.2.1&h=1200',
+  image_alt: 'image',
   title: 'Lorem ipsum dolor sit amet',
-  author: 'by Jon Doe 5 hours ago',
 }
 
 BlogPostCard3.propTypes = {
-  image_src: PropTypes.string,
-  rootClassName: PropTypes.string,
-  image_alt: PropTypes.string,
   label: PropTypes.string,
-  description: PropTypes.string,
-  title: PropTypes.string,
   author: PropTypes.string,
+  description: PropTypes.string,
+  rootClassName: PropTypes.string,
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
+  title: PropTypes.string,
 }
 
 export default BlogPostCard3

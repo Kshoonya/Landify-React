@@ -296,22 +296,22 @@ const AboutUs = (props) => {
             <div className="about-us-blog">
               <div className="about-us-container12">
                 <BlogPostCard2
-                  profile_src="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
-                  rootClassName="rootClassName3"
-                  image_src="/playground_assets/quote-mark.svg"
                   label="Technology Advisor"
                   title="Wilfrido Moreno, Ph.D."
+                  image_src="/playground_assets/quote-mark.svg"
                   description="Professor at University of South Florida"
+                  profile_src="https://images.unsplash.com/photo-1611232658409-0d98127f237f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+                  rootClassName="rootClassName3"
                 ></BlogPostCard2>
               </div>
               <div className="about-us-container13">
                 <BlogPostCard2
+                  label="Technology Advisor"
+                  title="Ravi Sankar, Ph.D."
                   image_src="/playground_assets/right.svg"
+                  description="Professor at University of South Florida"
                   profile_src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTYyNjQ1MDU4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
                   rootClassName="rootClassName"
-                  label="Technology Advisor"
-                  description="Professor at University of South Florida"
-                  title="Ravi Sankar, Ph.D."
                 ></BlogPostCard2>
               </div>
               <div className="about-us-features1">
@@ -336,65 +336,61 @@ const AboutUs = (props) => {
                   </h1>
                   <div className="about-us-container14">
                     <FeatureCard2
-                      rootClassName="rootClassName"
                       title="HOW CAN I KNOW MORE ABOUT THE COMPANY?"
                       description="To know more, feel free to contact us at contact@kshoonya.com"
+                      rootClassName="rootClassName"
                     ></FeatureCard2>
                     <FeatureCard2
-                      rootClassName="rootClassName2"
                       title="DO YOU HAVE INTERN POSITIONS?"
                       description=" Yes, we always keen to work with young and creative individuals like yourselves. Kindly contact us at careers@kshoonya.com"
+                      rootClassName="rootClassName2"
                     ></FeatureCard2>
                     <FeatureCard2
-                      rootClassName="rootClassName3"
                       title="HOW CAN I INVEST IN YOUR STARTUP?"
                       description="To know more, feel free to contact us at contact@kshoonya.com"
+                      rootClassName="rootClassName3"
                     ></FeatureCard2>
                   </div>
                 </div>
               </div>
             </div>
-            <span className="about-us-text47">Kshoonya with us</span>
-            <h1 className="about-us-text48">Learn to keep it simple</h1>
-            <span className="about-us-text49">
-              <span>
-                {' '}
-                Dive into the enriching world of knowledge acquisition, where
-                curiosity and passion fuel the quest for understanding,
-                empowering you to master new skills, broaden your horizons, and
-                make a lasting impact
-              </span>
-              <span>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-            </span>
-            <div className="about-us-container15">
+          </div>
+          <div className="about-us-heading">
+            <h2 className="about-us-text47">Contact us</h2>
+          </div>
+          <div className="about-us-form">
+            <div className="about-us-types"></div>
+            <div className="about-us-inputs">
+              <input
+                type="text"
+                placeholder="Name"
+                autoComplete="name"
+                className="input book-input"
+              />
               <input
                 type="email"
-                autoFocus
-                placeholder="Email here..."
-                autoComplete="on"
-                name="name"
-                className="about-us-textinput input"
+                placeholder="Email"
+                autoComplete="email"
+                className="input book-input"
               />
-              <button className="about-us-button button">Subscribe</button>
+              <input
+                type="text"
+                placeholder="Message"
+                className="input book-input"
+              />
+              <div className="about-us-lower">
+                <div className="about-us-button">
+                  <button className="about-us-book button button-main">
+                    <span>Submit</span>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div className="about-us-cta">
-          <div className="about-us-container16">
-            <div className="about-us-container17">
+          <div className="about-us-container15">
+            <div className="about-us-container16">
               <img
                 alt="image"
                 src="/playground_assets/dall%C2%B7e%202023-04-05%2022.21.59%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20an%20mobile%20app-300w.png"
@@ -408,7 +404,7 @@ const AboutUs = (props) => {
                 className="about-us-image07"
               />
             </div>
-            <div className="about-us-container18">
+            <div className="about-us-container17">
               <img
                 alt="image"
                 src="/playground_assets/_3a1e396a-8fc7-404a-8251-91dc346d23e4-1200w.jpeg"
@@ -427,35 +423,35 @@ const AboutUs = (props) => {
           </div>
         </div>
         <div className="about-us-footer">
-          <footer className="about-us-container19">
+          <footer className="about-us-container18">
             <img
               alt="image"
               src="/playground_assets/new_design_full%203-300w.png"
               loading="lazy"
               className="about-us-image10"
             />
-            <div className="about-us-container20">
+            <div className="about-us-container19">
               <Link href="/jobs">
                 <a className="about-us-link08">Careers</a>
               </Link>
               <Link href="/about-us">
                 <a className="about-us-link09">Help</a>
               </Link>
-              <span className="about-us-text53">Privacy Policy</span>
+              <span className="about-us-text49">Privacy Policy</span>
             </div>
             <div className="about-us-divider"></div>
-            <div className="about-us-container21">
-              <span className="about-us-text54 Body2">
+            <div className="about-us-container20">
+              <span className="about-us-text50 Body2">
                 © 2023 Kshoonya Inc. All rights reserved
               </span>
-              <div className="about-us-container22">
+              <div className="about-us-container21">
                 <a
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="about-us-link10"
                 >
-                  <div className="about-us-container23">
+                  <div className="about-us-container22">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="about-us-icon15"
@@ -470,7 +466,7 @@ const AboutUs = (props) => {
                   rel="noreferrer noopener"
                   className="about-us-link11"
                 >
-                  <div className="about-us-container24">
+                  <div className="about-us-container23">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
                       className="about-us-icon17"
@@ -485,7 +481,7 @@ const AboutUs = (props) => {
                   rel="noreferrer noopener"
                   className="about-us-link12"
                 >
-                  <div className="about-us-container25">
+                  <div className="about-us-container24">
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
                       className="about-us-icon19"
@@ -500,7 +496,7 @@ const AboutUs = (props) => {
                   rel="noreferrer noopener"
                   className="about-us-link13"
                 >
-                  <div className="about-us-container26">
+                  <div className="about-us-container25">
                     <svg viewBox="0 0 1024 1024" className="about-us-icon21">
                       <path d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"></path>
                     </svg>
@@ -1178,47 +1174,62 @@ const AboutUs = (props) => {
             grid-gap: 32px;
             grid-template-columns: 1fr 1fr;
           }
+          .about-us-heading {
+            gap: var(--dl-space-space-oneandhalfunits);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
           .about-us-text47 {
-            font-size: 0.75rem;
+            font-size: 56px;
+            max-width: 600px;
+            font-style: normal;
             text-align: center;
             font-weight: 600;
-            margin-bottom: 32px;
-            letter-spacing: 2px;
-            text-transform: uppercase;
           }
-          .about-us-text48 {
-            font-size: 3rem;
-            text-align: center;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .about-us-text49 {
-            max-width: 1400px;
-            text-align: center;
-            margin-bottom: 32px;
-          }
-          .about-us-container15 {
-            flex: 0 0 auto;
+          .about-us-form {
+            gap: var(--dl-space-space-fourunits);
             width: 100%;
-            height: auto;
             display: flex;
-            align-items: flex-start;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .about-us-types {
+            gap: var(--dl-space-space-unit1);
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            display: flex;
+            align-items: center;
             flex-direction: row;
             justify-content: center;
           }
-          .about-us-textinput {
-            font-size: 0.75rem;
-            border-color: #595959;
+          .about-us-inputs {
+            gap: var(--dl-space-space-twounits);
+            width: 100%;
+            display: flex;
+            max-width: 600px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .about-us-lower {
+            gap: var(--dl-space-space-twounits);
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
           }
           .about-us-button {
-            color: var(--dl-color-gray-white);
-            font-size: 0.75rem;
-            transition: 0.3s;
-            margin-left: var(--dl-space-space-unit);
-            background-color: var(--dl-color-gray-black);
+            gap: var(--dl-space-space-oneandhalfunits);
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
           }
-          .about-us-button:hover {
-            color: var(--dl-color-gray-black);
-            background-color: transparent;
+          .about-us-book {
+            width: 100%;
           }
           .about-us-cta {
             width: 100%;
@@ -1227,9 +1238,9 @@ const AboutUs = (props) => {
             align-items: center;
             flex-direction: column;
             justify-content: center;
-            background-color: var(--dl-color-turquoise-default);
+            background-color: #692e4a;
           }
-          .about-us-container16 {
+          .about-us-container15 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1241,7 +1252,7 @@ const AboutUs = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .about-us-container17 {
+          .about-us-container16 {
             flex: 1;
             display: flex;
             align-items: center;
@@ -1261,7 +1272,7 @@ const AboutUs = (props) => {
             padding-right: 30px;
             padding-bottom: 19px;
           }
-          .about-us-container18 {
+          .about-us-container17 {
             width: 520px;
             display: flex;
             position: relative;
@@ -1299,7 +1310,7 @@ const AboutUs = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-black);
           }
-          .about-us-container19 {
+          .about-us-container18 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1316,7 +1327,7 @@ const AboutUs = (props) => {
             height: 72px;
             object-fit: cover;
           }
-          .about-us-container20 {
+          .about-us-container19 {
             display: flex;
             margin-top: var(--dl-space-space-doubleunit);
             align-items: center;
@@ -1340,11 +1351,11 @@ const AboutUs = (props) => {
           .about-us-link09:hover {
             color: var(--dl-color-turquoise-default);
           }
-          .about-us-text53 {
+          .about-us-text49 {
             transition: 0.3s;
             white-space: nowrap;
           }
-          .about-us-text53:hover {
+          .about-us-text49:hover {
             color: var(--dl-color-turquoise-default);
           }
           .about-us-divider {
@@ -1353,7 +1364,7 @@ const AboutUs = (props) => {
             opacity: 0.2;
             background-color: var(--dl-color-gray-white);
           }
-          .about-us-container21 {
+          .about-us-container20 {
             width: 100%;
             display: flex;
             margin-top: var(--dl-space-space-unit);
@@ -1361,11 +1372,11 @@ const AboutUs = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .about-us-text54 {
+          .about-us-text50 {
             color: var(--dl-color-gray-300);
             margin-top: var(--dl-space-space-unit);
           }
-          .about-us-container22 {
+          .about-us-container21 {
             flex: 0 0 auto;
             width: 200px;
             display: flex;
@@ -1375,7 +1386,7 @@ const AboutUs = (props) => {
           .about-us-link10 {
             display: contents;
           }
-          .about-us-container23 {
+          .about-us-container22 {
             display: flex;
             padding: var(--dl-space-space-halfunit);
             align-items: flex-start;
@@ -1395,7 +1406,7 @@ const AboutUs = (props) => {
           .about-us-link11 {
             display: contents;
           }
-          .about-us-container24 {
+          .about-us-container23 {
             display: flex;
             padding: var(--dl-space-space-halfunit);
             align-items: flex-start;
@@ -1416,7 +1427,7 @@ const AboutUs = (props) => {
           .about-us-link12 {
             display: contents;
           }
-          .about-us-container25 {
+          .about-us-container24 {
             display: flex;
             padding: var(--dl-space-space-halfunit);
             align-items: flex-start;
@@ -1437,7 +1448,7 @@ const AboutUs = (props) => {
           .about-us-link13 {
             display: contents;
           }
-          .about-us-container26 {
+          .about-us-container25 {
             display: flex;
             padding: var(--dl-space-space-halfunit);
             align-items: flex-start;
@@ -1482,10 +1493,7 @@ const AboutUs = (props) => {
             .about-us-text41 {
               text-align: center;
             }
-            .about-us-text49 {
-              width: 100%;
-            }
-            .about-us-container18 {
+            .about-us-container17 {
               display: none;
             }
           }
@@ -1576,18 +1584,29 @@ const AboutUs = (props) => {
             .about-us-container14 {
               grid-template-columns: 1fr;
             }
-            .about-us-text49 {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
+            .about-us-heading {
+              gap: var(--dl-space-space-unit);
             }
-            .about-us-container20 {
+            .about-us-text47 {
+              font-size: 24px;
+            }
+            .about-us-form {
+              gap: var(--dl-space-space-threeunits);
+            }
+            .about-us-types {
+              gap: var(--dl-space-space-oneandhalfunits);
+            }
+            .about-us-inputs {
+              gap: var(--dl-space-space-oneandhalfunits);
+            }
+            .about-us-container19 {
               flex-wrap: wrap;
               justify-content: center;
             }
-            .about-us-container21 {
+            .about-us-container20 {
               flex-direction: column;
             }
-            .about-us-text54 {
+            .about-us-text50 {
               margin-top: var(--dl-space-space-unit);
               margin-bottom: var(--dl-space-space-unit);
             }
@@ -1707,13 +1726,8 @@ const AboutUs = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: 32px;
             }
-            .about-us-container15 {
-              align-items: center;
+            .about-us-types {
               flex-direction: column;
-            }
-            .about-us-button {
-              margin-top: var(--dl-space-space-unit);
-              margin-left: 0px;
             }
           }
         `}

@@ -170,27 +170,27 @@ const JourneySoFar = (props) => {
         <div className="journey-so-far-blog">
           <div className="journey-so-far-container09">
             <BlogPostCard3
-              rootClassName="rootClassName1"
               label="offseit takeaways"
               title="DOING IT THE KSHOONYA WAY"
               description="Kshoonya is a leading technology company dedicated to creating innovative solutions for businesses of all sizes. We are proud to to take their operations offsite in a secure and efficient manner, doing it the Kshoonya way. Learn more about our projects and how they can help you take your business to the next level!"
+              rootClassName="rootClassName1"
             ></BlogPostCard3>
           </div>
           <div className="journey-so-far-container10">
             <BlogPostCard3
-              image_src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDl8fHdvcmt8ZW58MHx8fHwxNjI2NDUwNzky&amp;ixlib=rb-1.2.1&amp;h=1000"
-              rootClassName="rootClassName2"
               label="Startup"
-              description="Kshoonya is a new startup revolutionizing the field of artificial intelligence. By utilizing cutting-edge technology and innovative designs, Kshoonya is creating projects with the potential to greatly enhance the lives of people everywhere. Learn more about our projects and how we are changing the game in AI today!"
               title="CHANGING THE GAME"
+              image_src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDl8fHdvcmt8ZW58MHx8fHwxNjI2NDUwNzky&amp;ixlib=rb-1.2.1&amp;h=1000"
+              description="Kshoonya is a new startup revolutionizing the field of artificial intelligence. By utilizing cutting-edge technology and innovative designs, Kshoonya is creating projects with the potential to greatly enhance the lives of people everywhere. Learn more about our projects and how we are changing the game in AI today!"
+              rootClassName="rootClassName2"
             ></BlogPostCard3>
           </div>
           <BlogPostCard3
-            image_src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHx3b3JrJTIwb2ZmaWNlfGVufDB8fHx8MTYyNjQ1MDgzMQ&amp;ixlib=rb-1.2.1&amp;h=1000"
-            rootClassName="rootClassName"
             label="Accessibility"
             title="KSHOONYA BELIEVES IN ASSISTIVE TECH"
+            image_src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHx3b3JrJTIwb2ZmaWNlfGVufDB8fHx8MTYyNjQ1MDgzMQ&amp;ixlib=rb-1.2.1&amp;h=1000"
             description="Kshoonya is on the cutting edge of technology, developing innovative assistive tech and artificial intelligence that is revolutionizing the way people interact with technology. Through their projects, they are making a difference in the lives of many. Come explore Kshoonya's recent projects and see how they are making a positive impact."
+            rootClassName="rootClassName"
           ></BlogPostCard3>
           <div className="journey-so-far-steps">
             <h1 className="journey-so-far-text09">Development Stage</h1>
@@ -925,7 +925,7 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
             justify-content: center;
-            background-color: var(--dl-color-turquoise-default);
+            background-color: #692e4a;
           }
           .journey-so-far-container14 {
             flex: 0 0 auto;

@@ -63,16 +63,16 @@ const FeatureCard2 = (props) => {
 }
 
 FeatureCard2.defaultProps = {
-  rootClassName: '',
-  title: 'Lorem ipsum',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem lorem, malesuada in metus vitae, scelerisque accumsan ipsum.',
+  rootClassName: '',
+  title: 'Lorem ipsum',
 }
 
 FeatureCard2.propTypes = {
+  description: PropTypes.string,
   rootClassName: PropTypes.string,
   title: PropTypes.string,
-  description: PropTypes.string,
 }
 
 export default FeatureCard2

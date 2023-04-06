@@ -164,20 +164,20 @@ const Jobs = (props) => {
           <h1 className="jobs-text08">Join the team</h1>
           <div className="jobs-container07">
             <FeatureCard1
-              rootClassName="rootClassName"
               title="DESIGN ENGINEER"
+              rootClassName="rootClassName"
             ></FeatureCard1>
             <FeatureCard1
-              rootClassName="rootClassName1"
               title="DESIGN ENGINEER FULL STACK APPLICATION DEVELOPER"
+              rootClassName="rootClassName1"
             ></FeatureCard1>
             <FeatureCard1
-              rootClassName="rootClassName2"
               title="Machine Learning Engineer"
+              rootClassName="rootClassName2"
             ></FeatureCard1>
             <FeatureCard1
-              rootClassName="rootClassName3"
               title="Material Engineer"
+              rootClassName="rootClassName3"
             ></FeatureCard1>
           </div>
         </div>
@@ -722,7 +722,7 @@ const Jobs = (props) => {
             align-items: center;
             flex-direction: column;
             justify-content: center;
-            background-color: var(--dl-color-turquoise-default);
+            background-color: #692e4a;
           }
           .jobs-container10 {
             flex: 0 0 auto;
