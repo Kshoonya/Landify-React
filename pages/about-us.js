@@ -151,8 +151,8 @@ const AboutUs = (props) => {
           />
           <div className="about-us-hero">
             <img
-              src="https://images.unsplash.com/photo-1560837616-fee1f3d8753a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fERyZWFtfGVufDB8fHx8MTY4MDgzMDk4MQ&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=800"
               alt="image"
+              src="https://images.unsplash.com/photo-1560837616-fee1f3d8753a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fERyZWFtfGVufDB8fHx8MTY4MDgzMDk4MQ&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=800"
               loading="lazy"
               className="about-us-image02"
             />

@@ -135,8 +135,8 @@ const JourneySoFar = (props) => {
           <div className="journey-so-far-hero">
             <h1 className="journey-so-far-text08">Journey of Kshoonya</h1>
             <img
-              src="https://images.unsplash.com/photo-1536420123832-cd5867531583?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDM0fHxqb3VybmV5JTIwc28lMjBmYXJ8ZW58MHx8fHwxNjgwODMwNzIy&amp;ixlib=rb-4.0.3&amp;h=1500"
               alt="image"
+              src="https://images.unsplash.com/photo-1536420123832-cd5867531583?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDM0fHxqb3VybmV5JTIwc28lMjBmYXJ8ZW58MHx8fHwxNjgwODMwNzIy&amp;ixlib=rb-4.0.3&amp;h=1500"
               className="journey-so-far-image2"
             />
           </div>

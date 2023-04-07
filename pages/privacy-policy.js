@@ -3784,7 +3784,6 @@ const PrivacyPolicy = (props) => {
             .privacy-policy-right {
               left: -74px;
               bottom: -127px;
-              opacity: 0.4;
               position: static;
             }
             .privacy-policy-steps {

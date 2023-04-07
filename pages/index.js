@@ -33,6 +33,26 @@ const Home = (props) => {
               </a>
             </Link>
             <div className="home-logo"></div>
+            <div>
+              <DangerousHTML
+                html={`<title>About-us - Kshoonya Inc</title>
+<meta property="og:title" content="About-us - Kshoonya Inc" />
+<title>Kshoonya Inc</title>
+<meta property="og:title" content="Kshoonya Inc Artificial Intelligence based Company" />
+<title>Home - Kshoonya Inc Technolgoies</title>
+<link rel="canonical" href="https://kshoonya.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Home - Kshoonya Technologies" />
+<meta property="og:description" content="Kshoonya is an innovative technology company that specializes in developing products that focus on the independence and quality of life of those with disabilities; Home Read More &raquo;" />
+<meta property="og:url" content="https://kshoonya.com/" />
+<meta property="og:site_name" content="Dream. Innovate. Support" />
+<meta property="article:modified_time" content="2023-04-05T18:34:03+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:label1" content="Est. reading time" />
+<meta name="twitter:data1" content="3 minutes" />`}
+              ></DangerousHTML>
+            </div>
             <div className="home-menu">
               <Link href="/about-us">
                 <a className="home-link01">About us</a>
@@ -196,23 +216,23 @@ const Home = (props) => {
           />
           <img
             alt="image"
-            src="/playground_assets/purple-circle.svg"
+            src="/playground_assets/half%20circle-1100w.png"
             className="home-purple-circle"
           />
           <img
             alt="image"
-            src="/playground_assets/left.svg"
+            src="/playground_assets/leftar-500w.png"
             className="home-left"
           />
           <img
             alt="image"
-            src="/playground_assets/right.svg"
+            src="/playground_assets/half%20circle%20%5B1%5D-700w.png"
             loading="lazy"
             className="home-right"
           />
           <img
             alt="image"
-            src="/playground_assets/right.svg"
+            src="/playground_assets/half%20circle%20%5B1%5D-700w.png"
             loading="lazy"
             className="home-right1"
           />
@@ -408,13 +428,8 @@ const Home = (props) => {
           </div>
           <img
             alt="image"
-            src="/playground_assets/purple-circle.svg"
+            src="/playground_assets/circle-1000w.png"
             className="home-purple-circle1"
-          />
-          <img
-            alt="image"
-            src="/playground_assets/purple-circle.svg"
-            className="home-purple-circle2"
           />
         </div>
         <div className="home-hero1">
@@ -445,15 +460,15 @@ const Home = (props) => {
           </div>
           <img
             alt="image"
-            src="/playground_assets/_3a1e396a-8fc7-404a-8251-91dc346d23e4-1200w.jpeg"
+            src="/playground_assets/leftar-500w.png"
             loading="lazy"
-            className="home-image04"
+            className="home-left1"
           />
           <img
             alt="image"
-            src="/playground_assets/left.svg"
+            src="/playground_assets/image-uuox-1200w.jpeg"
             loading="lazy"
-            className="home-left1"
+            className="home-image04"
           />
         </div>
         <div className="home-container20">
@@ -765,10 +780,12 @@ const Home = (props) => {
             z-index: 100;
             position: relative;
             max-width: 1110px;
+            transition: 0.3s;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
+
           .home-link {
             display: contents;
           }
@@ -1042,7 +1059,7 @@ const Home = (props) => {
             position: absolute;
             align-items: center;
             flex-direction: column;
-            background-color: #f2f2f2;
+            background-color: #ffecec;
           }
           .home-hero {
             flex: 0 0 auto;
@@ -1103,7 +1120,7 @@ const Home = (props) => {
           .home-purple-circle {
             top: -98px;
             right: -68px;
-            width: 400px;
+            width: 1024px;
             filter: blur(60px);
             opacity: 0.4;
             position: absolute;
@@ -1115,6 +1132,7 @@ const Home = (props) => {
             right: auto;
             width: 420px;
             bottom: auto;
+            opacity: 0.8;
             position: absolute;
             object-fit: cover;
           }
@@ -1124,6 +1142,7 @@ const Home = (props) => {
             right: 0px;
             width: 612px;
             bottom: auto;
+            opacity: 0.8;
             position: absolute;
             box-shadow: 5px 5px 10px 0px #d4d4d4;
             object-fit: cover;
@@ -1133,9 +1152,12 @@ const Home = (props) => {
             right: -11px;
             width: 612px;
             bottom: -2798px;
+            height: 195px;
             opacity: 0.8;
             position: absolute;
+            box-shadow: 5px 5px 10px 0px #d4d4d4;
             object-fit: cover;
+            background-position: right;
           }
           .home-features {
             flex: 0 0 auto;
@@ -1208,7 +1230,7 @@ const Home = (props) => {
             flex-direction: row;
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: center;
-            background-color: var(--dl-color-turquoise-100);
+            background-color: #d4a6a6;
           }
           .home-container07 {
             display: flex;
@@ -1340,21 +1362,11 @@ const Home = (props) => {
             grid-template-columns: 1fr 1fr;
           }
           .home-purple-circle1 {
-            top: 3518px;
-            right: 70px;
-            width: 531px;
-            filter: blur(60px);
-            height: 564px;
-            opacity: 0.2;
-            position: absolute;
-            object-fit: cover;
-          }
-          .home-purple-circle2 {
             top: 2877px;
             left: 260px;
-            width: 554px;
+            width: 907px;
             filter: blur(60px);
-            height: 540px;
+            height: 675px;
             opacity: 0.2;
             position: absolute;
             object-fit: cover;
@@ -1383,13 +1395,6 @@ const Home = (props) => {
             margin-top: 32px;
             margin-bottom: 32px;
           }
-          .home-image04 {
-            width: 400px;
-            height: 497px;
-            object-fit: cover;
-            transition: 0.3s;
-          }
-
           .home-left1 {
             top: 4087px;
             left: -5px;
@@ -1398,6 +1403,14 @@ const Home = (props) => {
             position: absolute;
             object-fit: cover;
           }
+          .home-image04 {
+            width: 520px;
+            height: 558px;
+            opacity: 1;
+            object-fit: cover;
+            transition: 0.8s;
+          }
+
           .home-container20 {
             flex: 0 0 auto;
             width: auto;
@@ -2504,9 +2517,6 @@ const Home = (props) => {
             }
             .home-container18 {
               grid-template-columns: 1fr;
-            }
-            .home-purple-circle1 {
-              position: static;
             }
             .home-hero1 {
               padding-top: 32px;

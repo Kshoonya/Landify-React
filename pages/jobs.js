@@ -131,8 +131,8 @@ const Jobs = (props) => {
           <div className="jobs-hero">
             <h1 className="jobs-text07">Open Positions</h1>
             <img
-              src="https://images.unsplash.com/photo-1598738865218-7809c17181c3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ3fHxvcGVuJTIwcG9zaWlvbnN8ZW58MHx8fHwxNjgwODMwODcx&amp;ixlib=rb-4.0.3&amp;q=80&amp;h=700"
               alt="image"
+              src="https://images.unsplash.com/photo-1598738865218-7809c17181c3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ3fHxvcGVuJTIwcG9zaWlvbnN8ZW58MHx8fHwxNjgwODMwODcx&amp;ixlib=rb-4.0.3&amp;q=80&amp;h=700"
               className="jobs-image2"
             />
           </div>
