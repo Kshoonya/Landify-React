@@ -25,6 +25,7 @@ const Home = (props) => {
                 <img
                   alt="image"
                   src="/playground_assets/new_design_full%203-300w.png"
+                  loading="lazy"
                   className="home-image"
                 />
               </a>
@@ -45,14 +46,6 @@ const Home = (props) => {
                 <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
               </svg>
             </div>
-            <div className="home-container01"></div>
-            <div data-role="BurgerMenu" className="home-burger-menu">
-              <svg viewBox="0 0 1024 1024" className="home-menu1">
-                <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
-                <path d="M810.667 426.667h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
-                <path d="M810.667 128h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
-              </svg>
-            </div>
           </header>
           <div data-role="MobileMenu" className="home-mobile-menu">
             <div className="home-top">
@@ -64,7 +57,7 @@ const Home = (props) => {
                 />
               </div>
               <div data-role="CloseMobileMenu" className="home-close-menu">
-                <svg viewBox="0 0 1024 1024" className="home-icon05">
+                <svg viewBox="0 0 1024 1024" className="home-icon02">
                   <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                 </svg>
               </div>
@@ -78,17 +71,17 @@ const Home = (props) => {
               <span className="home-text06">More</span>
             </div>
             <div className="home-bot">
-              <div className="home-container02">
+              <div className="home-container01">
                 <a
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="home-link04"
                 >
-                  <div className="home-container03">
+                  <div className="home-container02">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon07"
+                      className="home-icon04"
                     >
                       <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
                     </svg>
@@ -100,10 +93,10 @@ const Home = (props) => {
                   rel="noreferrer noopener"
                   className="home-link05"
                 >
-                  <div className="home-container04">
+                  <div className="home-container03">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon09"
+                      className="home-icon06"
                     >
                       <path d="M585.143 857.143c-5.714-33.143-27.429-147.429-80-284.571-0.571 0-1.714 0.571-2.286 0.571 0 0-222.286 77.714-294.286 234.286-3.429-2.857-8.571-6.286-8.571-6.286 65.143 53.143 148 85.714 238.857 85.714 52 0 101.143-10.857 146.286-29.714zM479.429 510.286c-9.143-21.143-19.429-42.286-30.286-63.429-193.143 57.714-378.286 53.143-384.571 53.143-0.571 4-0.571 8-0.571 12 0 96 36.571 184 96 250.286v0c102.286-182.286 304.571-247.429 304.571-247.429 5.143-1.714 10.286-2.857 14.857-4.571zM418.286 389.143c-65.143-115.429-134.286-209.143-139.429-216-104.571 49.143-182.286 145.714-206.857 261.714 9.714 0 166.286 1.714 346.286-45.714zM809.143 571.429c-8-2.286-112.571-35.429-233.714-16.571 49.143 135.429 69.143 245.714 73.143 268 84-56.571 143.429-146.857 160.571-251.429zM349.143 148c-0.571 0-0.571 0-1.143 0.571 0 0 0.571-0.571 1.143-0.571zM686.286 230.857c-65.714-58.286-152.571-93.714-247.429-93.714-30.286 0-60 4-88.571 10.857 5.714 7.429 76.571 100.571 140.571 218.286 141.143-52.571 194.286-133.714 195.429-135.429zM813.714 508c-1.143-88.571-32.571-170.286-85.143-234.286-1.143 1.143-61.143 88-209.143 148.571 8.571 17.714 17.143 36 25.143 54.286 2.857 6.286 5.143 13.143 8 19.429 129.143-16.571 256.571 11.429 261.143 12zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
@@ -115,10 +108,10 @@ const Home = (props) => {
                   rel="noreferrer noopener"
                   className="home-link06"
                 >
-                  <div className="home-container05">
+                  <div className="home-container04">
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
-                      className="home-icon11"
+                      className="home-icon08"
                     >
                       <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
                     </svg>
@@ -130,8 +123,8 @@ const Home = (props) => {
                   rel="noreferrer noopener"
                   className="home-link07"
                 >
-                  <div className="home-container06">
-                    <svg viewBox="0 0 1024 1024" className="home-icon13">
+                  <div className="home-container05">
+                    <svg viewBox="0 0 1024 1024" className="home-icon10">
                       <path d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"></path>
                     </svg>
                   </div>
@@ -143,7 +136,7 @@ const Home = (props) => {
         <div className="home-main">
           <div className="home-blur-background"></div>
           <div className="home-hero">
-            <div className="home-container07">
+            <div className="home-container06">
               <h1 className="home-text07">
                 <span>
                   Dream. Innovate.
@@ -190,7 +183,14 @@ const Home = (props) => {
           <img
             alt="image"
             src="/playground_assets/right.svg"
+            loading="lazy"
             className="home-right"
+          />
+          <img
+            alt="image"
+            src="/playground_assets/right.svg"
+            loading="lazy"
+            className="home-right1"
           />
         </div>
         <div className="home-features">
@@ -256,13 +256,13 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-testimonials">
-          <div className="home-container08">
-            <div className="home-container09">
+          <div className="home-container07">
+            <div className="home-container08">
               <h1 className="home-text16 Headline2">
                 Our Innovative Technology
               </h1>
               <span>Works to bring independence and inclusiveness</span>
-              <div className="home-container10">
+              <div className="home-container09">
                 <TestimonialsCard
                   text="Kshoonya’s revolutionary technology leverages a combination of AI and sensors to provide an unparalleled level of mobility and navigation."
                   text1="Mobility and Navigation"
@@ -272,8 +272,8 @@ const Home = (props) => {
                 ></TestimonialsCard>
               </div>
             </div>
-            <div className="home-container11">
-              <div className="home-container12">
+            <div className="home-container10">
+              <div className="home-container11">
                 <TestimonialsCard
                   src="/playground_assets/logo-1.svg"
                   text="Kshoonya is an innovative technology company that specializes in developing products that focus on the independence and quality of life of those with disabilities."
@@ -282,7 +282,7 @@ const Home = (props) => {
                   image_src="/playground_assets/logo-1.svg"
                 ></TestimonialsCard>
               </div>
-              <div className="home-container13">
+              <div className="home-container12">
                 <TestimonialsCard
                   text="Kshoonya is a technology company dedicated to creating groundbreaking, innovative solutions that aim to make the world a better place. "
                   text1="Automation &amp; Integration"
@@ -294,7 +294,7 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-achievements">
-          <div className="home-container14">
+          <div className="home-container13">
             <h2 className="home-text18">
               <span>
                 Innovate with
@@ -320,8 +320,8 @@ const Home = (props) => {
               <span>and upcoming products</span>
             </span>
           </div>
-          <div className="home-container15">
-            <div className="home-container16">
+          <div className="home-container14">
+            <div className="home-container15">
               <StatsCard
                 number="Simple Analytics"
                 image_src="/playground_assets/01.svg"
@@ -335,7 +335,7 @@ const Home = (props) => {
                 rootClassName="stats-card-root-class-name1"
               ></StatsCard>
             </div>
-            <div className="home-container17">
+            <div className="home-container16">
               <StatsCard
                 number="Customizable"
                 description="more inclusive"
@@ -352,13 +352,14 @@ const Home = (props) => {
         <div className="home-features2">
           <h1 className="home-text26">Features and Benefits</h1>
           <div className="home-separator"></div>
-          <div className="home-container18">
+          <div className="home-container17">
             <img
               alt="image"
               src="/playground_assets/_a44f30b0-445a-4963-8d0e-b5d74b59a155-500h.jpeg"
+              loading="lazy"
               className="home-image03"
             />
-            <div className="home-container19">
+            <div className="home-container18">
               <FeatureCard4
                 title="Accessibility"
                 description="Breaking barriers and fostering inclusivity by designing user-friendly technology that adapts to the diverse needs of individuals."
@@ -393,7 +394,7 @@ const Home = (props) => {
           />
         </div>
         <div className="home-hero1">
-          <div className="home-container20">
+          <div className="home-container19">
             <h1 className="home-text27">Possibilities are endless</h1>
             <span className="home-text28">
               <span>
@@ -421,6 +422,7 @@ const Home = (props) => {
           <img
             alt="image"
             src="/playground_assets/_3a1e396a-8fc7-404a-8251-91dc346d23e4-1200w.jpeg"
+            loading="lazy"
             className="home-image04"
           />
           <img
@@ -429,8 +431,8 @@ const Home = (props) => {
             className="home-left1"
           />
         </div>
-        <div className="home-container21">
-          <div className="home-container22"></div>
+        <div className="home-container20">
+          <div className="home-container21"></div>
         </div>
         <div className="home-gallery">
           <GalleryCard11
@@ -458,18 +460,18 @@ const Home = (props) => {
             <span>Unveiling the Journey from Concept to Reality</span>
             <br></br>
           </span>
-          <div className="home-container23">
+          <div className="home-container22">
             <div className="home-step">
-              <div className="home-container24">
+              <div className="home-container23">
                 <div className="home-line"></div>
-                <div className="home-container25">
-                  <svg viewBox="0 0 1024 1024" className="home-icon15">
+                <div className="home-container24">
+                  <svg viewBox="0 0 1024 1024" className="home-icon12">
                     <path d="M634 558q92-64 92-174 0-88-63-151t-151-63-151 63-63 151q0 46 27 96t65 78l36 26v98h172v-98zM512 86q124 0 211 87t87 211q0 156-128 244v98q0 18-12 30t-30 12h-256q-18 0-30-12t-12-30v-98q-128-88-128-244 0-124 87-211t211-87zM384 896v-42h256v42q0 18-12 30t-30 12h-172q-18 0-30-12t-12-30z"></path>
                   </svg>
                 </div>
                 <div className="home-line1"></div>
               </div>
-              <div className="home-container26">
+              <div className="home-container25">
                 <h1 className="home-text37">
                   <span>Ideate</span>
                 </h1>
@@ -480,16 +482,16 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-step1">
-              <div className="home-container27">
+              <div className="home-container26">
                 <div className="home-line2"></div>
-                <div className="home-container28">
-                  <svg viewBox="0 0 1024 1024" className="home-icon17">
+                <div className="home-container27">
+                  <svg viewBox="0 0 1024 1024" className="home-icon14">
                     <path d="M746 512q26 0 45-18t19-46-19-46-45-18-45 18-19 46 19 46 45 18zM618 342q26 0 45-19t19-45-19-45-45-19-45 19-19 45 19 45 45 19zM406 342q26 0 45-19t19-45-19-45-45-19-45 19-19 45 19 45 45 19zM278 512q26 0 45-18t19-46-19-46-45-18-45 18-19 46 19 46 45 18zM512 128q158 0 271 100t113 242q0 88-63 150t-151 62h-74q-28 0-46 19t-18 45q0 22 16 42t16 44q0 28-18 46t-46 18q-160 0-272-112t-112-272 112-272 272-112z"></path>
                   </svg>
                 </div>
                 <div className="home-line3"></div>
               </div>
-              <div className="home-container29">
+              <div className="home-container28">
                 <h1 className="home-text40">Design</h1>
                 <span className="home-text41">
                   <span>
@@ -501,17 +503,17 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-step2">
-              <div className="home-container30">
+              <div className="home-container29">
                 <div className="home-line4"></div>
-                <div className="home-container31">
-                  <svg viewBox="0 0 1024 1024" className="home-icon19">
+                <div className="home-container30">
+                  <svg viewBox="0 0 1024 1024" className="home-icon16">
                     <path d="M576 736l96 96 320-320-320-320-96 96 224 224z"></path>
                     <path d="M448 288l-96-96-320 320 320 320 96-96-224-224z"></path>
                   </svg>
                 </div>
                 <div className="home-line5"></div>
               </div>
-              <div className="home-container32">
+              <div className="home-container31">
                 <h1 className="home-text44">
                   <span>Develop</span>
                 </h1>
@@ -525,16 +527,16 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-step3">
-              <div className="home-container33">
+              <div className="home-container32">
                 <div className="home-line6"></div>
-                <div className="home-container34">
-                  <svg viewBox="0 0 1024 1024" className="home-icon22">
+                <div className="home-container33">
+                  <svg viewBox="0 0 1024 1024" className="home-icon19">
                     <path d="M480 64c-265.096 0-480 214.904-480 480 0 265.098 214.904 480 480 480 265.098 0 480-214.902 480-480 0-265.096-214.902-480-480-480zM751.59 704c8.58-40.454 13.996-83.392 15.758-128h127.446c-3.336 44.196-13.624 87.114-30.68 128h-112.524zM208.41 384c-8.58 40.454-13.996 83.392-15.758 128h-127.444c3.336-44.194 13.622-87.114 30.678-128h112.524zM686.036 384c9.614 40.962 15.398 83.854 17.28 128h-191.316v-128h174.036zM512 320v-187.338c14.59 4.246 29.044 11.37 43.228 21.37 26.582 18.74 52.012 47.608 73.54 83.486 14.882 24.802 27.752 52.416 38.496 82.484h-155.264zM331.232 237.516c21.528-35.878 46.956-64.748 73.54-83.486 14.182-10 28.638-17.124 43.228-21.37v187.34h-155.264c10.746-30.066 23.616-57.68 38.496-82.484zM448 384v128h-191.314c1.88-44.146 7.666-87.038 17.278-128h174.036zM95.888 704c-17.056-40.886-27.342-83.804-30.678-128h127.444c1.762 44.608 7.178 87.546 15.758 128h-112.524zM256.686 576h191.314v128h-174.036c-9.612-40.96-15.398-83.854-17.278-128zM448 768v187.34c-14.588-4.246-29.044-11.372-43.228-21.37-26.584-18.74-52.014-47.61-73.54-83.486-14.882-24.804-27.75-52.418-38.498-82.484h155.266zM628.768 850.484c-21.528 35.876-46.958 64.746-73.54 83.486-14.184 9.998-28.638 17.124-43.228 21.37v-187.34h155.266c-10.746 30.066-23.616 57.68-38.498 82.484zM512 704v-128h191.314c-1.88 44.146-7.666 87.040-17.28 128h-174.034zM767.348 512c-1.762-44.608-7.178-87.546-15.758-128h112.524c17.056 40.886 27.344 83.806 30.68 128h-127.446zM830.658 320h-95.9c-18.638-58.762-44.376-110.294-75.316-151.428 42.536 20.34 81.058 47.616 114.714 81.272 21.48 21.478 40.362 44.938 56.502 70.156zM185.844 249.844c33.658-33.658 72.18-60.932 114.714-81.272-30.942 41.134-56.676 92.666-75.316 151.428h-95.898c16.138-25.218 35.022-48.678 56.5-70.156zM129.344 768h95.898c18.64 58.762 44.376 110.294 75.318 151.43-42.536-20.34-81.058-47.616-114.714-81.274-21.48-21.478-40.364-44.938-56.502-70.156zM774.156 838.156c-33.656 33.658-72.18 60.934-114.714 81.274 30.942-41.134 56.678-92.668 75.316-151.43h95.9c-16.14 25.218-35.022 48.678-56.502 70.156z"></path>
                   </svg>
                 </div>
                 <div className="home-line7"></div>
               </div>
-              <div className="home-container35">
+              <div className="home-container34">
                 <h1 className="home-text49">
                   <span>Deploy</span>
                 </h1>
@@ -549,7 +551,7 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-blog">
-            <div className="home-container36">
+            <div className="home-container35">
               <BlogPostCard1
                 label="WHY"
                 title="What inspired us?"
@@ -557,7 +559,7 @@ const Home = (props) => {
                 rootClassName="rootClassName3"
               ></BlogPostCard1>
             </div>
-            <div className="home-container37">
+            <div className="home-container36">
               <BlogPostCard1
                 label="WHAT"
                 title="What do we want?"
@@ -567,7 +569,7 @@ const Home = (props) => {
                 rootClassName="rootClassName2"
               ></BlogPostCard1>
             </div>
-            <div className="home-container38">
+            <div className="home-container37">
               <BlogPostCard1
                 label="HOW"
                 title="How YOU can contribute?"
@@ -589,8 +591,8 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-cta">
-          <div className="home-container39">
-            <div className="home-container40">
+          <div className="home-container38">
+            <div className="home-container39">
               <img
                 alt="image"
                 src="/playground_assets/dall%C2%B7e%202023-04-05%2022.21.59%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20an%20mobile%20app-300w.png"
@@ -601,10 +603,11 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/playground_assets/dall%C2%B7e%202023-04-05%2022.23.36%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20a%20mobile%20app%2C%20and%20helps%20to%20reach%20destination-300h.png"
+                loading="lazy"
                 className="home-image06"
               />
             </div>
-            <div className="home-container41">
+            <div className="home-container40">
               <img
                 alt="image"
                 src="/playground_assets/_3a1e396a-8fc7-404a-8251-91dc346d23e4-1200w.jpeg"
@@ -623,40 +626,43 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-footer">
-          <footer className="home-container42">
+          <footer className="home-container41">
             <img
               alt="image"
               src="/playground_assets/new_design_full%203-300w.png"
               loading="lazy"
               className="home-image09"
             />
-            <div className="home-container43">
+            <div className="home-container42">
               <Link href="/jobs">
                 <a className="home-link12">Careers</a>
               </Link>
-              <Link href="/supporters">
-                <a className="home-link13">Help</a>
-              </Link>
               <Link href="/about-us">
-                <a className="home-link14">Privacy Policy</a>
+                <a className="home-link13">About us</a>
+              </Link>
+              <Link href="/journey-so-far">
+                <a className="home-link14">Journey</a>
+              </Link>
+              <Link href="/privacy-policy">
+                <a className="home-link15">Privacy Policy</a>
               </Link>
             </div>
             <div className="home-divider"></div>
-            <div className="home-container44">
+            <div className="home-container43">
               <span className="home-text56 Body2">
                 © 2023 Kshoonya Inc. All rights reserved
               </span>
-              <div className="home-container45">
+              <div className="home-container44">
                 <a
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link15"
+                  className="home-link16"
                 >
-                  <div className="home-container46">
+                  <div className="home-container45">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon24"
+                      className="home-icon21"
                     >
                       <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
                     </svg>
@@ -666,12 +672,12 @@ const Home = (props) => {
                   href="https://dribbble.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link16"
+                  className="home-link17"
                 >
-                  <div className="home-container47">
+                  <div className="home-container46">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="home-icon26"
+                      className="home-icon23"
                     >
                       <path d="M585.143 857.143c-5.714-33.143-27.429-147.429-80-284.571-0.571 0-1.714 0.571-2.286 0.571 0 0-222.286 77.714-294.286 234.286-3.429-2.857-8.571-6.286-8.571-6.286 65.143 53.143 148 85.714 238.857 85.714 52 0 101.143-10.857 146.286-29.714zM479.429 510.286c-9.143-21.143-19.429-42.286-30.286-63.429-193.143 57.714-378.286 53.143-384.571 53.143-0.571 4-0.571 8-0.571 12 0 96 36.571 184 96 250.286v0c102.286-182.286 304.571-247.429 304.571-247.429 5.143-1.714 10.286-2.857 14.857-4.571zM418.286 389.143c-65.143-115.429-134.286-209.143-139.429-216-104.571 49.143-182.286 145.714-206.857 261.714 9.714 0 166.286 1.714 346.286-45.714zM809.143 571.429c-8-2.286-112.571-35.429-233.714-16.571 49.143 135.429 69.143 245.714 73.143 268 84-56.571 143.429-146.857 160.571-251.429zM349.143 148c-0.571 0-0.571 0-1.143 0.571 0 0 0.571-0.571 1.143-0.571zM686.286 230.857c-65.714-58.286-152.571-93.714-247.429-93.714-30.286 0-60 4-88.571 10.857 5.714 7.429 76.571 100.571 140.571 218.286 141.143-52.571 194.286-133.714 195.429-135.429zM813.714 508c-1.143-88.571-32.571-170.286-85.143-234.286-1.143 1.143-61.143 88-209.143 148.571 8.571 17.714 17.143 36 25.143 54.286 2.857 6.286 5.143 13.143 8 19.429 129.143-16.571 256.571 11.429 261.143 12zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
@@ -681,12 +687,12 @@ const Home = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link17"
+                  className="home-link18"
                 >
-                  <div className="home-container48">
+                  <div className="home-container47">
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
-                      className="home-icon28"
+                      className="home-icon25"
                     >
                       <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
                     </svg>
@@ -696,10 +702,10 @@ const Home = (props) => {
                   href="https://youtube.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link18"
+                  className="home-link19"
                 >
-                  <div className="home-container49">
-                    <svg viewBox="0 0 1024 1024" className="home-icon30">
+                  <div className="home-container48">
+                    <svg viewBox="0 0 1024 1024" className="home-icon27">
                       <path d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"></path>
                     </svg>
                   </div>
@@ -742,14 +748,16 @@ const Home = (props) => {
             display: contents;
           }
           .home-image {
-            left: 36px;
-            width: 222px;
-            bottom: -9px;
-            height: 55px;
+            top: 1px;
+            left: 27px;
+            width: 229px;
+            height: 100px;
             position: absolute;
             object-fit: cover;
+            transition: 0.3s;
             text-decoration: none;
           }
+
           .home-logo {
             border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
@@ -758,8 +766,8 @@ const Home = (props) => {
             justify-content: space-between;
           }
           .home-menu {
-            top: 40px;
-            left: 295px;
+            left: 423px;
+            bottom: -24px;
             display: flex;
             position: absolute;
             align-items: flex-start;
@@ -797,24 +805,6 @@ const Home = (props) => {
             width: 24px;
             height: 24px;
             text-decoration: none;
-          }
-          .home-container01 {
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-burger-menu {
-            display: none;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-menu1 {
-            width: 24px;
-            height: 24px;
-            margin-left: var(--dl-space-space-unit);
           }
           .home-mobile-menu {
             top: 0px;
@@ -855,7 +845,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-icon05 {
+          .home-icon02 {
             width: 24px;
             height: 24px;
           }
@@ -914,7 +904,7 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-container02 {
+          .home-container01 {
             flex: 0 0 auto;
             width: 200px;
             display: flex;
@@ -924,7 +914,7 @@ const Home = (props) => {
           .home-link04 {
             display: contents;
           }
-          .home-container03 {
+          .home-container02 {
             display: flex;
             padding: var(--dl-space-space-halfunit);
             align-items: flex-start;
@@ -932,16 +922,37 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .home-icon07 {
+          .home-icon04 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .home-icon07:hover {
+          .home-icon04:hover {
             fill: var(--dl-color-purple-default);
           }
           .home-link05 {
+            display: contents;
+          }
+          .home-container03 {
+            display: flex;
+            padding: var(--dl-space-space-halfunit);
+            align-items: flex-start;
+            margin-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-round);
+            flex-direction: column;
+            background-color: var(--dl-color-gray-900);
+          }
+          .home-icon06 {
+            fill: var(--dl-color-gray-white);
+            width: var(--dl-size-size-unit);
+            height: var(--dl-size-size-unit);
+            transition: 0.3s;
+          }
+          .home-icon06:hover {
+            fill: var(--dl-color-pink-default);
+          }
+          .home-link06 {
             display: contents;
           }
           .home-container04 {
@@ -953,16 +964,16 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .home-icon09 {
+          .home-icon08 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .home-icon09:hover {
-            fill: var(--dl-color-pink-default);
+          .home-icon08:hover {
+            fill: var(--dl-color-turquoise-default);
           }
-          .home-link06 {
+          .home-link07 {
             display: contents;
           }
           .home-container05 {
@@ -974,34 +985,13 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .home-icon11 {
+          .home-icon10 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .home-icon11:hover {
-            fill: var(--dl-color-turquoise-default);
-          }
-          .home-link07 {
-            display: contents;
-          }
-          .home-container06 {
-            display: flex;
-            padding: var(--dl-space-space-halfunit);
-            align-items: flex-start;
-            margin-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            background-color: var(--dl-color-gray-900);
-          }
-          .home-icon13 {
-            fill: var(--dl-color-gray-white);
-            width: var(--dl-size-size-unit);
-            height: var(--dl-size-size-unit);
-            transition: 0.3s;
-          }
-          .home-icon13:hover {
+          .home-icon10:hover {
             fill: var(--dl-color-orange-default);
           }
           .home-main {
@@ -1039,7 +1029,7 @@ const Home = (props) => {
             justify-content: space-between;
           }
 
-          .home-container07 {
+          .home-container06 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -1105,6 +1095,16 @@ const Home = (props) => {
             right: 0px;
             width: 612px;
             bottom: auto;
+            position: absolute;
+            box-shadow: 5px 5px 10px 0px #d4d4d4;
+            object-fit: cover;
+            border-radius: var(--dl-radius-radius-radius4);
+          }
+          .home-right1 {
+            right: -11px;
+            width: 612px;
+            bottom: -2798px;
+            opacity: 0.8;
             position: absolute;
             object-fit: cover;
           }
@@ -1181,7 +1181,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-turquoise-100);
           }
-          .home-container08 {
+          .home-container07 {
             display: flex;
             flex-wrap: wrap;
             max-width: 1100px;
@@ -1189,7 +1189,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-container09 {
+          .home-container08 {
             flex: 0 0 auto;
             display: flex;
             position: relative;
@@ -1200,7 +1200,7 @@ const Home = (props) => {
             z-index: 100;
             max-width: 500px;
           }
-          .home-container10 {
+          .home-container09 {
             flex: 0 0 auto;
             width: 350px;
             display: flex;
@@ -1210,20 +1210,20 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-container11 {
+          .home-container10 {
             flex: 0 0 auto;
             display: flex;
             align-items: flex-start;
             margin-left: var(--dl-space-space-doubleunit);
             flex-direction: column;
           }
-          .home-container12 {
+          .home-container11 {
             width: 350px;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-container13 {
+          .home-container12 {
             width: 300px;
             display: flex;
             margin-top: var(--dl-space-space-doubleunit);
@@ -1242,28 +1242,28 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .home-container14 {
+          .home-container13 {
             flex: 0 0 auto;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-container15 {
+          .home-container14 {
             flex: 1;
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
           }
-          .home-container16 {
+          .home-container15 {
             display: flex;
             position: relative;
             align-items: center;
             flex-direction: row;
             justify-content: center;
           }
-          .home-container17 {
+          .home-container16 {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -1285,7 +1285,7 @@ const Home = (props) => {
             height: 2px;
             background-color: #595959;
           }
-          .home-container18 {
+          .home-container17 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1306,7 +1306,7 @@ const Home = (props) => {
             object-position: left;
           }
 
-          .home-container19 {
+          .home-container18 {
             display: grid;
             grid-template-columns: 1fr 1fr;
           }
@@ -1340,7 +1340,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-container20 {
+          .home-container19 {
             display: flex;
             margin-right: 48px;
             padding-right: 48px;
@@ -1362,13 +1362,14 @@ const Home = (props) => {
           }
 
           .home-left1 {
-            top: 4151px;
-            left: 21px;
+            top: 4087px;
+            left: -5px;
             width: 420px;
+            opacity: 1;
             position: absolute;
             object-fit: cover;
           }
-          .home-container21 {
+          .home-container20 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -1376,7 +1377,7 @@ const Home = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .home-container22 {
+          .home-container21 {
             flex: 0 0 auto;
             width: auto;
             border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -1413,7 +1414,7 @@ const Home = (props) => {
             text-align: center;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-container23 {
+          .home-container22 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1425,7 +1426,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-container24 {
+          .home-container23 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1449,7 +1450,7 @@ const Home = (props) => {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-container25 {
+          .home-container24 {
             flex: 0 0 auto;
             width: 48px;
             height: 48px;
@@ -1460,7 +1461,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #f5f5f5ff;
           }
-          .home-icon15 {
+          .home-icon12 {
             fill: #595959;
             width: 24px;
             height: 24px;
@@ -1480,7 +1481,7 @@ const Home = (props) => {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-container26 {
+          .home-container25 {
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-unit);
@@ -1505,7 +1506,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-container27 {
+          .home-container26 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1529,7 +1530,7 @@ const Home = (props) => {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-container28 {
+          .home-container27 {
             flex: 0 0 auto;
             width: 48px;
             height: 48px;
@@ -1540,7 +1541,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #f5f5f5ff;
           }
-          .home-icon17 {
+          .home-icon14 {
             fill: #595959;
             width: 24px;
             height: 24px;
@@ -1560,7 +1561,7 @@ const Home = (props) => {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-container29 {
+          .home-container28 {
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-unit);
@@ -1585,7 +1586,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-container30 {
+          .home-container29 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1609,7 +1610,7 @@ const Home = (props) => {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-container31 {
+          .home-container30 {
             flex: 0 0 auto;
             width: 48px;
             height: 48px;
@@ -1620,7 +1621,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #f5f5f5ff;
           }
-          .home-icon19 {
+          .home-icon16 {
             fill: #595959;
             width: 24px;
             height: 24px;
@@ -1640,7 +1641,7 @@ const Home = (props) => {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-container32 {
+          .home-container31 {
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-unit);
@@ -1665,7 +1666,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-container33 {
+          .home-container32 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1689,7 +1690,7 @@ const Home = (props) => {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-container34 {
+          .home-container33 {
             flex: 0 0 auto;
             width: 48px;
             height: 48px;
@@ -1700,7 +1701,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #f5f5f5ff;
           }
-          .home-icon22 {
+          .home-icon19 {
             fill: #595959;
             width: 24px;
             height: 24px;
@@ -1720,7 +1721,7 @@ const Home = (props) => {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-container35 {
+          .home-container34 {
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-unit);
@@ -1748,6 +1749,12 @@ const Home = (props) => {
             align-items: center;
             justify-content: space-between;
           }
+          .home-container35 {
+            display: flex;
+            align-items: center;
+            margin-right: 32px;
+            justify-content: space-between;
+          }
           .home-container36 {
             display: flex;
             align-items: center;
@@ -1755,12 +1762,6 @@ const Home = (props) => {
             justify-content: space-between;
           }
           .home-container37 {
-            display: flex;
-            align-items: center;
-            margin-right: 32px;
-            justify-content: space-between;
-          }
-          .home-container38 {
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -1823,7 +1824,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #692e4a;
           }
-          .home-container39 {
+          .home-container38 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1835,7 +1836,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .home-container40 {
+          .home-container39 {
             flex: 1;
             display: flex;
             align-items: center;
@@ -1860,7 +1861,7 @@ const Home = (props) => {
             padding-right: 30px;
             padding-bottom: 19px;
           }
-          .home-container41 {
+          .home-container40 {
             width: 520px;
             display: flex;
             position: relative;
@@ -1898,7 +1899,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-black);
           }
-          .home-container42 {
+          .home-container41 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1915,7 +1916,7 @@ const Home = (props) => {
             height: 72px;
             object-fit: cover;
           }
-          .home-container43 {
+          .home-container42 {
             display: flex;
             margin-top: var(--dl-space-space-doubleunit);
             align-items: center;
@@ -1941,10 +1942,18 @@ const Home = (props) => {
           }
           .home-link14 {
             transition: 0.3s;
-            white-space: nowrap;
+            margin-right: var(--dl-space-space-unit);
             text-decoration: none;
           }
           .home-link14:hover {
+            color: var(--dl-color-turquoise-default);
+          }
+          .home-link15 {
+            transition: 0.3s;
+            white-space: nowrap;
+            text-decoration: none;
+          }
+          .home-link15:hover {
             color: var(--dl-color-turquoise-default);
           }
           .home-divider {
@@ -1953,7 +1962,7 @@ const Home = (props) => {
             opacity: 0.2;
             background-color: var(--dl-color-gray-white);
           }
-          .home-container44 {
+          .home-container43 {
             width: 100%;
             display: flex;
             margin-top: var(--dl-space-space-unit);
@@ -1965,17 +1974,17 @@ const Home = (props) => {
             color: var(--dl-color-gray-300);
             margin-top: var(--dl-space-space-unit);
           }
-          .home-container45 {
+          .home-container44 {
             flex: 0 0 auto;
             width: 200px;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-link15 {
+          .home-link16 {
             display: contents;
           }
-          .home-container46 {
+          .home-container45 {
             display: flex;
             padding: var(--dl-space-space-halfunit);
             align-items: flex-start;
@@ -1983,16 +1992,37 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .home-icon24 {
+          .home-icon21 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .home-icon24:hover {
+          .home-icon21:hover {
             fill: var(--dl-color-purple-default);
           }
-          .home-link16 {
+          .home-link17 {
+            display: contents;
+          }
+          .home-container46 {
+            display: flex;
+            padding: var(--dl-space-space-halfunit);
+            align-items: flex-start;
+            margin-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-round);
+            flex-direction: column;
+            background-color: var(--dl-color-gray-900);
+          }
+          .home-icon23 {
+            fill: var(--dl-color-gray-white);
+            width: var(--dl-size-size-unit);
+            height: var(--dl-size-size-unit);
+            transition: 0.3s;
+          }
+          .home-icon23:hover {
+            fill: var(--dl-color-pink-default);
+          }
+          .home-link18 {
             display: contents;
           }
           .home-container47 {
@@ -2004,16 +2034,16 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .home-icon26 {
+          .home-icon25 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .home-icon26:hover {
-            fill: var(--dl-color-pink-default);
+          .home-icon25:hover {
+            fill: var(--dl-color-turquoise-default);
           }
-          .home-link17 {
+          .home-link19 {
             display: contents;
           }
           .home-container48 {
@@ -2025,45 +2055,25 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .home-icon28 {
+          .home-icon27 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .home-icon28:hover {
-            fill: var(--dl-color-turquoise-default);
-          }
-          .home-link18 {
-            display: contents;
-          }
-          .home-container49 {
-            display: flex;
-            padding: var(--dl-space-space-halfunit);
-            align-items: flex-start;
-            margin-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            background-color: var(--dl-color-gray-900);
-          }
-          .home-icon30 {
-            fill: var(--dl-color-gray-white);
-            width: var(--dl-size-size-unit);
-            height: var(--dl-size-size-unit);
-            transition: 0.3s;
-          }
-          .home-icon30:hover {
+          .home-icon27:hover {
             fill: var(--dl-color-orange-default);
           }
           @media (max-width: 991px) {
-            .home-container01 {
-              display: none;
+            .home-menu {
+              left: 423px;
+              bottom: -24px;
             }
             .home-hero {
               height: auto;
               flex-direction: column;
             }
-            .home-container07 {
+            .home-container06 {
               align-items: center;
               margin-bottom: var(--dl-space-space-doubleunit);
             }
@@ -2073,30 +2083,30 @@ const Home = (props) => {
             .home-text13 {
               max-width: 100%;
             }
-            .home-container08 {
+            .home-container07 {
               flex-direction: column;
             }
-            .home-container10 {
+            .home-container09 {
               align-self: center;
               margin-bottom: var(--dl-space-space-doubleunit);
             }
-            .home-container11 {
+            .home-container10 {
               align-items: center;
               margin-left: 0px;
             }
-            .home-container13 {
+            .home-container12 {
               width: 350px;
             }
             .home-achievements {
               flex-direction: column;
             }
-            .home-container15 {
+            .home-container14 {
               margin-top: var(--dl-space-space-doubleunit);
             }
             .home-features2 {
               align-items: center;
             }
-            .home-container18 {
+            .home-container17 {
               flex-direction: column;
             }
             .home-image03 {
@@ -2108,7 +2118,7 @@ const Home = (props) => {
             .home-hero1 {
               flex-direction: column;
             }
-            .home-container20 {
+            .home-container19 {
               align-items: center;
               margin-right: 0px;
               margin-bottom: 32px;
@@ -2134,11 +2144,11 @@ const Home = (props) => {
             .home-blog {
               flex-direction: column;
             }
-            .home-container36 {
+            .home-container35 {
               margin-right: 0px;
               margin-bottom: 48px;
             }
-            .home-container37 {
+            .home-container36 {
               margin-right: 0px;
               margin-bottom: 48px;
             }
@@ -2151,16 +2161,19 @@ const Home = (props) => {
             .home-text55 {
               text-align: center;
             }
-            .home-container41 {
+            .home-container40 {
               display: none;
+            }
+            .home-link13 {
+              text-decoration: none;
+            }
+            .home-link14 {
+              text-decoration: none;
             }
           }
           @media (max-width: 767px) {
             .home-menu {
               display: none;
-            }
-            .home-burger-menu {
-              display: block;
             }
             .home-text07 {
               font-size: 50px;
@@ -2177,7 +2190,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .home-container09 {
+            .home-container08 {
               align-items: center;
             }
             .home-text16 {
@@ -2194,7 +2207,7 @@ const Home = (props) => {
             .home-text26 {
               text-align: center;
             }
-            .home-container18 {
+            .home-container17 {
               flex-direction: column;
             }
             .home-hero1 {
@@ -2216,7 +2229,7 @@ const Home = (props) => {
               padding-left: 32px;
               padding-right: 32px;
             }
-            .home-container23 {
+            .home-container22 {
               align-items: flex-start;
               padding-left: 80px;
               flex-direction: column;
@@ -2227,7 +2240,7 @@ const Home = (props) => {
               flex-direction: row;
               justify-content: center;
             }
-            .home-container24 {
+            .home-container23 {
               width: 48px;
               height: auto;
               align-self: stretch;
@@ -2244,7 +2257,7 @@ const Home = (props) => {
               border-top-width: 0px;
               border-left-width: 2px;
             }
-            .home-container26 {
+            .home-container25 {
               width: 100%;
               align-items: flex-start;
               padding-top: 32px;
@@ -2267,7 +2280,7 @@ const Home = (props) => {
               flex-direction: row;
               justify-content: center;
             }
-            .home-container27 {
+            .home-container26 {
               width: 48px;
               height: auto;
               align-self: stretch;
@@ -2288,7 +2301,7 @@ const Home = (props) => {
               border-top-width: 0px;
               border-left-width: 2px;
             }
-            .home-container29 {
+            .home-container28 {
               width: 100%;
               align-items: flex-start;
               padding-top: 32px;
@@ -2311,7 +2324,7 @@ const Home = (props) => {
               flex-direction: row;
               justify-content: center;
             }
-            .home-container30 {
+            .home-container29 {
               width: 48px;
               height: auto;
               align-self: stretch;
@@ -2332,7 +2345,7 @@ const Home = (props) => {
               border-top-width: 0px;
               border-left-width: 2px;
             }
-            .home-container32 {
+            .home-container31 {
               width: 100%;
               align-items: flex-start;
               padding-top: 32px;
@@ -2355,7 +2368,7 @@ const Home = (props) => {
               flex-direction: row;
               justify-content: center;
             }
-            .home-container33 {
+            .home-container32 {
               width: 48px;
               height: auto;
               align-self: stretch;
@@ -2376,7 +2389,7 @@ const Home = (props) => {
               border-top-width: 0px;
               border-left-width: 2px;
             }
-            .home-container35 {
+            .home-container34 {
               width: 100%;
               align-items: flex-start;
               padding-top: 32px;
@@ -2401,11 +2414,11 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-container43 {
+            .home-container42 {
               flex-wrap: wrap;
               justify-content: center;
             }
-            .home-container44 {
+            .home-container43 {
               flex-direction: column;
             }
             .home-text56 {
@@ -2414,8 +2427,8 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .home-container01 {
-              display: none;
+            .home-header {
+              padding-right: 2rem;
             }
             .home-bot {
               width: 100%;
@@ -2432,7 +2445,7 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: 32px;
             }
-            .home-container14 {
+            .home-container13 {
               align-items: center;
             }
             .home-text18 {
@@ -2441,10 +2454,10 @@ const Home = (props) => {
             .home-text22 {
               text-align: center;
             }
-            .home-container16 {
+            .home-container15 {
               flex-direction: column;
             }
-            .home-container17 {
+            .home-container16 {
               flex-direction: column;
             }
             .home-features2 {
@@ -2457,7 +2470,7 @@ const Home = (props) => {
               width: 250px;
               height: 250px;
             }
-            .home-container19 {
+            .home-container18 {
               grid-template-columns: 1fr;
             }
             .home-hero1 {
@@ -2466,7 +2479,7 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: 32px;
             }
-            .home-container20 {
+            .home-container19 {
               margin-bottom: var(--dl-space-space-unit);
             }
             .home-gallery {
@@ -2481,10 +2494,10 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: 32px;
             }
-            .home-container23 {
+            .home-container22 {
               padding-left: 0px;
             }
-            .home-container26 {
+            .home-container25 {
               padding-top: 32px;
               padding-left: var(--dl-space-space-unit);
               padding-right: 0px;
@@ -2494,7 +2507,7 @@ const Home = (props) => {
               margin-left: 0px;
               margin-right: 32px;
             }
-            .home-container29 {
+            .home-container28 {
               padding-top: 32px;
               padding-left: var(--dl-space-space-unit);
               padding-right: 0px;
@@ -2504,7 +2517,7 @@ const Home = (props) => {
               margin-left: 0px;
               margin-right: 32px;
             }
-            .home-container32 {
+            .home-container31 {
               padding-top: 32px;
               padding-left: var(--dl-space-space-unit);
               padding-right: 0px;
@@ -2514,7 +2527,7 @@ const Home = (props) => {
               margin-left: 0px;
               margin-right: 32px;
             }
-            .home-container35 {
+            .home-container34 {
               padding-top: 32px;
               padding-left: var(--dl-space-space-unit);
               padding-right: 0px;
@@ -2543,6 +2556,12 @@ const Home = (props) => {
             .home-link11 {
               margin-top: var(--dl-space-space-unit);
               margin-left: 0px;
+            }
+            .home-link13 {
+              text-decoration: none;
+            }
+            .home-link14 {
+              text-decoration: none;
             }
           }
         `}

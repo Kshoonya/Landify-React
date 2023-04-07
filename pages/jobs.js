@@ -18,7 +18,7 @@ const Jobs = (props) => {
               <a className="jobs-link">
                 <img
                   alt="image"
-                  src="/playground_assets/new_design_full%203-300w.png"
+                  src="/playground_assets/new_design_full%203-200h.png"
                   className="jobs-image"
                 />
               </a>
@@ -39,14 +39,6 @@ const Jobs = (props) => {
                 <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
               </svg>
             </div>
-            <div className="jobs-container01"></div>
-            <div data-role="BurgerMenu" className="jobs-burger-menu">
-              <svg viewBox="0 0 1024 1024" className="jobs-menu1">
-                <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
-                <path d="M810.667 426.667h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
-                <path d="M810.667 128h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
-              </svg>
-            </div>
           </header>
           <div data-role="MobileMenu" className="jobs-mobile-menu">
             <div className="jobs-top">
@@ -58,7 +50,7 @@ const Jobs = (props) => {
                 />
               </div>
               <div data-role="CloseMobileMenu" className="jobs-close-menu">
-                <svg viewBox="0 0 1024 1024" className="jobs-icon05">
+                <svg viewBox="0 0 1024 1024" className="jobs-icon02">
                   <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                 </svg>
               </div>
@@ -72,17 +64,17 @@ const Jobs = (props) => {
               <span className="jobs-text06">More</span>
             </div>
             <div className="jobs-bot">
-              <div className="jobs-container02">
+              <div className="jobs-container01">
                 <a
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="jobs-link04"
                 >
-                  <div className="jobs-container03">
+                  <div className="jobs-container02">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="jobs-icon07"
+                      className="jobs-icon04"
                     >
                       <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
                     </svg>
@@ -94,10 +86,10 @@ const Jobs = (props) => {
                   rel="noreferrer noopener"
                   className="jobs-link05"
                 >
-                  <div className="jobs-container04">
+                  <div className="jobs-container03">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="jobs-icon09"
+                      className="jobs-icon06"
                     >
                       <path d="M585.143 857.143c-5.714-33.143-27.429-147.429-80-284.571-0.571 0-1.714 0.571-2.286 0.571 0 0-222.286 77.714-294.286 234.286-3.429-2.857-8.571-6.286-8.571-6.286 65.143 53.143 148 85.714 238.857 85.714 52 0 101.143-10.857 146.286-29.714zM479.429 510.286c-9.143-21.143-19.429-42.286-30.286-63.429-193.143 57.714-378.286 53.143-384.571 53.143-0.571 4-0.571 8-0.571 12 0 96 36.571 184 96 250.286v0c102.286-182.286 304.571-247.429 304.571-247.429 5.143-1.714 10.286-2.857 14.857-4.571zM418.286 389.143c-65.143-115.429-134.286-209.143-139.429-216-104.571 49.143-182.286 145.714-206.857 261.714 9.714 0 166.286 1.714 346.286-45.714zM809.143 571.429c-8-2.286-112.571-35.429-233.714-16.571 49.143 135.429 69.143 245.714 73.143 268 84-56.571 143.429-146.857 160.571-251.429zM349.143 148c-0.571 0-0.571 0-1.143 0.571 0 0 0.571-0.571 1.143-0.571zM686.286 230.857c-65.714-58.286-152.571-93.714-247.429-93.714-30.286 0-60 4-88.571 10.857 5.714 7.429 76.571 100.571 140.571 218.286 141.143-52.571 194.286-133.714 195.429-135.429zM813.714 508c-1.143-88.571-32.571-170.286-85.143-234.286-1.143 1.143-61.143 88-209.143 148.571 8.571 17.714 17.143 36 25.143 54.286 2.857 6.286 5.143 13.143 8 19.429 129.143-16.571 256.571 11.429 261.143 12zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
@@ -109,10 +101,10 @@ const Jobs = (props) => {
                   rel="noreferrer noopener"
                   className="jobs-link06"
                 >
-                  <div className="jobs-container05">
+                  <div className="jobs-container04">
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
-                      className="jobs-icon11"
+                      className="jobs-icon08"
                     >
                       <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
                     </svg>
@@ -124,8 +116,8 @@ const Jobs = (props) => {
                   rel="noreferrer noopener"
                   className="jobs-link07"
                 >
-                  <div className="jobs-container06">
-                    <svg viewBox="0 0 1024 1024" className="jobs-icon13">
+                  <div className="jobs-container05">
+                    <svg viewBox="0 0 1024 1024" className="jobs-icon10">
                       <path d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"></path>
                     </svg>
                   </div>
@@ -162,7 +154,7 @@ const Jobs = (props) => {
         </div>
         <div className="jobs-features">
           <h1 className="jobs-text08">Join the team</h1>
-          <div className="jobs-container07">
+          <div className="jobs-container06">
             <FeatureCard1
               title="DESIGN ENGINEER"
               rootClassName="rootClassName"
@@ -181,12 +173,12 @@ const Jobs = (props) => {
             ></FeatureCard1>
           </div>
         </div>
-        <div className="jobs-container08">
-          <div className="jobs-container09"></div>
+        <div className="jobs-container07">
+          <div className="jobs-container08"></div>
         </div>
         <div className="jobs-cta">
-          <div className="jobs-container10">
-            <div className="jobs-container11">
+          <div className="jobs-container09">
+            <div className="jobs-container10">
               <img
                 alt="image"
                 src="/playground_assets/dall%C2%B7e%202023-04-05%2022.21.59%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20an%20mobile%20app-300w.png"
@@ -200,7 +192,7 @@ const Jobs = (props) => {
                 className="jobs-image3"
               />
             </div>
-            <div className="jobs-container12">
+            <div className="jobs-container11">
               <img
                 alt="image"
                 src="/playground_assets/_3a1e396a-8fc7-404a-8251-91dc346d23e4-1200w.jpeg"
@@ -219,38 +211,47 @@ const Jobs = (props) => {
           </div>
         </div>
         <div className="jobs-footer">
-          <footer className="jobs-container13">
-            <img
-              alt="image"
-              src="/playground_assets/new_design_full%203-300w.png"
-              loading="lazy"
-              className="jobs-image6"
-            />
-            <div className="jobs-container14">
-              <Link href="/jobs">
-                <a className="jobs-link08">Careers</a>
-              </Link>
-              <Link href="/about-us">
-                <a className="jobs-link09">Help</a>
-              </Link>
-              <span className="jobs-text09">Privacy Policy</span>
+          <img
+            alt="image"
+            src="/playground_assets/new_design_full%203-200h.png"
+            loading="lazy"
+            className="jobs-image6"
+          />
+          <footer className="jobs-container12">
+            <div className="jobs-container13">
+              <div className="jobs-container14">
+                <div className="jobs-container15">
+                  <Link href="/jobs">
+                    <a className="jobs-link08">Careers</a>
+                  </Link>
+                  <Link href="/about-us">
+                    <a className="jobs-link09">About us</a>
+                  </Link>
+                  <Link href="/journey-so-far">
+                    <a className="jobs-link10">Journey</a>
+                  </Link>
+                  <Link href="/privacy-policy">
+                    <a className="jobs-link11">Privacy Policy</a>
+                  </Link>
+                </div>
+              </div>
             </div>
             <div className="jobs-divider"></div>
-            <div className="jobs-container15">
-              <span className="jobs-text10 Body2">
+            <div className="jobs-container16">
+              <span className="jobs-text09 Body2">
                 © 2023 Kshoonya Inc. All rights reserved
               </span>
-              <div className="jobs-container16">
+              <div className="jobs-container17">
                 <a
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="jobs-link10"
+                  className="jobs-link12"
                 >
-                  <div className="jobs-container17">
+                  <div className="jobs-container18">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="jobs-icon15"
+                      className="jobs-icon12"
                     >
                       <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
                     </svg>
@@ -260,12 +261,12 @@ const Jobs = (props) => {
                   href="https://dribbble.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="jobs-link11"
+                  className="jobs-link13"
                 >
-                  <div className="jobs-container18">
+                  <div className="jobs-container19">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="jobs-icon17"
+                      className="jobs-icon14"
                     >
                       <path d="M585.143 857.143c-5.714-33.143-27.429-147.429-80-284.571-0.571 0-1.714 0.571-2.286 0.571 0 0-222.286 77.714-294.286 234.286-3.429-2.857-8.571-6.286-8.571-6.286 65.143 53.143 148 85.714 238.857 85.714 52 0 101.143-10.857 146.286-29.714zM479.429 510.286c-9.143-21.143-19.429-42.286-30.286-63.429-193.143 57.714-378.286 53.143-384.571 53.143-0.571 4-0.571 8-0.571 12 0 96 36.571 184 96 250.286v0c102.286-182.286 304.571-247.429 304.571-247.429 5.143-1.714 10.286-2.857 14.857-4.571zM418.286 389.143c-65.143-115.429-134.286-209.143-139.429-216-104.571 49.143-182.286 145.714-206.857 261.714 9.714 0 166.286 1.714 346.286-45.714zM809.143 571.429c-8-2.286-112.571-35.429-233.714-16.571 49.143 135.429 69.143 245.714 73.143 268 84-56.571 143.429-146.857 160.571-251.429zM349.143 148c-0.571 0-0.571 0-1.143 0.571 0 0 0.571-0.571 1.143-0.571zM686.286 230.857c-65.714-58.286-152.571-93.714-247.429-93.714-30.286 0-60 4-88.571 10.857 5.714 7.429 76.571 100.571 140.571 218.286 141.143-52.571 194.286-133.714 195.429-135.429zM813.714 508c-1.143-88.571-32.571-170.286-85.143-234.286-1.143 1.143-61.143 88-209.143 148.571 8.571 17.714 17.143 36 25.143 54.286 2.857 6.286 5.143 13.143 8 19.429 129.143-16.571 256.571 11.429 261.143 12zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
@@ -275,12 +276,12 @@ const Jobs = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="jobs-link12"
+                  className="jobs-link14"
                 >
-                  <div className="jobs-container19">
+                  <div className="jobs-container20">
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
-                      className="jobs-icon19"
+                      className="jobs-icon16"
                     >
                       <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
                     </svg>
@@ -290,10 +291,10 @@ const Jobs = (props) => {
                   href="https://youtube.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="jobs-link13"
+                  className="jobs-link15"
                 >
-                  <div className="jobs-container20">
-                    <svg viewBox="0 0 1024 1024" className="jobs-icon21">
+                  <div className="jobs-container21">
+                    <svg viewBox="0 0 1024 1024" className="jobs-icon18">
                       <path d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"></path>
                     </svg>
                   </div>
@@ -352,8 +353,8 @@ const Jobs = (props) => {
             justify-content: space-between;
           }
           .jobs-menu {
-            top: 40px;
-            left: 295px;
+            left: 428px;
+            bottom: -1px;
             display: flex;
             position: absolute;
             align-items: flex-start;
@@ -395,24 +396,6 @@ const Jobs = (props) => {
             height: 24px;
             text-decoration: none;
           }
-          .jobs-container01 {
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .jobs-burger-menu {
-            display: none;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .jobs-menu1 {
-            width: 24px;
-            height: 24px;
-            margin-left: var(--dl-space-space-unit);
-          }
           .jobs-mobile-menu {
             top: 0px;
             flex: 0 0 auto;
@@ -452,7 +435,7 @@ const Jobs = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .jobs-icon05 {
+          .jobs-icon02 {
             width: 24px;
             height: 24px;
           }
@@ -511,7 +494,7 @@ const Jobs = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .jobs-container02 {
+          .jobs-container01 {
             flex: 0 0 auto;
             width: 200px;
             display: flex;
@@ -521,7 +504,7 @@ const Jobs = (props) => {
           .jobs-link04 {
             display: contents;
           }
-          .jobs-container03 {
+          .jobs-container02 {
             display: flex;
             padding: var(--dl-space-space-halfunit);
             align-items: flex-start;
@@ -529,16 +512,37 @@ const Jobs = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .jobs-icon07 {
+          .jobs-icon04 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .jobs-icon07:hover {
+          .jobs-icon04:hover {
             fill: var(--dl-color-purple-default);
           }
           .jobs-link05 {
+            display: contents;
+          }
+          .jobs-container03 {
+            display: flex;
+            padding: var(--dl-space-space-halfunit);
+            align-items: flex-start;
+            margin-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-round);
+            flex-direction: column;
+            background-color: var(--dl-color-gray-900);
+          }
+          .jobs-icon06 {
+            fill: var(--dl-color-gray-white);
+            width: var(--dl-size-size-unit);
+            height: var(--dl-size-size-unit);
+            transition: 0.3s;
+          }
+          .jobs-icon06:hover {
+            fill: var(--dl-color-pink-default);
+          }
+          .jobs-link06 {
             display: contents;
           }
           .jobs-container04 {
@@ -550,16 +554,16 @@ const Jobs = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .jobs-icon09 {
+          .jobs-icon08 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .jobs-icon09:hover {
-            fill: var(--dl-color-pink-default);
+          .jobs-icon08:hover {
+            fill: var(--dl-color-turquoise-default);
           }
-          .jobs-link06 {
+          .jobs-link07 {
             display: contents;
           }
           .jobs-container05 {
@@ -571,34 +575,13 @@ const Jobs = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .jobs-icon11 {
+          .jobs-icon10 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .jobs-icon11:hover {
-            fill: var(--dl-color-turquoise-default);
-          }
-          .jobs-link07 {
-            display: contents;
-          }
-          .jobs-container06 {
-            display: flex;
-            padding: var(--dl-space-space-halfunit);
-            align-items: flex-start;
-            margin-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            background-color: var(--dl-color-gray-900);
-          }
-          .jobs-icon13 {
-            fill: var(--dl-color-gray-white);
-            width: var(--dl-size-size-unit);
-            height: var(--dl-size-size-unit);
-            transition: 0.3s;
-          }
-          .jobs-icon13:hover {
+          .jobs-icon10:hover {
             fill: var(--dl-color-orange-default);
           }
           .jobs-main {
@@ -690,7 +673,7 @@ const Jobs = (props) => {
             font-size: 3rem;
             margin-bottom: 48px;
           }
-          .jobs-container07 {
+          .jobs-container06 {
             flex: 0 0 auto;
             width: 100%;
             display: grid;
@@ -698,7 +681,7 @@ const Jobs = (props) => {
             align-items: flex-start;
             grid-template-columns: 1fr 1fr 1fr 1fr;
           }
-          .jobs-container08 {
+          .jobs-container07 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -706,7 +689,7 @@ const Jobs = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .jobs-container09 {
+          .jobs-container08 {
             flex: 0 0 auto;
             width: auto;
             border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -724,7 +707,7 @@ const Jobs = (props) => {
             justify-content: center;
             background-color: #692e4a;
           }
-          .jobs-container10 {
+          .jobs-container09 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -736,7 +719,7 @@ const Jobs = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .jobs-container11 {
+          .jobs-container10 {
             flex: 1;
             display: flex;
             align-items: center;
@@ -756,7 +739,7 @@ const Jobs = (props) => {
             padding-right: 30px;
             padding-bottom: 19px;
           }
-          .jobs-container12 {
+          .jobs-container11 {
             width: 520px;
             display: flex;
             position: relative;
@@ -789,12 +772,17 @@ const Jobs = (props) => {
             color: var(--dl-color-gray-white);
             width: 100%;
             display: flex;
-            align-items: flex-start;
-            flex-direction: row;
-            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
             background-color: var(--dl-color-gray-black);
           }
-          .jobs-container13 {
+          .jobs-image6 {
+            width: 196px;
+            height: 84px;
+            object-fit: cover;
+          }
+          .jobs-container12 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -806,12 +794,23 @@ const Jobs = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .jobs-image6 {
-            width: 194px;
+          .jobs-container13 {
+            flex: 0 0 auto;
+            width: auto;
             height: 72px;
-            object-fit: cover;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
           }
           .jobs-container14 {
+            flex: 0 0 auto;
+            width: auto;
+            height: 72px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .jobs-container15 {
             display: flex;
             margin-top: var(--dl-space-space-doubleunit);
             align-items: center;
@@ -835,11 +834,20 @@ const Jobs = (props) => {
           .jobs-link09:hover {
             color: var(--dl-color-turquoise-default);
           }
-          .jobs-text09 {
+          .jobs-link10 {
+            transition: 0.3s;
+            margin-right: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .jobs-link10:hover {
+            color: var(--dl-color-turquoise-default);
+          }
+          .jobs-link11 {
             transition: 0.3s;
             white-space: nowrap;
+            text-decoration: none;
           }
-          .jobs-text09:hover {
+          .jobs-link11:hover {
             color: var(--dl-color-turquoise-default);
           }
           .jobs-divider {
@@ -848,7 +856,7 @@ const Jobs = (props) => {
             opacity: 0.2;
             background-color: var(--dl-color-gray-white);
           }
-          .jobs-container15 {
+          .jobs-container16 {
             width: 100%;
             display: flex;
             margin-top: var(--dl-space-space-unit);
@@ -856,59 +864,38 @@ const Jobs = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .jobs-text10 {
+          .jobs-text09 {
             color: var(--dl-color-gray-300);
             margin-top: var(--dl-space-space-unit);
           }
-          .jobs-container16 {
+          .jobs-container17 {
             flex: 0 0 auto;
             width: 200px;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
           }
-          .jobs-link10 {
-            display: contents;
-          }
-          .jobs-container17 {
-            display: flex;
-            padding: var(--dl-space-space-halfunit);
-            align-items: flex-start;
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            background-color: var(--dl-color-gray-900);
-          }
-          .jobs-icon15 {
-            fill: var(--dl-color-gray-white);
-            width: var(--dl-size-size-unit);
-            height: var(--dl-size-size-unit);
-            transition: 0.3s;
-          }
-          .jobs-icon15:hover {
-            fill: var(--dl-color-purple-default);
-          }
-          .jobs-link11 {
+          .jobs-link12 {
             display: contents;
           }
           .jobs-container18 {
             display: flex;
             padding: var(--dl-space-space-halfunit);
             align-items: flex-start;
-            margin-left: var(--dl-space-space-unit);
             border-radius: var(--dl-radius-radius-round);
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .jobs-icon17 {
+          .jobs-icon12 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .jobs-icon17:hover {
-            fill: var(--dl-color-pink-default);
+          .jobs-icon12:hover {
+            fill: var(--dl-color-purple-default);
           }
-          .jobs-link12 {
+          .jobs-link13 {
             display: contents;
           }
           .jobs-container19 {
@@ -920,16 +907,16 @@ const Jobs = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .jobs-icon19 {
+          .jobs-icon14 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .jobs-icon19:hover {
-            fill: var(--dl-color-turquoise-default);
+          .jobs-icon14:hover {
+            fill: var(--dl-color-pink-default);
           }
-          .jobs-link13 {
+          .jobs-link14 {
             display: contents;
           }
           .jobs-container20 {
@@ -941,19 +928,37 @@ const Jobs = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .jobs-icon21 {
+          .jobs-icon16 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .jobs-icon21:hover {
+          .jobs-icon16:hover {
+            fill: var(--dl-color-turquoise-default);
+          }
+          .jobs-link15 {
+            display: contents;
+          }
+          .jobs-container21 {
+            display: flex;
+            padding: var(--dl-space-space-halfunit);
+            align-items: flex-start;
+            margin-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-round);
+            flex-direction: column;
+            background-color: var(--dl-color-gray-900);
+          }
+          .jobs-icon18 {
+            fill: var(--dl-color-gray-white);
+            width: var(--dl-size-size-unit);
+            height: var(--dl-size-size-unit);
+            transition: 0.3s;
+          }
+          .jobs-icon18:hover {
             fill: var(--dl-color-orange-default);
           }
           @media (max-width: 991px) {
-            .jobs-container01 {
-              display: none;
-            }
             .jobs-hero {
               height: auto;
               flex-direction: column;
@@ -964,19 +969,22 @@ const Jobs = (props) => {
             .jobs-text08 {
               align-self: center;
             }
-            .jobs-container07 {
+            .jobs-container06 {
               grid-template-columns: 1fr 1fr;
             }
-            .jobs-container12 {
+            .jobs-container11 {
               display: none;
+            }
+            .jobs-link09 {
+              text-decoration: none;
+            }
+            .jobs-link10 {
+              text-decoration: none;
             }
           }
           @media (max-width: 767px) {
             .jobs-menu {
               display: none;
-            }
-            .jobs-burger-menu {
-              display: block;
             }
             .jobs-text07 {
               font-size: 50px;
@@ -986,22 +994,19 @@ const Jobs = (props) => {
               padding-left: 32px;
               padding-right: 32px;
             }
-            .jobs-container14 {
+            .jobs-container15 {
               flex-wrap: wrap;
               justify-content: center;
             }
-            .jobs-container15 {
+            .jobs-container16 {
               flex-direction: column;
             }
-            .jobs-text10 {
+            .jobs-text09 {
               margin-top: var(--dl-space-space-unit);
               margin-bottom: var(--dl-space-space-unit);
             }
           }
           @media (max-width: 479px) {
-            .jobs-container01 {
-              display: none;
-            }
             .jobs-bot {
               width: 100%;
             }
@@ -1011,8 +1016,14 @@ const Jobs = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: 32px;
             }
-            .jobs-container07 {
+            .jobs-container06 {
               grid-gap: var(--dl-space-space-halfunit);
+            }
+            .jobs-link09 {
+              text-decoration: none;
+            }
+            .jobs-link10 {
+              text-decoration: none;
             }
           }
         `}

@@ -40,14 +40,6 @@ const AboutUs = (props) => {
                 <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
               </svg>
             </div>
-            <div className="about-us-container01"></div>
-            <div data-role="BurgerMenu" className="about-us-burger-menu">
-              <svg viewBox="0 0 1024 1024" className="about-us-menu1">
-                <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
-                <path d="M810.667 426.667h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
-                <path d="M810.667 128h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
-              </svg>
-            </div>
           </header>
           <div data-role="MobileMenu" className="about-us-mobile-menu">
             <div className="about-us-top">
@@ -59,7 +51,7 @@ const AboutUs = (props) => {
                 />
               </div>
               <div data-role="CloseMobileMenu" className="about-us-close-menu">
-                <svg viewBox="0 0 1024 1024" className="about-us-icon05">
+                <svg viewBox="0 0 1024 1024" className="about-us-icon02">
                   <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                 </svg>
               </div>
@@ -73,17 +65,17 @@ const AboutUs = (props) => {
               <span className="about-us-text06">More</span>
             </div>
             <div className="about-us-bot">
-              <div className="about-us-container02">
+              <div className="about-us-container01">
                 <a
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="about-us-link04"
                 >
-                  <div className="about-us-container03">
+                  <div className="about-us-container02">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="about-us-icon07"
+                      className="about-us-icon04"
                     >
                       <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
                     </svg>
@@ -95,10 +87,10 @@ const AboutUs = (props) => {
                   rel="noreferrer noopener"
                   className="about-us-link05"
                 >
-                  <div className="about-us-container04">
+                  <div className="about-us-container03">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="about-us-icon09"
+                      className="about-us-icon06"
                     >
                       <path d="M585.143 857.143c-5.714-33.143-27.429-147.429-80-284.571-0.571 0-1.714 0.571-2.286 0.571 0 0-222.286 77.714-294.286 234.286-3.429-2.857-8.571-6.286-8.571-6.286 65.143 53.143 148 85.714 238.857 85.714 52 0 101.143-10.857 146.286-29.714zM479.429 510.286c-9.143-21.143-19.429-42.286-30.286-63.429-193.143 57.714-378.286 53.143-384.571 53.143-0.571 4-0.571 8-0.571 12 0 96 36.571 184 96 250.286v0c102.286-182.286 304.571-247.429 304.571-247.429 5.143-1.714 10.286-2.857 14.857-4.571zM418.286 389.143c-65.143-115.429-134.286-209.143-139.429-216-104.571 49.143-182.286 145.714-206.857 261.714 9.714 0 166.286 1.714 346.286-45.714zM809.143 571.429c-8-2.286-112.571-35.429-233.714-16.571 49.143 135.429 69.143 245.714 73.143 268 84-56.571 143.429-146.857 160.571-251.429zM349.143 148c-0.571 0-0.571 0-1.143 0.571 0 0 0.571-0.571 1.143-0.571zM686.286 230.857c-65.714-58.286-152.571-93.714-247.429-93.714-30.286 0-60 4-88.571 10.857 5.714 7.429 76.571 100.571 140.571 218.286 141.143-52.571 194.286-133.714 195.429-135.429zM813.714 508c-1.143-88.571-32.571-170.286-85.143-234.286-1.143 1.143-61.143 88-209.143 148.571 8.571 17.714 17.143 36 25.143 54.286 2.857 6.286 5.143 13.143 8 19.429 129.143-16.571 256.571 11.429 261.143 12zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
@@ -110,10 +102,10 @@ const AboutUs = (props) => {
                   rel="noreferrer noopener"
                   className="about-us-link06"
                 >
-                  <div className="about-us-container05">
+                  <div className="about-us-container04">
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
-                      className="about-us-icon11"
+                      className="about-us-icon08"
                     >
                       <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
                     </svg>
@@ -125,8 +117,8 @@ const AboutUs = (props) => {
                   rel="noreferrer noopener"
                   className="about-us-link07"
                 >
-                  <div className="about-us-container06">
-                    <svg viewBox="0 0 1024 1024" className="about-us-icon13">
+                  <div className="about-us-container05">
+                    <svg viewBox="0 0 1024 1024" className="about-us-icon10">
                       <path d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"></path>
                     </svg>
                   </div>
@@ -158,7 +150,7 @@ const AboutUs = (props) => {
             className="about-us-right"
           />
           <div className="about-us-hero">
-            <div className="about-us-container07">
+            <div className="about-us-container06">
               <h1 className="about-us-text07">About Us</h1>
             </div>
             <h1 className="about-us-text08">Innovators. Dreamers.</h1>
@@ -197,8 +189,8 @@ const AboutUs = (props) => {
             </span>
           </h2>
         </div>
-        <div className="about-us-container08">
-          <div className="about-us-container09"></div>
+        <div className="about-us-container07">
+          <div className="about-us-container08"></div>
         </div>
         <div className="about-us-testimonial-card">
           <img
@@ -258,14 +250,14 @@ const AboutUs = (props) => {
           />
         </div>
         <div className="about-us-testimonial-card2">
-          <div className="about-us-container10">
+          <div className="about-us-container09">
             <img
               alt="profile"
               src="/playground_assets/turquoise-circle.svg"
               className="about-us-image04"
             />
           </div>
-          <div className="about-us-container11">
+          <div className="about-us-container10">
             <span className="about-us-text29">
               <span>Jorden Lee</span>
               <br></br>
@@ -294,7 +286,7 @@ const AboutUs = (props) => {
           <h1 className="about-us-text39">Our Advisors</h1>
           <div className="about-us-banner">
             <div className="about-us-blog">
-              <div className="about-us-container12">
+              <div className="about-us-container11">
                 <BlogPostCard2
                   label="Technology Advisor"
                   title="Wilfrido Moreno, Ph.D."
@@ -304,7 +296,7 @@ const AboutUs = (props) => {
                   rootClassName="rootClassName3"
                 ></BlogPostCard2>
               </div>
-              <div className="about-us-container13">
+              <div className="about-us-container12">
                 <BlogPostCard2
                   label="Technology Advisor"
                   title="Ravi Sankar, Ph.D."
@@ -334,7 +326,7 @@ const AboutUs = (props) => {
                     </span>
                     <br></br>
                   </h1>
-                  <div className="about-us-container14">
+                  <div className="about-us-container13">
                     <FeatureCard2
                       title="HOW CAN I KNOW MORE ABOUT THE COMPANY?"
                       description="To know more, feel free to contact us at contact@kshoonya.com"
@@ -389,8 +381,8 @@ const AboutUs = (props) => {
           </div>
         </div>
         <div className="about-us-cta">
-          <div className="about-us-container15">
-            <div className="about-us-container16">
+          <div className="about-us-container14">
+            <div className="about-us-container15">
               <img
                 alt="image"
                 src="/playground_assets/dall%C2%B7e%202023-04-05%2022.21.59%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20an%20mobile%20app-300w.png"
@@ -404,7 +396,7 @@ const AboutUs = (props) => {
                 className="about-us-image07"
               />
             </div>
-            <div className="about-us-container17">
+            <div className="about-us-container16">
               <img
                 alt="image"
                 src="/playground_assets/_3a1e396a-8fc7-404a-8251-91dc346d23e4-1200w.jpeg"
@@ -423,38 +415,47 @@ const AboutUs = (props) => {
           </div>
         </div>
         <div className="about-us-footer">
-          <footer className="about-us-container18">
-            <img
-              alt="image"
-              src="/playground_assets/new_design_full%203-300w.png"
-              loading="lazy"
-              className="about-us-image10"
-            />
-            <div className="about-us-container19">
-              <Link href="/jobs">
-                <a className="about-us-link08">Careers</a>
-              </Link>
-              <Link href="/about-us">
-                <a className="about-us-link09">Help</a>
-              </Link>
-              <span className="about-us-text49">Privacy Policy</span>
+          <img
+            alt="image"
+            src="/playground_assets/new_design_full%203-300w.png"
+            loading="lazy"
+            className="about-us-image10"
+          />
+          <footer className="about-us-container17">
+            <div className="about-us-container18">
+              <div className="about-us-container19">
+                <div className="about-us-container20">
+                  <Link href="/jobs">
+                    <a className="about-us-link08">Careers</a>
+                  </Link>
+                  <Link href="/about-us">
+                    <a className="about-us-link09">About us</a>
+                  </Link>
+                  <Link href="/journey-so-far">
+                    <a className="about-us-link10">Journey</a>
+                  </Link>
+                  <Link href="/privacy-policy">
+                    <a className="about-us-link11">Privacy Policy</a>
+                  </Link>
+                </div>
+              </div>
             </div>
             <div className="about-us-divider"></div>
-            <div className="about-us-container20">
-              <span className="about-us-text50 Body2">
+            <div className="about-us-container21">
+              <span className="about-us-text49 Body2">
                 © 2023 Kshoonya Inc. All rights reserved
               </span>
-              <div className="about-us-container21">
+              <div className="about-us-container22">
                 <a
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="about-us-link10"
+                  className="about-us-link12"
                 >
-                  <div className="about-us-container22">
+                  <div className="about-us-container23">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="about-us-icon15"
+                      className="about-us-icon12"
                     >
                       <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
                     </svg>
@@ -464,12 +465,12 @@ const AboutUs = (props) => {
                   href="https://dribbble.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="about-us-link11"
+                  className="about-us-link13"
                 >
-                  <div className="about-us-container23">
+                  <div className="about-us-container24">
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
-                      className="about-us-icon17"
+                      className="about-us-icon14"
                     >
                       <path d="M585.143 857.143c-5.714-33.143-27.429-147.429-80-284.571-0.571 0-1.714 0.571-2.286 0.571 0 0-222.286 77.714-294.286 234.286-3.429-2.857-8.571-6.286-8.571-6.286 65.143 53.143 148 85.714 238.857 85.714 52 0 101.143-10.857 146.286-29.714zM479.429 510.286c-9.143-21.143-19.429-42.286-30.286-63.429-193.143 57.714-378.286 53.143-384.571 53.143-0.571 4-0.571 8-0.571 12 0 96 36.571 184 96 250.286v0c102.286-182.286 304.571-247.429 304.571-247.429 5.143-1.714 10.286-2.857 14.857-4.571zM418.286 389.143c-65.143-115.429-134.286-209.143-139.429-216-104.571 49.143-182.286 145.714-206.857 261.714 9.714 0 166.286 1.714 346.286-45.714zM809.143 571.429c-8-2.286-112.571-35.429-233.714-16.571 49.143 135.429 69.143 245.714 73.143 268 84-56.571 143.429-146.857 160.571-251.429zM349.143 148c-0.571 0-0.571 0-1.143 0.571 0 0 0.571-0.571 1.143-0.571zM686.286 230.857c-65.714-58.286-152.571-93.714-247.429-93.714-30.286 0-60 4-88.571 10.857 5.714 7.429 76.571 100.571 140.571 218.286 141.143-52.571 194.286-133.714 195.429-135.429zM813.714 508c-1.143-88.571-32.571-170.286-85.143-234.286-1.143 1.143-61.143 88-209.143 148.571 8.571 17.714 17.143 36 25.143 54.286 2.857 6.286 5.143 13.143 8 19.429 129.143-16.571 256.571 11.429 261.143 12zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
@@ -479,12 +480,12 @@ const AboutUs = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="about-us-link12"
+                  className="about-us-link14"
                 >
-                  <div className="about-us-container24">
+                  <div className="about-us-container25">
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
-                      className="about-us-icon19"
+                      className="about-us-icon16"
                     >
                       <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
                     </svg>
@@ -494,10 +495,10 @@ const AboutUs = (props) => {
                   href="https://youtube.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="about-us-link13"
+                  className="about-us-link15"
                 >
-                  <div className="about-us-container25">
-                    <svg viewBox="0 0 1024 1024" className="about-us-icon21">
+                  <div className="about-us-container26">
+                    <svg viewBox="0 0 1024 1024" className="about-us-icon18">
                       <path d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"></path>
                     </svg>
                   </div>
@@ -556,8 +557,8 @@ const AboutUs = (props) => {
             justify-content: space-between;
           }
           .about-us-menu {
-            top: 40px;
-            left: 295px;
+            left: 440px;
+            bottom: -25px;
             display: flex;
             position: absolute;
             align-items: flex-start;
@@ -599,24 +600,6 @@ const AboutUs = (props) => {
             height: 24px;
             text-decoration: none;
           }
-          .about-us-container01 {
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .about-us-burger-menu {
-            display: none;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .about-us-menu1 {
-            width: 24px;
-            height: 24px;
-            margin-left: var(--dl-space-space-unit);
-          }
           .about-us-mobile-menu {
             top: 0px;
             flex: 0 0 auto;
@@ -656,7 +639,7 @@ const AboutUs = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .about-us-icon05 {
+          .about-us-icon02 {
             width: 24px;
             height: 24px;
           }
@@ -715,7 +698,7 @@ const AboutUs = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .about-us-container02 {
+          .about-us-container01 {
             flex: 0 0 auto;
             width: 200px;
             display: flex;
@@ -725,7 +708,7 @@ const AboutUs = (props) => {
           .about-us-link04 {
             display: contents;
           }
-          .about-us-container03 {
+          .about-us-container02 {
             display: flex;
             padding: var(--dl-space-space-halfunit);
             align-items: flex-start;
@@ -733,16 +716,37 @@ const AboutUs = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .about-us-icon07 {
+          .about-us-icon04 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .about-us-icon07:hover {
+          .about-us-icon04:hover {
             fill: var(--dl-color-purple-default);
           }
           .about-us-link05 {
+            display: contents;
+          }
+          .about-us-container03 {
+            display: flex;
+            padding: var(--dl-space-space-halfunit);
+            align-items: flex-start;
+            margin-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-round);
+            flex-direction: column;
+            background-color: var(--dl-color-gray-900);
+          }
+          .about-us-icon06 {
+            fill: var(--dl-color-gray-white);
+            width: var(--dl-size-size-unit);
+            height: var(--dl-size-size-unit);
+            transition: 0.3s;
+          }
+          .about-us-icon06:hover {
+            fill: var(--dl-color-pink-default);
+          }
+          .about-us-link06 {
             display: contents;
           }
           .about-us-container04 {
@@ -754,16 +758,16 @@ const AboutUs = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .about-us-icon09 {
+          .about-us-icon08 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .about-us-icon09:hover {
-            fill: var(--dl-color-pink-default);
+          .about-us-icon08:hover {
+            fill: var(--dl-color-turquoise-default);
           }
-          .about-us-link06 {
+          .about-us-link07 {
             display: contents;
           }
           .about-us-container05 {
@@ -775,34 +779,13 @@ const AboutUs = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .about-us-icon11 {
+          .about-us-icon10 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .about-us-icon11:hover {
-            fill: var(--dl-color-turquoise-default);
-          }
-          .about-us-link07 {
-            display: contents;
-          }
-          .about-us-container06 {
-            display: flex;
-            padding: var(--dl-space-space-halfunit);
-            align-items: flex-start;
-            margin-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            background-color: var(--dl-color-gray-900);
-          }
-          .about-us-icon13 {
-            fill: var(--dl-color-gray-white);
-            width: var(--dl-size-size-unit);
-            height: var(--dl-size-size-unit);
-            transition: 0.3s;
-          }
-          .about-us-icon13:hover {
+          .about-us-icon10:hover {
             fill: var(--dl-color-orange-default);
           }
           .about-us-main {
@@ -878,7 +861,7 @@ const AboutUs = (props) => {
             justify-content: center;
           }
 
-          .about-us-container07 {
+          .about-us-container06 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -918,7 +901,7 @@ const AboutUs = (props) => {
             text-transform: none;
             text-decoration: none;
           }
-          .about-us-container08 {
+          .about-us-container07 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -926,7 +909,7 @@ const AboutUs = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .about-us-container09 {
+          .about-us-container08 {
             flex: 0 0 auto;
             width: auto;
             border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -1013,7 +996,7 @@ const AboutUs = (props) => {
             align-items: center;
             justify-content: space-between;
           }
-          .about-us-container10 {
+          .about-us-container09 {
             flex: 0 0 auto;
             width: 192px;
             height: auto;
@@ -1028,7 +1011,7 @@ const AboutUs = (props) => {
             flex-shrink: 0;
             border-radius: var(--dl-radius-radius-round);
           }
-          .about-us-container11 {
+          .about-us-container10 {
             flex: 0 0 auto;
             width: auto;
             height: auto;
@@ -1121,14 +1104,14 @@ const AboutUs = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .about-us-container12 {
+          .about-us-container11 {
             display: flex;
             align-items: center;
             margin-bottom: 32px;
             flex-direction: column;
             justify-content: space-between;
           }
-          .about-us-container13 {
+          .about-us-container12 {
             display: flex;
             align-items: center;
             margin-bottom: 32px;
@@ -1168,7 +1151,7 @@ const AboutUs = (props) => {
             font-size: 1rem;
             font-weight: 400;
           }
-          .about-us-container14 {
+          .about-us-container13 {
             width: 100%;
             display: grid;
             grid-gap: 32px;
@@ -1240,7 +1223,7 @@ const AboutUs = (props) => {
             justify-content: center;
             background-color: #692e4a;
           }
-          .about-us-container15 {
+          .about-us-container14 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1252,7 +1235,7 @@ const AboutUs = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .about-us-container16 {
+          .about-us-container15 {
             flex: 1;
             display: flex;
             align-items: center;
@@ -1272,7 +1255,7 @@ const AboutUs = (props) => {
             padding-right: 30px;
             padding-bottom: 19px;
           }
-          .about-us-container17 {
+          .about-us-container16 {
             width: 520px;
             display: flex;
             position: relative;
@@ -1305,12 +1288,17 @@ const AboutUs = (props) => {
             color: var(--dl-color-gray-white);
             width: 100%;
             display: flex;
-            align-items: flex-start;
-            flex-direction: row;
-            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
             background-color: var(--dl-color-gray-black);
           }
-          .about-us-container18 {
+          .about-us-image10 {
+            width: 204px;
+            height: 78px;
+            object-fit: cover;
+          }
+          .about-us-container17 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1322,12 +1310,23 @@ const AboutUs = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .about-us-image10 {
-            width: 194px;
+          .about-us-container18 {
+            flex: 0 0 auto;
+            width: auto;
             height: 72px;
-            object-fit: cover;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
           }
           .about-us-container19 {
+            flex: 0 0 auto;
+            width: auto;
+            height: 72px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .about-us-container20 {
             display: flex;
             margin-top: var(--dl-space-space-doubleunit);
             align-items: center;
@@ -1351,11 +1350,20 @@ const AboutUs = (props) => {
           .about-us-link09:hover {
             color: var(--dl-color-turquoise-default);
           }
-          .about-us-text49 {
+          .about-us-link10 {
+            transition: 0.3s;
+            margin-right: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .about-us-link10:hover {
+            color: var(--dl-color-turquoise-default);
+          }
+          .about-us-link11 {
             transition: 0.3s;
             white-space: nowrap;
+            text-decoration: none;
           }
-          .about-us-text49:hover {
+          .about-us-link11:hover {
             color: var(--dl-color-turquoise-default);
           }
           .about-us-divider {
@@ -1364,7 +1372,7 @@ const AboutUs = (props) => {
             opacity: 0.2;
             background-color: var(--dl-color-gray-white);
           }
-          .about-us-container20 {
+          .about-us-container21 {
             width: 100%;
             display: flex;
             margin-top: var(--dl-space-space-unit);
@@ -1372,59 +1380,38 @@ const AboutUs = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .about-us-text50 {
+          .about-us-text49 {
             color: var(--dl-color-gray-300);
             margin-top: var(--dl-space-space-unit);
           }
-          .about-us-container21 {
+          .about-us-container22 {
             flex: 0 0 auto;
             width: 200px;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
           }
-          .about-us-link10 {
-            display: contents;
-          }
-          .about-us-container22 {
-            display: flex;
-            padding: var(--dl-space-space-halfunit);
-            align-items: flex-start;
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            background-color: var(--dl-color-gray-900);
-          }
-          .about-us-icon15 {
-            fill: var(--dl-color-gray-white);
-            width: var(--dl-size-size-unit);
-            height: var(--dl-size-size-unit);
-            transition: 0.3s;
-          }
-          .about-us-icon15:hover {
-            fill: var(--dl-color-purple-default);
-          }
-          .about-us-link11 {
+          .about-us-link12 {
             display: contents;
           }
           .about-us-container23 {
             display: flex;
             padding: var(--dl-space-space-halfunit);
             align-items: flex-start;
-            margin-left: var(--dl-space-space-unit);
             border-radius: var(--dl-radius-radius-round);
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .about-us-icon17 {
+          .about-us-icon12 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .about-us-icon17:hover {
-            fill: var(--dl-color-pink-default);
+          .about-us-icon12:hover {
+            fill: var(--dl-color-purple-default);
           }
-          .about-us-link12 {
+          .about-us-link13 {
             display: contents;
           }
           .about-us-container24 {
@@ -1436,16 +1423,16 @@ const AboutUs = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .about-us-icon19 {
+          .about-us-icon14 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .about-us-icon19:hover {
-            fill: var(--dl-color-turquoise-default);
+          .about-us-icon14:hover {
+            fill: var(--dl-color-pink-default);
           }
-          .about-us-link13 {
+          .about-us-link14 {
             display: contents;
           }
           .about-us-container25 {
@@ -1457,24 +1444,42 @@ const AboutUs = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .about-us-icon21 {
+          .about-us-icon16 {
             fill: var(--dl-color-gray-white);
             width: var(--dl-size-size-unit);
             height: var(--dl-size-size-unit);
             transition: 0.3s;
           }
-          .about-us-icon21:hover {
+          .about-us-icon16:hover {
+            fill: var(--dl-color-turquoise-default);
+          }
+          .about-us-link15 {
+            display: contents;
+          }
+          .about-us-container26 {
+            display: flex;
+            padding: var(--dl-space-space-halfunit);
+            align-items: flex-start;
+            margin-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-round);
+            flex-direction: column;
+            background-color: var(--dl-color-gray-900);
+          }
+          .about-us-icon18 {
+            fill: var(--dl-color-gray-white);
+            width: var(--dl-size-size-unit);
+            height: var(--dl-size-size-unit);
+            transition: 0.3s;
+          }
+          .about-us-icon18:hover {
             fill: var(--dl-color-orange-default);
           }
           @media (max-width: 991px) {
-            .about-us-container01 {
-              display: none;
-            }
             .about-us-hero {
               height: auto;
               flex-direction: column;
             }
-            .about-us-container07 {
+            .about-us-container06 {
               align-items: center;
               margin-bottom: var(--dl-space-space-doubleunit);
             }
@@ -1493,16 +1498,19 @@ const AboutUs = (props) => {
             .about-us-text41 {
               text-align: center;
             }
-            .about-us-container17 {
+            .about-us-container16 {
               display: none;
+            }
+            .about-us-link09 {
+              text-decoration: none;
+            }
+            .about-us-link10 {
+              text-decoration: none;
             }
           }
           @media (max-width: 767px) {
             .about-us-menu {
               display: none;
-            }
-            .about-us-burger-menu {
-              display: block;
             }
             .about-us-text07 {
               font-size: 50px;
@@ -1581,7 +1589,7 @@ const AboutUs = (props) => {
               padding-left: 32px;
               padding-right: 32px;
             }
-            .about-us-container14 {
+            .about-us-container13 {
               grid-template-columns: 1fr;
             }
             .about-us-heading {
@@ -1599,21 +1607,21 @@ const AboutUs = (props) => {
             .about-us-inputs {
               gap: var(--dl-space-space-oneandhalfunits);
             }
-            .about-us-container19 {
+            .about-us-container20 {
               flex-wrap: wrap;
               justify-content: center;
             }
-            .about-us-container20 {
+            .about-us-container21 {
               flex-direction: column;
             }
-            .about-us-text50 {
+            .about-us-text49 {
               margin-top: var(--dl-space-space-unit);
               margin-bottom: var(--dl-space-space-unit);
             }
           }
           @media (max-width: 479px) {
-            .about-us-container01 {
-              display: none;
+            .about-us-header {
+              padding-right: 2rem;
             }
             .about-us-bot {
               width: 100%;
@@ -1728,6 +1736,12 @@ const AboutUs = (props) => {
             }
             .about-us-types {
               flex-direction: column;
+            }
+            .about-us-link09 {
+              text-decoration: none;
+            }
+            .about-us-link10 {
+              text-decoration: none;
             }
           }
         `}
