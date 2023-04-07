@@ -24,7 +24,6 @@ const AboutUs = (props) => {
                 />
               </a>
             </Link>
-            <div className="about-us-logo"></div>
             <div className="about-us-menu">
               <Link href="/about-us">
                 <a className="about-us-link01">About us</a>
@@ -43,7 +42,7 @@ const AboutUs = (props) => {
           </header>
           <div data-role="MobileMenu" className="about-us-mobile-menu">
             <div className="about-us-top">
-              <div className="about-us-logo1">
+              <div className="about-us-logo">
                 <img
                   alt="image"
                   src="/playground_assets/logotype-dark.svg"
@@ -547,20 +546,13 @@ const AboutUs = (props) => {
             display: contents;
           }
           .about-us-image {
-            left: 36px;
+            left: 34px;
             width: 222px;
-            bottom: -9px;
-            height: 55px;
+            bottom: -23px;
+            height: 80px;
             position: absolute;
             object-fit: cover;
             text-decoration: none;
-          }
-          .about-us-logo {
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
           }
           .about-us-menu {
             left: 440px;
@@ -633,7 +625,7 @@ const AboutUs = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .about-us-logo1 {
+          .about-us-logo {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -1638,6 +1630,10 @@ const AboutUs = (props) => {
           @media (max-width: 479px) {
             .about-us-header {
               padding-right: 2rem;
+            }
+            .about-us-image {
+              top: 10px;
+              left: 25px;
             }
             .about-us-bot {
               width: 100%;

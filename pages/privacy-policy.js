@@ -16,7 +16,7 @@ const PrivacyPolicy = (props) => {
               <a className="privacy-policy-link">
                 <img
                   alt="image"
-                  src="/playground_assets/new_design_full%203-300w.png"
+                  src="/playground_assets/new_design_full%203-200h.png"
                   className="privacy-policy-image"
                 />
               </a>
@@ -1234,7 +1234,7 @@ const PrivacyPolicy = (props) => {
           <footer className="privacy-policy-container26">
             <img
               alt="image"
-              src="/playground_assets/new_design_full%203-300w.png"
+              src="/playground_assets/new_design_full%203-200h.png"
               loading="lazy"
               className="privacy-policy-image7"
             />
@@ -1342,10 +1342,10 @@ const PrivacyPolicy = (props) => {
             display: contents;
           }
           .privacy-policy-image {
-            left: 36px;
+            left: 31px;
             width: 222px;
-            bottom: -9px;
-            height: 55px;
+            bottom: -18px;
+            height: 68px;
             position: absolute;
             object-fit: cover;
             text-decoration: none;

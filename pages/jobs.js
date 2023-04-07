@@ -342,10 +342,10 @@ const Jobs = (props) => {
             display: contents;
           }
           .jobs-image {
-            left: 36px;
+            left: 31px;
             width: 222px;
-            bottom: -9px;
-            height: 55px;
+            bottom: -22px;
+            height: 67px;
             position: absolute;
             object-fit: cover;
             text-decoration: none;
