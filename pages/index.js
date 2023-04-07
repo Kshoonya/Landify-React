@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
+import DangerousHTML from 'dangerous-html/react'
+
 import PrimaryButton from '../components/primary-button'
 import FeatureCard from '../components/feature-card'
 import TestimonialsCard from '../components/testimonials-card'
@@ -157,6 +159,28 @@ const Home = (props) => {
                   ></PrimaryButton>
                 </a>
               </Link>
+            </div>
+            <div>
+              <DangerousHTML
+                html={`<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	
+	<title>Home - Kshoonya Technolgoies</title>
+	<link rel="canonical" href="https://kshoonya.com/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Home - Kshoonya Technologies" />
+	<meta property="og:description" content="Kshoonya is an innovative technology company that specializes in developing products that focus on the independence and quality of life of those with disabilities; Home Read More &raquo;" />
+	<meta property="og:url" content="https://kshoonya.com/" />
+	<meta property="og:site_name" content="Dream. Innovate. Support" />
+	<meta property="article:modified_time" content="2023-04-05T18:34:03+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="3 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://usa.foundationforequalcitizenship.org/","url":"https://usa.foundationforequalcitizenship.org/","name":"Home - Foundation of Equal Citizenship","isPartOf":{"@id":"https://usa.foundationforequalcitizenship.org/#website"},"about":{"@id":"https://usa.foundationforequalcitizenship.org/#organization"},"datePublished":"2021-11-21T15:12:46+00:00","dateModified":"2023-04-05T18:34:03+00:00","breadcrumb":{"@id":"https://usa.foundationforequalcitizenship.org/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://usa.foundationforequalcitizenship.org/"]}]},{"@type":"BreadcrumbList","@id":"https://usa.foundationforequalcitizenship.org/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://usa.foundationforequalcitizenship.org/#website","url":"https://usa.foundationforequalcitizenship.org/","name":"Foundation of Equal Citizenship","description":"Campaign page","publisher":{"@id":"https://usa.foundationforequalcitizenship.org/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://usa.foundationforequalcitizenship.org/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://usa.foundationforequalcitizenship.org/#organization","name":"Foundation of Equal Citizenship","url":"https://usa.foundationforequalcitizenship.org/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://usa.foundationforequalcitizenship.org/#/schema/logo/image/","url":"https://usa.foundationforequalcitizenship.org/wp-content/uploads/2023/03/cropped-cropped-ffec-1.jpeg","contentUrl":"https://usa.foundationforequalcitizenship.org/wp-content/uploads/2023/03/cropped-cropped-ffec-1.jpeg","width":222,"height":191,"caption":"Foundation of Equal Citizenship"},"image":{"@id":"https://www.kshoonya.in/playground_assets/new_design_full%203-300w.png"}}]}</script>
+
+`}
+              ></DangerousHTML>
             </div>
             <img
               alt="image"

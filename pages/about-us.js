@@ -275,11 +275,6 @@ const AboutUs = (props) => {
         </div>
         <div className="about-us-steps">
           <div className="about-us-testimonial-card3">
-            <img
-              alt="profile"
-              src="/playground_assets/turquoise-circle.svg"
-              className="about-us-image06"
-            />
             <div className="about-us-testimonial3">
               <span className="about-us-text34">
                 <span>Amit Kumar Bedaka</span>
@@ -288,6 +283,11 @@ const AboutUs = (props) => {
               </span>
               <span className="about-us-text38">Researcher and Engineer</span>
             </div>
+            <img
+              alt="profile"
+              src="/playground_assets/turquoise-circle.svg"
+              className="about-us-image06"
+            />
           </div>
           <h1 className="about-us-text39">Our Advisors</h1>
           <div className="about-us-banner">
@@ -1070,13 +1070,6 @@ const AboutUs = (props) => {
             align-items: center;
             justify-content: space-between;
           }
-          .about-us-image06 {
-            width: 192px;
-            height: 192px;
-            object-fit: cover;
-            flex-shrink: 0;
-            border-radius: var(--dl-radius-radius-round);
-          }
           .about-us-testimonial3 {
             display: flex;
             align-items: flex-start;
@@ -1092,6 +1085,13 @@ const AboutUs = (props) => {
             color: rgb(89, 89, 89);
             font-size: 1.15rem;
             margin-bottom: 32px;
+          }
+          .about-us-image06 {
+            width: 192px;
+            height: 192px;
+            object-fit: cover;
+            flex-shrink: 0;
+            border-radius: var(--dl-radius-radius-round);
           }
           .about-us-text39 {
             color: var(--dl-color-gray-black);
