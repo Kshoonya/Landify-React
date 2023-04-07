@@ -17,6 +17,21 @@ const Home = (props) => {
       <Helmet>
         <title>Kshoonya Inc</title>
         <meta property="og:title" content="Kshoonya Inc Artificial Intelligence based Company" />
+        <meta property='og:title' content='About-us - Kshoonya Inc' />
+        <title>Kshoonya Inc</title>
+        <meta property='og:title' content='Kshoonya Inc Artificial Intelligence based Company' />
+        <title>Home - Kshoonya Inc Technolgoies</title>
+        <link rel='canonical' href='https://kshoonya.com/' />
+        <meta property='og:locale' content='en_US' />
+        <meta property='og:type' content='website' />
+        <meta property='og:title' content='Home - Kshoonya Technologies' />
+        <meta property='og:description' content='Kshoonya is an innovative technology company that specializes in developing products that focus on the independence and quality of life of those with disabilities; Home Read More &raquo;' />
+        <meta property='og:url' content='https://kshoonya.com/' />
+        <meta property='og:site_name' content='Dream. Innovate. Support' />
+        <meta property='article:modified_time' content='2023-04-05T18:34:03+00:00' />
+        <meta name='twitter:card' content='summary_large_image' />
+        <meta name='twitter:label1' content='Est. reading time' />
+        <meta name='twitter:data1' content='3 minutes' />"
       </Helmet>
       <div data-role="Header" className="home-header-container">
         <header className="home-header">
