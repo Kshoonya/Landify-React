@@ -428,6 +428,7 @@ const Home = (props) => {
           <img
             alt="image"
             src="/playground_assets/left.svg"
+            loading="lazy"
             className="home-left1"
           />
         </div>
@@ -775,6 +776,7 @@ const Home = (props) => {
           }
           .home-link01 {
             transition: 0.3s;
+            font-weight: 700;
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
@@ -783,6 +785,7 @@ const Home = (props) => {
           }
           .home-link02 {
             transition: 0.3s;
+            font-weight: 700;
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
@@ -791,12 +794,14 @@ const Home = (props) => {
           }
           .home-link03 {
             transition: 0.3s;
+            font-weight: 700;
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
 
           .home-text {
             transition: 0.3s;
+            font-weight: 700;
           }
           .home-text:hover {
             color: var(--dl-color-turquoise-default);
@@ -1365,7 +1370,7 @@ const Home = (props) => {
             top: 4087px;
             left: -5px;
             width: 420px;
-            opacity: 1;
+            opacity: 0.8;
             position: absolute;
             object-fit: cover;
           }
@@ -2433,6 +2438,9 @@ const Home = (props) => {
             .home-bot {
               width: 100%;
             }
+            .home-right1 {
+              position: static;
+            }
             .home-text11 {
               text-align: center;
             }
@@ -2472,6 +2480,9 @@ const Home = (props) => {
             }
             .home-container18 {
               grid-template-columns: 1fr;
+            }
+            .home-purple-circle1 {
+              position: static;
             }
             .home-hero1 {
               padding-top: 32px;

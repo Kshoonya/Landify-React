@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 const PrivacyPolicy = (props) => {
@@ -11,16 +12,26 @@ const PrivacyPolicy = (props) => {
         </Head>
         <div data-role="Header" className="privacy-policy-header-container">
           <header className="privacy-policy-header">
-            <img
-              alt="image"
-              src="/playground_assets/new_design_full%203-300w.png"
-              className="privacy-policy-image"
-            />
+            <Link href="/">
+              <a className="privacy-policy-link">
+                <img
+                  alt="image"
+                  src="/playground_assets/new_design_full%203-300w.png"
+                  className="privacy-policy-image"
+                />
+              </a>
+            </Link>
             <div className="privacy-policy-logo"></div>
             <div className="privacy-policy-menu">
-              <span className="privacy-policy-text">About us</span>
-              <span className="privacy-policy-text001">Journey So far</span>
-              <span className="privacy-policy-text002">Jobs</span>
+              <Link href="/about-us">
+                <a className="privacy-policy-link01">About us</a>
+              </Link>
+              <Link href="/journey-so-far">
+                <a className="privacy-policy-link02">Journey So far</a>
+              </Link>
+              <Link href="/jobs">
+                <a className="privacy-policy-link03">Jobs</a>
+              </Link>
             </div>
             <div className="privacy-policy-container01"></div>
           </header>
@@ -43,12 +54,12 @@ const PrivacyPolicy = (props) => {
               </div>
             </div>
             <div className="privacy-policy-mid">
-              <span className="privacy-policy-text003">About</span>
-              <span className="privacy-policy-text004">Products</span>
-              <span className="privacy-policy-text005">Pricing</span>
-              <span className="privacy-policy-text006">Blog</span>
-              <span className="privacy-policy-text007">Jobs</span>
-              <span className="privacy-policy-text008">More</span>
+              <span className="privacy-policy-text">About</span>
+              <span className="privacy-policy-text001">Products</span>
+              <span className="privacy-policy-text002">Pricing</span>
+              <span className="privacy-policy-text003">Blog</span>
+              <span className="privacy-policy-text004">Jobs</span>
+              <span className="privacy-policy-text005">More</span>
             </div>
             <div className="privacy-policy-bot">
               <div className="privacy-policy-container02">
@@ -56,7 +67,7 @@ const PrivacyPolicy = (props) => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="privacy-policy-link"
+                  className="privacy-policy-link04"
                 >
                   <div className="privacy-policy-container03">
                     <svg
@@ -71,7 +82,7 @@ const PrivacyPolicy = (props) => {
                   href="https://dribbble.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="privacy-policy-link1"
+                  className="privacy-policy-link05"
                 >
                   <div className="privacy-policy-container04">
                     <svg
@@ -86,7 +97,7 @@ const PrivacyPolicy = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="privacy-policy-link2"
+                  className="privacy-policy-link06"
                 >
                   <div className="privacy-policy-container05">
                     <svg
@@ -101,7 +112,7 @@ const PrivacyPolicy = (props) => {
                   href="https://youtube.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="privacy-policy-link3"
+                  className="privacy-policy-link07"
                 >
                   <div className="privacy-policy-container06">
                     <svg
@@ -119,7 +130,7 @@ const PrivacyPolicy = (props) => {
         <div className="privacy-policy-main">
           <div className="privacy-policy-blur-background"></div>
           <div className="privacy-policy-hero">
-            <h1 className="privacy-policy-text009">Privacy Policy</h1>
+            <h1 className="privacy-policy-text006">Privacy Policy</h1>
           </div>
           <img
             alt="image"
@@ -148,18 +159,18 @@ const PrivacyPolicy = (props) => {
         <div className="privacy-policy-steps">
           <div className="privacy-policy-hero1">
             <div className="privacy-policy-container09">
-              <h1 className="privacy-policy-text010">Please read carefully</h1>
-              <span className="privacy-policy-text011">
-                <br className="privacy-policy-text012"></br>
-                <span className="privacy-policy-text013">Privacy Policy</span>
-                <br className="privacy-policy-text014"></br>
-                <span className="privacy-policy-text015">
+              <h1 className="privacy-policy-text007">Please read carefully</h1>
+              <span className="privacy-policy-text008">
+                <br className="privacy-policy-text009"></br>
+                <span className="privacy-policy-text010">Privacy Policy</span>
+                <br className="privacy-policy-text011"></br>
+                <span className="privacy-policy-text012">
                   Last updated: April 6, 2023
                 </span>
-                <br className="privacy-policy-text016"></br>
-                <br className="privacy-policy-text017"></br>
-                <br className="privacy-policy-text018"></br>
-                <span className="privacy-policy-text019">
+                <br className="privacy-policy-text013"></br>
+                <br className="privacy-policy-text014"></br>
+                <br className="privacy-policy-text015"></br>
+                <span className="privacy-policy-text016">
                   Kshoonya Inc. (&quot;us&quot;, &quot;we&quot;, or
                   &quot;our&quot;) operates the website www.kshoonyainc.com (the
                   &quot;Service&quot;). This page informs you of our policies
@@ -167,70 +178,70 @@ const PrivacyPolicy = (props) => {
                   information when you use our Service and the choices you have
                   associated with that data.
                 </span>
-                <br className="privacy-policy-text020"></br>
-                <br className="privacy-policy-text021"></br>
-                <span className="privacy-policy-text022">
+                <br className="privacy-policy-text017"></br>
+                <br className="privacy-policy-text018"></br>
+                <span className="privacy-policy-text019">
                   We are committed to protecting your privacy and using your
                   information in accordance with applicable data protection laws
                   and regulations. By using the Service, you agree to the
                   collection and use of information in accordance with this
                   policy.
                 </span>
+                <br className="privacy-policy-text020"></br>
+                <br className="privacy-policy-text021"></br>
+                <span className="privacy-policy-text022">
+                  Information Collection and Use
+                </span>
                 <br className="privacy-policy-text023"></br>
                 <br className="privacy-policy-text024"></br>
                 <span className="privacy-policy-text025">
-                  Information Collection and Use
+                  We collect several different types of information for various
+                  purposes to provide and improve our Service to you.
                 </span>
                 <br className="privacy-policy-text026"></br>
                 <br className="privacy-policy-text027"></br>
                 <span className="privacy-policy-text028">
-                  We collect several different types of information for various
-                  purposes to provide and improve our Service to you.
+                  Types of Data Collected:
                 </span>
                 <br className="privacy-policy-text029"></br>
                 <br className="privacy-policy-text030"></br>
-                <span className="privacy-policy-text031">
-                  Types of Data Collected:
-                </span>
+                <span className="privacy-policy-text031">Personal Data</span>
                 <br className="privacy-policy-text032"></br>
                 <br className="privacy-policy-text033"></br>
-                <span className="privacy-policy-text034">Personal Data</span>
-                <br className="privacy-policy-text035"></br>
-                <br className="privacy-policy-text036"></br>
-                <span className="privacy-policy-text037">
+                <span className="privacy-policy-text034">
                   While using our Service, we may ask you to provide us with
                   certain personally identifiable information that can be used
                   to contact or identify you (&quot;Personal Data&quot;).
                   Personally identifiable information may include, but is not
                   limited to:
                 </span>
+                <br className="privacy-policy-text035"></br>
+                <br className="privacy-policy-text036"></br>
+                <span className="privacy-policy-text037">Email address</span>
                 <br className="privacy-policy-text038"></br>
                 <br className="privacy-policy-text039"></br>
-                <span className="privacy-policy-text040">Email address</span>
-                <br className="privacy-policy-text041"></br>
-                <br className="privacy-policy-text042"></br>
-                <span className="privacy-policy-text043">
+                <span className="privacy-policy-text040">
                   First name and last name
                 </span>
+                <br className="privacy-policy-text041"></br>
+                <br className="privacy-policy-text042"></br>
+                <span className="privacy-policy-text043">Phone number</span>
                 <br className="privacy-policy-text044"></br>
                 <br className="privacy-policy-text045"></br>
-                <span className="privacy-policy-text046">Phone number</span>
+                <span className="privacy-policy-text046">
+                  Address, State, Province, ZIP/Postal code, City
+                </span>
                 <br className="privacy-policy-text047"></br>
                 <br className="privacy-policy-text048"></br>
                 <span className="privacy-policy-text049">
-                  Address, State, Province, ZIP/Postal code, City
+                  Cookies and Usage Data
                 </span>
                 <br className="privacy-policy-text050"></br>
                 <br className="privacy-policy-text051"></br>
-                <span className="privacy-policy-text052">
-                  Cookies and Usage Data
-                </span>
+                <span className="privacy-policy-text052">Usage Data</span>
                 <br className="privacy-policy-text053"></br>
                 <br className="privacy-policy-text054"></br>
-                <span className="privacy-policy-text055">Usage Data</span>
-                <br className="privacy-policy-text056"></br>
-                <br className="privacy-policy-text057"></br>
-                <span className="privacy-policy-text058">
+                <span className="privacy-policy-text055">
                   We may also collect information on how the Service is accessed
                   and used (&quot;Usage Data&quot;). This Usage Data may include
                   information such as your computer&apos;s Internet Protocol
@@ -239,20 +250,20 @@ const PrivacyPolicy = (props) => {
                   visit, the time spent on those pages, unique device
                   identifiers, and other diagnostic data.
                 </span>
+                <br className="privacy-policy-text056"></br>
+                <br className="privacy-policy-text057"></br>
+                <span className="privacy-policy-text058">
+                  Tracking &amp; Cookies Data
+                </span>
                 <br className="privacy-policy-text059"></br>
                 <br className="privacy-policy-text060"></br>
                 <span className="privacy-policy-text061">
-                  Tracking &amp; Cookies Data
+                  We use cookies and similar tracking technologies to track the
+                  activity on our Service and hold certain information.
                 </span>
                 <br className="privacy-policy-text062"></br>
                 <br className="privacy-policy-text063"></br>
                 <span className="privacy-policy-text064">
-                  We use cookies and similar tracking technologies to track the
-                  activity on our Service and hold certain information.
-                </span>
-                <br className="privacy-policy-text065"></br>
-                <br className="privacy-policy-text066"></br>
-                <span className="privacy-policy-text067">
                   Cookies are files with a small amount of data which may
                   include an anonymous unique identifier. Cookies are sent to
                   your browser from a website and stored on your device.
@@ -260,138 +271,138 @@ const PrivacyPolicy = (props) => {
                   to collect and track information and to improve and analyze
                   our Service.
                 </span>
-                <br className="privacy-policy-text068"></br>
-                <br className="privacy-policy-text069"></br>
-                <span className="privacy-policy-text070">
+                <br className="privacy-policy-text065"></br>
+                <br className="privacy-policy-text066"></br>
+                <span className="privacy-policy-text067">
                   You can instruct your browser to refuse all cookies or to
                   indicate when a cookie is being sent. However, if you do not
                   accept cookies, you may not be able to use some portions of
                   our Service.
                 </span>
+                <br className="privacy-policy-text068"></br>
+                <br className="privacy-policy-text069"></br>
+                <span className="privacy-policy-text070">Use of Data</span>
                 <br className="privacy-policy-text071"></br>
                 <br className="privacy-policy-text072"></br>
-                <span className="privacy-policy-text073">Use of Data</span>
+                <span className="privacy-policy-text073">
+                  Kshoonya Inc. uses the collected data for various purposes:
+                </span>
                 <br className="privacy-policy-text074"></br>
                 <br className="privacy-policy-text075"></br>
                 <span className="privacy-policy-text076">
-                  Kshoonya Inc. uses the collected data for various purposes:
+                  To provide and maintain the Service
                 </span>
                 <br className="privacy-policy-text077"></br>
                 <br className="privacy-policy-text078"></br>
                 <span className="privacy-policy-text079">
-                  To provide and maintain the Service
+                  To notify you about changes to our Service
                 </span>
                 <br className="privacy-policy-text080"></br>
                 <br className="privacy-policy-text081"></br>
                 <span className="privacy-policy-text082">
-                  To notify you about changes to our Service
+                  To allow you to participate in interactive features of our
+                  Service when you choose to do so
                 </span>
                 <br className="privacy-policy-text083"></br>
                 <br className="privacy-policy-text084"></br>
                 <span className="privacy-policy-text085">
-                  To allow you to participate in interactive features of our
-                  Service when you choose to do so
+                  To provide customer care and support
                 </span>
                 <br className="privacy-policy-text086"></br>
                 <br className="privacy-policy-text087"></br>
                 <span className="privacy-policy-text088">
-                  To provide customer care and support
+                  To provide analysis or valuable information so that we can
+                  improve the Service
                 </span>
                 <br className="privacy-policy-text089"></br>
                 <br className="privacy-policy-text090"></br>
                 <span className="privacy-policy-text091">
-                  To provide analysis or valuable information so that we can
-                  improve the Service
+                  To monitor the usage of the Service
                 </span>
                 <br className="privacy-policy-text092"></br>
                 <br className="privacy-policy-text093"></br>
                 <span className="privacy-policy-text094">
-                  To monitor the usage of the Service
+                  To detect, prevent, and address technical issues
                 </span>
                 <br className="privacy-policy-text095"></br>
                 <br className="privacy-policy-text096"></br>
                 <span className="privacy-policy-text097">
-                  To detect, prevent, and address technical issues
+                  Disclosure of Data
                 </span>
                 <br className="privacy-policy-text098"></br>
                 <br className="privacy-policy-text099"></br>
                 <span className="privacy-policy-text100">
-                  Disclosure of Data
+                  We may disclose your Personal Data in the good faith belief
+                  that such action is necessary to:
                 </span>
                 <br className="privacy-policy-text101"></br>
                 <br className="privacy-policy-text102"></br>
                 <span className="privacy-policy-text103">
-                  We may disclose your Personal Data in the good faith belief
-                  that such action is necessary to:
+                  Comply with a legal obligation
                 </span>
                 <br className="privacy-policy-text104"></br>
                 <br className="privacy-policy-text105"></br>
                 <span className="privacy-policy-text106">
-                  Comply with a legal obligation
+                  Protect and defend the rights or property of Kshoonya Inc.
                 </span>
                 <br className="privacy-policy-text107"></br>
                 <br className="privacy-policy-text108"></br>
                 <span className="privacy-policy-text109">
-                  Protect and defend the rights or property of Kshoonya Inc.
+                  Prevent or investigate possible wrongdoing in connection with
+                  the Service
                 </span>
                 <br className="privacy-policy-text110"></br>
                 <br className="privacy-policy-text111"></br>
                 <span className="privacy-policy-text112">
-                  Prevent or investigate possible wrongdoing in connection with
-                  the Service
+                  Protect the personal safety of users of the Service or the
+                  public
                 </span>
                 <br className="privacy-policy-text113"></br>
                 <br className="privacy-policy-text114"></br>
                 <span className="privacy-policy-text115">
-                  Protect the personal safety of users of the Service or the
-                  public
+                  Protect against legal liability
                 </span>
                 <br className="privacy-policy-text116"></br>
                 <br className="privacy-policy-text117"></br>
-                <span className="privacy-policy-text118">
-                  Protect against legal liability
-                </span>
+                <span className="privacy-policy-text118">Security of Data</span>
                 <br className="privacy-policy-text119"></br>
                 <br className="privacy-policy-text120"></br>
-                <span className="privacy-policy-text121">Security of Data</span>
-                <br className="privacy-policy-text122"></br>
-                <br className="privacy-policy-text123"></br>
-                <span className="privacy-policy-text124">
+                <span className="privacy-policy-text121">
                   The security of your data is important to us, but remember
                   that no method of transmission over the Internet or method of
                   electronic storage is 100% secure. While we strive to use
                   commercially acceptable means to protect your Personal Data,
                   we cannot guarantee its absolute security.
                 </span>
+                <br className="privacy-policy-text122"></br>
+                <br className="privacy-policy-text123"></br>
+                <span className="privacy-policy-text124">
+                  Links to Other Sites
+                </span>
                 <br className="privacy-policy-text125"></br>
                 <br className="privacy-policy-text126"></br>
                 <span className="privacy-policy-text127">
-                  Links to Other Sites
-                </span>
-                <br className="privacy-policy-text128"></br>
-                <br className="privacy-policy-text129"></br>
-                <span className="privacy-policy-text130">
                   Our Service may contain links to other sites that are not
                   operated by us. If you click on a third-party link, you will
                   be directed to that third party&apos;s site. We strongly
                   advise you to review the Privacy Policy of every site you
                   visit.
                 </span>
-                <br className="privacy-policy-text131"></br>
-                <br className="privacy-policy-text132"></br>
-                <span className="privacy-policy-text133">
+                <br className="privacy-policy-text128"></br>
+                <br className="privacy-policy-text129"></br>
+                <span className="privacy-policy-text130">
                   We have no control over and assume no responsibility for the
                   content, privacy policies, or practices of any third-party
                   sites or services.
                 </span>
+                <br className="privacy-policy-text131"></br>
+                <br className="privacy-policy-text132"></br>
+                <span className="privacy-policy-text133">
+                  Children&apos;s Privacy
+                </span>
                 <br className="privacy-policy-text134"></br>
                 <br className="privacy-policy-text135"></br>
                 <span className="privacy-policy-text136">
-                  Children&apos;s Privacy
-                </span>
-                <br className="privacy-policy-text137"></br>
-                <br className="privacy-policy-text138"></br>
-                <span className="privacy-policy-text139">
                   Our Service does not address anyone under the age of 13
                   (&quot;Children&quot;). We do not knowingly collect personally
                   identifiable information from anyone under the age of 13. If
@@ -401,21 +412,21 @@ const PrivacyPolicy = (props) => {
                   children without verification of parental consent, we will
                   take steps to remove that information from our servers.
                 </span>
+                <br className="privacy-policy-text137"></br>
+                <br className="privacy-policy-text138"></br>
+                <span className="privacy-policy-text139">
+                  Changes to This Privacy Police
+                </span>
                 <br className="privacy-policy-text140"></br>
                 <br className="privacy-policy-text141"></br>
                 <span className="privacy-policy-text142">
-                  Changes to This Privacy Police
-                </span>
-                <br className="privacy-policy-text143"></br>
-                <br className="privacy-policy-text144"></br>
-                <span className="privacy-policy-text145">
                   We may update our Privacy Policy from time to time. We will
                   notify you of any changes by posting the new Privacy Policy on
                   this page.
                 </span>
-                <br className="privacy-policy-text146"></br>
-                <br className="privacy-policy-text147"></br>
-                <span className="privacy-policy-text148">
+                <br className="privacy-policy-text143"></br>
+                <br className="privacy-policy-text144"></br>
+                <span className="privacy-policy-text145">
                   We will let you know via email and/or a prominent notice on
                   our Service, and we will update the &quot;last updated&quot;
                   date at the top of this Privacy Policy. You are advised to
@@ -423,100 +434,100 @@ const PrivacyPolicy = (props) => {
                   Changes to this Privacy Policy are effective when they are
                   posted on this page.
                 </span>
+                <br className="privacy-policy-text146"></br>
+                <br className="privacy-policy-text147"></br>
+                <span className="privacy-policy-text148">Your Rights</span>
                 <br className="privacy-policy-text149"></br>
                 <br className="privacy-policy-text150"></br>
-                <span className="privacy-policy-text151">Your Rights</span>
-                <br className="privacy-policy-text152"></br>
-                <br className="privacy-policy-text153"></br>
-                <span className="privacy-policy-text154">
+                <span className="privacy-policy-text151">
                   Under certain circumstances, you have rights under data
                   protection laws in relation to your Personal Data. These
                   rights may include the right to:
                 </span>
+                <br className="privacy-policy-text152"></br>
+                <br className="privacy-policy-text153"></br>
+                <span className="privacy-policy-text154">
+                  Request access to your Personal Data
+                </span>
                 <br className="privacy-policy-text155"></br>
                 <br className="privacy-policy-text156"></br>
                 <span className="privacy-policy-text157">
-                  Request access to your Personal Data
+                  Request correction of your Personal Data
                 </span>
                 <br className="privacy-policy-text158"></br>
                 <br className="privacy-policy-text159"></br>
                 <span className="privacy-policy-text160">
-                  Request correction of your Personal Data
+                  Request erasure of your Personal Data
                 </span>
                 <br className="privacy-policy-text161"></br>
                 <br className="privacy-policy-text162"></br>
                 <span className="privacy-policy-text163">
-                  Request erasure of your Personal Data
+                  Object to processing of your Personal Data
                 </span>
                 <br className="privacy-policy-text164"></br>
                 <br className="privacy-policy-text165"></br>
                 <span className="privacy-policy-text166">
-                  Object to processing of your Personal Data
+                  Request restriction of processing your Personal Data
                 </span>
                 <br className="privacy-policy-text167"></br>
                 <br className="privacy-policy-text168"></br>
                 <span className="privacy-policy-text169">
-                  Request restriction of processing your Personal Data
+                  Request transfer of your Personal Data
                 </span>
                 <br className="privacy-policy-text170"></br>
                 <br className="privacy-policy-text171"></br>
-                <span className="privacy-policy-text172">
-                  Request transfer of your Personal Data
-                </span>
+                <span className="privacy-policy-text172">Withdraw consent</span>
                 <br className="privacy-policy-text173"></br>
                 <br className="privacy-policy-text174"></br>
-                <span className="privacy-policy-text175">Withdraw consent</span>
-                <br className="privacy-policy-text176"></br>
-                <br className="privacy-policy-text177"></br>
-                <span className="privacy-policy-text178">
+                <span className="privacy-policy-text175">
                   If you wish to exercise any of these rights, please contact us
                   using the contact information provided below.
                 </span>
+                <br className="privacy-policy-text176"></br>
+                <br className="privacy-policy-text177"></br>
+                <span className="privacy-policy-text178">Contact Us</span>
                 <br className="privacy-policy-text179"></br>
                 <br className="privacy-policy-text180"></br>
-                <span className="privacy-policy-text181">Contact Us</span>
+                <span className="privacy-policy-text181">
+                  If you have any questions about this Privacy Policy, please
+                  contact us:
+                </span>
                 <br className="privacy-policy-text182"></br>
                 <br className="privacy-policy-text183"></br>
                 <span className="privacy-policy-text184">
-                  If you have any questions about this Privacy Policy, please
-                  contact us:
+                  By email: support@kshoonya.com
                 </span>
                 <br className="privacy-policy-text185"></br>
                 <br className="privacy-policy-text186"></br>
                 <span className="privacy-policy-text187">
-                  By email: support@kshoonya.com
+                  By phone: 8139579919
                 </span>
                 <br className="privacy-policy-text188"></br>
                 <br className="privacy-policy-text189"></br>
                 <span className="privacy-policy-text190">
-                  By phone: 8139579919
+                  By mail: Kshoonya Inc., 8 The Green Suite B, Dover, DE
                 </span>
                 <br className="privacy-policy-text191"></br>
                 <br className="privacy-policy-text192"></br>
                 <span className="privacy-policy-text193">
-                  By mail: Kshoonya Inc., 8 The Green Suite B, Dover, DE
-                </span>
-                <br className="privacy-policy-text194"></br>
-                <br className="privacy-policy-text195"></br>
-                <span className="privacy-policy-text196">
                   Kshoonya Inc. is a company registered in Delaware, United
                   States.
                 </span>
+                <br className="privacy-policy-text194"></br>
+                <br className="privacy-policy-text195"></br>
+                <span className="privacy-policy-text196">Data Transfers</span>
                 <br className="privacy-policy-text197"></br>
                 <br className="privacy-policy-text198"></br>
-                <span className="privacy-policy-text199">Data Transfers</span>
-                <br className="privacy-policy-text200"></br>
-                <br className="privacy-policy-text201"></br>
-                <span className="privacy-policy-text202">
+                <span className="privacy-policy-text199">
                   Your information, including Personal Data, may be transferred
                   to and maintained on servers located outside of your state,
                   province, country, or other governmental jurisdiction where
                   the data protection laws may differ from those in your
                   jurisdiction.
                 </span>
-                <br className="privacy-policy-text203"></br>
-                <br className="privacy-policy-text204"></br>
-                <span className="privacy-policy-text205">
+                <br className="privacy-policy-text200"></br>
+                <br className="privacy-policy-text201"></br>
+                <span className="privacy-policy-text202">
                   If you are located outside the United States and choose to
                   provide information to us, please note that we transfer the
                   data, including Personal Data, to the United States and
@@ -524,9 +535,9 @@ const PrivacyPolicy = (props) => {
                   by your submission of such information represents your
                   agreement to that transfer.
                 </span>
-                <br className="privacy-policy-text206"></br>
-                <br className="privacy-policy-text207"></br>
-                <span className="privacy-policy-text208">
+                <br className="privacy-policy-text203"></br>
+                <br className="privacy-policy-text204"></br>
+                <span className="privacy-policy-text205">
                   Kshoonya Inc. will take all steps reasonably necessary to
                   ensure that your data is treated securely and in accordance
                   with this Privacy Policy and no transfer of your Personal Data
@@ -534,12 +545,12 @@ const PrivacyPolicy = (props) => {
                   are adequate controls in place, including the security of your
                   data and other personal information.
                 </span>
+                <br className="privacy-policy-text206"></br>
+                <br className="privacy-policy-text207"></br>
+                <span className="privacy-policy-text208">Data Retention</span>
                 <br className="privacy-policy-text209"></br>
                 <br className="privacy-policy-text210"></br>
-                <span className="privacy-policy-text211">Data Retention</span>
-                <br className="privacy-policy-text212"></br>
-                <br className="privacy-policy-text213"></br>
-                <span className="privacy-policy-text214">
+                <span className="privacy-policy-text211">
                   We will retain your Personal Data only for as long as is
                   necessary for the purposes set out in this Privacy Policy. We
                   will retain and use your Personal Data to the extent necessary
@@ -548,9 +559,9 @@ const PrivacyPolicy = (props) => {
                   resolve disputes, and enforce our legal agreements and
                   policies.
                 </span>
-                <br className="privacy-policy-text215"></br>
-                <br className="privacy-policy-text216"></br>
-                <span className="privacy-policy-text217">
+                <br className="privacy-policy-text212"></br>
+                <br className="privacy-policy-text213"></br>
+                <span className="privacy-policy-text214">
                   Kshoonya Inc. will also retain Usage Data for internal
                   analysis purposes. Usage Data is generally retained for a
                   shorter period of time, except when this data is used to
@@ -558,108 +569,108 @@ const PrivacyPolicy = (props) => {
                   Service, or we are legally obligated to retain this data for
                   longer periods.
                 </span>
+                <br className="privacy-policy-text215"></br>
+                <br className="privacy-policy-text216"></br>
+                <span className="privacy-policy-text217">
+                  California Privacy Rights (California Residents)
+                </span>
                 <br className="privacy-policy-text218"></br>
                 <br className="privacy-policy-text219"></br>
                 <span className="privacy-policy-text220">
-                  California Privacy Rights (California Residents)
-                </span>
-                <br className="privacy-policy-text221"></br>
-                <br className="privacy-policy-text222"></br>
-                <span className="privacy-policy-text223">
                   If you are a California resident, you have the right to
                   request certain details about the personal information we
                   collect and disclose, as well as to request deletion of your
                   personal information, subject to certain exceptions.
                 </span>
-                <br className="privacy-policy-text224"></br>
-                <br className="privacy-policy-text225"></br>
-                <span className="privacy-policy-text226">
+                <br className="privacy-policy-text221"></br>
+                <br className="privacy-policy-text222"></br>
+                <span className="privacy-policy-text223">
                   To make a request under California law, please contact us
                   using the contact information provided above. Please note that
                   you must verify your identity and request before further
                   action is taken. As a part of this process, government
                   identification may be required.
                 </span>
+                <br className="privacy-policy-text224"></br>
+                <br className="privacy-policy-text225"></br>
+                <span className="privacy-policy-text226">
+                  European Economic Area (EEA) Residents Privacy Rights
+                </span>
                 <br className="privacy-policy-text227"></br>
                 <br className="privacy-policy-text228"></br>
                 <span className="privacy-policy-text229">
-                  European Economic Area (EEA) Residents Privacy Rights
-                </span>
-                <br className="privacy-policy-text230"></br>
-                <br className="privacy-policy-text231"></br>
-                <span className="privacy-policy-text232">
                   If you are a resident of the European Economic Area (EEA), you
                   have certain data protection rights under the General Data
                   Protection Regulation (GDPR). Kshoonya Inc. aims to take
                   reasonable steps to allow you to correct, amend, delete, or
                   limit the use of your Personal Data.
                 </span>
-                <br className="privacy-policy-text233"></br>
-                <br className="privacy-policy-text234"></br>
-                <span className="privacy-policy-text235">
+                <br className="privacy-policy-text230"></br>
+                <br className="privacy-policy-text231"></br>
+                <span className="privacy-policy-text232">
                   If you wish to be informed about what Personal Data we hold
                   about you and if you want it to be removed from our systems,
                   please contact us using the contact information provided
                   above.
                 </span>
+                <br className="privacy-policy-text233"></br>
+                <br className="privacy-policy-text234"></br>
+                <span className="privacy-policy-text235">
+                  In certain circumstances, you have the following data
+                  protection rights:
+                </span>
                 <br className="privacy-policy-text236"></br>
                 <br className="privacy-policy-text237"></br>
                 <span className="privacy-policy-text238">
-                  In certain circumstances, you have the following data
-                  protection rights:
+                  The right to access, update, or delete the information we have
+                  on you
                 </span>
                 <br className="privacy-policy-text239"></br>
                 <br className="privacy-policy-text240"></br>
                 <span className="privacy-policy-text241">
-                  The right to access, update, or delete the information we have
-                  on you
+                  The right of rectification – you have the right to have your
+                  information rectified if it is inaccurate or incomplete
                 </span>
                 <br className="privacy-policy-text242"></br>
                 <br className="privacy-policy-text243"></br>
                 <span className="privacy-policy-text244">
-                  The right of rectification – you have the right to have your
-                  information rectified if it is inaccurate or incomplete
+                  The right to object – you have the right to object to our
+                  processing of your Personal Data
                 </span>
                 <br className="privacy-policy-text245"></br>
                 <br className="privacy-policy-text246"></br>
                 <span className="privacy-policy-text247">
-                  The right to object – you have the right to object to our
-                  processing of your Personal Data
+                  The right of restriction – you have the right to request that
+                  we restrict the processing of your personal information
                 </span>
                 <br className="privacy-policy-text248"></br>
                 <br className="privacy-policy-text249"></br>
                 <span className="privacy-policy-text250">
-                  The right of restriction – you have the right to request that
-                  we restrict the processing of your personal information
-                </span>
-                <br className="privacy-policy-text251"></br>
-                <br className="privacy-policy-text252"></br>
-                <span className="privacy-policy-text253">
                   The right to data portability – you have the right to be
                   provided with a copy of the information we have on you in a
                   structured, machine-readable, and commonly used format
                 </span>
-                <br className="privacy-policy-text254"></br>
-                <br className="privacy-policy-text255"></br>
-                <span className="privacy-policy-text256">
+                <br className="privacy-policy-text251"></br>
+                <br className="privacy-policy-text252"></br>
+                <span className="privacy-policy-text253">
                   The right to withdraw consent – you have the right to withdraw
                   your consent at any time where Kshoonya Inc. relied on your
                   consent to process your personal information
                 </span>
+                <br className="privacy-policy-text254"></br>
+                <br className="privacy-policy-text255"></br>
+                <span className="privacy-policy-text256">
+                  Please note that we may ask you to verify your identity before
+                  responding to such requests.
+                </span>
                 <br className="privacy-policy-text257"></br>
                 <br className="privacy-policy-text258"></br>
                 <span className="privacy-policy-text259">
-                  Please note that we may ask you to verify your identity before
-                  responding to such requests.
+                  Changes to This Privacy Policy
                 </span>
                 <br className="privacy-policy-text260"></br>
                 <br className="privacy-policy-text261"></br>
                 <span className="privacy-policy-text262">
-                  Changes to This Privacy Policy
-                </span>
-                <br className="privacy-policy-text263"></br>
-                <br className="privacy-policy-text264"></br>
-                <span className="privacy-policy-text265">
                   We reserve the right to update or change our Privacy Policy at
                   any time, and you should check this Privacy Policy
                   periodically. Your continued use of the Service after we post
@@ -667,32 +678,32 @@ const PrivacyPolicy = (props) => {
                   constitute your acknowledgment of the modifications and your
                   consent to abide and be bound by the modified Privacy Policy.
                 </span>
-                <br className="privacy-policy-text266"></br>
-                <br className="privacy-policy-text267"></br>
-                <span className="privacy-policy-text268">
+                <br className="privacy-policy-text263"></br>
+                <br className="privacy-policy-text264"></br>
+                <span className="privacy-policy-text265">
                   If we make any material changes to this Privacy Policy, we
                   will notify you either through the email address you have
                   provided us or by placing a prominent notice on our website.
                 </span>
+                <br className="privacy-policy-text266"></br>
+                <br className="privacy-policy-text267"></br>
+                <span className="privacy-policy-text268">Contact Us</span>
                 <br className="privacy-policy-text269"></br>
                 <br className="privacy-policy-text270"></br>
-                <span className="privacy-policy-text271">Contact Us</span>
-                <br className="privacy-policy-text272"></br>
-                <br className="privacy-policy-text273"></br>
-                <span className="privacy-policy-text274">
+                <span className="privacy-policy-text271">
                   If you have any questions, concerns, or comments about this
                   Privacy Policy, the practices of our Service, or your dealings
                   with our Service, please contact us using the contact
                   information provided above.
                 </span>
+                <br className="privacy-policy-text272"></br>
+                <br className="privacy-policy-text273"></br>
+                <span className="privacy-policy-text274">
+                  Privacy Policy Updates
+                </span>
                 <br className="privacy-policy-text275"></br>
                 <br className="privacy-policy-text276"></br>
                 <span className="privacy-policy-text277">
-                  Privacy Policy Updates
-                </span>
-                <br className="privacy-policy-text278"></br>
-                <br className="privacy-policy-text279"></br>
-                <span className="privacy-policy-text280">
                   We may update this Privacy Policy from time to time in
                   response to changing legal, technical, or business
                   developments. When we update our Privacy Policy, we will take
@@ -701,21 +712,21 @@ const PrivacyPolicy = (props) => {
                   consent to any material Privacy Policy changes if and where
                   this is required by applicable data protection laws.
                 </span>
-                <br className="privacy-policy-text281"></br>
-                <br className="privacy-policy-text282"></br>
-                <span className="privacy-policy-text283">
+                <br className="privacy-policy-text278"></br>
+                <br className="privacy-policy-text279"></br>
+                <span className="privacy-policy-text280">
                   You can see when this Privacy Policy was last updated by
                   checking the &quot;Last Updated&quot; date displayed at the
                   top of this Privacy Policy.
                 </span>
+                <br className="privacy-policy-text281"></br>
+                <br className="privacy-policy-text282"></br>
+                <span className="privacy-policy-text283">
+                  Data Protection Authority
+                </span>
                 <br className="privacy-policy-text284"></br>
                 <br className="privacy-policy-text285"></br>
                 <span className="privacy-policy-text286">
-                  Data Protection Authority
-                </span>
-                <br className="privacy-policy-text287"></br>
-                <br className="privacy-policy-text288"></br>
-                <span className="privacy-policy-text289">
                   If you are a resident of the European Economic Area (EEA) and
                   you believe we are unlawfully processing your Personal Data,
                   you have the right to complain to your local data protection
@@ -723,28 +734,28 @@ const PrivacyPolicy = (props) => {
                   here:
                   http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm.
                 </span>
+                <br className="privacy-policy-text287"></br>
+                <br className="privacy-policy-text288"></br>
+                <span className="privacy-policy-text289">
+                  Do Not Track (DNT) Signals
+                </span>
                 <br className="privacy-policy-text290"></br>
                 <br className="privacy-policy-text291"></br>
                 <span className="privacy-policy-text292">
-                  Do Not Track (DNT) Signals
-                </span>
-                <br className="privacy-policy-text293"></br>
-                <br className="privacy-policy-text294"></br>
-                <span className="privacy-policy-text295">
                   We do not support Do Not Track (DNT). Do Not Track is a
                   preference you can set in your web browser to inform websites
                   that you do not want to be tracked. You can enable or disable
                   Do Not Track by visiting the Preferences or Settings page of
                   your web browser.
                 </span>
+                <br className="privacy-policy-text293"></br>
+                <br className="privacy-policy-text294"></br>
+                <span className="privacy-policy-text295">
+                  Third-Party Services
+                </span>
                 <br className="privacy-policy-text296"></br>
                 <br className="privacy-policy-text297"></br>
                 <span className="privacy-policy-text298">
-                  Third-Party Services
-                </span>
-                <br className="privacy-policy-text299"></br>
-                <br className="privacy-policy-text300"></br>
-                <span className="privacy-policy-text301">
                   Occasionally, at our discretion, we may include or offer
                   third-party products or services on our website. These
                   third-party sites have separate and independent privacy
@@ -753,35 +764,35 @@ const PrivacyPolicy = (props) => {
                   Nonetheless, we seek to protect the integrity of our site and
                   welcome any feedback about these sites.
                 </span>
+                <br className="privacy-policy-text299"></br>
+                <br className="privacy-policy-text300"></br>
+                <span className="privacy-policy-text301">Consent</span>
                 <br className="privacy-policy-text302"></br>
                 <br className="privacy-policy-text303"></br>
-                <span className="privacy-policy-text304">Consent</span>
+                <span className="privacy-policy-text304">
+                  By using our website, you consent to our Privacy Policy.
+                </span>
                 <br className="privacy-policy-text305"></br>
                 <br className="privacy-policy-text306"></br>
                 <span className="privacy-policy-text307">
-                  By using our website, you consent to our Privacy Policy.
+                  Additional Information
                 </span>
                 <br className="privacy-policy-text308"></br>
                 <br className="privacy-policy-text309"></br>
                 <span className="privacy-policy-text310">
-                  Additional Information
-                </span>
-                <br className="privacy-policy-text311"></br>
-                <br className="privacy-policy-text312"></br>
-                <span className="privacy-policy-text313">
                   If you would like more information on our privacy practices or
                   have any questions regarding this Privacy Policy, please do
                   not hesitate to contact us using the contact information
                   provided above.
                 </span>
+                <br className="privacy-policy-text311"></br>
+                <br className="privacy-policy-text312"></br>
+                <span className="privacy-policy-text313">
+                  Data Processing Agreements
+                </span>
                 <br className="privacy-policy-text314"></br>
                 <br className="privacy-policy-text315"></br>
                 <span className="privacy-policy-text316">
-                  Data Processing Agreements
-                </span>
-                <br className="privacy-policy-text317"></br>
-                <br className="privacy-policy-text318"></br>
-                <span className="privacy-policy-text319">
                   When necessary, Kshoonya Inc. enters into data processing
                   agreements with third parties that process Personal Data on
                   our behalf. These agreements ensure that your Personal Data is
@@ -789,14 +800,14 @@ const PrivacyPolicy = (props) => {
                   laws and that appropriate security measures are in place to
                   protect your Personal Data.
                 </span>
+                <br className="privacy-policy-text317"></br>
+                <br className="privacy-policy-text318"></br>
+                <span className="privacy-policy-text319">
+                  International Data Transfers
+                </span>
                 <br className="privacy-policy-text320"></br>
                 <br className="privacy-policy-text321"></br>
                 <span className="privacy-policy-text322">
-                  International Data Transfers
-                </span>
-                <br className="privacy-policy-text323"></br>
-                <br className="privacy-policy-text324"></br>
-                <span className="privacy-policy-text325">
                   In some cases, we may transfer Personal Data to countries
                   outside of the United States or the European Economic Area
                   (EEA). In these cases, we will ensure that appropriate
@@ -804,81 +815,81 @@ const PrivacyPolicy = (props) => {
                   the use of Standard Contractual Clauses or reliance on the
                   EU-U.S. and Swiss-U.S. Privacy Shield Frameworks.
                 </span>
+                <br className="privacy-policy-text323"></br>
+                <br className="privacy-policy-text324"></br>
+                <span className="privacy-policy-text325">
+                  Data Protection Officer
+                </span>
                 <br className="privacy-policy-text326"></br>
                 <br className="privacy-policy-text327"></br>
                 <span className="privacy-policy-text328">
-                  Data Protection Officer
-                </span>
-                <br className="privacy-policy-text329"></br>
-                <br className="privacy-policy-text330"></br>
-                <span className="privacy-policy-text331">
                   To ensure compliance with applicable data protection laws and
                   this Privacy Policy, Kshoonya Inc. has appointed a Data
                   Protection Officer (DPO). If you have any questions or
                   concerns regarding the processing of your Personal Data, you
                   can contact our DPO at:
                 </span>
+                <br className="privacy-policy-text329"></br>
+                <br className="privacy-policy-text330"></br>
+                <span className="privacy-policy-text331">
+                  Email: dpo@kshoonya.com
+                </span>
                 <br className="privacy-policy-text332"></br>
                 <br className="privacy-policy-text333"></br>
                 <span className="privacy-policy-text334">
-                  Email: dpo@kshoonya.com
+                  Privacy Policy Acceptance
                 </span>
                 <br className="privacy-policy-text335"></br>
                 <br className="privacy-policy-text336"></br>
                 <span className="privacy-policy-text337">
-                  Privacy Policy Acceptance
-                </span>
-                <br className="privacy-policy-text338"></br>
-                <br className="privacy-policy-text339"></br>
-                <span className="privacy-policy-text340">
                   By using our Service, you signify your acceptance of this
                   Privacy Policy. If you do not agree to this policy, please do
                   not use our Service. Your continued use of the Service
                   following the posting of changes to this policy will be deemed
                   your acceptance of those changes.
                 </span>
+                <br className="privacy-policy-text338"></br>
+                <br className="privacy-policy-text339"></br>
+                <span className="privacy-policy-text340">Governing Law</span>
                 <br className="privacy-policy-text341"></br>
                 <br className="privacy-policy-text342"></br>
-                <span className="privacy-policy-text343">Governing Law</span>
-                <br className="privacy-policy-text344"></br>
-                <br className="privacy-policy-text345"></br>
-                <span className="privacy-policy-text346">
+                <span className="privacy-policy-text343">
                   This Privacy Policy shall be governed by and construed in
                   accordance with the laws of the State of Delaware, United
                   States, without regard to its conflict of law provisions.
                 </span>
+                <br className="privacy-policy-text344"></br>
+                <br className="privacy-policy-text345"></br>
+                <span className="privacy-policy-text346">Language</span>
                 <br className="privacy-policy-text347"></br>
                 <br className="privacy-policy-text348"></br>
-                <span className="privacy-policy-text349">Language</span>
-                <br className="privacy-policy-text350"></br>
-                <br className="privacy-policy-text351"></br>
-                <span className="privacy-policy-text352">
+                <span className="privacy-policy-text349">
                   This Privacy Policy may be translated into other languages for
                   your convenience. In case of any inconsistencies between the
                   English version and any translated version, the English
                   version shall prevail to the extent of the inconsistency.
                 </span>
+                <br className="privacy-policy-text350"></br>
+                <br className="privacy-policy-text351"></br>
+                <span className="privacy-policy-text352">
+                  Contact Information
+                </span>
                 <br className="privacy-policy-text353"></br>
                 <br className="privacy-policy-text354"></br>
                 <span className="privacy-policy-text355">
-                  Contact Information
-                </span>
-                <br className="privacy-policy-text356"></br>
-                <br className="privacy-policy-text357"></br>
-                <span className="privacy-policy-text358">
                   If you have any questions or concerns about our Privacy
                   Policy, please do not hesitate to contact us using the
                   information provided above. We will address your concerns
                   promptly and professionally.
                 </span>
+                <br className="privacy-policy-text356"></br>
+                <br className="privacy-policy-text357"></br>
+                <span className="privacy-policy-text358">
+                  Employee Training
+                </span>
                 <br className="privacy-policy-text359"></br>
                 <br className="privacy-policy-text360"></br>
                 <span className="privacy-policy-text361">
-                  Employee Training
-                </span>
-                <br className="privacy-policy-text362"></br>
-                <br className="privacy-policy-text363"></br>
-                <span className="privacy-policy-text364">
                   To ensure the proper handling of Personal Data and compliance
                   with this Privacy Policy, Kshoonya Inc. provides regular
                   training to its employees who have access to Personal Data.
@@ -886,28 +897,28 @@ const PrivacyPolicy = (props) => {
                   importance of maintaining confidentiality, and the appropriate
                   handling of Personal Data.
                 </span>
+                <br className="privacy-policy-text362"></br>
+                <br className="privacy-policy-text363"></br>
+                <span className="privacy-policy-text364">
+                  Data Breach Notification
+                </span>
                 <br className="privacy-policy-text365"></br>
                 <br className="privacy-policy-text366"></br>
                 <span className="privacy-policy-text367">
-                  Data Breach Notification
-                </span>
-                <br className="privacy-policy-text368"></br>
-                <br className="privacy-policy-text369"></br>
-                <span className="privacy-policy-text370">
                   In the event of a data breach involving Personal Data,
                   Kshoonya Inc. is committed to following applicable data
                   protection laws and regulations regarding notification. This
                   may include notifying affected individuals and the relevant
                   data protection authorities, as required.
                 </span>
+                <br className="privacy-policy-text368"></br>
+                <br className="privacy-policy-text369"></br>
+                <span className="privacy-policy-text370">
+                  Data Protection Impact Assessments
+                </span>
                 <br className="privacy-policy-text371"></br>
                 <br className="privacy-policy-text372"></br>
                 <span className="privacy-policy-text373">
-                  Data Protection Impact Assessments
-                </span>
-                <br className="privacy-policy-text374"></br>
-                <br className="privacy-policy-text375"></br>
-                <span className="privacy-policy-text376">
                   Kshoonya Inc. conducts Data Protection Impact Assessments
                   (DPIAs) when required by applicable data protection laws, such
                   as when implementing new technologies that may have a high
@@ -915,14 +926,14 @@ const PrivacyPolicy = (props) => {
                   identify and minimize the data protection risks associated
                   with our processing activities.
                 </span>
+                <br className="privacy-policy-text374"></br>
+                <br className="privacy-policy-text375"></br>
+                <span className="privacy-policy-text376">
+                  Privacy by Design and Default
+                </span>
                 <br className="privacy-policy-text377"></br>
                 <br className="privacy-policy-text378"></br>
                 <span className="privacy-policy-text379">
-                  Privacy by Design and Default
-                </span>
-                <br className="privacy-policy-text380"></br>
-                <br className="privacy-policy-text381"></br>
-                <span className="privacy-policy-text382">
                   Kshoonya Inc. adheres to the principles of Privacy by Design
                   and Privacy by Default when developing and implementing new
                   products, services, or technologies. This means that we
@@ -931,14 +942,14 @@ const PrivacyPolicy = (props) => {
                   default, our products and services collect the minimum amount
                   of Personal Data necessary to fulfill their purpose.
                 </span>
+                <br className="privacy-policy-text380"></br>
+                <br className="privacy-policy-text381"></br>
+                <span className="privacy-policy-text382">
+                  Records of Processing Activities
+                </span>
                 <br className="privacy-policy-text383"></br>
                 <br className="privacy-policy-text384"></br>
                 <span className="privacy-policy-text385">
-                  Records of Processing Activities
-                </span>
-                <br className="privacy-policy-text386"></br>
-                <br className="privacy-policy-text387"></br>
-                <span className="privacy-policy-text388">
                   Kshoonya Inc. maintains records of its processing activities
                   as required by applicable data protection laws. These records
                   include information about the categories of Personal Data we
@@ -946,28 +957,28 @@ const PrivacyPolicy = (props) => {
                   Personal Data, and the security measures we have implemented
                   to protect Personal Data.
                 </span>
+                <br className="privacy-policy-text386"></br>
+                <br className="privacy-policy-text387"></br>
+                <span className="privacy-policy-text388">
+                  Privacy Policy Review
+                </span>
                 <br className="privacy-policy-text389"></br>
                 <br className="privacy-policy-text390"></br>
                 <span className="privacy-policy-text391">
-                  Privacy Policy Review
-                </span>
-                <br className="privacy-policy-text392"></br>
-                <br className="privacy-policy-text393"></br>
-                <span className="privacy-policy-text394">
                   Kshoonya Inc. periodically reviews and updates this Privacy
                   Policy to ensure it remains current and accurate. As part of
                   this process, we may consult with stakeholders, such as
                   employees, customers, and regulators, to gather feedback and
                   identify areas for improvement.
                 </span>
+                <br className="privacy-policy-text392"></br>
+                <br className="privacy-policy-text393"></br>
+                <span className="privacy-policy-text394">
+                  Third-Party Data Processors
+                </span>
                 <br className="privacy-policy-text395"></br>
                 <br className="privacy-policy-text396"></br>
                 <span className="privacy-policy-text397">
-                  Third-Party Data Processors
-                </span>
-                <br className="privacy-policy-text398"></br>
-                <br className="privacy-policy-text399"></br>
-                <span className="privacy-policy-text400">
                   Kshoonya Inc. may engage third-party data processors to
                   process Personal Data on our behalf. When engaging with such
                   third parties, we ensure that they provide sufficient
@@ -976,14 +987,14 @@ const PrivacyPolicy = (props) => {
                   activities meet the requirements of applicable data protection
                   laws and this Privacy Policy.
                 </span>
+                <br className="privacy-policy-text398"></br>
+                <br className="privacy-policy-text399"></br>
+                <span className="privacy-policy-text400">
+                  Cookies and Similar Technologies
+                </span>
                 <br className="privacy-policy-text401"></br>
                 <br className="privacy-policy-text402"></br>
                 <span className="privacy-policy-text403">
-                  Cookies and Similar Technologies
-                </span>
-                <br className="privacy-policy-text404"></br>
-                <br className="privacy-policy-text405"></br>
-                <span className="privacy-policy-text406">
                   Kshoonya Inc. may use cookies and similar tracking
                   technologies (like web beacons and pixels) to collect and
                   store information about how you interact with our Service.
@@ -992,22 +1003,22 @@ const PrivacyPolicy = (props) => {
                   identify your browser or to store information or settings in
                   your browser.
                 </span>
-                <br className="privacy-policy-text407"></br>
-                <br className="privacy-policy-text408"></br>
-                <span className="privacy-policy-text409">
+                <br className="privacy-policy-text404"></br>
+                <br className="privacy-policy-text405"></br>
+                <span className="privacy-policy-text406">
                   You can instruct your browser to refuse all cookies or to
                   indicate when a cookie is being sent. However, if you do not
                   accept cookies, you may not be able to use some portions of
                   our Service.
                 </span>
+                <br className="privacy-policy-text407"></br>
+                <br className="privacy-policy-text408"></br>
+                <span className="privacy-policy-text409">
+                  Third-Party Analytics
+                </span>
                 <br className="privacy-policy-text410"></br>
                 <br className="privacy-policy-text411"></br>
                 <span className="privacy-policy-text412">
-                  Third-Party Analytics
-                </span>
-                <br className="privacy-policy-text413"></br>
-                <br className="privacy-policy-text414"></br>
-                <span className="privacy-policy-text415">
                   We may use third-party analytics tools, such as Google
                   Analytics, to help us measure traffic and usage trends for our
                   Service. These tools collect information sent by your device
@@ -1017,14 +1028,14 @@ const PrivacyPolicy = (props) => {
                   analytics information from other users so that it cannot
                   reasonably be used to identify any particular individual user.
                 </span>
+                <br className="privacy-policy-text413"></br>
+                <br className="privacy-policy-text414"></br>
+                <span className="privacy-policy-text415">
+                  Social Media Features and Widgets
+                </span>
                 <br className="privacy-policy-text416"></br>
                 <br className="privacy-policy-text417"></br>
                 <span className="privacy-policy-text418">
-                  Social Media Features and Widgets
-                </span>
-                <br className="privacy-policy-text419"></br>
-                <br className="privacy-policy-text420"></br>
-                <span className="privacy-policy-text421">
                   Our Service may include social media features, such as the
                   Facebook Like button and widgets, such as the Share This
                   button or interactive mini-programs that run on our Service.
@@ -1035,33 +1046,33 @@ const PrivacyPolicy = (props) => {
                   on our Service. Your interactions with these features are
                   governed by the privacy policy of the company providing it.
                 </span>
+                <br className="privacy-policy-text419"></br>
+                <br className="privacy-policy-text420"></br>
+                <span className="privacy-policy-text421">
+                  Links to Other Websites
+                </span>
                 <br className="privacy-policy-text422"></br>
                 <br className="privacy-policy-text423"></br>
                 <span className="privacy-policy-text424">
-                  Links to Other Websites
-                </span>
-                <br className="privacy-policy-text425"></br>
-                <br className="privacy-policy-text426"></br>
-                <span className="privacy-policy-text427">
                   Our Service may contain links to other websites that are not
                   operated by us. If you click on a third-party link, you will
                   be directed to that third party&apos;s website. We strongly
                   advise you to review the Privacy Policy of every site you
                   visit.
                 </span>
-                <br className="privacy-policy-text428"></br>
-                <br className="privacy-policy-text429"></br>
-                <span className="privacy-policy-text430">
+                <br className="privacy-policy-text425"></br>
+                <br className="privacy-policy-text426"></br>
+                <span className="privacy-policy-text427">
                   We have no control over and assume no responsibility for the
                   content, privacy policies, or practices of any third-party
                   sites or services.
                 </span>
+                <br className="privacy-policy-text428"></br>
+                <br className="privacy-policy-text429"></br>
+                <span className="privacy-policy-text430">Testimonials</span>
                 <br className="privacy-policy-text431"></br>
                 <br className="privacy-policy-text432"></br>
-                <span className="privacy-policy-text433">Testimonials</span>
-                <br className="privacy-policy-text434"></br>
-                <br className="privacy-policy-text435"></br>
-                <span className="privacy-policy-text436">
+                <span className="privacy-policy-text433">
                   We may display personal testimonials of satisfied customers on
                   our Service. With your consent, we may post your testimonial
                   along with your name. If you wish to update or delete your
@@ -1077,8 +1088,8 @@ const PrivacyPolicy = (props) => {
               className="privacy-policy-image2"
             />
           </div>
-          <h1 className="privacy-policy-text438">Discover the Process</h1>
-          <span className="privacy-policy-text439">
+          <h1 className="privacy-policy-text435">Discover the Process</h1>
+          <span className="privacy-policy-text436">
             <span>Unveiling the Journey from Concept to Reality</span>
             <br></br>
           </span>
@@ -1097,10 +1108,10 @@ const PrivacyPolicy = (props) => {
                 <div className="privacy-policy-line1"></div>
               </div>
               <div className="privacy-policy-container13">
-                <h1 className="privacy-policy-text442">
+                <h1 className="privacy-policy-text439">
                   <span>Ideate</span>
                 </h1>
-                <span className="privacy-policy-text444">
+                <span className="privacy-policy-text441">
                   Embodies the process of generating, developing, and
                   communicating innovative ideas
                 </span>
@@ -1120,8 +1131,8 @@ const PrivacyPolicy = (props) => {
                 <div className="privacy-policy-line3"></div>
               </div>
               <div className="privacy-policy-container16">
-                <h1 className="privacy-policy-text445">Design</h1>
-                <span className="privacy-policy-text446">
+                <h1 className="privacy-policy-text442">Design</h1>
+                <span className="privacy-policy-text443">
                   <span>
                     Effective solutions tailored to meet the unique needs of
                     individuals, communities, and industries
@@ -1145,10 +1156,10 @@ const PrivacyPolicy = (props) => {
                 <div className="privacy-policy-line5"></div>
               </div>
               <div className="privacy-policy-container19">
-                <h1 className="privacy-policy-text449">
+                <h1 className="privacy-policy-text446">
                   <span>Develop</span>
                 </h1>
-                <span className="privacy-policy-text451">
+                <span className="privacy-policy-text448">
                   <span>
                     Planning, expertise, and dedication converge to bring forth
                     tangible results that address challenges and improve lives
@@ -1171,10 +1182,10 @@ const PrivacyPolicy = (props) => {
                 <div className="privacy-policy-line7"></div>
               </div>
               <div className="privacy-policy-container22">
-                <h1 className="privacy-policy-text454">
+                <h1 className="privacy-policy-text451">
                   <span>Deploy</span>
                 </h1>
-                <span className="privacy-policy-text456">
+                <span className="privacy-policy-text453">
                   <span>
                     Ensuring that they effectively fulfill their purpose and add
                     value to their intended audience
@@ -1229,7 +1240,7 @@ const PrivacyPolicy = (props) => {
             />
             <div className="privacy-policy-divider"></div>
             <div className="privacy-policy-container27">
-              <span className="privacy-policy-text459 Body2">
+              <span className="privacy-policy-text456 Body2">
                 © 2023 Kshoonya Inc. All rights reserved
               </span>
               <div className="privacy-policy-container28">
@@ -1237,7 +1248,7 @@ const PrivacyPolicy = (props) => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="privacy-policy-link4"
+                  className="privacy-policy-link08"
                 >
                   <div className="privacy-policy-container29">
                     <svg
@@ -1252,7 +1263,7 @@ const PrivacyPolicy = (props) => {
                   href="https://dribbble.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="privacy-policy-link5"
+                  className="privacy-policy-link09"
                 >
                   <div className="privacy-policy-container30">
                     <svg
@@ -1267,7 +1278,7 @@ const PrivacyPolicy = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="privacy-policy-link6"
+                  className="privacy-policy-link10"
                 >
                   <div className="privacy-policy-container31">
                     <svg
@@ -1282,7 +1293,7 @@ const PrivacyPolicy = (props) => {
                   href="https://youtube.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="privacy-policy-link7"
+                  className="privacy-policy-link11"
                 >
                   <div className="privacy-policy-container32">
                     <svg
@@ -1327,6 +1338,9 @@ const PrivacyPolicy = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
+          .privacy-policy-link {
+            display: contents;
+          }
           .privacy-policy-image {
             left: 36px;
             width: 222px;
@@ -1334,6 +1348,7 @@ const PrivacyPolicy = (props) => {
             height: 55px;
             position: absolute;
             object-fit: cover;
+            text-decoration: none;
           }
           .privacy-policy-logo {
             border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -1350,25 +1365,31 @@ const PrivacyPolicy = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .privacy-policy-text {
+          .privacy-policy-link01 {
             transition: 0.3s;
+            font-weight: bold;
             margin-right: var(--dl-space-space-doubleunit);
+            text-decoration: none;
           }
-          .privacy-policy-text:hover {
+          .privacy-policy-link01:hover {
             color: var(--dl-color-turquoise-default);
           }
-          .privacy-policy-text001 {
+          .privacy-policy-link02 {
             transition: 0.3s;
+            font-weight: bold;
             margin-right: var(--dl-space-space-doubleunit);
+            text-decoration: none;
           }
-          .privacy-policy-text001:hover {
+          .privacy-policy-link02:hover {
             color: var(--dl-color-turquoise-default);
           }
-          .privacy-policy-text002 {
+          .privacy-policy-link03 {
             transition: 0.3s;
+            font-weight: bold;
             margin-right: var(--dl-space-space-doubleunit);
+            text-decoration: none;
           }
-          .privacy-policy-text002:hover {
+          .privacy-policy-link03:hover {
             color: var(--dl-color-turquoise-default);
           }
           .privacy-policy-container01 {
@@ -1428,6 +1449,27 @@ const PrivacyPolicy = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+          .privacy-policy-text {
+            transition: 0.3s;
+            margin-bottom: var(--dl-space-space-halfunit);
+          }
+          .privacy-policy-text:hover {
+            color: var(--dl-color-turquoise-default);
+          }
+          .privacy-policy-text001 {
+            transition: 0.3s;
+            margin-bottom: var(--dl-space-space-halfunit);
+          }
+          .privacy-policy-text001:hover {
+            color: var(--dl-color-turquoise-default);
+          }
+          .privacy-policy-text002 {
+            transition: 0.3s;
+            margin-bottom: var(--dl-space-space-halfunit);
+          }
+          .privacy-policy-text002:hover {
+            color: var(--dl-color-turquoise-default);
+          }
           .privacy-policy-text003 {
             transition: 0.3s;
             margin-bottom: var(--dl-space-space-halfunit);
@@ -1444,29 +1486,8 @@ const PrivacyPolicy = (props) => {
           }
           .privacy-policy-text005 {
             transition: 0.3s;
-            margin-bottom: var(--dl-space-space-halfunit);
           }
           .privacy-policy-text005:hover {
-            color: var(--dl-color-turquoise-default);
-          }
-          .privacy-policy-text006 {
-            transition: 0.3s;
-            margin-bottom: var(--dl-space-space-halfunit);
-          }
-          .privacy-policy-text006:hover {
-            color: var(--dl-color-turquoise-default);
-          }
-          .privacy-policy-text007 {
-            transition: 0.3s;
-            margin-bottom: var(--dl-space-space-halfunit);
-          }
-          .privacy-policy-text007:hover {
-            color: var(--dl-color-turquoise-default);
-          }
-          .privacy-policy-text008 {
-            transition: 0.3s;
-          }
-          .privacy-policy-text008:hover {
             color: var(--dl-color-turquoise-default);
           }
           .privacy-policy-bot {
@@ -1483,7 +1504,7 @@ const PrivacyPolicy = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .privacy-policy-link {
+          .privacy-policy-link04 {
             display: contents;
           }
           .privacy-policy-container03 {
@@ -1503,7 +1524,7 @@ const PrivacyPolicy = (props) => {
           .privacy-policy-icon02:hover {
             fill: var(--dl-color-purple-default);
           }
-          .privacy-policy-link1 {
+          .privacy-policy-link05 {
             display: contents;
           }
           .privacy-policy-container04 {
@@ -1524,7 +1545,7 @@ const PrivacyPolicy = (props) => {
           .privacy-policy-icon04:hover {
             fill: var(--dl-color-pink-default);
           }
-          .privacy-policy-link2 {
+          .privacy-policy-link06 {
             display: contents;
           }
           .privacy-policy-container05 {
@@ -1545,7 +1566,7 @@ const PrivacyPolicy = (props) => {
           .privacy-policy-icon06:hover {
             fill: var(--dl-color-turquoise-default);
           }
-          .privacy-policy-link3 {
+          .privacy-policy-link07 {
             display: contents;
           }
           .privacy-policy-container06 {
@@ -1601,7 +1622,7 @@ const PrivacyPolicy = (props) => {
             justify-content: space-between;
           }
 
-          .privacy-policy-text009 {
+          .privacy-policy-text006 {
             font-size: 72px;
             align-self: center;
             margin-bottom: var(--dl-space-space-doubleunit);
@@ -1683,15 +1704,24 @@ const PrivacyPolicy = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .privacy-policy-text010 {
+          .privacy-policy-text007 {
             font-size: 1rem;
           }
-          .privacy-policy-text011 {
+          .privacy-policy-text008 {
             margin-top: var(--dl-space-space-twounits);
             text-align: center;
             padding-left: var(--dl-space-space-threeunits);
             margin-bottom: var(--dl-space-space-twounits);
             padding-right: var(--dl-space-space-threeunits);
+          }
+          .privacy-policy-text009 {
+            font-size: 10px;
+          }
+          .privacy-policy-text010 {
+            font-size: 10px;
+          }
+          .privacy-policy-text011 {
+            font-size: 10px;
           }
           .privacy-policy-text012 {
             font-size: 10px;
@@ -2959,24 +2989,15 @@ const PrivacyPolicy = (props) => {
           .privacy-policy-text433 {
             font-size: 10px;
           }
-          .privacy-policy-text434 {
-            font-size: 10px;
-          }
-          .privacy-policy-text435 {
-            font-size: 10px;
-          }
-          .privacy-policy-text436 {
-            font-size: 10px;
-          }
           .privacy-policy-image2 {
             width: 45rem;
             margin-top: var(--dl-space-space-twounits);
           }
-          .privacy-policy-text438 {
+          .privacy-policy-text435 {
             color: var(--dl-color-gray-black);
             font-size: 3rem;
           }
-          .privacy-policy-text439 {
+          .privacy-policy-text436 {
             color: var(--dl-color-gray-700);
             font-size: 1.15rem;
             max-width: 600px;
@@ -3058,13 +3079,13 @@ const PrivacyPolicy = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .privacy-policy-text442 {
+          .privacy-policy-text439 {
             font-size: 1.5rem;
             text-align: center;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .privacy-policy-text444 {
+          .privacy-policy-text441 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
             text-align: center;
@@ -3136,13 +3157,13 @@ const PrivacyPolicy = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .privacy-policy-text445 {
+          .privacy-policy-text442 {
             font-size: 1.5rem;
             text-align: center;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .privacy-policy-text446 {
+          .privacy-policy-text443 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
             text-align: center;
@@ -3214,13 +3235,13 @@ const PrivacyPolicy = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .privacy-policy-text449 {
+          .privacy-policy-text446 {
             font-size: 1.5rem;
             text-align: center;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .privacy-policy-text451 {
+          .privacy-policy-text448 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
             text-align: center;
@@ -3292,13 +3313,13 @@ const PrivacyPolicy = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .privacy-policy-text454 {
+          .privacy-policy-text451 {
             font-size: 1.5rem;
             text-align: center;
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .privacy-policy-text456 {
+          .privacy-policy-text453 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
             text-align: center;
@@ -3413,7 +3434,7 @@ const PrivacyPolicy = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .privacy-policy-text459 {
+          .privacy-policy-text456 {
             color: var(--dl-color-gray-300);
             margin-top: var(--dl-space-space-unit);
           }
@@ -3424,7 +3445,7 @@ const PrivacyPolicy = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .privacy-policy-link4 {
+          .privacy-policy-link08 {
             display: contents;
           }
           .privacy-policy-container29 {
@@ -3444,7 +3465,7 @@ const PrivacyPolicy = (props) => {
           .privacy-policy-icon19:hover {
             fill: var(--dl-color-purple-default);
           }
-          .privacy-policy-link5 {
+          .privacy-policy-link09 {
             display: contents;
           }
           .privacy-policy-container30 {
@@ -3465,7 +3486,7 @@ const PrivacyPolicy = (props) => {
           .privacy-policy-icon21:hover {
             fill: var(--dl-color-pink-default);
           }
-          .privacy-policy-link6 {
+          .privacy-policy-link10 {
             display: contents;
           }
           .privacy-policy-container31 {
@@ -3486,7 +3507,7 @@ const PrivacyPolicy = (props) => {
           .privacy-policy-icon23:hover {
             fill: var(--dl-color-turquoise-default);
           }
-          .privacy-policy-link7 {
+          .privacy-policy-link11 {
             display: contents;
           }
           .privacy-policy-container32 {
@@ -3515,7 +3536,7 @@ const PrivacyPolicy = (props) => {
               height: auto;
               flex-direction: column;
             }
-            .privacy-policy-text009 {
+            .privacy-policy-text006 {
               text-align: center;
             }
             .privacy-policy-hero1 {
@@ -3526,19 +3547,19 @@ const PrivacyPolicy = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .privacy-policy-text010 {
+            .privacy-policy-text007 {
               text-align: center;
             }
-            .privacy-policy-text011 {
+            .privacy-policy-text008 {
               text-align: center;
             }
             .privacy-policy-image2 {
               width: 80%;
             }
-            .privacy-policy-text438 {
+            .privacy-policy-text435 {
               text-align: center;
             }
-            .privacy-policy-text439 {
+            .privacy-policy-text436 {
               text-align: center;
             }
             .privacy-policy-container25 {
@@ -3549,7 +3570,7 @@ const PrivacyPolicy = (props) => {
             .privacy-policy-menu {
               display: none;
             }
-            .privacy-policy-text009 {
+            .privacy-policy-text006 {
               font-size: 50px;
               text-align: center;
             }
@@ -3561,7 +3582,7 @@ const PrivacyPolicy = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .privacy-policy-text011 {
+            .privacy-policy-text008 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
@@ -3601,13 +3622,13 @@ const PrivacyPolicy = (props) => {
               padding-bottom: 32px;
               justify-content: space-between;
             }
-            .privacy-policy-text442 {
+            .privacy-policy-text439 {
               margin-top: 32px;
               margin-left: 0px;
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .privacy-policy-text444 {
+            .privacy-policy-text441 {
               text-align: left;
             }
             .privacy-policy-step1 {
@@ -3645,13 +3666,13 @@ const PrivacyPolicy = (props) => {
               padding-bottom: 32px;
               justify-content: space-between;
             }
-            .privacy-policy-text445 {
+            .privacy-policy-text442 {
               margin-top: 32px;
               margin-left: 0px;
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .privacy-policy-text446 {
+            .privacy-policy-text443 {
               text-align: left;
             }
             .privacy-policy-step2 {
@@ -3689,13 +3710,13 @@ const PrivacyPolicy = (props) => {
               padding-bottom: 32px;
               justify-content: space-between;
             }
-            .privacy-policy-text449 {
+            .privacy-policy-text446 {
               margin-top: 32px;
               margin-left: 0px;
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .privacy-policy-text451 {
+            .privacy-policy-text448 {
               text-align: left;
             }
             .privacy-policy-step3 {
@@ -3733,19 +3754,19 @@ const PrivacyPolicy = (props) => {
               padding-bottom: 32px;
               justify-content: space-between;
             }
-            .privacy-policy-text454 {
+            .privacy-policy-text451 {
               margin-top: 32px;
               margin-left: 0px;
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .privacy-policy-text456 {
+            .privacy-policy-text453 {
               text-align: left;
             }
             .privacy-policy-container27 {
               flex-direction: column;
             }
-            .privacy-policy-text459 {
+            .privacy-policy-text456 {
               margin-top: var(--dl-space-space-unit);
               margin-bottom: var(--dl-space-space-unit);
             }
@@ -3757,10 +3778,14 @@ const PrivacyPolicy = (props) => {
             .privacy-policy-bot {
               width: 100%;
             }
+            .privacy-policy-left {
+              position: static;
+            }
             .privacy-policy-right {
               left: -74px;
               bottom: -127px;
               opacity: 0.4;
+              position: static;
             }
             .privacy-policy-steps {
               padding-top: 32px;
@@ -3786,7 +3811,7 @@ const PrivacyPolicy = (props) => {
               padding-right: 0px;
               padding-bottom: 32px;
             }
-            .privacy-policy-text442 {
+            .privacy-policy-text439 {
               margin-left: 0px;
               margin-right: 32px;
             }
@@ -3796,7 +3821,7 @@ const PrivacyPolicy = (props) => {
               padding-right: 0px;
               padding-bottom: 32px;
             }
-            .privacy-policy-text445 {
+            .privacy-policy-text442 {
               margin-left: 0px;
               margin-right: 32px;
             }
@@ -3806,7 +3831,7 @@ const PrivacyPolicy = (props) => {
               padding-right: 0px;
               padding-bottom: 32px;
             }
-            .privacy-policy-text449 {
+            .privacy-policy-text446 {
               margin-left: 0px;
               margin-right: 32px;
             }
@@ -3816,7 +3841,7 @@ const PrivacyPolicy = (props) => {
               padding-right: 0px;
               padding-bottom: 32px;
             }
-            .privacy-policy-text454 {
+            .privacy-policy-text451 {
               margin-left: 0px;
               margin-right: 32px;
             }

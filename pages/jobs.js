@@ -130,6 +130,11 @@ const Jobs = (props) => {
           <div className="jobs-blur-background"></div>
           <div className="jobs-hero">
             <h1 className="jobs-text07">Open Positions</h1>
+            <img
+              src="https://images.unsplash.com/photo-1598738865218-7809c17181c3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ3fHxvcGVuJTIwcG9zaWlvbnN8ZW58MHx8fHwxNjgwODMwODcx&amp;ixlib=rb-4.0.3&amp;q=80&amp;h=700"
+              alt="image"
+              className="jobs-image2"
+            />
           </div>
           <img
             alt="image"
@@ -184,12 +189,12 @@ const Jobs = (props) => {
                 src="/playground_assets/dall%C2%B7e%202023-04-05%2022.21.59%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20an%20mobile%20app-300w.png"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
-                className="jobs-image2"
+                className="jobs-image3"
               />
               <img
                 alt="image"
                 src="/playground_assets/dall%C2%B7e%202023-04-05%2022.23.36%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20a%20mobile%20app%2C%20and%20helps%20to%20reach%20destination-300h.png"
-                className="jobs-image3"
+                className="jobs-image4"
               />
             </div>
             <div className="jobs-container11">
@@ -198,14 +203,14 @@ const Jobs = (props) => {
                 src="/playground_assets/_3a1e396a-8fc7-404a-8251-91dc346d23e4-1200w.jpeg"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
-                className="jobs-image4"
+                className="jobs-image5"
               />
               <img
                 alt="image"
                 src="/playground_assets/_12f666b0-d77f-4988-a2d4-86fdca45e463-300w.jpeg"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
-                className="jobs-image5"
+                className="jobs-image6"
               />
             </div>
           </div>
@@ -215,7 +220,7 @@ const Jobs = (props) => {
             alt="image"
             src="/playground_assets/new_design_full%203-200h.png"
             loading="lazy"
-            className="jobs-image6"
+            className="jobs-image7"
           />
           <footer className="jobs-container12">
             <div className="jobs-container13">
@@ -362,6 +367,7 @@ const Jobs = (props) => {
           }
           .jobs-link01 {
             transition: 0.3s;
+            font-weight: bold;
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
@@ -370,6 +376,7 @@ const Jobs = (props) => {
           }
           .jobs-link02 {
             transition: 0.3s;
+            font-weight: bold;
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
@@ -378,6 +385,7 @@ const Jobs = (props) => {
           }
           .jobs-link03 {
             transition: 0.3s;
+            font-weight: bold;
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
@@ -386,6 +394,7 @@ const Jobs = (props) => {
           }
           .jobs-text {
             transition: 0.3s;
+            font-weight: bold;
             text-decoration: none;
           }
           .jobs-text:hover {
@@ -621,8 +630,14 @@ const Jobs = (props) => {
 
           .jobs-text07 {
             font-size: 72px;
-            align-self: flex-end;
+            align-self: center;
             margin-bottom: var(--dl-space-space-doubleunit);
+          }
+          .jobs-image2 {
+            width: 529px;
+            height: 602px;
+            opacity: 0.8;
+            object-fit: cover;
           }
           .jobs-turquoise-cirble {
             top: 439px;
@@ -726,12 +741,12 @@ const Jobs = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .jobs-image2 {
+          .jobs-image3 {
             width: 232px;
             opacity: 0.8;
             object-fit: cover;
           }
-          .jobs-image3 {
+          .jobs-image4 {
             width: 286px;
             height: 237px;
             opacity: 0.8;
@@ -747,7 +762,7 @@ const Jobs = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .jobs-image4 {
+          .jobs-image5 {
             top: -100px;
             left: auto;
             right: var(--dl-space-space-doubleunit);
@@ -757,7 +772,7 @@ const Jobs = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .jobs-image5 {
+          .jobs-image6 {
             top: auto;
             left: var(--dl-space-space-doubleunit);
             right: auto;
@@ -777,7 +792,7 @@ const Jobs = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-gray-black);
           }
-          .jobs-image6 {
+          .jobs-image7 {
             width: 196px;
             height: 84px;
             object-fit: cover;
@@ -966,6 +981,12 @@ const Jobs = (props) => {
             .jobs-text07 {
               text-align: center;
             }
+            .jobs-left {
+              position: static;
+            }
+            .jobs-right {
+              position: static;
+            }
             .jobs-text08 {
               align-self: center;
             }
@@ -990,6 +1011,12 @@ const Jobs = (props) => {
               font-size: 50px;
               text-align: center;
             }
+            .jobs-left {
+              position: static;
+            }
+            .jobs-right {
+              position: static;
+            }
             .jobs-features {
               padding-left: 32px;
               padding-right: 32px;
@@ -1009,6 +1036,12 @@ const Jobs = (props) => {
           @media (max-width: 479px) {
             .jobs-bot {
               width: 100%;
+            }
+            .jobs-left {
+              position: static;
+            }
+            .jobs-right {
+              position: static;
             }
             .jobs-features {
               padding-top: 32px;

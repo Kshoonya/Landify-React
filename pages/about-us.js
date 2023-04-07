@@ -150,6 +150,12 @@ const AboutUs = (props) => {
             className="about-us-right"
           />
           <div className="about-us-hero">
+            <img
+              src="https://images.unsplash.com/photo-1560837616-fee1f3d8753a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fERyZWFtfGVufDB8fHx8MTY4MDgzMDk4MQ&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=800"
+              alt="image"
+              loading="lazy"
+              className="about-us-image02"
+            />
             <div className="about-us-container06">
               <h1 className="about-us-text07">About Us</h1>
             </div>
@@ -196,7 +202,7 @@ const AboutUs = (props) => {
           <img
             alt="profile"
             src="/playground_assets/purple-circle.svg"
-            className="about-us-image02"
+            className="about-us-image03"
           />
           <div className="about-us-testimonial">
             <span className="about-us-text17">
@@ -220,6 +226,11 @@ const AboutUs = (props) => {
           </div>
         </div>
         <div className="about-us-testimonial-card1">
+          <img
+            alt="profile"
+            src="/playground_assets/turquoise-circle.svg"
+            className="about-us-image04"
+          />
           <div className="about-us-testimonial1">
             <span className="about-us-text23">
               <span>Sakshi</span>
@@ -243,18 +254,13 @@ const AboutUs = (props) => {
               />
             </span>
           </div>
-          <img
-            alt="profile"
-            src="/playground_assets/turquoise-circle.svg"
-            className="about-us-image03"
-          />
         </div>
         <div className="about-us-testimonial-card2">
           <div className="about-us-container09">
             <img
               alt="profile"
               src="/playground_assets/turquoise-circle.svg"
-              className="about-us-image04"
+              className="about-us-image05"
             />
           </div>
           <div className="about-us-container10">
@@ -269,6 +275,11 @@ const AboutUs = (props) => {
         </div>
         <div className="about-us-steps">
           <div className="about-us-testimonial-card3">
+            <img
+              alt="profile"
+              src="/playground_assets/turquoise-circle.svg"
+              className="about-us-image06"
+            />
             <div className="about-us-testimonial3">
               <span className="about-us-text34">
                 <span>Amit Kumar Bedaka</span>
@@ -277,11 +288,6 @@ const AboutUs = (props) => {
               </span>
               <span className="about-us-text38">Researcher and Engineer</span>
             </div>
-            <img
-              alt="profile"
-              src="/playground_assets/turquoise-circle.svg"
-              className="about-us-image05"
-            />
           </div>
           <h1 className="about-us-text39">Our Advisors</h1>
           <div className="about-us-banner">
@@ -388,12 +394,12 @@ const AboutUs = (props) => {
                 src="/playground_assets/dall%C2%B7e%202023-04-05%2022.21.59%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20an%20mobile%20app-300w.png"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
-                className="about-us-image06"
+                className="about-us-image07"
               />
               <img
                 alt="image"
                 src="/playground_assets/dall%C2%B7e%202023-04-05%2022.23.36%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20a%20mobile%20app%2C%20and%20helps%20to%20reach%20destination-300h.png"
-                className="about-us-image07"
+                className="about-us-image08"
               />
             </div>
             <div className="about-us-container16">
@@ -402,14 +408,14 @@ const AboutUs = (props) => {
                 src="/playground_assets/_3a1e396a-8fc7-404a-8251-91dc346d23e4-1200w.jpeg"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
-                className="about-us-image08"
+                className="about-us-image09"
               />
               <img
                 alt="image"
                 src="/playground_assets/_12f666b0-d77f-4988-a2d4-86fdca45e463-300w.jpeg"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
-                className="about-us-image09"
+                className="about-us-image10"
               />
             </div>
           </div>
@@ -419,7 +425,7 @@ const AboutUs = (props) => {
             alt="image"
             src="/playground_assets/new_design_full%203-300w.png"
             loading="lazy"
-            className="about-us-image10"
+            className="about-us-image11"
           />
           <footer className="about-us-container17">
             <div className="about-us-container18">
@@ -566,6 +572,7 @@ const AboutUs = (props) => {
           }
           .about-us-link01 {
             transition: 0.3s;
+            font-weight: bold;
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
@@ -574,6 +581,7 @@ const AboutUs = (props) => {
           }
           .about-us-link02 {
             transition: 0.3s;
+            font-weight: bold;
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
@@ -582,6 +590,7 @@ const AboutUs = (props) => {
           }
           .about-us-link03 {
             transition: 0.3s;
+            font-weight: bold;
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
@@ -590,6 +599,7 @@ const AboutUs = (props) => {
           }
           .about-us-text {
             transition: 0.3s;
+            font-weight: bold;
             text-decoration: none;
           }
           .about-us-text:hover {
@@ -861,6 +871,12 @@ const AboutUs = (props) => {
             justify-content: center;
           }
 
+          .about-us-image02 {
+            width: 796px;
+            height: 315px;
+            object-fit: cover;
+            margin-left: 150px;
+          }
           .about-us-container06 {
             flex: 0 0 auto;
             width: auto;
@@ -928,7 +944,7 @@ const AboutUs = (props) => {
             align-items: center;
             justify-content: space-between;
           }
-          .about-us-image02 {
+          .about-us-image03 {
             width: 192px;
             height: 192px;
             object-fit: cover;
@@ -962,6 +978,13 @@ const AboutUs = (props) => {
             align-items: center;
             justify-content: space-between;
           }
+          .about-us-image04 {
+            width: 192px;
+            height: 192px;
+            object-fit: cover;
+            flex-shrink: 0;
+            border-radius: var(--dl-radius-radius-round);
+          }
           .about-us-testimonial1 {
             display: flex;
             align-items: flex-start;
@@ -978,13 +1001,6 @@ const AboutUs = (props) => {
             font-size: 1.15rem;
             text-align: justify;
             margin-bottom: 32px;
-          }
-          .about-us-image03 {
-            width: 192px;
-            height: 192px;
-            object-fit: cover;
-            flex-shrink: 0;
-            border-radius: var(--dl-radius-radius-round);
           }
           .about-us-testimonial-card2 {
             width: 100%;
@@ -1004,7 +1020,7 @@ const AboutUs = (props) => {
             align-items: space-between;
             flex-direction: column;
           }
-          .about-us-image04 {
+          .about-us-image05 {
             width: 192px;
             height: 192px;
             object-fit: cover;
@@ -1054,6 +1070,13 @@ const AboutUs = (props) => {
             align-items: center;
             justify-content: space-between;
           }
+          .about-us-image06 {
+            width: 192px;
+            height: 192px;
+            object-fit: cover;
+            flex-shrink: 0;
+            border-radius: var(--dl-radius-radius-round);
+          }
           .about-us-testimonial3 {
             display: flex;
             align-items: flex-start;
@@ -1069,13 +1092,6 @@ const AboutUs = (props) => {
             color: rgb(89, 89, 89);
             font-size: 1.15rem;
             margin-bottom: 32px;
-          }
-          .about-us-image05 {
-            width: 192px;
-            height: 192px;
-            object-fit: cover;
-            flex-shrink: 0;
-            border-radius: var(--dl-radius-radius-round);
           }
           .about-us-text39 {
             color: var(--dl-color-gray-black);
@@ -1242,12 +1258,12 @@ const AboutUs = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .about-us-image06 {
+          .about-us-image07 {
             width: 232px;
             opacity: 0.8;
             object-fit: cover;
           }
-          .about-us-image07 {
+          .about-us-image08 {
             width: 286px;
             height: 237px;
             opacity: 0.8;
@@ -1263,7 +1279,7 @@ const AboutUs = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .about-us-image08 {
+          .about-us-image09 {
             top: -100px;
             left: auto;
             right: var(--dl-space-space-doubleunit);
@@ -1273,7 +1289,7 @@ const AboutUs = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .about-us-image09 {
+          .about-us-image10 {
             top: auto;
             left: var(--dl-space-space-doubleunit);
             right: auto;
@@ -1293,7 +1309,7 @@ const AboutUs = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-gray-black);
           }
-          .about-us-image10 {
+          .about-us-image11 {
             width: 204px;
             height: 78px;
             object-fit: cover;
@@ -1625,6 +1641,11 @@ const AboutUs = (props) => {
             }
             .about-us-bot {
               width: 100%;
+            }
+            .about-us-image02 {
+              width: 479px;
+              margin-left: 0px;
+              padding-right: 59px;
             }
             .about-us-text09 {
               text-align: center;

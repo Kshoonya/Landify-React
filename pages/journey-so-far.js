@@ -134,6 +134,11 @@ const JourneySoFar = (props) => {
           <div className="journey-so-far-blur-background"></div>
           <div className="journey-so-far-hero">
             <h1 className="journey-so-far-text08">Journey of Kshoonya</h1>
+            <img
+              src="https://images.unsplash.com/photo-1536420123832-cd5867531583?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDM0fHxqb3VybmV5JTIwc28lMjBmYXJ8ZW58MHx8fHwxNjgwODMwNzIy&amp;ixlib=rb-4.0.3&amp;h=1500"
+              alt="image"
+              className="journey-so-far-image2"
+            />
           </div>
           <img
             alt="image"
@@ -261,12 +266,12 @@ const JourneySoFar = (props) => {
                 src="/playground_assets/dall%C2%B7e%202023-04-05%2022.21.59%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20an%20mobile%20app-300w.png"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
-                className="journey-so-far-image2"
+                className="journey-so-far-image3"
               />
               <img
                 alt="image"
                 src="/playground_assets/dall%C2%B7e%202023-04-05%2022.23.36%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20a%20mobile%20app%2C%20and%20helps%20to%20reach%20destination-300h.png"
-                className="journey-so-far-image3"
+                className="journey-so-far-image4"
               />
             </div>
             <div className="journey-so-far-container15">
@@ -275,14 +280,14 @@ const JourneySoFar = (props) => {
                 src="/playground_assets/_3a1e396a-8fc7-404a-8251-91dc346d23e4-1200w.jpeg"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
-                className="journey-so-far-image4"
+                className="journey-so-far-image5"
               />
               <img
                 alt="image"
                 src="/playground_assets/_12f666b0-d77f-4988-a2d4-86fdca45e463-300w.jpeg"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
-                className="journey-so-far-image5"
+                className="journey-so-far-image6"
               />
             </div>
           </div>
@@ -293,7 +298,7 @@ const JourneySoFar = (props) => {
               alt="image"
               src="/playground_assets/new_design_full%203-300w.png"
               loading="lazy"
-              className="journey-so-far-image6"
+              className="journey-so-far-image7"
             />
             <div className="journey-so-far-container17">
               <div className="journey-so-far-container18">
@@ -440,6 +445,7 @@ const JourneySoFar = (props) => {
           }
           .journey-so-far-link01 {
             transition: 0.3s;
+            font-weight: bold;
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
@@ -448,6 +454,7 @@ const JourneySoFar = (props) => {
           }
           .journey-so-far-text {
             transition: 0.3s;
+            font-weight: bold;
             margin-right: var(--dl-space-space-doubleunit);
           }
           .journey-so-far-text:hover {
@@ -455,6 +462,7 @@ const JourneySoFar = (props) => {
           }
           .journey-so-far-link02 {
             transition: 0.3s;
+            font-weight: bold;
             margin-right: var(--dl-space-space-doubleunit);
             text-decoration: none;
           }
@@ -463,6 +471,7 @@ const JourneySoFar = (props) => {
           }
           .journey-so-far-text01 {
             transition: 0.3s;
+            font-weight: bold;
             text-decoration: none;
           }
           .journey-so-far-text01:hover {
@@ -701,6 +710,11 @@ const JourneySoFar = (props) => {
             align-self: flex-end;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
+          .journey-so-far-image2 {
+            width: 465px;
+            opacity: 0.8;
+            object-fit: cover;
+          }
           .journey-so-far-turquoise-cirble {
             top: 439px;
             left: auto;
@@ -927,12 +941,12 @@ const JourneySoFar = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .journey-so-far-image2 {
+          .journey-so-far-image3 {
             width: 232px;
             opacity: 0.8;
             object-fit: cover;
           }
-          .journey-so-far-image3 {
+          .journey-so-far-image4 {
             width: 286px;
             height: 237px;
             opacity: 0.8;
@@ -948,7 +962,7 @@ const JourneySoFar = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .journey-so-far-image4 {
+          .journey-so-far-image5 {
             top: -100px;
             left: auto;
             right: var(--dl-space-space-doubleunit);
@@ -958,7 +972,7 @@ const JourneySoFar = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .journey-so-far-image5 {
+          .journey-so-far-image6 {
             top: auto;
             left: var(--dl-space-space-doubleunit);
             right: auto;
@@ -990,7 +1004,7 @@ const JourneySoFar = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .journey-so-far-image6 {
+          .journey-so-far-image7 {
             width: 194px;
             height: 72px;
             object-fit: cover;
@@ -1159,6 +1173,12 @@ const JourneySoFar = (props) => {
             .journey-so-far-text08 {
               text-align: center;
             }
+            .journey-so-far-left {
+              position: static;
+            }
+            .journey-so-far-right {
+              position: static;
+            }
             .journey-so-far-text09 {
               text-align: center;
             }
@@ -1202,6 +1222,7 @@ const JourneySoFar = (props) => {
             }
             .journey-so-far-text08 {
               font-size: 50px;
+              align-self: flex-start;
               text-align: center;
             }
             .journey-so-far-blog {
