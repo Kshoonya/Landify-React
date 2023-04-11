@@ -10,7 +10,7 @@ const JourneySoFar = (props) => {
           <title>Journey-So-Far - Kshoonya Inc</title>
           <meta
             name="description"
-            content="Kshoonya is revolutionizing the field of artificial intelligence. By utilizing cutting-edge technology and innovative designs."
+            content="Kshoonya Technologies is revolutionizing the field of artificial intelligence. By utilizing cutting-edge technology and innovative designs."
           />
           <meta property="og:title" content="Journey-So-Far - Kshoonya Inc" />
           <meta

@@ -10,7 +10,7 @@ const PrivacyPolicy = (props) => {
           <title>Privacy-Policy - Kshoonya Inc</title>
           <meta
             name="description"
-            content="Kshoonya is revolutionizing the field of artificial intelligence. By utilizing cutting-edge technology and innovative designs."
+            content="Kshoonya Technologies is revolutionizing the field of artificial intelligence. By utilizing cutting-edge technology and innovative designs."
           />
           <meta property="og:title" content="Privacy-Policy - Kshoonya Inc" />
           <meta

@@ -12,7 +12,7 @@ const Jobs = (props) => {
           <title>Jobs - Kshoonya Inc</title>
           <meta
             name="description"
-            content="Kshoonya is revolutionizing the field of artificial intelligence. By utilizing cutting-edge technology and innovative designs."
+            content="Kshoonya Technologies is revolutionizing the field of artificial intelligence. By utilizing cutting-edge technology and innovative designs."
           />
           <meta property="og:title" content="Jobs - Kshoonya Inc" />
           <meta
