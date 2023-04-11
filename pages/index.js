@@ -26,7 +26,7 @@ const Home = (props) => {
               <a className="home-link">
                 <img
                   alt="image"
-                  src="/playground_assets/new_design_full%203-300w.png"
+                  src="/playground_assets/new_design_full%203-400w.png"
                   loading="lazy"
                   className="home-image"
                 />
@@ -223,12 +223,6 @@ const Home = (props) => {
             src="/playground_assets/leftar-500w.png"
             loading="lazy"
             className="home-left"
-          />
-          <img
-            alt="image"
-            src="/playground_assets/half%20circle%20%5B1%5D-700w.png"
-            loading="lazy"
-            className="home-right"
           />
         </div>
         <div className="home-features">
@@ -663,7 +657,7 @@ const Home = (props) => {
           <footer className="home-container41">
             <img
               alt="image"
-              src="/playground_assets/new_design_full%203-300w.png"
+              src="/playground_assets/new_design_full%203-400w.png"
               loading="lazy"
               className="home-image09"
             />
@@ -784,10 +778,10 @@ const Home = (props) => {
             display: contents;
           }
           .home-image {
-            top: 1px;
-            left: 27px;
-            width: 229px;
-            height: 100px;
+            top: -41px;
+            left: -1px;
+            width: 364px;
+            height: 201px;
             position: absolute;
             object-fit: cover;
             transition: 0.3s;
@@ -1129,17 +1123,6 @@ const Home = (props) => {
             opacity: 0.8;
             position: absolute;
             object-fit: cover;
-          }
-          .home-right {
-            right: -11px;
-            width: 612px;
-            bottom: -2798px;
-            height: 195px;
-            opacity: 0.8;
-            position: absolute;
-            box-shadow: 5px 5px 10px 0px #d4d4d4;
-            object-fit: cover;
-            background-position: right;
           }
           .home-features {
             flex: 0 0 auto;
@@ -2078,7 +2061,19 @@ const Home = (props) => {
           .home-icon27:hover {
             fill: var(--dl-color-orange-default);
           }
+          @media (max-width: 1600px) {
+            .home-image {
+              top: -31px;
+              left: -3px;
+              width: 343px;
+              height: 183px;
+            }
+          }
           @media (max-width: 991px) {
+            .home-image {
+              top: -34px;
+              left: 41px;
+            }
             .home-menu {
               left: 423px;
               bottom: -24px;
@@ -2186,6 +2181,10 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .home-image {
+              top: -36px;
+              left: 214px;
+            }
             .home-menu {
               display: none;
             }
@@ -2444,11 +2443,14 @@ const Home = (props) => {
             .home-header {
               padding-right: 2rem;
             }
+            .home-image {
+              top: 1px;
+              left: 89px;
+              width: 284px;
+              height: 111px;
+            }
             .home-bot {
               width: 100%;
-            }
-            .home-right {
-              position: static;
             }
             .home-text11 {
               text-align: center;

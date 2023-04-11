@@ -16,7 +16,7 @@ const JourneySoFar = (props) => {
               <a className="journey-so-far-link">
                 <img
                   alt="image"
-                  src="/playground_assets/new_design_full%203-300w.png"
+                  src="/playground_assets/new_design_full%203-400w.png"
                   className="journey-so-far-image"
                 />
               </a>
@@ -133,7 +133,7 @@ const JourneySoFar = (props) => {
           <div className="journey-so-far-hero">
             <h1 className="journey-so-far-text08">Journey of Kshoonya</h1>
             <img
-              alt="image"
+              alt="An image where a girl rejoicing the journey"
               src="/playground_assets/_2e9c8e47-01fd-4d7b-9d91-51a01e47621f-1500h.jpg"
               loading="lazy"
               className="journey-so-far-image2"
@@ -382,7 +382,7 @@ const JourneySoFar = (props) => {
           <footer className="journey-so-far-container16">
             <img
               alt="image"
-              src="/playground_assets/new_design_full%203-300w.png"
+              src="/playground_assets/new_design_full%203-400w.png"
               loading="lazy"
               className="journey-so-far-image7"
             />
@@ -506,10 +506,10 @@ const JourneySoFar = (props) => {
             display: contents;
           }
           .journey-so-far-image {
-            left: 31px;
-            width: 222px;
-            bottom: -22px;
-            height: 71px;
+            top: -46px;
+            left: -19px;
+            width: 363px;
+            height: 211px;
             position: absolute;
             object-fit: cover;
             text-decoration: none;
@@ -1269,7 +1269,19 @@ const JourneySoFar = (props) => {
           .journey-so-far-icon18:hover {
             fill: var(--dl-color-orange-default);
           }
+          @media (max-width: 1600px) {
+            .journey-so-far-image {
+              top: -50px;
+              left: -24px;
+              width: 355px;
+              height: 211px;
+            }
+          }
           @media (max-width: 991px) {
+            .journey-so-far-image {
+              top: -49px;
+              left: 23px;
+            }
             .journey-so-far-hero {
               height: auto;
               flex-direction: column;
@@ -1335,12 +1347,16 @@ const JourneySoFar = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .journey-so-far-image {
+              top: -49px;
+              left: 181px;
+            }
             .journey-so-far-menu {
               display: none;
             }
             .journey-so-far-text08 {
               font-size: 50px;
-              align-self: flex-start;
+              align-self: center;
               text-align: center;
             }
             .journey-so-far-hero1 {
@@ -1387,6 +1403,12 @@ const JourneySoFar = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .journey-so-far-image {
+              top: -9px;
+              left: 89px;
+              width: 288px;
+              height: 119px;
+            }
             .journey-so-far-bot {
               width: 100%;
             }

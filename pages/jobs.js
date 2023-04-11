@@ -18,7 +18,7 @@ const Jobs = (props) => {
               <a className="jobs-link">
                 <img
                   alt="image"
-                  src="/playground_assets/new_design_full%203-200h.png"
+                  src="/playground_assets/new_design_full%203-400w.png"
                   className="jobs-image"
                 />
               </a>
@@ -214,7 +214,7 @@ const Jobs = (props) => {
         <div className="jobs-footer">
           <img
             alt="image"
-            src="/playground_assets/new_design_full%203-200h.png"
+            src="/playground_assets/new_design_full%203-400w.png"
             loading="lazy"
             className="jobs-image7"
           />
@@ -338,10 +338,10 @@ const Jobs = (props) => {
             display: contents;
           }
           .jobs-image {
-            left: 31px;
-            width: 222px;
-            bottom: -22px;
-            height: 67px;
+            top: -46px;
+            left: -11px;
+            width: 370px;
+            height: 216px;
             position: absolute;
             object-fit: cover;
             text-decoration: none;
@@ -969,7 +969,25 @@ const Jobs = (props) => {
           .jobs-icon18:hover {
             fill: var(--dl-color-orange-default);
           }
+          @media (max-width: 1600px) {
+            .jobs-image {
+              top: -37px;
+              left: -15px;
+              width: 359px;
+              height: 199px;
+            }
+          }
+          @media (max-width: 1200px) {
+            .jobs-image {
+              top: -29px;
+              left: 4px;
+            }
+          }
           @media (max-width: 991px) {
+            .jobs-image {
+              top: -29px;
+              left: 41px;
+            }
             .jobs-hero {
               height: auto;
               flex-direction: column;
@@ -1000,6 +1018,10 @@ const Jobs = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .jobs-image {
+              top: -31px;
+              left: 206px;
+            }
             .jobs-menu {
               display: none;
             }
@@ -1030,6 +1052,10 @@ const Jobs = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .jobs-image {
+              top: -29px;
+              left: 65px;
+            }
             .jobs-bot {
               width: 100%;
             }

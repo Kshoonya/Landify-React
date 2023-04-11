@@ -19,7 +19,7 @@ const AboutUs = (props) => {
               <a className="about-us-link">
                 <img
                   alt="image"
-                  src="/playground_assets/new_design_full%203-800w.png"
+                  src="/playground_assets/new_design_full%203-1500w.png"
                   className="about-us-image"
                 />
               </a>
@@ -151,12 +151,12 @@ const AboutUs = (props) => {
           <div className="about-us-hero">
             <img
               alt="image"
-              src="/playground_assets/new_design_full%203-800w.png"
+              src="/playground_assets/new_design_full%203-1500w.png"
               loading="lazy"
               className="about-us-image02"
             />
             <div className="about-us-container06">
-              <h1 className="about-us-text07"> About Us</h1>
+              <h1 className="about-us-text07">About Us</h1>
             </div>
             <h1 className="about-us-text08">Innovators. Dreamers.</h1>
           </div>
@@ -393,7 +393,6 @@ const AboutUs = (props) => {
               <input
                 type="text"
                 placeholder="Message"
-                autoFocus
                 className="input book-input"
               />
               <div className="about-us-lower">
@@ -443,7 +442,7 @@ const AboutUs = (props) => {
         <div className="about-us-footer">
           <img
             alt="image"
-            src="/playground_assets/new_design_full%203-800w.png"
+            src="/playground_assets/new_design_full%203-1500w.png"
             loading="lazy"
             className="about-us-image11"
           />
@@ -885,8 +884,8 @@ const AboutUs = (props) => {
           }
 
           .about-us-image02 {
-            width: 796px;
-            height: 315px;
+            width: 1497px;
+            height: 416px;
             object-fit: cover;
             margin-left: 150px;
           }
@@ -902,12 +901,12 @@ const AboutUs = (props) => {
           }
           .about-us-text07 {
             font-size: 72px;
-            align-self: center;
+            align-self: flex-end;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
           .about-us-text08 {
             font-size: 72px;
-            align-self: center;
+            align-self: flex-end;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
           .about-us-features {
@@ -1523,10 +1522,51 @@ const AboutUs = (props) => {
           .about-us-icon18:hover {
             fill: var(--dl-color-orange-default);
           }
+          @media (max-width: 1600px) {
+            .about-us-image {
+              top: -37px;
+              left: -27px;
+              width: 343px;
+              height: 183px;
+            }
+            .about-us-hero {
+              width: 1371px;
+              text-align: justify;
+            }
+            .about-us-image02 {
+              width: 1151px;
+              height: 295px;
+              margin-right: var(--dl-space-space-fourunits);
+            }
+            .about-us-text07 {
+              width: 338px;
+              align-self: center;
+            }
+          }
+          @media (max-width: 1200px) {
+            .about-us-image {
+              top: -40px;
+              left: 25px;
+            }
+            .about-us-image02 {
+              width: 778px;
+            }
+            .about-us-text08 {
+              align-self: center;
+            }
+          }
           @media (max-width: 991px) {
+            .about-us-image {
+              top: -40px;
+              left: 46px;
+            }
             .about-us-hero {
               height: auto;
               flex-direction: column;
+            }
+            .about-us-image02 {
+              width: 663px;
+              align-self: stretch;
             }
             .about-us-container06 {
               align-items: center;
@@ -1569,20 +1609,27 @@ const AboutUs = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .about-us-image {
+              top: -15px;
+              left: 192px;
+            }
             .about-us-menu {
               display: none;
             }
             .about-us-image02 {
+              width: 767px;
+              height: 351px;
+              align-self: stretch;
               margin-left: -50px;
             }
             .about-us-text07 {
               font-size: 50px;
-              align-self: center;
+              align-self: flex-start;
               text-align: center;
             }
             .about-us-text08 {
               font-size: 50px;
-              align-self: center;
+              align-self: flex-start;
               text-align: center;
             }
             .about-us-text09 {
@@ -1702,7 +1749,10 @@ const AboutUs = (props) => {
             }
             .about-us-image {
               top: 10px;
-              left: 25px;
+              left: 78px;
+              width: 336px;
+              height: 173px;
+              padding-bottom: 80px;
             }
             .about-us-bot {
               width: 100%;
@@ -1713,7 +1763,14 @@ const AboutUs = (props) => {
               padding-right: 59px;
             }
             .about-us-text07 {
-              align-self: center;
+              width: 351px;
+              font-size: 40px;
+              align-self: flex-start;
+            }
+            .about-us-text08 {
+              font-size: 40px;
+              align-self: flex-start;
+              margin-right: 0px;
             }
             .about-us-text09 {
               color: var(--dl-color-gray-900);
