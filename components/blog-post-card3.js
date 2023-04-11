@@ -66,7 +66,6 @@ const BlogPostCard3 = (props) => {
             color: var(--dl-color-gray-black);
             font-weight: 500;
           }
-
           @media (max-width: 991px) {
             .blog-post-card3-image {
               width: 50%;

@@ -151,11 +151,7 @@ const Jobs = (props) => {
             src="/playground_assets/left.svg"
             className="jobs-left"
           />
-          <img
-            alt="image"
-            src="/playground_assets/right.svg"
-            className="jobs-right"
-          />
+          <img src="/playground_assets/right.svg" className="jobs-right" />
         </div>
         <div className="jobs-features">
           <h1 className="jobs-text08">Join the team</h1>

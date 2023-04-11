@@ -19,7 +19,7 @@ const AboutUs = (props) => {
               <a className="about-us-link">
                 <img
                   alt="image"
-                  src="/playground_assets/new_design_full%203-300w.png"
+                  src="/playground_assets/new_design_full%203-800w.png"
                   className="about-us-image"
                 />
               </a>
@@ -151,12 +151,12 @@ const AboutUs = (props) => {
           <div className="about-us-hero">
             <img
               alt="image"
-              src="https://images.unsplash.com/photo-1560837616-fee1f3d8753a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fERyZWFtfGVufDB8fHx8MTY4MDgzMDk4MQ&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=800"
+              src="/playground_assets/new_design_full%203-800w.png"
               loading="lazy"
               className="about-us-image02"
             />
             <div className="about-us-container06">
-              <h1 className="about-us-text07">About Us</h1>
+              <h1 className="about-us-text07"> About Us</h1>
             </div>
             <h1 className="about-us-text08">Innovators. Dreamers.</h1>
           </div>
@@ -175,7 +175,7 @@ const AboutUs = (props) => {
               can either be a small entity in the vast Kshoonya, or be the
               Kshoonya that creates &amp; surrounds all entities.
             </span>
-            <br></br>
+            <br className="about-us-text11"></br>
             <br className="about-us-text12"></br>
             <span className="about-us-text13">
               For us, Kshoonya is an entity that wants to dedicate its efforts
@@ -184,7 +184,7 @@ const AboutUs = (props) => {
               that fill the gaps in lives of people who have the potential &amp;
               means, but lack the tools.
             </span>
-            <br></br>
+            <br className="about-us-text14"></br>
             <br className="about-us-text15"></br>
             <span className="about-us-text16">
               The initial spark of Kshoonya comes from an academician’s mind for
@@ -211,16 +211,24 @@ const AboutUs = (props) => {
               <br></br>
             </span>
             <span className="about-us-text22">
-              Meet the brains behind Kshoonya, Harshit a highly experienced
-              technology expert with an academic and professional background
-              spanning nearly a decade in the fields of electrical engineering,
-              data science, and machine learning. With a doctorate in the area
-              of artificial intelligence, Harshit brings not only immense
-              passion and self-motivation, but also a wealth of skills and
-              professional experience to every project undertaken. Furthermore,
-              his unique global perspective, developed from living and working
-              in India, Taiwan, and the United States, makes him perfectly
-              suited to think outside the box and deliver creative solutions.
+              <span className="about-us-text23">
+                Meet the brains behind Kshoonya, Harshit a highly experienced
+                technology expert with an academic and professional background
+                spanning nearly a decade in the fields of electrical
+                engineering, data science, and machine learning. With a
+                doctorate in the area of artificial intelligence, Harshit brings
+                not only immense passion and self-motivation, but also a wealth
+                of skills and professional experience to every project
+                undertaken. Furthermore, his unique global perspective,
+                developed from living and working in India, Taiwan, and the
+                United States, makes him perfectly suited to think outside the
+                box and deliver creative solutions.
+              </span>
+              <br className="about-us-text24"></br>
+              <span className="about-us-text25">
+                Email:harshit@kshoonya.com
+              </span>
+              <br className="about-us-text26"></br>
             </span>
           </div>
         </div>
@@ -231,26 +239,28 @@ const AboutUs = (props) => {
             className="about-us-image04"
           />
           <div className="about-us-testimonial1">
-            <span className="about-us-text23">
+            <span className="about-us-text27">
               <span>Sakshi</span>
               <br></br>
               <span>Co-Founder</span>
               <br></br>
             </span>
-            <span className="about-us-text28">
-              {' '}
-              Introducing Sakshi, an inspiring social entrepreneur, Sakshi! She
-              brings her expertise in organization building, team management,
-              &amp; narrative building, along with a passion to help
-              underprivileged communities and disabled individuals. With her
-              unique ability to learn and achieve things without traditional
-              means, Sakshi has crafted a team that can keep up with the
-              ever-changing world and seize the endless opportunities available.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+            <span className="about-us-text32">
+              <span>
+                {' '}
+                Introducing Sakshi, an inspiring social entrepreneur, Sakshi!
+                She brings her expertise in organization building, team
+                management, &amp; narrative building, along with a passion to
+                help underprivileged communities and disabled individuals. With
+                her unique ability to learn and achieve things without
+                traditional means, Sakshi has crafted a team that can keep up
+                with the ever-changing world and seize the endless opportunities
+                available.
+              </span>
+              <br></br>
+              <span className="about-us-text35">
+                Email:harshit@kshoonya.com
+              </span>
             </span>
           </div>
         </div>
@@ -263,32 +273,42 @@ const AboutUs = (props) => {
             />
           </div>
           <div className="about-us-container10">
-            <span className="about-us-text29">
+            <span className="about-us-text36">
               <span>Jorden Lee</span>
               <br></br>
               <span>Head of Technology</span>
             </span>
-            <span className="about-us-text33">Technology Expert, Taiwan</span>
+            <span className="about-us-text40">
+              <span className="about-us-text41">Technology Expert, Taiwan</span>
+              <br></br>
+              <span className="about-us-text43">Email:jorden@kshoonya.com</span>
+              <br></br>
+            </span>
           </div>
           <div className="about-us-testimonial2"></div>
         </div>
         <div className="about-us-steps">
           <div className="about-us-testimonial-card3">
-            <div className="about-us-testimonial3">
-              <span className="about-us-text34">
-                <span>Amit Kumar Bedaka</span>
-                <br></br>
-                <span> Head of Design</span>
-              </span>
-              <span className="about-us-text38">Researcher and Engineer</span>
-            </div>
             <img
               alt="profile"
               src="/playground_assets/turquoise-circle.svg"
               className="about-us-image06"
             />
+            <div className="about-us-testimonial3">
+              <span className="about-us-text45">
+                <span>Amit Kumar Bedaka, Ph.D.</span>
+                <br></br>
+                <span> Head of Design</span>
+              </span>
+              <span className="about-us-text49">
+                <span className="about-us-text50">Researcher and Engineer</span>
+                <br></br>
+                <span className="about-us-text52">Email:amit@kshoonya.com</span>
+                <br></br>
+              </span>
+            </div>
           </div>
-          <h1 className="about-us-text39">Our Advisors</h1>
+          <h1 className="about-us-text54">Our Advisors</h1>
           <div className="about-us-banner">
             <div className="about-us-blog">
               <div className="about-us-container11">
@@ -312,8 +332,8 @@ const AboutUs = (props) => {
                 ></BlogPostCard2>
               </div>
               <div className="about-us-features1">
-                <h1 className="about-us-text40">We’re Here to Help</h1>
-                <span className="about-us-text41">
+                <h1 className="about-us-text55">We’re Here to Help</h1>
+                <span className="about-us-text56">
                   Quickly find out whether we have already addressed any
                   questions that may be on your mind. We welcome all inquiries
                   on matters big or small. If there is something that is on your
@@ -322,10 +342,10 @@ const AboutUs = (props) => {
                   capacities.
                 </span>
                 <div className="about-us-features2">
-                  <h1 className="about-us-text42">
+                  <h1 className="about-us-text57">
                     <span>Frequently Asked Questions</span>
                     <br></br>
-                    <span className="about-us-text45">
+                    <span className="about-us-text60">
                       Please reach us at contact@kshoonya.com if you cannot find
                       an answer to your question.
                     </span>
@@ -334,17 +354,17 @@ const AboutUs = (props) => {
                   <div className="about-us-container13">
                     <FeatureCard2
                       title="HOW CAN I KNOW MORE ABOUT THE COMPANY?"
-                      description="To know more, feel free to contact us at contact@kshoonya.com"
+                      description="If you’re unable to find answers through the  website, feel free to reach us directly at contact@kshoonya.com and we will be happy to share more. "
                       rootClassName="rootClassName"
                     ></FeatureCard2>
                     <FeatureCard2
                       title="DO YOU HAVE INTERN POSITIONS?"
-                      description=" Yes, we always keen to work with young and creative individuals like yourselves. Kindly contact us at careers@kshoonya.com"
+                      description="To explore the possibilities of funding and investment, you can reach out directly to the founders or email us at contact@kshoonya.com. "
                       rootClassName="rootClassName2"
                     ></FeatureCard2>
                     <FeatureCard2
                       title="HOW CAN I INVEST IN YOUR STARTUP?"
-                      description="To know more, feel free to contact us at contact@kshoonya.com"
+                      description="Yes, we are always keen to work with young and creative individuals like yourself. Kindly contact us at careers@kshoonya.com."
                       rootClassName="rootClassName3"
                     ></FeatureCard2>
                   </div>
@@ -353,7 +373,7 @@ const AboutUs = (props) => {
             </div>
           </div>
           <div className="about-us-heading">
-            <h2 className="about-us-text47">Contact us</h2>
+            <h2 className="about-us-text62">Contact us</h2>
           </div>
           <div className="about-us-form">
             <div className="about-us-types"></div>
@@ -373,6 +393,7 @@ const AboutUs = (props) => {
               <input
                 type="text"
                 placeholder="Message"
+                autoFocus
                 className="input book-input"
               />
               <div className="about-us-lower">
@@ -422,7 +443,7 @@ const AboutUs = (props) => {
         <div className="about-us-footer">
           <img
             alt="image"
-            src="/playground_assets/new_design_full%203-300w.png"
+            src="/playground_assets/new_design_full%203-800w.png"
             loading="lazy"
             className="about-us-image11"
           />
@@ -447,7 +468,7 @@ const AboutUs = (props) => {
             </div>
             <div className="about-us-divider"></div>
             <div className="about-us-container21">
-              <span className="about-us-text49 Body2">
+              <span className="about-us-text64 Body2">
                 © 2023 Kshoonya Inc. All rights reserved
               </span>
               <div className="about-us-container22">
@@ -881,12 +902,12 @@ const AboutUs = (props) => {
           }
           .about-us-text07 {
             font-size: 72px;
-            align-self: flex-start;
+            align-self: center;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
           .about-us-text08 {
             font-size: 72px;
-            align-self: flex-end;
+            align-self: center;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
           .about-us-features {
@@ -955,10 +976,21 @@ const AboutUs = (props) => {
             font-weight: 600;
           }
           .about-us-text22 {
-            color: rgb(89, 89, 89);
             font-size: 1.15rem;
             text-align: justify;
             margin-bottom: 32px;
+          }
+          .about-us-text23 {
+            color: #595959;
+          }
+          .about-us-text24 {
+            color: #595959;
+          }
+          .about-us-text25 {
+            font-weight: 700;
+          }
+          .about-us-text26 {
+            color: #595959;
           }
           .about-us-testimonial-card1 {
             width: 100%;
@@ -984,15 +1016,18 @@ const AboutUs = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .about-us-text23 {
+          .about-us-text27 {
             font-size: 1.5rem;
             font-weight: 600;
           }
-          .about-us-text28 {
+          .about-us-text32 {
             color: rgb(89, 89, 89);
             font-size: 1.15rem;
             text-align: justify;
             margin-bottom: 32px;
+          }
+          .about-us-text35 {
+            font-weight: 700;
           }
           .about-us-testimonial-card2 {
             width: 100%;
@@ -1027,14 +1062,17 @@ const AboutUs = (props) => {
             align-items: space-between;
             flex-direction: column;
           }
-          .about-us-text29 {
+          .about-us-text36 {
             font-size: 1.5rem;
             font-weight: 600;
           }
-          .about-us-text33 {
+          .about-us-text40 {
             color: rgb(89, 89, 89);
             font-size: 1.15rem;
             margin-bottom: 32px;
+          }
+          .about-us-text43 {
+            font-weight: 700;
           }
           .about-us-testimonial2 {
             border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -1062,22 +1100,6 @@ const AboutUs = (props) => {
             align-items: center;
             justify-content: space-between;
           }
-          .about-us-testimonial3 {
-            display: flex;
-            align-items: flex-start;
-            margin-right: 48px;
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .about-us-text34 {
-            font-size: 1.5rem;
-            font-weight: 600;
-          }
-          .about-us-text38 {
-            color: rgb(89, 89, 89);
-            font-size: 1.15rem;
-            margin-bottom: 32px;
-          }
           .about-us-image06 {
             width: 192px;
             height: 192px;
@@ -1085,7 +1107,26 @@ const AboutUs = (props) => {
             flex-shrink: 0;
             border-radius: var(--dl-radius-radius-round);
           }
-          .about-us-text39 {
+          .about-us-testimonial3 {
+            display: flex;
+            align-self: center;
+            margin-right: 48px;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .about-us-text45 {
+            font-size: 1.5rem;
+            font-weight: 600;
+          }
+          .about-us-text49 {
+            color: rgb(89, 89, 89);
+            font-size: 1.15rem;
+            margin-bottom: 32px;
+          }
+          .about-us-text50 {
+            margin-bottom: 32px;
+          }
+          .about-us-text54 {
             color: var(--dl-color-gray-black);
             font-size: 3rem;
           }
@@ -1134,12 +1175,12 @@ const AboutUs = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .about-us-text40 {
+          .about-us-text55 {
             font-size: 3rem;
             margin-bottom: 32px;
           }
-          .about-us-text41 {
-            color: var(--dl-color-gray-700);
+          .about-us-text56 {
+            color: #252529;
             width: 70%;
             font-size: 1.15rem;
             text-align: justify;
@@ -1151,11 +1192,11 @@ const AboutUs = (props) => {
             max-width: 1400px;
             flex-direction: column;
           }
-          .about-us-text42 {
+          .about-us-text57 {
             font-size: 3rem;
             margin-bottom: 48px;
           }
-          .about-us-text45 {
+          .about-us-text60 {
             font-size: 1rem;
             font-weight: 400;
           }
@@ -1171,7 +1212,7 @@ const AboutUs = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .about-us-text47 {
+          .about-us-text62 {
             font-size: 56px;
             max-width: 600px;
             font-style: normal;
@@ -1388,7 +1429,7 @@ const AboutUs = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .about-us-text49 {
+          .about-us-text64 {
             color: var(--dl-color-gray-300);
             margin-top: var(--dl-space-space-unit);
           }
@@ -1492,18 +1533,29 @@ const AboutUs = (props) => {
               margin-bottom: var(--dl-space-space-doubleunit);
             }
             .about-us-text07 {
+              align-self: center;
               text-align: center;
             }
             .about-us-text08 {
+              align-self: center;
               text-align: center;
             }
-            .about-us-text39 {
+            .about-us-text09 {
+              color: var(--dl-color-gray-900);
+              font-size: 16px;
+              font-style: normal;
+              font-family: Inter;
+              font-weight: 400;
+              text-transform: none;
+              text-decoration: none;
+            }
+            .about-us-text54 {
               text-align: center;
             }
-            .about-us-text40 {
+            .about-us-text55 {
               text-align: center;
             }
-            .about-us-text41 {
+            .about-us-text56 {
               text-align: center;
             }
             .about-us-container16 {
@@ -1520,31 +1572,48 @@ const AboutUs = (props) => {
             .about-us-menu {
               display: none;
             }
+            .about-us-image02 {
+              margin-left: -50px;
+            }
             .about-us-text07 {
               font-size: 50px;
+              align-self: center;
               text-align: center;
             }
             .about-us-text08 {
               font-size: 50px;
+              align-self: center;
               text-align: center;
             }
             .about-us-text09 {
+              color: var(--dl-color-gray-900);
               font-size: 40px;
+              font-style: normal;
+              font-family: Inter;
+              font-weight: 400;
+              text-transform: none;
+              text-decoration: none;
             }
             .about-us-text10 {
-              font-size: 40px;
+              font-size: 16px;
+            }
+            .about-us-text11 {
+              font-size: 16px;
             }
             .about-us-text12 {
               font-size: 40px;
             }
             .about-us-text13 {
-              font-size: 40px;
+              font-size: 16px;
+            }
+            .about-us-text14 {
+              font-size: 16px;
             }
             .about-us-text15 {
               font-size: 40px;
             }
             .about-us-text16 {
-              font-size: 40px;
+              font-size: 16px;
             }
             .about-us-testimonial-card {
               padding-left: 32px;
@@ -1590,7 +1659,7 @@ const AboutUs = (props) => {
               padding-left: 32px;
               padding-right: 32px;
             }
-            .about-us-text40 {
+            .about-us-text55 {
               text-align: center;
             }
             .about-us-features2 {
@@ -1603,7 +1672,7 @@ const AboutUs = (props) => {
             .about-us-heading {
               gap: var(--dl-space-space-unit);
             }
-            .about-us-text47 {
+            .about-us-text62 {
               font-size: 24px;
             }
             .about-us-form {
@@ -1622,7 +1691,7 @@ const AboutUs = (props) => {
             .about-us-container21 {
               flex-direction: column;
             }
-            .about-us-text49 {
+            .about-us-text64 {
               margin-top: var(--dl-space-space-unit);
               margin-bottom: var(--dl-space-space-unit);
             }
@@ -1643,22 +1712,43 @@ const AboutUs = (props) => {
               margin-left: 0px;
               padding-right: 59px;
             }
+            .about-us-text07 {
+              align-self: center;
+            }
             .about-us-text09 {
+              color: var(--dl-color-gray-900);
+              font-size: 40px;
+              font-style: normal;
               text-align: center;
+              font-family: Inter;
+              font-weight: 400;
+              text-transform: none;
+              text-decoration: none;
             }
             .about-us-text10 {
+              font-size: 16px;
               text-align: center;
             }
+            .about-us-text11 {
+              font-size: 16px;
+            }
             .about-us-text12 {
+              font-size: 40px;
               text-align: center;
             }
             .about-us-text13 {
+              font-size: 16px;
               text-align: center;
             }
+            .about-us-text14 {
+              font-size: 16px;
+            }
             .about-us-text15 {
+              font-size: 40px;
               text-align: center;
             }
             .about-us-text16 {
+              font-size: 16px;
               text-align: center;
             }
             .about-us-testimonial-card {
@@ -1673,7 +1763,13 @@ const AboutUs = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-unit);
             }
+            .about-us-text17 {
+              text-align: center;
+            }
             .about-us-text22 {
+              text-align: left;
+            }
+            .about-us-text23 {
               text-align: left;
             }
             .about-us-testimonial-card1 {
@@ -1688,7 +1784,10 @@ const AboutUs = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .about-us-text28 {
+            .about-us-text27 {
+              text-align: center;
+            }
+            .about-us-text32 {
               text-align: left;
             }
             .about-us-testimonial-card2 {
@@ -1698,7 +1797,17 @@ const AboutUs = (props) => {
               flex-direction: column;
               padding-bottom: 32px;
             }
-            .about-us-text33 {
+            .about-us-container10 {
+              align-self: center;
+            }
+            .about-us-text36 {
+              text-align: center;
+            }
+            .about-us-text40 {
+              align-self: flex-start;
+              text-align: left;
+            }
+            .about-us-text41 {
               text-align: left;
             }
             .about-us-testimonial2 {
@@ -1724,8 +1833,20 @@ const AboutUs = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .about-us-text38 {
+            .about-us-text45 {
+              text-align: center;
+            }
+            .about-us-text49 {
+              color: rgb(89, 89, 89);
+              font-size: 1.15rem;
+              align-self: flex-start;
               text-align: left;
+            }
+            .about-us-text50 {
+              text-align: left;
+            }
+            .about-us-text52 {
+              font-weight: 700;
             }
             .about-us-banner {
               padding-top: 48px;

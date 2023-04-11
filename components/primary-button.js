@@ -6,7 +6,11 @@ const PrimaryButton = (props) => {
   return (
     <>
       <div className="primary-button-container">
-        <button className="primary-button-button MediumLabel button">
+        <button
+          type="button"
+          autoFocus
+          className="primary-button-button MediumLabel button"
+        >
           {props.button}
         </button>
       </div>
@@ -20,7 +24,7 @@ const PrimaryButton = (props) => {
             justify-content: center;
           }
           .primary-button-button {
-            color: var(--dl-color-gray-white);
+            color: #141313;
             align-self: center;
             transition: 0.3s;
             padding-top: 12px;
@@ -29,7 +33,7 @@ const PrimaryButton = (props) => {
             border-radius: var(--dl-radius-radius-radius6);
             padding-right: 32px;
             padding-bottom: 12px;
-            background-color: var(--dl-color-purple-default);
+            background-color: #d4a6a6;
           }
           .primary-button-button:hover {
             background-color: var(--dl-color-purple-900);

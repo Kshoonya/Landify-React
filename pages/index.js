@@ -203,7 +203,7 @@ const Home = (props) => {
               ></DangerousHTML>
             </div>
             <img
-              alt="image"
+              alt="A young fit man is walking outdoor. His background is blurred and there are trees in the distance behind him. The image is is taken from his left side at approximately 45 degrees angle.  HE has tanned skin, dark hair &amp; light growth of facial hair. He is midstride &amp; looking downwards. Wearing a half sleeved, round neck grey t-shirt and dark trousers of ankle length. Also wearing a watch on his right hand and light blue sport shoes while white wired earphones are plugged in his ears. Also wearing dark glasses with reddish frame."
               src="/playground_assets/_ca4a1961-f5eb-4cb5-a9a4-621c4ceda0f3-600h.jpeg"
               loading="lazy"
               className="home-image02"
@@ -220,8 +220,8 @@ const Home = (props) => {
             className="home-purple-circle"
           />
           <img
-            alt="image"
             src="/playground_assets/leftar-500w.png"
+            loading="lazy"
             className="home-left"
           />
           <img
@@ -229,12 +229,6 @@ const Home = (props) => {
             src="/playground_assets/half%20circle%20%5B1%5D-700w.png"
             loading="lazy"
             className="home-right"
-          />
-          <img
-            alt="image"
-            src="/playground_assets/half%20circle%20%5B1%5D-700w.png"
-            loading="lazy"
-            className="home-right1"
           />
         </div>
         <div className="home-features">
@@ -258,6 +252,7 @@ const Home = (props) => {
               card_title="User friendly"
             ></FeatureCard>
             <FeatureCard
+              text="We build solutions to eliminate real problems of real people in our society."
               image_src="/playground_assets/04.svg"
               card_title="Community Focus"
             ></FeatureCard>
@@ -305,7 +300,7 @@ const Home = (props) => {
               <h1 className="home-text16 Headline2">
                 Our Innovative Technology
               </h1>
-              <span>Works to bring independence and inclusiveness</span>
+              <span>Works to bring independence &amp; inclusivity</span>
               <div className="home-container09">
                 <TestimonialsCard
                   text="Kshoonya’s revolutionary technology leverages a combination of AI and sensors to provide an unparalleled level of mobility and navigation."
@@ -398,7 +393,7 @@ const Home = (props) => {
           <div className="home-separator"></div>
           <div className="home-container17">
             <img
-              alt="image"
+              alt="Picture is of a young woman walking toward right of the frame. Image is from her right side at an angle. She is midstride and looking downwards.  She has long straight black hair worn in a high ponytail. Looking athletic in her Yellow halter top, black calf length slacks &amp; colourful sport shoes. She is wearing big dark glasses. She is walking on the street, with a blurred background of trees in the distance, parallel to the road. "
               src="/playground_assets/_a44f30b0-445a-4963-8d0e-b5d74b59a155-500h.jpeg"
               loading="lazy"
               className="home-image03"
@@ -426,11 +421,6 @@ const Home = (props) => {
               ></FeatureCard4>
             </div>
           </div>
-          <img
-            alt="image"
-            src="/playground_assets/circle-1000w.png"
-            className="home-purple-circle1"
-          />
         </div>
         <div className="home-hero1">
           <div className="home-container19">
@@ -459,13 +449,11 @@ const Home = (props) => {
             </span>
           </div>
           <img
-            alt="image"
             src="/playground_assets/leftar-500w.png"
             loading="lazy"
             className="home-left1"
           />
           <img
-            alt="image"
             src="/playground_assets/image-uuox-1200w.jpeg"
             loading="lazy"
             className="home-image04"
@@ -478,18 +466,21 @@ const Home = (props) => {
           <GalleryCard11
             title="Dream"
             subtitle="We dream of a world where every disabled individual has same level of access to opportunities &amp; the world around them as any other able person."
+            image_alt=". The image hold an older boy wearing dark glasses, looking upwards and smiling to himself. He is sitting in blue polo t-shirt &amp; brown trousers, while the image is taken from front. His mouth is slightly open with front teeth showing. He is brown skinned.In his background are blurred bright spots of lights . The image has a filter of partially transparent red wide streak going from left to right of the image.."
             image_src="/playground_assets/_2c7cb96e-7c41-4972-8046-9594a3e1e62a-1500h.jpeg"
             rootClassName="rootClassName"
           ></GalleryCard11>
           <GalleryCard11
             title="Innovate"
             subtitle="Kshoonya’s revolutionary technology leverages a combination of AI and sensors to provide an unparalleled level of mobility and navigation."
+            image_alt="this image shows 5 individuals standing in a semi circle around a table. Image is taken from front and shows the people partially. The top half of the image, which is above all their heads, shows large sketches of a light bulb, screws, hinges and puzzle pieces. The image is trying to depict brainstorming. Description of people from left to right - side angle of a partly visible man holding a book &amp; showing it to the girl on his left; a girl in dark top and middle parted long straight hair is smiling widely looking downwards at the book; a man wearing reading glasses and white shirt is also smiling looking at the book, he is half crouching and sporting facial hair; a smiling girl in dark glasses and white shirt is reaching out her hand to the book, her left profile is partially visible."
             image_src="/playground_assets/_1f13f0ed-a9f1-48d0-8b5e-324b7b7fb17e-1500h.jpeg"
             rootClassName="rootClassName1"
           ></GalleryCard11>
           <GalleryCard11
             title="Support"
             subtitle="By pushing boundaries of what’s possible &amp; striving to build the most advance technologies, we support disabled individuals in accessing their maximum potential."
+            image_alt="the image shows a close up of 2 hands. They seem to be of 2 different people standing about a feet apart.For stereotypical reasons, one hand seems to be of a man and the other of a woman."
             image_src="/playground_assets/_e94549ba-5630-4a66-854b-3652db50d574-1500h.jpeg"
             rootClassName="rootClassName5"
           ></GalleryCard11>
@@ -595,6 +586,8 @@ const Home = (props) => {
               <BlogPostCard1
                 label="WHY"
                 title="What inspired us?"
+                image_alt="the image shows front profile of a young woman who is looking straight at the camera. Her torso is visible, unto the belt of her blue pants. She is standing against a yellow backgrounded shrugging with her hands bent at the elbow and palms facing up at shoulder level and close to it. She is wearing a question expression on her face and a yellow high neck, full sleeved top on her torso. Her hair are straight, brown and fall under her shoulder with middle parting. Her eyes seem to be going in operate directions."
+                image_src="/playground_assets/why-1500w.jpeg"
                 description="While the tech industry moves towards unimaginable &amp; invaluable solutions, there are still billions of people around the world unable to access something as basic as independent mobility."
                 rootClassName="rootClassName3"
               ></BlogPostCard1>
@@ -603,7 +596,8 @@ const Home = (props) => {
               <BlogPostCard1
                 label="WHAT"
                 title="What do we want?"
-                image_src="https://images.unsplash.com/photo-1465925508512-1e7052bb62e6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxjaXR5JTIwY2FifGVufDB8fHx8MTYyNjQ1MDMwNA&amp;ixlib=rb-1.2.1&amp;h=1200"
+                image_alt="the image shows a pair or dark shoes in dark background, taken diagonally from left of the pair. Shoes from ground level, the pair has metallic parts &amp; straps, giving it a robotic look."
+                image_src="/playground_assets/what-1500w.jpeg"
                 description="We want to employ the boundless potential of technology to improve lives. Building AI-based innovative &amp; revolutionary solutions in the form of wearable devices which have the capacity to learn, evolve &amp; guide."
                 profile_src="https://images.unsplash.com/photo-1632169486919-f8d993a936c4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJsaW5kfGVufDB8fHx8MTY4MDc0NTg2Nw&amp;ixlib=rb-4.0.3&amp;h=200"
                 rootClassName="rootClassName2"
@@ -613,9 +607,9 @@ const Home = (props) => {
               <BlogPostCard1
                 label="HOW"
                 title="How YOU can contribute?"
-                image_src="https://images.unsplash.com/photo-1464938050520-ef2270bb8ce8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE4fHxjaXR5fGVufDB8fHx8MTYyNjQ1MDI4MQ&amp;ixlib=rb-1.2.1&amp;h=1200"
+                image_alt="the cartoon shows full profile of 6 individuals from front. They are all laughing and smiling. The group is a mixture of genders, heights and complexions."
+                image_src="/playground_assets/how-1500w.jpeg"
                 description="By writing to us at careers@kshoonya.com if you want to share your time &amp; expertise, and reaching out via contact@kshoonya.com if you’d like to fund the project or have any suggestions for us!"
-                profile_src="https://images.unsplash.com/photo-1622231300439-9f4b1099afb3?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fGNvbnRyaWJ1dGV8ZW58MHx8fHwxNjgwNzQ1OTQx&amp;ixlib=rb-4.0.3&amp;h=200"
                 rootClassName="rootClassName1"
               ></BlogPostCard1>
             </div>
@@ -1137,18 +1131,6 @@ const Home = (props) => {
             object-fit: cover;
           }
           .home-right {
-            top: 441px;
-            left: auto;
-            right: 0px;
-            width: 612px;
-            bottom: auto;
-            opacity: 0.8;
-            position: absolute;
-            box-shadow: 5px 5px 10px 0px #d4d4d4;
-            object-fit: cover;
-            border-radius: var(--dl-radius-radius-radius4);
-          }
-          .home-right1 {
             right: -11px;
             width: 612px;
             bottom: -2798px;
@@ -1360,16 +1342,6 @@ const Home = (props) => {
           .home-container18 {
             display: grid;
             grid-template-columns: 1fr 1fr;
-          }
-          .home-purple-circle1 {
-            top: 2877px;
-            left: 260px;
-            width: 907px;
-            filter: blur(60px);
-            height: 675px;
-            opacity: 0.2;
-            position: absolute;
-            object-fit: cover;
           }
           .home-hero1 {
             width: 100%;
@@ -2475,7 +2447,7 @@ const Home = (props) => {
             .home-bot {
               width: 100%;
             }
-            .home-right1 {
+            .home-right {
               position: static;
             }
             .home-text11 {

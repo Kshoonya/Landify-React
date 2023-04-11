@@ -143,7 +143,6 @@ const PrivacyPolicy = (props) => {
             className="privacy-policy-purple-circle"
           />
           <img
-            alt="image"
             src="/playground_assets/left.svg"
             className="privacy-policy-left"
           />

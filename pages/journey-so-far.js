@@ -2,8 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
-import BlogPostCard3 from '../components/blog-post-card3'
-
 const JourneySoFar = (props) => {
   return (
     <>
@@ -136,7 +134,8 @@ const JourneySoFar = (props) => {
             <h1 className="journey-so-far-text08">Journey of Kshoonya</h1>
             <img
               alt="image"
-              src="https://images.unsplash.com/photo-1536420123832-cd5867531583?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDM0fHxqb3VybmV5JTIwc28lMjBmYXJ8ZW58MHx8fHwxNjgwODMwNzIy&amp;ixlib=rb-4.0.3&amp;h=1500"
+              src="/playground_assets/_2e9c8e47-01fd-4d7b-9d91-51a01e47621f-1500h.jpg"
+              loading="lazy"
               className="journey-so-far-image2"
             />
           </div>
@@ -151,54 +150,141 @@ const JourneySoFar = (props) => {
             className="journey-so-far-purple-circle"
           />
           <img
-            alt="image"
             src="/playground_assets/left.svg"
+            loading="lazy"
             className="journey-so-far-left"
           />
           <img
-            alt="image"
             src="/playground_assets/right.svg"
+            loading="lazy"
             className="journey-so-far-right"
           />
         </div>
         <div className="journey-so-far-container06">
           <div className="journey-so-far-container07"></div>
         </div>
-        <div className="journey-so-far-blog">
+        <div className="journey-so-far-hero1">
+          <h1 className="journey-so-far-text09">Startup</h1>
           <div className="journey-so-far-container08">
-            <BlogPostCard3
-              label="offseit takeaways"
-              title="DOING IT THE KSHOONYA WAY"
-              description="Kshoonya is a leading technology company dedicated to creating innovative solutions for businesses of all sizes. We are proud to to take their operations offsite in a secure and efficient manner, doing it the Kshoonya way. Learn more about our projects and how they can help you take your business to the next level!"
-              rootClassName="rootClassName1"
-            ></BlogPostCard3>
+            <span className="journey-so-far-text10">
+              <span>
+                While Kshoonya might be at it’s nascent stage, the experience of
+                those behind it is not. With a team of extremely qualified
+                engineers, researchers &amp; advisors on board, the the company
+                is propelling forward at bullet speed. Come with us as we give
+                you a sneak peak into our innerworkings!
+              </span>
+              <br></br>
+              <br></br>
+              <span>
+                Kshoonya is revolutionizing the field of artificial
+                intelligence. By utilizing cutting-edge technology and
+                innovative designs, Kshoonya is creating projects with the
+                potential to greatly enhance the lives of people everywhere,
+                specially of those with physical limitations.
+              </span>
+              <br></br>
+              <br></br>
+              <span>
+                We deeply believe that every single one of us deserves the same
+                opportunities, irrespective of our ability status.
+              </span>
+              <br></br>
+              <br></br>
+              <span>
+                People with blindness have the same potential to run, then why
+                aren’t more of them running?
+              </span>
+              <br></br>
+              <span>
+                Below is a brief of our journey as we turn that dream into
+                reality.
+              </span>
+              <br></br>
+              <br></br>
+              <span>
+                Our dream of using cutting edge technology to make the world a
+                more equitable place took with with the year 2023. As the idea
+                was born in january, the founders began their secondary research
+                into the world of technology, accessibility &amp; wearable
+                products.
+              </span>
+              <br></br>
+              <br></br>
+              <span>
+                As our knowledge &amp; commitment deepened, we brought on board
+                an extremely accomplished professor from University of South
+                Florida on our advisory board. His interest in our thought gave
+                us our first validation from the industry.
+              </span>
+              <br></br>
+              <br></br>
+              <span>
+                February rolled in and so did our vigour. Our research deepened,
+                as did our belief in the existence of problem in lives of real
+                people as well as one of it’s solutions. However, as a bunch of
+                researchers, we needed hard evidence that the problem is truly
+                as widespread as we think it is. So we planned a primary survey
+                for the community we in mind.
+              </span>
+              <br></br>
+              <br></br>
+              <span>
+                With March 2023, came our most productive period so far. We
+                increased our team from 2 to 4, adding industry experts to the
+                team, along with on-boarding a highly successful advisor.
+              </span>
+              <br></br>
+              <br></br>
+              <span>
+                On the research front, with our primary survey concluded and
+                analysed, we had hard prof that the over 80% of our target
+                audience of disabled individuals was struggling with the problem
+                of independent mobility. While it strengthened our resolve, it
+                throttled us to know how widespread is inaccessibility &amp;
+                imagining it’s holistic impact broke our heart.
+              </span>
+              <br></br>
+              <br></br>
+              <span>
+                As april rolls in, we are determined to bring our idea to
+                reality to increase access in our society and restore some of
+                the independence to disabled individuals that our inaccessible
+                world has stolen.
+              </span>
+              <br></br>
+              <br></br>
+              <span>Stay tuned to know what happens next!</span>
+              <br></br>
+              <span>
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span>
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+            </span>
           </div>
-          <div className="journey-so-far-container09">
-            <BlogPostCard3
-              label="Startup"
-              title="CHANGING THE GAME"
-              image_src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDl8fHdvcmt8ZW58MHx8fHwxNjI2NDUwNzky&amp;ixlib=rb-1.2.1&amp;h=1000"
-              description="Kshoonya is a new startup revolutionizing the field of artificial intelligence. By utilizing cutting-edge technology and innovative designs, Kshoonya is creating projects with the potential to greatly enhance the lives of people everywhere. Learn more about our projects and how we are changing the game in AI today!"
-              rootClassName="rootClassName2"
-            ></BlogPostCard3>
-          </div>
-          <BlogPostCard3
-            label="Accessibility"
-            title="KSHOONYA BELIEVES IN ASSISTIVE TECH"
-            image_src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHx3b3JrJTIwb2ZmaWNlfGVufDB8fHx8MTYyNjQ1MDgzMQ&amp;ixlib=rb-1.2.1&amp;h=1000"
-            description="Kshoonya is on the cutting edge of technology, developing innovative assistive tech and artificial intelligence that is revolutionizing the way people interact with technology. Through their projects, they are making a difference in the lives of many. Come explore Kshoonya's recent projects and see how they are making a positive impact."
-            rootClassName="rootClassName"
-          ></BlogPostCard3>
+        </div>
+        <div className="journey-so-far-blog">
+          <div className="journey-so-far-container09"></div>
           <div className="journey-so-far-steps">
-            <h1 className="journey-so-far-text09">Development Stage</h1>
+            <h1 className="journey-so-far-text47">Development Stage</h1>
             <div className="journey-so-far-container10">
               <div className="journey-so-far-container11">
                 <div className="journey-so-far-step">
-                  <h1 className="journey-so-far-text10">
+                  <h1 className="journey-so-far-text48">
                     <span>1</span>
                   </h1>
-                  <h1 className="journey-so-far-text12">Phase</h1>
-                  <span className="journey-so-far-text13">
+                  <h1 className="journey-so-far-text50">Phase</h1>
+                  <span className="journey-so-far-text51">
                     <span>
                       Project funding for our technology is an important part of
                       the development process. We are currently in Phase 1 of
@@ -214,11 +300,11 @@ const JourneySoFar = (props) => {
                   </span>
                 </div>
                 <div className="journey-so-far-step1">
-                  <h1 className="journey-so-far-text16">
+                  <h1 className="journey-so-far-text54">
                     <span>2</span>
                   </h1>
-                  <h1 className="journey-so-far-text18">Phase</h1>
-                  <span className="journey-so-far-text19">
+                  <h1 className="journey-so-far-text56">Phase</h1>
+                  <span className="journey-so-far-text57">
                     <span>Coming soon</span>
                     <br></br>
                   </span>
@@ -226,21 +312,21 @@ const JourneySoFar = (props) => {
               </div>
               <div className="journey-so-far-container12">
                 <div className="journey-so-far-step2">
-                  <h1 className="journey-so-far-text22">
+                  <h1 className="journey-so-far-text60">
                     <span>3</span>
                   </h1>
-                  <h1 className="journey-so-far-text24">Phase</h1>
-                  <span className="journey-so-far-text25">
+                  <h1 className="journey-so-far-text62">Phase</h1>
+                  <span className="journey-so-far-text63">
                     <span>coming soon</span>
                     <br></br>
                   </span>
                 </div>
                 <div className="journey-so-far-step3">
-                  <h1 className="journey-so-far-text28">
+                  <h1 className="journey-so-far-text66">
                     <span>4</span>
                   </h1>
-                  <h1 className="journey-so-far-text30">Production</h1>
-                  <span className="journey-so-far-text31">
+                  <h1 className="journey-so-far-text68">Production</h1>
+                  <span className="journey-so-far-text69">
                     <span>
                       coming
                       <span
@@ -318,7 +404,7 @@ const JourneySoFar = (props) => {
             </div>
             <div className="journey-so-far-divider"></div>
             <div className="journey-so-far-container19">
-              <span className="journey-so-far-text36 Body2">
+              <span className="journey-so-far-text74 Body2">
                 © 2023 Kshoonya Inc. All rights reserved
               </span>
               <div className="journey-so-far-container20">
@@ -707,7 +793,7 @@ const JourneySoFar = (props) => {
 
           .journey-so-far-text08 {
             font-size: 72px;
-            align-self: flex-end;
+            align-self: center;
             margin-bottom: var(--dl-space-space-doubleunit);
           }
           .journey-so-far-image2 {
@@ -770,6 +856,30 @@ const JourneySoFar = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+          .journey-so-far-hero1 {
+            width: 100%;
+            display: flex;
+            padding: var(--dl-space-space-threeunits);
+            min-height: 80vh;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .journey-so-far-text09 {
+            font-size: 3rem;
+          }
+          .journey-so-far-container08 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+          .journey-so-far-text10 {
+            margin-top: var(--dl-space-space-twounits);
+            text-align: justify;
+            padding-left: var(--dl-space-space-threeunits);
+            margin-bottom: var(--dl-space-space-twounits);
+            padding-right: var(--dl-space-space-threeunits);
+          }
           .journey-so-far-blog {
             width: 100%;
             display: flex;
@@ -779,14 +889,8 @@ const JourneySoFar = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .journey-so-far-container08 {
-            display: flex;
-            align-items: center;
-            margin-bottom: 32px;
-            flex-direction: column;
-            justify-content: space-between;
-          }
           .journey-so-far-container09 {
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
             align-items: center;
             margin-bottom: 32px;
@@ -801,7 +905,7 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .journey-so-far-text09 {
+          .journey-so-far-text47 {
             color: var(--dl-color-gray-black);
             font-size: 3rem;
             margin-bottom: var(--dl-space-space-unit);
@@ -822,18 +926,18 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .journey-so-far-text10 {
+          .journey-so-far-text48 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .journey-so-far-text12 {
+          .journey-so-far-text50 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .journey-so-far-text13 {
+          .journey-so-far-text51 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
             margin-top: 24px;
@@ -845,18 +949,18 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .journey-so-far-text16 {
+          .journey-so-far-text54 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .journey-so-far-text18 {
+          .journey-so-far-text56 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .journey-so-far-text19 {
+          .journey-so-far-text57 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
             margin-top: 24px;
@@ -873,18 +977,18 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .journey-so-far-text22 {
+          .journey-so-far-text60 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .journey-so-far-text24 {
+          .journey-so-far-text62 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .journey-so-far-text25 {
+          .journey-so-far-text63 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
             margin-top: 24px;
@@ -896,18 +1000,18 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .journey-so-far-text28 {
+          .journey-so-far-text66 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .journey-so-far-text30 {
+          .journey-so-far-text68 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .journey-so-far-text31 {
+          .journey-so-far-text69 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
             margin-top: 24px;
@@ -1071,7 +1175,7 @@ const JourneySoFar = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .journey-so-far-text36 {
+          .journey-so-far-text74 {
             color: var(--dl-color-gray-300);
             margin-top: var(--dl-space-space-unit);
           }
@@ -1179,31 +1283,45 @@ const JourneySoFar = (props) => {
             .journey-so-far-right {
               position: static;
             }
+            .journey-so-far-hero1 {
+              flex-direction: column;
+            }
             .journey-so-far-text09 {
               text-align: center;
+            }
+            .journey-so-far-container08 {
+              align-items: center;
+              margin-right: 0px;
+              margin-bottom: var(--dl-space-space-twounits);
             }
             .journey-so-far-text10 {
               text-align: center;
             }
-            .journey-so-far-text12 {
+            .journey-so-far-text47 {
               text-align: center;
             }
-            .journey-so-far-text16 {
+            .journey-so-far-text48 {
               text-align: center;
             }
-            .journey-so-far-text18 {
+            .journey-so-far-text50 {
               text-align: center;
             }
-            .journey-so-far-text22 {
+            .journey-so-far-text54 {
               text-align: center;
             }
-            .journey-so-far-text24 {
+            .journey-so-far-text56 {
               text-align: center;
             }
-            .journey-so-far-text28 {
+            .journey-so-far-text60 {
               text-align: center;
             }
-            .journey-so-far-text30 {
+            .journey-so-far-text62 {
+              text-align: center;
+            }
+            .journey-so-far-text66 {
+              text-align: center;
+            }
+            .journey-so-far-text68 {
               text-align: center;
             }
             .journey-so-far-container15 {
@@ -1224,6 +1342,14 @@ const JourneySoFar = (props) => {
               font-size: 50px;
               align-self: flex-start;
               text-align: center;
+            }
+            .journey-so-far-hero1 {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
+            }
+            .journey-so-far-text10 {
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
             }
             .journey-so-far-blog {
               padding-left: 32px;
@@ -1255,7 +1381,7 @@ const JourneySoFar = (props) => {
             .journey-so-far-container19 {
               flex-direction: column;
             }
-            .journey-so-far-text36 {
+            .journey-so-far-text74 {
               margin-top: var(--dl-space-space-unit);
               margin-bottom: var(--dl-space-space-unit);
             }
@@ -1263,6 +1389,15 @@ const JourneySoFar = (props) => {
           @media (max-width: 479px) {
             .journey-so-far-bot {
               width: 100%;
+            }
+            .journey-so-far-hero1 {
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-twounits);
+            }
+            .journey-so-far-container08 {
+              margin-bottom: var(--dl-space-space-unit);
             }
             .journey-so-far-blog {
               padding-top: 32px;
