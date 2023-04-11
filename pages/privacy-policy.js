@@ -8,7 +8,19 @@ const PrivacyPolicy = (props) => {
       <div className="privacy-policy-container">
         <Head>
           <title>Privacy-Policy - Kshoonya Inc</title>
+          <meta
+            name="description"
+            content="Kshoonya is revolutionizing the field of artificial intelligence. By utilizing cutting-edge technology and innovative designs."
+          />
           <meta property="og:title" content="Privacy-Policy - Kshoonya Inc" />
+          <meta
+            property="og:description"
+            content="Kshoonya is revolutionizing the field of artificial intelligence. By utilizing cutting-edge technology and innovative designs."
+          />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/2a3336f1-8248-49e6-89b7-0c16b08d546c/f9893b75-1135-4e18-a915-19ab4a0be01b?org_if_sml=1"
+          />
         </Head>
         <div data-role="Header" className="privacy-policy-header-container">
           <header className="privacy-policy-header">
