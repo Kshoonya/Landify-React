@@ -392,25 +392,29 @@ const JourneySoFar = (props) => {
         </div>
         <div className="journey-so-far-footer">
           <footer className="journey-so-far-container16">
-            <img
-              alt="image"
-              src="/playground_assets/new_design_full%203-400w.png"
-              loading="lazy"
-              className="journey-so-far-image7"
-            />
+            <Link href="/">
+              <a className="journey-so-far-link07">
+                <img
+                  alt="image"
+                  src="/playground_assets/new_design_full%203-400w.png"
+                  loading="lazy"
+                  className="journey-so-far-image7"
+                />
+              </a>
+            </Link>
             <div className="journey-so-far-container17">
               <div className="journey-so-far-container18">
                 <Link href="/jobs">
-                  <a className="journey-so-far-link07">Careers</a>
+                  <a className="journey-so-far-link08">Careers</a>
                 </Link>
                 <Link href="/about-us">
-                  <a className="journey-so-far-link08">About us</a>
+                  <a className="journey-so-far-link09">About us</a>
                 </Link>
                 <Link href="/journey-so-far">
-                  <a className="journey-so-far-link09">Journey</a>
+                  <a className="journey-so-far-link10">Journey</a>
                 </Link>
                 <Link href="/privacy-policy">
-                  <a className="journey-so-far-link10">Privacy Policy</a>
+                  <a className="journey-so-far-link11">Privacy Policy</a>
                 </Link>
               </div>
             </div>
@@ -424,7 +428,7 @@ const JourneySoFar = (props) => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="journey-so-far-link11"
+                  className="journey-so-far-link12"
                 >
                   <div className="journey-so-far-container21">
                     <svg
@@ -439,7 +443,7 @@ const JourneySoFar = (props) => {
                   href="https://dribbble.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="journey-so-far-link12"
+                  className="journey-so-far-link13"
                 >
                   <div className="journey-so-far-container22">
                     <svg
@@ -454,7 +458,7 @@ const JourneySoFar = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="journey-so-far-link13"
+                  className="journey-so-far-link14"
                 >
                   <div className="journey-so-far-container23">
                     <svg
@@ -469,7 +473,7 @@ const JourneySoFar = (props) => {
                   href="https://youtube.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="journey-so-far-link14"
+                  className="journey-so-far-link15"
                 >
                   <div className="journey-so-far-container24">
                     <svg
@@ -1120,10 +1124,14 @@ const JourneySoFar = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
+          .journey-so-far-link07 {
+            display: contents;
+          }
           .journey-so-far-image7 {
             width: 194px;
             height: 72px;
             object-fit: cover;
+            text-decoration: none;
           }
           .journey-so-far-container17 {
             flex: 0 0 auto;
@@ -1140,14 +1148,6 @@ const JourneySoFar = (props) => {
             margin-bottom: var(--dl-space-space-doubleunit);
             flex-direction: row;
             justify-content: flex-start;
-          }
-          .journey-so-far-link07 {
-            transition: 0.3s;
-            margin-right: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
-          .journey-so-far-link07:hover {
-            color: var(--dl-color-turquoise-default);
           }
           .journey-so-far-link08 {
             transition: 0.3s;
@@ -1167,10 +1167,18 @@ const JourneySoFar = (props) => {
           }
           .journey-so-far-link10 {
             transition: 0.3s;
-            white-space: nowrap;
+            margin-right: var(--dl-space-space-unit);
             text-decoration: none;
           }
           .journey-so-far-link10:hover {
+            color: var(--dl-color-turquoise-default);
+          }
+          .journey-so-far-link11 {
+            transition: 0.3s;
+            white-space: nowrap;
+            text-decoration: none;
+          }
+          .journey-so-far-link11:hover {
             color: var(--dl-color-turquoise-default);
           }
           .journey-so-far-divider {
@@ -1198,7 +1206,7 @@ const JourneySoFar = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .journey-so-far-link11 {
+          .journey-so-far-link12 {
             display: contents;
           }
           .journey-so-far-container21 {
@@ -1218,7 +1226,7 @@ const JourneySoFar = (props) => {
           .journey-so-far-icon12:hover {
             fill: var(--dl-color-purple-default);
           }
-          .journey-so-far-link12 {
+          .journey-so-far-link13 {
             display: contents;
           }
           .journey-so-far-container22 {
@@ -1239,7 +1247,7 @@ const JourneySoFar = (props) => {
           .journey-so-far-icon14:hover {
             fill: var(--dl-color-pink-default);
           }
-          .journey-so-far-link13 {
+          .journey-so-far-link14 {
             display: contents;
           }
           .journey-so-far-container23 {
@@ -1260,7 +1268,7 @@ const JourneySoFar = (props) => {
           .journey-so-far-icon16:hover {
             fill: var(--dl-color-turquoise-default);
           }
-          .journey-so-far-link14 {
+          .journey-so-far-link15 {
             display: contents;
           }
           .journey-so-far-container24 {
@@ -1351,10 +1359,10 @@ const JourneySoFar = (props) => {
             .journey-so-far-container15 {
               display: none;
             }
-            .journey-so-far-link08 {
+            .journey-so-far-link09 {
               text-decoration: none;
             }
-            .journey-so-far-link09 {
+            .journey-so-far-link10 {
               text-decoration: none;
             }
           }
@@ -1451,10 +1459,10 @@ const JourneySoFar = (props) => {
             .journey-so-far-container12 {
               flex-direction: column;
             }
-            .journey-so-far-link08 {
+            .journey-so-far-link09 {
               text-decoration: none;
             }
-            .journey-so-far-link09 {
+            .journey-so-far-link10 {
               text-decoration: none;
             }
           }

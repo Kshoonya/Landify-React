@@ -224,27 +224,31 @@ const Jobs = (props) => {
           </div>
         </div>
         <div className="jobs-footer">
-          <img
-            alt="image"
-            src="/playground_assets/new_design_full%203-400w.png"
-            loading="lazy"
-            className="jobs-image7"
-          />
+          <Link href="/">
+            <a className="jobs-link08">
+              <img
+                alt="image"
+                src="/playground_assets/new_design_full%203-400w.png"
+                loading="lazy"
+                className="jobs-image7"
+              />
+            </a>
+          </Link>
           <footer className="jobs-container12">
             <div className="jobs-container13">
               <div className="jobs-container14">
                 <div className="jobs-container15">
                   <Link href="/jobs">
-                    <a className="jobs-link08">Careers</a>
+                    <a className="jobs-link09">Careers</a>
                   </Link>
                   <Link href="/about-us">
-                    <a className="jobs-link09">About us</a>
+                    <a className="jobs-link10">About us</a>
                   </Link>
                   <Link href="/journey-so-far">
-                    <a className="jobs-link10">Journey</a>
+                    <a className="jobs-link11">Journey</a>
                   </Link>
                   <Link href="/privacy-policy">
-                    <a className="jobs-link11">Privacy Policy</a>
+                    <a className="jobs-link12">Privacy Policy</a>
                   </Link>
                 </div>
               </div>
@@ -259,7 +263,7 @@ const Jobs = (props) => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="jobs-link12"
+                  className="jobs-link13"
                 >
                   <div className="jobs-container18">
                     <svg
@@ -274,7 +278,7 @@ const Jobs = (props) => {
                   href="https://dribbble.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="jobs-link13"
+                  className="jobs-link14"
                 >
                   <div className="jobs-container19">
                     <svg
@@ -289,7 +293,7 @@ const Jobs = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="jobs-link14"
+                  className="jobs-link15"
                 >
                   <div className="jobs-container20">
                     <svg
@@ -304,7 +308,7 @@ const Jobs = (props) => {
                   href="https://youtube.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="jobs-link15"
+                  className="jobs-link16"
                 >
                   <div className="jobs-container21">
                     <svg viewBox="0 0 1024 1024" className="jobs-icon18">
@@ -800,10 +804,14 @@ const Jobs = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-gray-black);
           }
+          .jobs-link08 {
+            display: contents;
+          }
           .jobs-image7 {
             width: 196px;
             height: 84px;
             object-fit: cover;
+            text-decoration: none;
           }
           .jobs-container12 {
             flex: 0 0 auto;
@@ -841,14 +849,6 @@ const Jobs = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .jobs-link08 {
-            transition: 0.3s;
-            margin-right: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
-          .jobs-link08:hover {
-            color: var(--dl-color-turquoise-default);
-          }
           .jobs-link09 {
             transition: 0.3s;
             margin-right: var(--dl-space-space-unit);
@@ -867,10 +867,18 @@ const Jobs = (props) => {
           }
           .jobs-link11 {
             transition: 0.3s;
-            white-space: nowrap;
+            margin-right: var(--dl-space-space-unit);
             text-decoration: none;
           }
           .jobs-link11:hover {
+            color: var(--dl-color-turquoise-default);
+          }
+          .jobs-link12 {
+            transition: 0.3s;
+            white-space: nowrap;
+            text-decoration: none;
+          }
+          .jobs-link12:hover {
             color: var(--dl-color-turquoise-default);
           }
           .jobs-divider {
@@ -898,7 +906,7 @@ const Jobs = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .jobs-link12 {
+          .jobs-link13 {
             display: contents;
           }
           .jobs-container18 {
@@ -918,7 +926,7 @@ const Jobs = (props) => {
           .jobs-icon12:hover {
             fill: var(--dl-color-purple-default);
           }
-          .jobs-link13 {
+          .jobs-link14 {
             display: contents;
           }
           .jobs-container19 {
@@ -939,7 +947,7 @@ const Jobs = (props) => {
           .jobs-icon14:hover {
             fill: var(--dl-color-pink-default);
           }
-          .jobs-link14 {
+          .jobs-link15 {
             display: contents;
           }
           .jobs-container20 {
@@ -960,7 +968,7 @@ const Jobs = (props) => {
           .jobs-icon16:hover {
             fill: var(--dl-color-turquoise-default);
           }
-          .jobs-link15 {
+          .jobs-link16 {
             display: contents;
           }
           .jobs-container21 {
@@ -1022,10 +1030,10 @@ const Jobs = (props) => {
             .jobs-container11 {
               display: none;
             }
-            .jobs-link09 {
+            .jobs-link10 {
               text-decoration: none;
             }
-            .jobs-link10 {
+            .jobs-link11 {
               text-decoration: none;
             }
           }
@@ -1086,10 +1094,10 @@ const Jobs = (props) => {
             .jobs-container06 {
               grid-gap: var(--dl-space-space-halfunit);
             }
-            .jobs-link09 {
+            .jobs-link10 {
               text-decoration: none;
             }
-            .jobs-link10 {
+            .jobs-link11 {
               text-decoration: none;
             }
           }

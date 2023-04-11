@@ -452,27 +452,31 @@ const AboutUs = (props) => {
           </div>
         </div>
         <div className="about-us-footer">
-          <img
-            alt="image"
-            src="/playground_assets/new_design_full%203-1200w.png"
-            loading="lazy"
-            className="about-us-image11"
-          />
+          <Link href="/">
+            <a className="about-us-link08">
+              <img
+                alt="image"
+                src="/playground_assets/new_design_full%203-1200w.png"
+                loading="lazy"
+                className="about-us-image11"
+              />
+            </a>
+          </Link>
           <footer className="about-us-container17">
             <div className="about-us-container18">
               <div className="about-us-container19">
                 <div className="about-us-container20">
                   <Link href="/jobs">
-                    <a className="about-us-link08">Careers</a>
+                    <a className="about-us-link09">Careers</a>
                   </Link>
                   <Link href="/about-us">
-                    <a className="about-us-link09">About us</a>
+                    <a className="about-us-link10">About us</a>
                   </Link>
                   <Link href="/journey-so-far">
-                    <a className="about-us-link10">Journey</a>
+                    <a className="about-us-link11">Journey</a>
                   </Link>
                   <Link href="/privacy-policy">
-                    <a className="about-us-link11">Privacy Policy</a>
+                    <a className="about-us-link12">Privacy Policy</a>
                   </Link>
                 </div>
               </div>
@@ -487,7 +491,7 @@ const AboutUs = (props) => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="about-us-link12"
+                  className="about-us-link13"
                 >
                   <div className="about-us-container23">
                     <svg
@@ -502,7 +506,7 @@ const AboutUs = (props) => {
                   href="https://dribbble.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="about-us-link13"
+                  className="about-us-link14"
                 >
                   <div className="about-us-container24">
                     <svg
@@ -517,7 +521,7 @@ const AboutUs = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="about-us-link14"
+                  className="about-us-link15"
                 >
                   <div className="about-us-container25">
                     <svg
@@ -532,7 +536,7 @@ const AboutUs = (props) => {
                   href="https://youtube.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="about-us-link15"
+                  className="about-us-link16"
                 >
                   <div className="about-us-container26">
                     <svg viewBox="0 0 1024 1024" className="about-us-icon18">
@@ -1118,7 +1122,7 @@ const AboutUs = (props) => {
             display: flex;
             align-self: center;
             align-items: flex-start;
-            margin-right: 48px;
+            margin-right: 425px;
             flex-direction: column;
             justify-content: space-between;
           }
@@ -1358,10 +1362,14 @@ const AboutUs = (props) => {
             justify-content: flex-start;
             background-color: var(--dl-color-gray-black);
           }
+          .about-us-link08 {
+            display: contents;
+          }
           .about-us-image11 {
             width: 204px;
             height: 78px;
             object-fit: cover;
+            text-decoration: none;
           }
           .about-us-container17 {
             flex: 0 0 auto;
@@ -1399,14 +1407,6 @@ const AboutUs = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .about-us-link08 {
-            transition: 0.3s;
-            margin-right: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
-          .about-us-link08:hover {
-            color: var(--dl-color-turquoise-default);
-          }
           .about-us-link09 {
             transition: 0.3s;
             margin-right: var(--dl-space-space-unit);
@@ -1425,10 +1425,18 @@ const AboutUs = (props) => {
           }
           .about-us-link11 {
             transition: 0.3s;
-            white-space: nowrap;
+            margin-right: var(--dl-space-space-unit);
             text-decoration: none;
           }
           .about-us-link11:hover {
+            color: var(--dl-color-turquoise-default);
+          }
+          .about-us-link12 {
+            transition: 0.3s;
+            white-space: nowrap;
+            text-decoration: none;
+          }
+          .about-us-link12:hover {
             color: var(--dl-color-turquoise-default);
           }
           .about-us-divider {
@@ -1456,7 +1464,7 @@ const AboutUs = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .about-us-link12 {
+          .about-us-link13 {
             display: contents;
           }
           .about-us-container23 {
@@ -1476,7 +1484,7 @@ const AboutUs = (props) => {
           .about-us-icon12:hover {
             fill: var(--dl-color-purple-default);
           }
-          .about-us-link13 {
+          .about-us-link14 {
             display: contents;
           }
           .about-us-container24 {
@@ -1497,7 +1505,7 @@ const AboutUs = (props) => {
           .about-us-icon14:hover {
             fill: var(--dl-color-pink-default);
           }
-          .about-us-link14 {
+          .about-us-link15 {
             display: contents;
           }
           .about-us-container25 {
@@ -1518,7 +1526,7 @@ const AboutUs = (props) => {
           .about-us-icon16:hover {
             fill: var(--dl-color-turquoise-default);
           }
-          .about-us-link15 {
+          .about-us-link16 {
             display: contents;
           }
           .about-us-container26 {
@@ -1553,11 +1561,16 @@ const AboutUs = (props) => {
             .about-us-image02 {
               width: 1151px;
               height: 295px;
-              margin-right: var(--dl-space-space-fourunits);
+              align-self: center;
+              margin-left: 50px;
+              margin-right: 50px;
             }
             .about-us-text07 {
               width: 338px;
               align-self: center;
+            }
+            .about-us-testimonial3 {
+              margin-right: 425px;
             }
           }
           @media (max-width: 1200px) {
@@ -1570,6 +1583,17 @@ const AboutUs = (props) => {
             }
             .about-us-text08 {
               align-self: center;
+            }
+            .about-us-image05 {
+              align-self: flex-start;
+              margin-left: 100px;
+              margin-right: 0px;
+            }
+            .about-us-image06 {
+              margin-left: 100px;
+            }
+            .about-us-testimonial3 {
+              margin-right: 425px;
             }
           }
           @media (max-width: 991px) {
@@ -1584,6 +1608,7 @@ const AboutUs = (props) => {
             .about-us-image02 {
               width: 663px;
               align-self: stretch;
+              margin-right: -150px;
             }
             .about-us-container06 {
               align-items: center;
@@ -1606,6 +1631,15 @@ const AboutUs = (props) => {
               text-transform: none;
               text-decoration: none;
             }
+            .about-us-image05 {
+              margin-left: 210px;
+            }
+            .about-us-image06 {
+              margin-left: 210px;
+            }
+            .about-us-testimonial3 {
+              margin-right: 420px;
+            }
             .about-us-text54 {
               text-align: center;
             }
@@ -1618,10 +1652,10 @@ const AboutUs = (props) => {
             .about-us-container16 {
               display: none;
             }
-            .about-us-link09 {
+            .about-us-link10 {
               text-decoration: none;
             }
-            .about-us-link10 {
+            .about-us-link11 {
               text-decoration: none;
             }
           }
@@ -1634,19 +1668,20 @@ const AboutUs = (props) => {
               display: none;
             }
             .about-us-image02 {
-              width: 767px;
-              height: 351px;
-              align-self: stretch;
+              width: 430px;
+              height: 221px;
+              align-self: center;
               margin-left: -50px;
+              margin-right: -50px;
             }
             .about-us-text07 {
               font-size: 50px;
-              align-self: flex-start;
+              align-self: center;
               text-align: center;
             }
             .about-us-text08 {
               font-size: 50px;
-              align-self: flex-start;
+              align-self: center;
               text-align: center;
             }
             .about-us-text09 {
@@ -1697,6 +1732,11 @@ const AboutUs = (props) => {
               padding-left: 32px;
               padding-right: 32px;
             }
+            .about-us-image05 {
+              align-self: center;
+              margin-left: 0px;
+              margin-right: -650px;
+            }
             .about-us-testimonial2 {
               margin-right: 32px;
             }
@@ -1704,8 +1744,17 @@ const AboutUs = (props) => {
               padding-left: 32px;
               padding-right: 32px;
             }
+            .about-us-image06 {
+              margin-left: 325px;
+            }
             .about-us-testimonial3 {
-              margin-right: 32px;
+              align-self: stretch;
+              align-items: center;
+              margin-left: 0px;
+              margin-right: 425px;
+            }
+            .about-us-text49 {
+              align-self: flex-start;
             }
             .about-us-steps {
               padding-left: 32px;
@@ -1775,18 +1824,21 @@ const AboutUs = (props) => {
               width: 100%;
             }
             .about-us-image02 {
-              width: 479px;
+              width: 324px;
+              height: 223px;
+              align-self: center;
               margin-left: 0px;
+              margin-right: -35px;
               padding-right: 59px;
             }
             .about-us-text07 {
               width: 351px;
               font-size: 40px;
-              align-self: flex-start;
+              align-self: center;
             }
             .about-us-text08 {
               font-size: 40px;
-              align-self: flex-start;
+              align-self: center;
               margin-right: 0px;
             }
             .about-us-text09 {
@@ -1871,6 +1923,10 @@ const AboutUs = (props) => {
               flex-direction: column;
               padding-bottom: 32px;
             }
+            .about-us-image05 {
+              margin-left: 450px;
+              margin-right: 450px;
+            }
             .about-us-container10 {
               align-self: center;
             }
@@ -1896,6 +1952,9 @@ const AboutUs = (props) => {
               flex-direction: column;
               padding-bottom: 32px;
             }
+            .about-us-image06 {
+              margin-right: 325px;
+            }
             .about-us-testimonial3 {
               align-items: center;
               margin-right: 0px;
@@ -1907,7 +1966,7 @@ const AboutUs = (props) => {
             .about-us-text49 {
               color: rgb(89, 89, 89);
               font-size: 1.15rem;
-              align-self: flex-start;
+              align-self: center;
               text-align: left;
             }
             .about-us-text50 {
@@ -1949,10 +2008,10 @@ const AboutUs = (props) => {
             .about-us-types {
               flex-direction: column;
             }
-            .about-us-link09 {
+            .about-us-link10 {
               text-decoration: none;
             }
-            .about-us-link10 {
+            .about-us-link11 {
               text-decoration: none;
             }
           }
