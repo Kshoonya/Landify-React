@@ -53,7 +53,7 @@ class CustomDocument extends Document {
           <div
             dangerouslySetInnerHTML={{
               __html:
-                '<script src=\'https://unpkg.com/@teleporthq/teleport-custom-scripts\'></script>\n<script defer src="/_vercel/insights/script.js"></script>',
+                '<script src=\'https://unpkg.com/@teleporthq/teleport-custom-scripts\'></script>\n<script defer src="/_vercel/insights/script.js"></script>\n<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>\n<div class="elfsight-app-da05f2aa-b693-430d-8184-265b0e0e5204"></div>\n<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>\n<div class="elfsight-app-e70dd0da-abf1-49bc-aa12-e5132a6390a1"></div>',
             }}
           ></div>
         </body>
