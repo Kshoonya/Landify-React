@@ -173,7 +173,7 @@ const Home = (props) => {
             <img
               alt="A young fit man is walking outdoor. His background is blurred and there are trees in the distance behind him. The image is is taken from his left side at approximately 45 degrees angle.  HE has tanned skin, dark hair &amp; light growth of facial hair. He is midstride &amp; looking downwards. Wearing a half sleeved, round neck grey t-shirt and dark trousers of ankle length. Also wearing a watch on his right hand and light blue sport shoes while white wired earphones are plugged in his ears. Also wearing dark glasses with reddish frame."
               src="/playground_assets/_ca4a1961-f5eb-4cb5-a9a4-621c4ceda0f3-600h.jpeg"
-              loading="lazy"
+              loading="eager"
               className="home-image02"
             />
           </div>
@@ -2025,6 +2025,9 @@ const Home = (props) => {
             .home-text07 {
               text-align: center;
             }
+            .home-image02 {
+              align-self: center;
+            }
             .home-text13 {
               max-width: 100%;
             }
@@ -2127,6 +2130,9 @@ const Home = (props) => {
             .home-text07 {
               font-size: 50px;
               text-align: center;
+            }
+            .home-image02 {
+              align-self: center;
             }
             .home-text11 {
               font-size: 40px;
@@ -2387,6 +2393,9 @@ const Home = (props) => {
             }
             .home-bot {
               width: 100%;
+            }
+            .home-image02 {
+              align-self: center;
             }
             .home-text11 {
               text-align: center;
