@@ -2387,9 +2387,10 @@ const Home = (props) => {
             }
             .home-image {
               top: 1px;
-              left: 89px;
+              left: 0px;
               width: 284px;
               height: 111px;
+              margin: auto;
             }
             .home-bot {
               width: 100%;
