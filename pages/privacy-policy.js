@@ -154,15 +154,6 @@ const PrivacyPolicy = (props) => {
             src="/playground_assets/purple-circle.svg"
             className="privacy-policy-purple-circle"
           />
-          <img
-            src="/playground_assets/left.svg"
-            className="privacy-policy-left"
-          />
-          <img
-            alt="image"
-            src="/playground_assets/right.svg"
-            className="privacy-policy-right"
-          />
         </div>
         <div className="privacy-policy-container07">
           <div className="privacy-policy-container08"></div>
@@ -1655,24 +1646,6 @@ const PrivacyPolicy = (props) => {
             width: 400px;
             filter: blur(60px);
             opacity: 0.4;
-            position: absolute;
-            object-fit: cover;
-          }
-          .privacy-policy-left {
-            top: 653px;
-            left: 0px;
-            right: auto;
-            width: 420px;
-            bottom: auto;
-            position: absolute;
-            object-fit: cover;
-          }
-          .privacy-policy-right {
-            top: 441px;
-            left: auto;
-            right: 0px;
-            width: 612px;
-            bottom: auto;
             position: absolute;
             object-fit: cover;
           }
@@ -3788,14 +3761,6 @@ const PrivacyPolicy = (props) => {
             }
             .privacy-policy-bot {
               width: 100%;
-            }
-            .privacy-policy-left {
-              position: static;
-            }
-            .privacy-policy-right {
-              left: -74px;
-              bottom: -127px;
-              position: static;
             }
             .privacy-policy-steps {
               padding-top: 32px;

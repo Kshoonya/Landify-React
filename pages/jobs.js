@@ -153,17 +153,6 @@ const Jobs = (props) => {
             src="/playground_assets/turquoise-circle.svg"
             className="jobs-turquoise-cirble"
           />
-          <img
-            alt="image"
-            src="/playground_assets/purple-circle.svg"
-            className="jobs-purple-circle"
-          />
-          <img
-            alt="image"
-            src="/playground_assets/left.svg"
-            className="jobs-left"
-          />
-          <img src="/playground_assets/right.svg" className="jobs-right" />
         </div>
         <div className="jobs-features">
           <h1 className="jobs-text08">Join the team</h1>
@@ -662,33 +651,6 @@ const Jobs = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .jobs-purple-circle {
-            top: -98px;
-            right: -68px;
-            width: 400px;
-            filter: blur(60px);
-            opacity: 0.4;
-            position: absolute;
-            object-fit: cover;
-          }
-          .jobs-left {
-            top: 653px;
-            left: 0px;
-            right: auto;
-            width: 420px;
-            bottom: auto;
-            position: absolute;
-            object-fit: cover;
-          }
-          .jobs-right {
-            top: 441px;
-            left: auto;
-            right: 0px;
-            width: 612px;
-            bottom: auto;
-            position: absolute;
-            object-fit: cover;
-          }
           .jobs-features {
             width: 100%;
             display: flex;
@@ -990,6 +952,9 @@ const Jobs = (props) => {
             fill: var(--dl-color-orange-default);
           }
           @media (max-width: 1600px) {
+            .jobs-container {
+              background-color: #ffecec;
+            }
             .jobs-image {
               top: -37px;
               left: -15px;
@@ -1014,12 +979,6 @@ const Jobs = (props) => {
             }
             .jobs-text07 {
               text-align: center;
-            }
-            .jobs-left {
-              position: static;
-            }
-            .jobs-right {
-              position: static;
             }
             .jobs-text08 {
               align-self: center;
@@ -1049,12 +1008,6 @@ const Jobs = (props) => {
               font-size: 50px;
               text-align: center;
             }
-            .jobs-left {
-              position: static;
-            }
-            .jobs-right {
-              position: static;
-            }
             .jobs-features {
               padding-left: 32px;
               padding-right: 32px;
@@ -1078,12 +1031,6 @@ const Jobs = (props) => {
             }
             .jobs-bot {
               width: 100%;
-            }
-            .jobs-left {
-              position: static;
-            }
-            .jobs-right {
-              position: static;
             }
             .jobs-features {
               padding-top: 32px;

@@ -156,21 +156,6 @@ const JourneySoFar = (props) => {
             src="/playground_assets/turquoise-circle.svg"
             className="journey-so-far-turquoise-cirble"
           />
-          <img
-            alt="image"
-            src="/playground_assets/purple-circle.svg"
-            className="journey-so-far-purple-circle"
-          />
-          <img
-            src="/playground_assets/left.svg"
-            loading="lazy"
-            className="journey-so-far-left"
-          />
-          <img
-            src="/playground_assets/right.svg"
-            loading="lazy"
-            className="journey-so-far-right"
-          />
         </div>
         <div className="journey-so-far-container06">
           <div className="journey-so-far-container07"></div>
@@ -828,33 +813,6 @@ const JourneySoFar = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .journey-so-far-purple-circle {
-            top: -98px;
-            right: -68px;
-            width: 400px;
-            filter: blur(60px);
-            opacity: 0.4;
-            position: absolute;
-            object-fit: cover;
-          }
-          .journey-so-far-left {
-            top: 653px;
-            left: 0px;
-            right: auto;
-            width: 420px;
-            bottom: auto;
-            position: absolute;
-            object-fit: cover;
-          }
-          .journey-so-far-right {
-            top: 441px;
-            left: auto;
-            right: 0px;
-            width: 612px;
-            bottom: auto;
-            position: absolute;
-            object-fit: cover;
-          }
           .journey-so-far-container06 {
             flex: 0 0 auto;
             width: auto;
@@ -1296,6 +1254,15 @@ const JourneySoFar = (props) => {
               width: 355px;
               height: 211px;
             }
+            .journey-so-far-main {
+              background-color: #ffecec;
+            }
+            .journey-so-far-blur-background {
+              background-color: #ffecec;
+            }
+            .journey-so-far-hero1 {
+              background-color: #ffecec;
+            }
           }
           @media (max-width: 991px) {
             .journey-so-far-image {
@@ -1308,12 +1275,6 @@ const JourneySoFar = (props) => {
             }
             .journey-so-far-text08 {
               text-align: center;
-            }
-            .journey-so-far-left {
-              position: static;
-            }
-            .journey-so-far-right {
-              position: static;
             }
             .journey-so-far-hero1 {
               flex-direction: column;

@@ -140,38 +140,18 @@ const AboutUs = (props) => {
         </div>
         <div className="about-us-main">
           <div className="about-us-blur-background"></div>
+        </div>
+        <div className="about-us-hero">
           <img
             alt="image"
-            src="/playground_assets/turquoise-circle.svg"
-            className="about-us-turquoise-cirble"
+            src="/playground_assets/new_design_full%203-1200w.png"
+            loading="lazy"
+            className="about-us-image02"
           />
-          <img
-            alt="image"
-            src="/playground_assets/purple-circle.svg"
-            className="about-us-purple-circle"
-          />
-          <img
-            alt="image"
-            src="/playground_assets/left.svg"
-            className="about-us-left"
-          />
-          <img
-            alt="image"
-            src="/playground_assets/right.svg"
-            className="about-us-right"
-          />
-          <div className="about-us-hero">
-            <img
-              alt="image"
-              src="/playground_assets/new_design_full%203-1200w.png"
-              loading="lazy"
-              className="about-us-image02"
-            />
-            <div className="about-us-container06">
-              <h1 className="about-us-text07">About Us</h1>
-            </div>
-            <h1 className="about-us-text08">Innovators. Dreamers.</h1>
+          <div className="about-us-container06">
+            <h1 className="about-us-text07">About Us</h1>
           </div>
+          <h1 className="about-us-text08">Innovators. Dreamers.</h1>
         </div>
         <div className="about-us-features">
           <h2 className="about-us-text09">
@@ -848,44 +828,6 @@ const AboutUs = (props) => {
             flex-direction: column;
             background-color: #f2f2f2;
           }
-          .about-us-turquoise-cirble {
-            top: 439px;
-            left: auto;
-            right: 430px;
-            width: 170px;
-            bottom: auto;
-            filter: blur(60px);
-            opacity: 0.6;
-            position: absolute;
-            object-fit: cover;
-          }
-          .about-us-purple-circle {
-            top: -98px;
-            right: -68px;
-            width: 400px;
-            filter: blur(60px);
-            opacity: 0.4;
-            position: absolute;
-            object-fit: cover;
-          }
-          .about-us-left {
-            top: 653px;
-            left: 0px;
-            right: auto;
-            width: 420px;
-            bottom: auto;
-            position: absolute;
-            object-fit: cover;
-          }
-          .about-us-right {
-            top: 441px;
-            left: auto;
-            right: 0px;
-            width: 612px;
-            bottom: auto;
-            position: absolute;
-            object-fit: cover;
-          }
           .about-us-hero {
             flex: 0 0 auto;
             width: 100%;
@@ -1548,11 +1490,17 @@ const AboutUs = (props) => {
             fill: var(--dl-color-orange-default);
           }
           @media (max-width: 1600px) {
+            .about-us-container {
+              background-color: #ffecec;
+            }
             .about-us-image {
               top: -37px;
               left: -27px;
               width: 343px;
               height: 183px;
+            }
+            .about-us-blur-background {
+              background-color: #ffecec;
             }
             .about-us-hero {
               width: 1371px;
@@ -1568,6 +1516,9 @@ const AboutUs = (props) => {
             .about-us-text07 {
               width: 338px;
               align-self: center;
+            }
+            .about-us-text09 {
+              text-align: justify;
             }
             .about-us-testimonial3 {
               margin-right: 425px;
