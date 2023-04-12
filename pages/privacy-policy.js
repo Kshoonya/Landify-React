@@ -140,20 +140,9 @@ const PrivacyPolicy = (props) => {
           </div>
         </div>
         <div className="privacy-policy-main">
-          <div className="privacy-policy-blur-background"></div>
           <div className="privacy-policy-hero">
             <h1 className="privacy-policy-text006">Privacy Policy</h1>
           </div>
-          <img
-            alt="image"
-            src="/playground_assets/turquoise-circle.svg"
-            className="privacy-policy-turquoise-cirble"
-          />
-          <img
-            alt="image"
-            src="/playground_assets/purple-circle.svg"
-            className="privacy-policy-purple-circle"
-          />
         </div>
         <div className="privacy-policy-container07">
           <div className="privacy-policy-container08"></div>
@@ -1596,20 +1585,6 @@ const PrivacyPolicy = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .privacy-policy-blur-background {
-            top: 0px;
-            left: auto;
-            right: 0px;
-            width: 100%;
-            bottom: auto;
-            filter: blur(60px);
-            height: 70vh;
-            display: flex;
-            position: absolute;
-            align-items: center;
-            flex-direction: column;
-            background-color: #f2f2f2;
-          }
           .privacy-policy-hero {
             flex: 0 0 auto;
             width: 100%;
@@ -1628,26 +1603,6 @@ const PrivacyPolicy = (props) => {
             font-size: 72px;
             align-self: center;
             margin-bottom: var(--dl-space-space-doubleunit);
-          }
-          .privacy-policy-turquoise-cirble {
-            top: 439px;
-            left: auto;
-            right: 430px;
-            width: 170px;
-            bottom: auto;
-            filter: blur(60px);
-            opacity: 0.6;
-            position: absolute;
-            object-fit: cover;
-          }
-          .privacy-policy-purple-circle {
-            top: -98px;
-            right: -68px;
-            width: 400px;
-            filter: blur(60px);
-            opacity: 0.4;
-            position: absolute;
-            object-fit: cover;
           }
           .privacy-policy-container07 {
             flex: 0 0 auto;

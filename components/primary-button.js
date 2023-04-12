@@ -8,7 +8,7 @@ const PrimaryButton = (props) => {
       <div className="primary-button-container">
         <button
           type="button"
-          autoFocus
+          name="Dream with shoonya - unleash your potential"
           className="primary-button-button MediumLabel button"
         >
           {props.button}
@@ -38,8 +38,10 @@ const PrimaryButton = (props) => {
           .primary-button-button:hover {
             background-color: var(--dl-color-purple-900);
           }
-          .primary-button-button:active {
-            background-color: var(--dl-color-purple-1000);
+          @media (max-width: 479px) {
+            .primary-button-button {
+              z-index: 9999;
+            }
           }
         `}
       </style>
