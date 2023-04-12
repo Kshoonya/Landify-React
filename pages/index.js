@@ -2,8 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
-import DangerousHTML from 'dangerous-html/react'
-
 import PrimaryButton from '../components/primary-button'
 import FeatureCard from '../components/feature-card'
 import TestimonialsCard from '../components/testimonials-card'
@@ -20,7 +18,7 @@ const Home = (props) => {
           <title>Kshoonya Inc</title>
           <meta
             name="description"
-            content="Kshoonya Technologies is revolutionizing the field of artificial intelligence. By utilizing cutting-edge technology and innovative designs."
+            content="Kshoonya is an innovative technology company, specializes in developing products that focus on the independence and quality of life of those with disabilities."
           />
           <meta property="og:title" content="Kshoonya Inc" />
           <meta
@@ -45,26 +43,6 @@ const Home = (props) => {
               </a>
             </Link>
             <div className="home-logo"></div>
-            <div>
-              <DangerousHTML
-                html={`<title>About-us - Kshoonya Inc</title>
-<meta property="og:title" content="About-us - Kshoonya Inc" />
-<title>Kshoonya Inc</title>
-<meta property="og:title" content="Kshoonya Inc Artificial Intelligence based Company" />
-<title>Home - Kshoonya Inc Technolgoies</title>
-<link rel="canonical" href="https://kshoonya.com/" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Home - Kshoonya Technologies" />
-<meta property="og:description" content="Kshoonya is an innovative technology company that specializes in developing products that focus on the independence and quality of life of those with disabilities; Home Read More &raquo;" />
-<meta property="og:url" content="https://kshoonya.com/" />
-<meta property="og:site_name" content="Dream. Innovate. Support" />
-<meta property="article:modified_time" content="2023-04-05T18:34:03+00:00" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:label1" content="Est. reading time" />
-<meta name="twitter:data1" content="3 minutes" />`}
-              ></DangerousHTML>
-            </div>
             <div className="home-menu">
               <Link href="/about-us">
                 <a className="home-link01">About us</a>
@@ -192,28 +170,6 @@ const Home = (props) => {
                 </a>
               </Link>
             </div>
-            <div>
-              <DangerousHTML
-                html={`<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-
-	
-	<title>Home - Kshoonya Technolgoies</title>
-	<link rel="canonical" href="https://kshoonya.com/" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Home - Kshoonya Technologies" />
-	<meta property="og:description" content="Kshoonya is an innovative technology company that specializes in developing products that focus on the independence and quality of life of those with disabilities; Home Read More &raquo;" />
-	<meta property="og:url" content="https://kshoonya.com/" />
-	<meta property="og:site_name" content="Dream. Innovate. Support" />
-	<meta property="article:modified_time" content="2023-04-05T18:34:03+00:00" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:label1" content="Est. reading time" />
-	<meta name="twitter:data1" content="3 minutes" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://usa.foundationforequalcitizenship.org/","url":"https://usa.foundationforequalcitizenship.org/","name":"Home - Foundation of Equal Citizenship","isPartOf":{"@id":"https://usa.foundationforequalcitizenship.org/#website"},"about":{"@id":"https://usa.foundationforequalcitizenship.org/#organization"},"datePublished":"2021-11-21T15:12:46+00:00","dateModified":"2023-04-05T18:34:03+00:00","breadcrumb":{"@id":"https://usa.foundationforequalcitizenship.org/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://usa.foundationforequalcitizenship.org/"]}]},{"@type":"BreadcrumbList","@id":"https://usa.foundationforequalcitizenship.org/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://usa.foundationforequalcitizenship.org/#website","url":"https://usa.foundationforequalcitizenship.org/","name":"Foundation of Equal Citizenship","description":"Campaign page","publisher":{"@id":"https://usa.foundationforequalcitizenship.org/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://usa.foundationforequalcitizenship.org/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://usa.foundationforequalcitizenship.org/#organization","name":"Foundation of Equal Citizenship","url":"https://usa.foundationforequalcitizenship.org/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://usa.foundationforequalcitizenship.org/#/schema/logo/image/","url":"https://usa.foundationforequalcitizenship.org/wp-content/uploads/2023/03/cropped-cropped-ffec-1.jpeg","contentUrl":"https://usa.foundationforequalcitizenship.org/wp-content/uploads/2023/03/cropped-cropped-ffec-1.jpeg","width":222,"height":191,"caption":"Foundation of Equal Citizenship"},"image":{"@id":"https://www.kshoonya.in/playground_assets/new_design_full%203-300w.png"}}]}</script>
-
-`}
-              ></DangerousHTML>
-            </div>
             <img
               alt="A young fit man is walking outdoor. His background is blurred and there are trees in the distance behind him. The image is is taken from his left side at approximately 45 degrees angle.  HE has tanned skin, dark hair &amp; light growth of facial hair. He is midstride &amp; looking downwards. Wearing a half sleeved, round neck grey t-shirt and dark trousers of ankle length. Also wearing a watch on his right hand and light blue sport shoes while white wired earphones are plugged in his ears. Also wearing dark glasses with reddish frame."
               src="/playground_assets/_ca4a1961-f5eb-4cb5-a9a4-621c4ceda0f3-600h.jpeg"
@@ -267,7 +223,7 @@ const Home = (props) => {
             <h1 className="home-text12">Our Mission</h1>
             <span className="home-text13">
               <span>
-                Dedicate its efforts towards adding limitless value to everyday
+                Dedicate efforts towards adding limitless value to everyday
                 lives of the masses. Through Kshoonya, we want to create
                 technologies &amp; products that fill the gaps in lives of
                 people who have the potential &amp; means, but lack the tools.
@@ -286,7 +242,7 @@ const Home = (props) => {
               </span>
             </span>
             <Link href="/about-us" name="About our organization mission">
-              <a className="home-link10 button">Read More</a>
+              <a className="home-link10 button">Learn more about our mission</a>
             </Link>
           </div>
         </div>
@@ -296,13 +252,17 @@ const Home = (props) => {
               <h1 className="home-text16 Headline2">
                 Our Innovative Technology
               </h1>
-              <span>Works to bring independence &amp; inclusivity</span>
+              <span className="home-text17">
+                Works to bring independence &amp; inclusivity
+              </span>
               <div className="home-container09">
                 <TestimonialsCard
                   text="Kshoonya’s revolutionary technology leverages a combination of AI and sensors to provide an unparalleled level of mobility and navigation."
                   text1="Mobility and Navigation"
                   text2="Coming Soon"
+                  image_alt="Mobility and navigation"
                   image_src="/playground_assets/logo-4.svg"
+                  image_alt1="Symbol for Statement"
                   rootClassName="testimonials-card-root-class-name"
                 ></TestimonialsCard>
               </div>
@@ -314,7 +274,9 @@ const Home = (props) => {
                   text="Kshoonya is an innovative technology company that specializes in developing products that focus on the independence and quality of life of those with disabilities."
                   text1="AI-powered support"
                   text2="User friendly UI"
+                  image_alt="AI-powered support"
                   image_src="/playground_assets/logo-1.svg"
+                  image_alt1="Symbol for Statement"
                 ></TestimonialsCard>
               </div>
               <div className="home-container12">
@@ -322,7 +284,9 @@ const Home = (props) => {
                   text="Kshoonya is a technology company dedicated to creating groundbreaking, innovative solutions that aim to make the world a better place. "
                   text1="Automation &amp; Integration"
                   text2="Data-driven"
+                  image_alt="Automation and integration"
                   image_src="/playground_assets/logo-2.svg"
+                  image_alt1="symbol for statement"
                 ></TestimonialsCard>
               </div>
             </div>
@@ -445,6 +409,7 @@ const Home = (props) => {
             </span>
           </div>
           <img
+            alt="The image is of a young woman wearing white top &amp; heavy dark glasses. The image shows her partially from middle of her dark glasses to upper chest. Take from front of the person, the girl is reaching out her hands in the air, as if searching for something she cant see. Her left hand is completely stretched out and close to the camera lens, while her right hand is still near her right shoulder.  She has long dark wavy hair and is looking slightly upwards."
             src="/playground_assets/image-uuox-1200w.jpeg"
             loading="lazy"
             className="home-image04"
@@ -611,7 +576,9 @@ const Home = (props) => {
           <span className="home-text55">connect with us</span>
           <div className="home-btn-group">
             <Link href="/about-us" name="About organization">
-              <a className="home-link11 button">Learn More</a>
+              <a className="home-link11 button">
+                learn more about our organization
+              </a>
             </Link>
           </div>
         </div>
@@ -677,68 +644,6 @@ const Home = (props) => {
               <span className="home-text56 Body2">
                 © 2023 Kshoonya Inc. All rights reserved
               </span>
-              <div className="home-container44">
-                <a
-                  href="https://instagram.com"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="home-link16"
-                >
-                  <div className="home-container45">
-                    <svg
-                      viewBox="0 0 877.7142857142857 1024"
-                      id="instagram"
-                      className="home-icon21"
-                    >
-                      <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
-                    </svg>
-                  </div>
-                </a>
-                <a
-                  href="https://dribbble.com"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="home-link17"
-                >
-                  <div className="home-container46">
-                    <svg
-                      viewBox="0 0 877.7142857142857 1024"
-                      id="dribble"
-                      className="home-icon23"
-                    >
-                      <path d="M585.143 857.143c-5.714-33.143-27.429-147.429-80-284.571-0.571 0-1.714 0.571-2.286 0.571 0 0-222.286 77.714-294.286 234.286-3.429-2.857-8.571-6.286-8.571-6.286 65.143 53.143 148 85.714 238.857 85.714 52 0 101.143-10.857 146.286-29.714zM479.429 510.286c-9.143-21.143-19.429-42.286-30.286-63.429-193.143 57.714-378.286 53.143-384.571 53.143-0.571 4-0.571 8-0.571 12 0 96 36.571 184 96 250.286v0c102.286-182.286 304.571-247.429 304.571-247.429 5.143-1.714 10.286-2.857 14.857-4.571zM418.286 389.143c-65.143-115.429-134.286-209.143-139.429-216-104.571 49.143-182.286 145.714-206.857 261.714 9.714 0 166.286 1.714 346.286-45.714zM809.143 571.429c-8-2.286-112.571-35.429-233.714-16.571 49.143 135.429 69.143 245.714 73.143 268 84-56.571 143.429-146.857 160.571-251.429zM349.143 148c-0.571 0-0.571 0-1.143 0.571 0 0 0.571-0.571 1.143-0.571zM686.286 230.857c-65.714-58.286-152.571-93.714-247.429-93.714-30.286 0-60 4-88.571 10.857 5.714 7.429 76.571 100.571 140.571 218.286 141.143-52.571 194.286-133.714 195.429-135.429zM813.714 508c-1.143-88.571-32.571-170.286-85.143-234.286-1.143 1.143-61.143 88-209.143 148.571 8.571 17.714 17.143 36 25.143 54.286 2.857 6.286 5.143 13.143 8 19.429 129.143-16.571 256.571 11.429 261.143 12zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                    </svg>
-                  </div>
-                </a>
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="home-link18"
-                >
-                  <div className="home-container47">
-                    <svg
-                      viewBox="0 0 950.8571428571428 1024"
-                      id="twitter"
-                      className="home-icon25"
-                    >
-                      <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
-                    </svg>
-                  </div>
-                </a>
-                <a
-                  href="https://youtube.com"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="home-link19"
-                >
-                  <div id="youtube" className="home-container48">
-                    <svg viewBox="0 0 1024 1024" className="home-icon27">
-                      <path d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"></path>
-                    </svg>
-                  </div>
-                </a>
-              </div>
             </div>
           </footer>
         </div>
@@ -753,6 +658,7 @@ const Home = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: #f7f1f1;
           }
           .home-header-container {
             width: 100%;
@@ -1151,12 +1057,16 @@ const Home = (props) => {
           }
           .home-text13 {
             max-width: 1400px;
+            font-style: normal;
             margin-top: 32px;
             text-align: center;
+            font-weight: 700;
             margin-bottom: 32px;
           }
           .home-link10 {
+            font-style: normal;
             transition: 0.3s;
+            font-weight: 700;
             padding-top: var(--dl-space-space-unit);
             padding-left: 32px;
             padding-right: 32px;
@@ -1176,7 +1086,7 @@ const Home = (props) => {
             flex-direction: row;
             padding-bottom: var(--dl-space-space-tripleunit);
             justify-content: center;
-            background-color: #d4a6a6;
+            background-color: #ffecec;
           }
           .home-container07 {
             display: flex;
@@ -1245,6 +1155,10 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
+          }
+          .home-text22 {
+            font-style: normal;
+            font-weight: 700;
           }
           .home-container14 {
             flex: 1;
@@ -1328,7 +1242,9 @@ const Home = (props) => {
             max-width: 450px;
           }
           .home-text28 {
+            font-style: normal;
             margin-top: 32px;
+            font-weight: 700;
             margin-bottom: 32px;
           }
           .home-image04 {
@@ -1380,8 +1296,10 @@ const Home = (props) => {
             color: var(--dl-color-gray-700);
             font-size: 1.15rem;
             max-width: 600px;
+            font-style: normal;
             margin-top: var(--dl-space-space-unit);
             text-align: center;
+            font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
           .home-container22 {
@@ -1469,7 +1387,9 @@ const Home = (props) => {
           .home-text39 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
+            font-style: normal;
             text-align: center;
+            font-weight: 600;
           }
           .home-step1 {
             display: flex;
@@ -1549,7 +1469,9 @@ const Home = (props) => {
           .home-text41 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
+            font-style: normal;
             text-align: center;
+            font-weight: 600;
           }
           .home-step2 {
             display: flex;
@@ -1629,7 +1551,9 @@ const Home = (props) => {
           .home-text46 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
+            font-style: normal;
             text-align: center;
+            font-weight: 600;
           }
           .home-step3 {
             display: flex;
@@ -1709,7 +1633,9 @@ const Home = (props) => {
           .home-text51 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
+            font-style: normal;
             text-align: center;
+            font-weight: 600;
           }
           .home-blog {
             width: 100%;
@@ -1944,114 +1870,139 @@ const Home = (props) => {
             color: var(--dl-color-gray-300);
             margin-top: var(--dl-space-space-unit);
           }
-          .home-container44 {
-            flex: 0 0 auto;
-            width: 200px;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: row;
-          }
-          .home-link16 {
-            display: contents;
-          }
-          .home-container45 {
-            display: flex;
-            padding: var(--dl-space-space-halfunit);
-            align-items: flex-start;
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            background-color: var(--dl-color-gray-900);
-          }
-          .home-icon21 {
-            fill: var(--dl-color-gray-white);
-            width: var(--dl-size-size-unit);
-            height: var(--dl-size-size-unit);
-            transition: 0.3s;
-          }
-          .home-icon21:hover {
-            fill: var(--dl-color-purple-default);
-          }
-          .home-link17 {
-            display: contents;
-          }
-          .home-container46 {
-            display: flex;
-            padding: var(--dl-space-space-halfunit);
-            align-items: flex-start;
-            margin-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            background-color: var(--dl-color-gray-900);
-          }
-          .home-icon23 {
-            fill: var(--dl-color-gray-white);
-            width: var(--dl-size-size-unit);
-            height: var(--dl-size-size-unit);
-            transition: 0.3s;
-          }
-          .home-icon23:hover {
-            fill: var(--dl-color-pink-default);
-          }
-          .home-link18 {
-            display: contents;
-          }
-          .home-container47 {
-            display: flex;
-            padding: var(--dl-space-space-halfunit);
-            align-items: flex-start;
-            margin-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            background-color: var(--dl-color-gray-900);
-          }
-          .home-icon25 {
-            fill: var(--dl-color-gray-white);
-            width: var(--dl-size-size-unit);
-            height: var(--dl-size-size-unit);
-            transition: 0.3s;
-          }
-          .home-icon25:hover {
-            fill: var(--dl-color-turquoise-default);
-          }
-          .home-link19 {
-            display: contents;
-          }
-          .home-container48 {
-            display: flex;
-            padding: var(--dl-space-space-halfunit);
-            align-items: flex-start;
-            margin-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            background-color: var(--dl-color-gray-900);
-          }
-          .home-icon27 {
-            fill: var(--dl-color-gray-white);
-            width: var(--dl-size-size-unit);
-            height: var(--dl-size-size-unit);
-            transition: 0.3s;
-          }
-          .home-icon27:hover {
-            fill: var(--dl-color-orange-default);
-          }
           @media (max-width: 1600px) {
+            .home-container {
+              background-color: #f7f1f1;
+            }
             .home-image {
               top: -31px;
               left: -3px;
               width: 343px;
               height: 183px;
             }
+            .home-link09 {
+              font-style: normal;
+              font-weight: 900;
+            }
             .home-banner {
               padding-bottom: 48px;
             }
+            .home-text13 {
+              font-style: normal;
+              font-weight: 700;
+            }
             .home-link10 {
+              font-style: normal;
+              font-weight: 700;
               text-decoration: none;
             }
             .home-testimonials {
               background-color: #ffecec;
             }
+            .home-text22 {
+              font-style: normal;
+              font-weight: 600;
+            }
             .home-hero1 {
               background-color: #ffecec;
+            }
+            .home-text28 {
+              font-style: normal;
+              font-weight: 700;
+            }
+            .home-text34 {
+              font-style: normal;
+              font-weight: 700;
+            }
+            .home-text39 {
+              font-style: normal;
+              font-weight: 600;
+            }
+            .home-text41 {
+              font-style: normal;
+              font-weight: 600;
+            }
+            .home-text46 {
+              font-style: normal;
+              font-weight: 600;
+            }
+            .home-text51 {
+              font-style: normal;
+              font-weight: 600;
+            }
+          }
+          @media (max-width: 1200px) {
+            .home-container {
+              background-color: #f7f1f1;
+            }
+            .home-text07 {
+              font-size: 72px;
+            }
+            .home-text11 {
+              color: var(--dl-color-gray-900);
+              font-size: 48px;
+              font-style: normal;
+              font-family: Inter;
+              font-weight: 900;
+              text-transform: none;
+              text-decoration: none;
+            }
+            .home-link09 {
+              font-style: normal;
+              font-weight: 900;
+            }
+            .home-text12 {
+              font-style: normal;
+              font-weight: 900;
+            }
+            .home-text13 {
+              color: rgb(12, 12, 12);
+              font-style: normal;
+              font-weight: 700;
+            }
+            .home-link10 {
+              color: rgb(24, 24, 25);
+              font-style: normal;
+              font-weight: 800;
+            }
+            .home-text17 {
+              font-style: normal;
+              font-weight: 500;
+            }
+            .home-text22 {
+              font-style: normal;
+              font-weight: 500;
+            }
+            .home-text28 {
+              font-style: normal;
+              font-weight: 700;
+            }
+            .home-text34 {
+              font-style: normal;
+              font-weight: 700;
+            }
+            .home-text39 {
+              font-style: normal;
+              font-weight: 900;
+            }
+            .home-text41 {
+              font-style: normal;
+              font-weight: 900;
+            }
+            .home-text46 {
+              font-style: normal;
+              font-weight: 900;
+            }
+            .home-text51 {
+              font-style: normal;
+              font-weight: 900;
+            }
+            .home-link11 {
+              color: var(--dl-color-gray-white);
+              font-size: 0.75rem;
+              text-transform: uppercase;
+              text-decoration: none;
+              background-color: transparent;
             }
           }
           @media (max-width: 991px) {

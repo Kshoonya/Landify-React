@@ -13,7 +13,7 @@ const TestimonialsCard = (props) => {
             className="testimonials-card-image"
           />
           <div className="testimonials-card-container2">
-            <span className="testimonials-card-text Lead1">{props.text}</span>
+            <span className="testimonials-card-text">{props.text}</span>
             <span className="Subtitle1">{props.text1}</span>
             <span className="testimonials-card-text2 Lead2">{props.text2}</span>
           </div>
@@ -56,7 +56,14 @@ const TestimonialsCard = (props) => {
             justify-content: flex-start;
           }
           .testimonials-card-text {
+            font-size: 16px;
+            font-style: normal;
+            font-family: Inter;
+            font-weight: 700;
+            line-height: 1.55;
             margin-bottom: var(--dl-space-space-doubleunit);
+            text-transform: none;
+            text-decoration: none;
           }
           .testimonials-card-text2 {
             color: var(--dl-color-gray-700);
@@ -66,6 +73,21 @@ const TestimonialsCard = (props) => {
           }
           .testimonials-card-root-class-name1 {
             align-self: center;
+          }
+          @media (max-width: 1600px) {
+            .testimonials-card-text {
+              font-style: normal;
+              font-weight: 700;
+            }
+          }
+          @media (max-width: 1200px) {
+            .testimonials-card-text {
+              font-style: normal;
+              font-weight: 700;
+            }
+            .testimonials-card-root-class-name {
+              background-color: #ffffff;
+            }
           }
         `}
       </style>

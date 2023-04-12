@@ -62,6 +62,18 @@ const BlogPostCard1 = (props) => {
             margin-bottom: 32px;
           }
 
+          @media (max-width: 1600px) {
+            .blog-post-card1-text2 {
+              font-style: normal;
+              font-weight: 700;
+            }
+          }
+          @media (max-width: 1200px) {
+            .blog-post-card1-text2 {
+              font-style: normal;
+              font-weight: 600;
+            }
+          }
           @media (max-width: 991px) {
             .blog-post-card1-image {
               height: 350px;

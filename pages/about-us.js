@@ -13,7 +13,7 @@ const AboutUs = (props) => {
           <title>About-us - Kshoonya Inc</title>
           <meta
             name="description"
-            content="Kshoonya Technologies is revolutionizing the field of artificial intelligence. By utilizing cutting-edge technology and innovative designs."
+            content="Kshoonya is an innovative technology company, specializes in developing products that focus on the independence and quality of life of those with disabilities."
           />
           <meta property="og:title" content="About-us - Kshoonya Inc" />
           <meta
@@ -539,6 +539,7 @@ const AboutUs = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: #f7f1f1;
           }
           .about-us-header-container {
             width: 100%;
@@ -1491,7 +1492,7 @@ const AboutUs = (props) => {
           }
           @media (max-width: 1600px) {
             .about-us-container {
-              background-color: #ffecec;
+              background-color: #f7f1f1;
             }
             .about-us-image {
               top: -37px;
@@ -1525,6 +1526,9 @@ const AboutUs = (props) => {
             }
           }
           @media (max-width: 1200px) {
+            .about-us-container {
+              background-color: #f7f1f1;
+            }
             .about-us-image {
               top: -40px;
               left: 25px;
@@ -1545,6 +1549,9 @@ const AboutUs = (props) => {
             }
             .about-us-testimonial3 {
               margin-right: 425px;
+            }
+            .about-us-steps {
+              background-color: #f7f1f1;
             }
           }
           @media (max-width: 991px) {

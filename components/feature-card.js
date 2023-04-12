@@ -34,7 +34,21 @@ const FeatureCard = (props) => {
             margin-bottom: var(--dl-space-space-unit);
           }
           .feature-card-text1 {
+            font-style: normal;
             text-align: center;
+            font-weight: 700;
+          }
+          @media (max-width: 1600px) {
+            .feature-card-text1 {
+              font-style: normal;
+              font-weight: 700;
+            }
+          }
+          @media (max-width: 1200px) {
+            .feature-card-text1 {
+              font-style: normal;
+              font-weight: 600;
+            }
           }
         `}
       </style>

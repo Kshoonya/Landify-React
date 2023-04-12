@@ -2,7 +2,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 class CustomDocument extends Document {
   render() {
     return (
-      <Html lang="en ab aa af ak sq am ar an hy as av ae ay az bm ba eu be bn bh bi bs br bg my ca ch ce ny zh zh-Hans zh-Hant cv kw co cr hr cs da dv nl dz en eo et ee fo fj fi fr ff gl gd gv ka de el kl gn gu ht ha he hz hi ho hu is io ig id, in ia ie iu ik ga it ja jv kl kn kr ks kk km ki rw rn ky kv kg ko ku kj lo la">
+      <Html lang="en">
         <Head>
           <meta
             name="viewport"
@@ -40,6 +40,12 @@ class CustomDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script:wght@400&amp;display=swap"
             data-tag="font"
           ></link>
+          <noscript
+            dangerouslySetInnerHTML={{
+              __html:
+                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> -->\n<noscript>',
+            }}
+          ></noscript>
         </Head>
         <body>
           <Main></Main>
@@ -47,7 +53,7 @@ class CustomDocument extends Document {
           <div
             dangerouslySetInnerHTML={{
               __html:
-                "<script src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>",
+                '<script src=\'https://unpkg.com/@teleporthq/teleport-custom-scripts\'></script>\n<script defer src="/_vercel/insights/script.js"></script>',
             }}
           ></div>
         </body>

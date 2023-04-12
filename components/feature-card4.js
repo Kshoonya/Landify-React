@@ -42,12 +42,29 @@ const FeatureCard4 = (props) => {
             margin-bottom: var(--dl-space-space-unit);
           }
           .feature-card4-text1 {
-            color: var(--dl-color-gray-700);
+            color: #000000;
+            font-style: normal;
+            font-weight: 700;
           }
           .feature-card4-root-class-name {
             width: 100%;
           }
 
+          @media (max-width: 1600px) {
+            .feature-card4-text1 {
+              color: #080808;
+              font-style: normal;
+              font-weight: 700;
+            }
+          }
+          @media (max-width: 1200px) {
+            .feature-card4-text1 {
+              color: #040404;
+              font-style: normal;
+              text-align: left;
+              font-weight: 700;
+            }
+          }
           @media (max-width: 479px) {
             .feature-card4-text {
               font-style: normal;

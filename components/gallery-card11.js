@@ -37,6 +37,8 @@ const GalleryCard11 = (props) => {
           .gallery-card11-text1 {
             color: #595959;
             align-self: flex-start;
+            font-style: normal;
+            font-weight: 700;
           }
 
           @media (max-width: 767px) {

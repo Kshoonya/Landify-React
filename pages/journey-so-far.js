@@ -10,7 +10,7 @@ const JourneySoFar = (props) => {
           <title>Journey-So-Far - Kshoonya Inc</title>
           <meta
             name="description"
-            content="Kshoonya Technologies is revolutionizing the field of artificial intelligence. By utilizing cutting-edge technology and innovative designs."
+            content="Kshoonya is an innovative technology company, specializes in developing products that focus on the independence and quality of life of those with disabilities."
           />
           <meta property="og:title" content="Journey-So-Far - Kshoonya Inc" />
           <meta
@@ -838,6 +838,7 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
             justify-content: center;
+            background-color: #f7f1f1;
           }
           .journey-so-far-text09 {
             font-size: 3rem;
@@ -848,8 +849,10 @@ const JourneySoFar = (props) => {
             flex-direction: column;
           }
           .journey-so-far-text10 {
+            font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             text-align: justify;
+            font-weight: 700;
             padding-left: var(--dl-space-space-threeunits);
             margin-bottom: var(--dl-space-space-twounits);
             padding-right: var(--dl-space-space-threeunits);
@@ -1248,6 +1251,9 @@ const JourneySoFar = (props) => {
             fill: var(--dl-color-orange-default);
           }
           @media (max-width: 1600px) {
+            .journey-so-far-container {
+              background-color: #f7f1f1;
+            }
             .journey-so-far-image {
               top: -50px;
               left: -24px;
@@ -1261,7 +1267,11 @@ const JourneySoFar = (props) => {
               background-color: #ffecec;
             }
             .journey-so-far-hero1 {
-              background-color: #ffecec;
+              background-color: #f7f1f1;
+            }
+            .journey-so-far-text10 {
+              font-style: normal;
+              font-weight: 700;
             }
           }
           @media (max-width: 991px) {
