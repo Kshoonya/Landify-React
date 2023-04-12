@@ -1748,8 +1748,6 @@ const AboutUs = (props) => {
               margin-left: 325px;
             }
             .about-us-testimonial3 {
-              align-self: stretch;
-              align-items: center;
               margin-left: 0px;
               margin-right: 425px;
             }

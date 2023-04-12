@@ -226,16 +226,6 @@ const Home = (props) => {
             src="/playground_assets/turquoise-circle.svg"
             className="home-turquoise-cirble"
           />
-          <img
-            alt="image"
-            src="/playground_assets/half%20circle-1100w.png"
-            className="home-purple-circle"
-          />
-          <img
-            src="/playground_assets/leftar-500w.png"
-            loading="lazy"
-            className="home-left"
-          />
         </div>
         <div className="home-features">
           <h2 className="home-text11">Introducing Kshoonya Technologies</h2>
@@ -454,11 +444,6 @@ const Home = (props) => {
               </span>
             </span>
           </div>
-          <img
-            src="/playground_assets/leftar-500w.png"
-            loading="lazy"
-            className="home-left1"
-          />
           <img
             src="/playground_assets/image-uuox-1200w.jpeg"
             loading="lazy"
@@ -1117,25 +1102,6 @@ const Home = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .home-purple-circle {
-            top: -98px;
-            right: -68px;
-            width: 1024px;
-            filter: blur(60px);
-            opacity: 0.4;
-            position: absolute;
-            object-fit: cover;
-          }
-          .home-left {
-            top: 653px;
-            left: 0px;
-            right: auto;
-            width: 420px;
-            bottom: auto;
-            opacity: 0.8;
-            position: absolute;
-            object-fit: cover;
-          }
           .home-features {
             flex: 0 0 auto;
             width: 100%;
@@ -1361,14 +1327,6 @@ const Home = (props) => {
           .home-text28 {
             margin-top: 32px;
             margin-bottom: 32px;
-          }
-          .home-left1 {
-            top: 4087px;
-            left: -5px;
-            width: 420px;
-            opacity: 0.8;
-            position: absolute;
-            object-fit: cover;
           }
           .home-image04 {
             width: 520px;
