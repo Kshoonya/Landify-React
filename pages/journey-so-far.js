@@ -28,7 +28,7 @@ const JourneySoFar = (props) => {
               <a className="journey-so-far-link">
                 <img
                   alt="image"
-                  src="/playground_assets/new_design_full%203-400w.png"
+                  src="/new_design_full%203-400w.png"
                   className="journey-so-far-image"
                 />
               </a>
@@ -53,7 +53,7 @@ const JourneySoFar = (props) => {
               <div className="journey-so-far-logo1">
                 <img
                   alt="image"
-                  src="/playground_assets/logotype-dark.svg"
+                  src="/logotype-dark.svg"
                   className="journey-so-far-image1"
                 />
               </div>
@@ -146,14 +146,14 @@ const JourneySoFar = (props) => {
             <h1 className="journey-so-far-text08">Journey of Kshoonya</h1>
             <img
               alt="An image where a girl rejoicing the journey"
-              src="/playground_assets/_2e9c8e47-01fd-4d7b-9d91-51a01e47621f-1500h.jpg"
+              src="/external/_2e9c8e47-01fd-4d7b-9d91-51a01e47621f-1500h.jpg"
               loading="lazy"
               className="journey-so-far-image2"
             />
           </div>
           <img
             alt="image"
-            src="/playground_assets/turquoise-circle.svg"
+            src="/turquoise-circle.svg"
             className="journey-so-far-turquoise-cirble"
           />
         </div>
@@ -165,11 +165,16 @@ const JourneySoFar = (props) => {
           <div className="journey-so-far-container08">
             <span className="journey-so-far-text10">
               <span>
-                While Kshoonya might be at it’s nascent stage, the experience of
+                While Kshoonya might be in its nascent stage, the experience of
                 those behind it is not. With a team of extremely qualified
-                engineers, researchers &amp; advisors on board, the the company
-                is propelling forward at bullet speed. Come with us as we give
-                you a sneak peak into our innerworkings!
+                engineers, researchers &amp; advisors on board, the (delete
+                redundant) company is propelling forward at bullet speed. Come
+                with us as we give you a sneak peek into our inner workings!
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
               <br></br>
               <br></br>
@@ -178,80 +183,137 @@ const JourneySoFar = (props) => {
                 intelligence. By utilizing cutting-edge technology and
                 innovative designs, Kshoonya is creating projects with the
                 potential to greatly enhance the lives of people everywhere,
-                specially of those with physical limitations.
+                especially of those with physical limitations.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
               <br></br>
               <br></br>
               <span>
                 We deeply believe that every single one of us deserves the same
-                opportunities, irrespective of our ability status.
+                opportunities, irrespective of our location, financial means,
+                and technological skills.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
               <br></br>
               <br></br>
               <span>
-                People with blindness have the same potential to run, then why
-                aren’t more of them running?
-              </span>
-              <br></br>
-              <span>
-                Below is a brief of our journey as we turn that dream into
-                reality.
-              </span>
-              <br></br>
-              <br></br>
-              <span>
-                Our dream of using cutting edge technology to make the world a
-                more equitable place took with with the year 2023. As the idea
-                was born in january, the founders began their secondary research
-                into the world of technology, accessibility &amp; wearable
-                products.
+                People with blindness have the same potential to thrive. Why
+                aren’t more thriving?
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
               <br></br>
               <br></br>
               <span>
-                As our knowledge &amp; commitment deepened, we brought on board
-                an extremely accomplished professor from University of South
-                Florida on our advisory board. His interest in our thought gave
-                us our first validation from the industry.
+                Below is a brief summary of our journey as we turn that dream
+                into reality.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
               <br></br>
               <br></br>
               <span>
-                February rolled in and so did our vigour. Our research deepened,
-                as did our belief in the existence of problem in lives of real
-                people as well as one of it’s solutions. However, as a bunch of
+                Our dream of using cutting-edge technology to make the world a
+                more equitable place began in 2023. In January, celebrating the
+                new year, the founders began their secondary research into the
+                world of technology, accessibility, and wearable products.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <br></br>
+              <span>
+                As our knowledge and commitment deepened, we added a highly
+                accomplished professor from the University of South Florida to
+                our advisory board. His interest in our work gave us the first
+                validation from the industry.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <br></br>
+              <span>
+                As our research continued, we became increasingly convinced that
+                access to assistive technology was insufficient. Our belief was
+                that access should be a universal right, not dictated by our
+                financial means, location, or anything else. However, as
                 researchers, we needed hard evidence that the problem is truly
-                as widespread as we think it is. So we planned a primary survey
-                for the community we in mind.
+                as widespread as we perceived. That led to a primary survey for
+                the community we have in mind.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
               <br></br>
               <br></br>
               <span>
-                With March 2023, came our most productive period so far. We
-                increased our team from 2 to 4, adding industry experts to the
-                team, along with on-boarding a highly successful advisor.
+                In March 2023, we increased our team from 2 to 4, adding
+                industry experts to the team, along with onboarding a highly
+                successful advisor.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
               <br></br>
               <br></br>
               <span>
                 On the research front, with our primary survey concluded and
-                analysed, we had hard prof that the over 80% of our target
-                audience of disabled individuals was struggling with the problem
-                of independent mobility. While it strengthened our resolve, it
-                throttled us to know how widespread is inaccessibility &amp;
-                imagining it’s holistic impact broke our heart.
+                analyzed, we had hard proof that over 80% of our target audience
+                of disabled individuals was struggling with the problem of
+                independent mobility. While it strengthened our resolve, the
+                scope of inaccessibility issues also dismayed us.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
               <br></br>
               <br></br>
               <span>
-                As april rolls in, we are determined to bring our idea to
-                reality to increase access in our society and restore some of
-                the independence to disabled individuals that our inaccessible
-                world has stolen.
+                We are determined to bring our idea to reality to increase
+                access in our society and restore some of the independence to
+                disabled individuals that our inaccessible world has stolen.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
               <br></br>
               <br></br>
-              <span>Stay tuned to know what happens next!</span>
+              <span>
+                Stay tuned to know what happens next!
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
               <br></br>
               <span>
                 <span
@@ -273,15 +335,15 @@ const JourneySoFar = (props) => {
         <div className="journey-so-far-blog">
           <div className="journey-so-far-container09"></div>
           <div className="journey-so-far-steps">
-            <h1 className="journey-so-far-text47">Development Stage</h1>
+            <h1 className="journey-so-far-text48">Development Stage</h1>
             <div className="journey-so-far-container10">
               <div className="journey-so-far-container11">
                 <div className="journey-so-far-step">
-                  <h1 className="journey-so-far-text48">
+                  <h1 className="journey-so-far-text49">
                     <span>1</span>
                   </h1>
-                  <h1 className="journey-so-far-text50">Phase</h1>
-                  <span className="journey-so-far-text51">
+                  <h1 className="journey-so-far-text51">Phase</h1>
+                  <span className="journey-so-far-text52">
                     <span>
                       Project funding for our technology is an important part of
                       the development process. We are currently in Phase 1 of
@@ -297,11 +359,11 @@ const JourneySoFar = (props) => {
                   </span>
                 </div>
                 <div className="journey-so-far-step1">
-                  <h1 className="journey-so-far-text54">
+                  <h1 className="journey-so-far-text55">
                     <span>2</span>
                   </h1>
-                  <h1 className="journey-so-far-text56">Phase</h1>
-                  <span className="journey-so-far-text57">
+                  <h1 className="journey-so-far-text57">Phase</h1>
+                  <span className="journey-so-far-text58">
                     <span>Coming soon</span>
                     <br></br>
                   </span>
@@ -309,21 +371,21 @@ const JourneySoFar = (props) => {
               </div>
               <div className="journey-so-far-container12">
                 <div className="journey-so-far-step2">
-                  <h1 className="journey-so-far-text60">
+                  <h1 className="journey-so-far-text61">
                     <span>3</span>
                   </h1>
-                  <h1 className="journey-so-far-text62">Phase</h1>
-                  <span className="journey-so-far-text63">
+                  <h1 className="journey-so-far-text63">Phase</h1>
+                  <span className="journey-so-far-text64">
                     <span>coming soon</span>
                     <br></br>
                   </span>
                 </div>
                 <div className="journey-so-far-step3">
-                  <h1 className="journey-so-far-text66">
+                  <h1 className="journey-so-far-text67">
                     <span>4</span>
                   </h1>
-                  <h1 className="journey-so-far-text68">Production</h1>
-                  <span className="journey-so-far-text69">
+                  <h1 className="journey-so-far-text69">Production</h1>
+                  <span className="journey-so-far-text70">
                     <span>
                       coming
                       <span
@@ -346,28 +408,28 @@ const JourneySoFar = (props) => {
             <div className="journey-so-far-container14">
               <img
                 alt="image"
-                src="/playground_assets/dall%C2%B7e%202023-04-05%2022.21.59%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20an%20mobile%20app-300w.png"
+                src="/Pictures/Extras/dall%C2%B7e%202023-04-05%2022.21.59%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20an%20mobile%20app-300w.png"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
                 className="journey-so-far-image3"
               />
               <img
                 alt="image"
-                src="/playground_assets/dall%C2%B7e%202023-04-05%2022.23.36%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20a%20mobile%20app%2C%20and%20helps%20to%20reach%20destination-300h.png"
+                src="/Pictures/Extras/dall%C2%B7e%202023-04-05%2022.23.36%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20a%20mobile%20app%2C%20and%20helps%20to%20reach%20destination-300h.png"
                 className="journey-so-far-image4"
               />
             </div>
             <div className="journey-so-far-container15">
               <img
                 alt="image"
-                src="/playground_assets/_3a1e396a-8fc7-404a-8251-91dc346d23e4-1200w.jpeg"
+                src="/Pictures/First/_3a1e396a-8fc7-404a-8251-91dc346d23e4-1200w.jpeg"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
                 className="journey-so-far-image5"
               />
               <img
                 alt="image"
-                src="/playground_assets/_12f666b0-d77f-4988-a2d4-86fdca45e463-300w.jpeg"
+                src="/Pictures/Extras/_12f666b0-d77f-4988-a2d4-86fdca45e463-300w.jpeg"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
                 className="journey-so-far-image6"
@@ -381,7 +443,7 @@ const JourneySoFar = (props) => {
               <a className="journey-so-far-link07">
                 <img
                   alt="image"
-                  src="/playground_assets/new_design_full%203-400w.png"
+                  src="/new_design_full%203-400w.png"
                   loading="lazy"
                   className="journey-so-far-image7"
                 />
@@ -405,7 +467,7 @@ const JourneySoFar = (props) => {
             </div>
             <div className="journey-so-far-divider"></div>
             <div className="journey-so-far-container19">
-              <span className="journey-so-far-text74 Body2">
+              <span className="journey-so-far-text75 Body2">
                 © 2023 Kshoonya Inc. All rights reserved
               </span>
               <div className="journey-so-far-container20">
@@ -882,7 +944,7 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .journey-so-far-text47 {
+          .journey-so-far-text48 {
             color: var(--dl-color-gray-black);
             font-size: 3rem;
             margin-bottom: var(--dl-space-space-unit);
@@ -903,18 +965,18 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .journey-so-far-text48 {
+          .journey-so-far-text49 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .journey-so-far-text50 {
+          .journey-so-far-text51 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .journey-so-far-text51 {
+          .journey-so-far-text52 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
             margin-top: 24px;
@@ -926,18 +988,18 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .journey-so-far-text54 {
+          .journey-so-far-text55 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .journey-so-far-text56 {
+          .journey-so-far-text57 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .journey-so-far-text57 {
+          .journey-so-far-text58 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
             margin-top: 24px;
@@ -954,18 +1016,18 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .journey-so-far-text60 {
+          .journey-so-far-text61 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .journey-so-far-text62 {
+          .journey-so-far-text63 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .journey-so-far-text63 {
+          .journey-so-far-text64 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
             margin-top: 24px;
@@ -977,18 +1039,18 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .journey-so-far-text66 {
+          .journey-so-far-text67 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .journey-so-far-text68 {
+          .journey-so-far-text69 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .journey-so-far-text69 {
+          .journey-so-far-text70 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
             margin-top: 24px;
@@ -1156,7 +1218,7 @@ const JourneySoFar = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .journey-so-far-text74 {
+          .journey-so-far-text75 {
             color: var(--dl-color-gray-300);
             margin-top: var(--dl-space-space-unit);
           }
@@ -1274,6 +1336,12 @@ const JourneySoFar = (props) => {
               font-weight: 700;
             }
           }
+          @media (max-width: 1200px) {
+            .journey-so-far-text10 {
+              font-style: normal;
+              font-weight: 700;
+            }
+          }
           @media (max-width: 991px) {
             .journey-so-far-image {
               top: -49px;
@@ -1300,31 +1368,31 @@ const JourneySoFar = (props) => {
             .journey-so-far-text10 {
               text-align: center;
             }
-            .journey-so-far-text47 {
-              text-align: center;
-            }
             .journey-so-far-text48 {
               text-align: center;
             }
-            .journey-so-far-text50 {
+            .journey-so-far-text49 {
               text-align: center;
             }
-            .journey-so-far-text54 {
+            .journey-so-far-text51 {
               text-align: center;
             }
-            .journey-so-far-text56 {
+            .journey-so-far-text55 {
               text-align: center;
             }
-            .journey-so-far-text60 {
+            .journey-so-far-text57 {
               text-align: center;
             }
-            .journey-so-far-text62 {
+            .journey-so-far-text61 {
               text-align: center;
             }
-            .journey-so-far-text66 {
+            .journey-so-far-text63 {
               text-align: center;
             }
-            .journey-so-far-text68 {
+            .journey-so-far-text67 {
+              text-align: center;
+            }
+            .journey-so-far-text69 {
               text-align: center;
             }
             .journey-so-far-container15 {
@@ -1388,7 +1456,7 @@ const JourneySoFar = (props) => {
             .journey-so-far-container19 {
               flex-direction: column;
             }
-            .journey-so-far-text74 {
+            .journey-so-far-text75 {
               margin-top: var(--dl-space-space-unit);
               margin-bottom: var(--dl-space-space-unit);
             }

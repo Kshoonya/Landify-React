@@ -6,12 +6,6 @@ const BlogPostCard2 = (props) => {
   return (
     <>
       <div className={`blog-post-card2-blog-post-card ${props.rootClassName} `}>
-        <img
-          alt={props.image_alt}
-          src={props.image_src}
-          image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
-          className="blog-post-card2-image"
-        />
         <div className="blog-post-card2-container">
           <div className="blog-post-card2-container1">
             <span className="blog-post-card2-text">{props.label}</span>
@@ -34,13 +28,6 @@ const BlogPostCard2 = (props) => {
           }
           .blog-post-card2-blog-post-card:hover {
             transform: scale(1.02);
-          }
-          .blog-post-card2-image {
-            width: 350px;
-            height: 350px;
-            object-fit: cover;
-            flex-shrink: 0;
-            border-radius: 0px;
           }
           .blog-post-card2-container {
             display: flex;
@@ -83,9 +70,6 @@ const BlogPostCard2 = (props) => {
           @media (max-width: 767px) {
             .blog-post-card2-blog-post-card {
               flex-direction: column;
-            }
-            .blog-post-card2-image {
-              width: 100%;
             }
           }
         `}

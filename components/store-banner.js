@@ -41,9 +41,9 @@ const StoreBanner = (props) => {
 }
 
 StoreBanner.defaultProps = {
-  image_src: '/playground_assets/app-store-badge-200h.png',
+  image_src: '/app-store-badge-200h.png',
   image_alt1: 'image',
-  image_src1: '/playground_assets/google-play-badge-200h.png',
+  image_src1: '/google-play-badge-200h.png',
   image_alt: 'image',
 }
 

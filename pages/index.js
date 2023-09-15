@@ -36,7 +36,7 @@ const Home = (props) => {
               <a className="home-link">
                 <img
                   alt="image"
-                  src="/playground_assets/new_design_full%203-400w.png"
+                  src="/new_design_full%203-400w.png"
                   loading="lazy"
                   className="home-image"
                 />
@@ -64,7 +64,7 @@ const Home = (props) => {
               <div className="home-logo1">
                 <img
                   alt="image"
-                  src="/playground_assets/logotype-dark.svg"
+                  src="/logotype-dark.svg"
                   className="home-image01"
                 />
               </div>
@@ -172,14 +172,14 @@ const Home = (props) => {
             </div>
             <img
               alt="A young fit man is walking outdoor. His background is blurred and there are trees in the distance behind him. The image is is taken from his left side at approximately 45 degrees angle.  HE has tanned skin, dark hair &amp; light growth of facial hair. He is midstride &amp; looking downwards. Wearing a half sleeved, round neck grey t-shirt and dark trousers of ankle length. Also wearing a watch on his right hand and light blue sport shoes while white wired earphones are plugged in his ears. Also wearing dark glasses with reddish frame."
-              src="/playground_assets/_ca4a1961-f5eb-4cb5-a9a4-621c4ceda0f3-600h.jpeg"
+              src="/Pictures/First/_ca4a1961-f5eb-4cb5-a9a4-621c4ceda0f3-600h.jpeg"
               loading="eager"
               className="home-image02"
             />
           </div>
           <img
             alt="image"
-            src="/playground_assets/turquoise-circle.svg"
+            src="/turquoise-circle.svg"
             className="home-turquoise-cirble"
           />
         </div>
@@ -195,27 +195,27 @@ const Home = (props) => {
             ></FeatureCard>
             <FeatureCard
               text="Grow with the need."
-              image_src="/playground_assets/02.svg"
+              image_src="/02.svg"
               card_title="Flexibility"
             ></FeatureCard>
             <FeatureCard
               text="Designed to be simple, intuitive, and powerful."
-              image_src="/playground_assets/03.svg"
+              image_src="/03.svg"
               card_title="User friendly"
             ></FeatureCard>
             <FeatureCard
               text="We build solutions to eliminate real problems of real people in our society."
-              image_src="/playground_assets/04.svg"
+              image_src="/04.svg"
               card_title="Community Focus"
             ></FeatureCard>
             <FeatureCard
               text="Pushing the boundaries of what’s possible."
-              image_src="/playground_assets/05.svg"
+              image_src="/05.svg"
               card_title="Collaboration"
             ></FeatureCard>
             <FeatureCard
               text="We believe in structure with simplicity and all our products are results of it."
-              image_src="/playground_assets/06.svg"
+              image_src="/06.svg"
               card_title="Well organized"
             ></FeatureCard>
           </div>
@@ -261,7 +261,7 @@ const Home = (props) => {
                   text1="Mobility and Navigation"
                   text2="Coming Soon"
                   image_alt="Mobility and navigation"
-                  image_src="/playground_assets/logo-4.svg"
+                  image_src="/logo-4.svg"
                   image_alt1="Symbol for Statement"
                   rootClassName="testimonials-card-root-class-name"
                 ></TestimonialsCard>
@@ -270,12 +270,12 @@ const Home = (props) => {
             <div className="home-container10">
               <div className="home-container11">
                 <TestimonialsCard
-                  src="/playground_assets/logo-1.svg"
+                  src="/logo-1.svg"
                   text="Kshoonya is an innovative technology company that specializes in developing products that focus on the independence and quality of life of those with disabilities."
                   text1="AI-powered support"
                   text2="User friendly UI"
                   image_alt="AI-powered support"
-                  image_src="/playground_assets/logo-1.svg"
+                  image_src="/logo-1.svg"
                   image_alt1="Symbol for Statement"
                 ></TestimonialsCard>
               </div>
@@ -285,7 +285,7 @@ const Home = (props) => {
                   text1="Automation &amp; Integration"
                   text2="Data-driven"
                   image_alt="Automation and integration"
-                  image_src="/playground_assets/logo-2.svg"
+                  image_src="/logo-2.svg"
                   image_alt1="symbol for statement"
                 ></TestimonialsCard>
               </div>
@@ -323,13 +323,13 @@ const Home = (props) => {
             <div className="home-container15">
               <StatsCard
                 number="Simple Analytics"
-                image_src="/playground_assets/01.svg"
+                image_src="/01.svg"
                 description="from complex analysis"
                 rootClassName="stats-card-root-class-name"
               ></StatsCard>
               <StatsCard
                 number="Collaboration"
-                image_src="/playground_assets/04.svg"
+                image_src="/04.svg"
                 description="with the resources"
                 rootClassName="stats-card-root-class-name1"
               ></StatsCard>
@@ -342,7 +342,7 @@ const Home = (props) => {
               ></StatsCard>
               <StatsCard
                 number="Calibration"
-                image_src="/playground_assets/07.svg"
+                image_src="/07.svg"
                 description="for companies"
               ></StatsCard>
             </div>
@@ -354,7 +354,7 @@ const Home = (props) => {
           <div className="home-container17">
             <img
               alt="Picture is of a young woman walking toward right of the frame. Image is from her right side at an angle. She is midstride and looking downwards.  She has long straight black hair worn in a high ponytail. Looking athletic in her Yellow halter top, black calf length slacks &amp; colourful sport shoes. She is wearing big dark glasses. She is walking on the street, with a blurred background of trees in the distance, parallel to the road. "
-              src="/playground_assets/_a44f30b0-445a-4963-8d0e-b5d74b59a155-500h.jpeg"
+              src="/Pictures/First/_a44f30b0-445a-4963-8d0e-b5d74b59a155-500h.jpeg"
               loading="lazy"
               className="home-image03"
             />
@@ -410,7 +410,7 @@ const Home = (props) => {
           </div>
           <img
             alt="The image is of a young woman wearing white top &amp; heavy dark glasses. The image shows her partially from middle of her dark glasses to upper chest. Take from front of the person, the girl is reaching out her hands in the air, as if searching for something she cant see. Her left hand is completely stretched out and close to the camera lens, while her right hand is still near her right shoulder.  She has long dark wavy hair and is looking slightly upwards."
-            src="/playground_assets/image-uuox-1200w.jpeg"
+            src="/external/image-uuox-1200w.jpeg"
             loading="lazy"
             className="home-image04"
           />
@@ -423,21 +423,21 @@ const Home = (props) => {
             title="Dream"
             subtitle="We dream of a world where every disabled individual has same level of access to opportunities &amp; the world around them as any other able person."
             image_alt=". The image hold an older boy wearing dark glasses, looking upwards and smiling to himself. He is sitting in blue polo t-shirt &amp; brown trousers, while the image is taken from front. His mouth is slightly open with front teeth showing. He is brown skinned.In his background are blurred bright spots of lights . The image has a filter of partially transparent red wide streak going from left to right of the image.."
-            image_src="/playground_assets/_2c7cb96e-7c41-4972-8046-9594a3e1e62a-1500h.jpeg"
+            image_src="/Pictures/Dream.Support.innovate/_2c7cb96e-7c41-4972-8046-9594a3e1e62a-1500h.jpeg"
             rootClassName="rootClassName"
           ></GalleryCard11>
           <GalleryCard11
             title="Innovate"
             subtitle="Kshoonya’s revolutionary technology leverages a combination of AI and sensors to provide an unparalleled level of mobility and navigation."
             image_alt="this image shows 5 individuals standing in a semi circle around a table. Image is taken from front and shows the people partially. The top half of the image, which is above all their heads, shows large sketches of a light bulb, screws, hinges and puzzle pieces. The image is trying to depict brainstorming. Description of people from left to right - side angle of a partly visible man holding a book &amp; showing it to the girl on his left; a girl in dark top and middle parted long straight hair is smiling widely looking downwards at the book; a man wearing reading glasses and white shirt is also smiling looking at the book, he is half crouching and sporting facial hair; a smiling girl in dark glasses and white shirt is reaching out her hand to the book, her left profile is partially visible."
-            image_src="/playground_assets/_1f13f0ed-a9f1-48d0-8b5e-324b7b7fb17e-1500h.jpeg"
+            image_src="/Pictures/Dream.Support.innovate/_1f13f0ed-a9f1-48d0-8b5e-324b7b7fb17e-1500h.jpeg"
             rootClassName="rootClassName1"
           ></GalleryCard11>
           <GalleryCard11
             title="Support"
             subtitle="By pushing boundaries of what’s possible &amp; striving to build the most advance technologies, we support disabled individuals in accessing their maximum potential."
             image_alt="the image shows a close up of 2 hands. They seem to be of 2 different people standing about a feet apart.For stereotypical reasons, one hand seems to be of a man and the other of a woman."
-            image_src="/playground_assets/_e94549ba-5630-4a66-854b-3652db50d574-1500h.jpeg"
+            image_src="/Pictures/Dream.Support.innovate/_e94549ba-5630-4a66-854b-3652db50d574-1500h.jpeg"
             rootClassName="rootClassName5"
           ></GalleryCard11>
         </div>
@@ -543,7 +543,7 @@ const Home = (props) => {
                 label="WHY"
                 title="What inspired us?"
                 image_alt="the image shows front profile of a young woman who is looking straight at the camera. Her torso is visible, unto the belt of her blue pants. She is standing against a yellow backgrounded shrugging with her hands bent at the elbow and palms facing up at shoulder level and close to it. She is wearing a question expression on her face and a yellow high neck, full sleeved top on her torso. Her hair are straight, brown and fall under her shoulder with middle parting. Her eyes seem to be going in operate directions."
-                image_src="/playground_assets/why-1500w.jpeg"
+                image_src="/Pictures/Why,what,how/why-1500w.jpeg"
                 description="While the tech industry moves towards unimaginable &amp; invaluable solutions, there are still billions of people around the world unable to access something as basic as independent mobility."
                 rootClassName="rootClassName3"
               ></BlogPostCard1>
@@ -553,7 +553,7 @@ const Home = (props) => {
                 label="WHAT"
                 title="What do we want?"
                 image_alt="the image shows a pair or dark shoes in dark background, taken diagonally from left of the pair. Shoes from ground level, the pair has metallic parts &amp; straps, giving it a robotic look."
-                image_src="/playground_assets/what-1500w.jpeg"
+                image_src="/Pictures/Why,what,how/what-1500w.jpeg"
                 description="We want to employ the boundless potential of technology to improve lives. Building AI-based innovative &amp; revolutionary solutions in the form of wearable devices which have the capacity to learn, evolve &amp; guide."
                 profile_src="https://images.unsplash.com/photo-1632169486919-f8d993a936c4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJsaW5kfGVufDB8fHx8MTY4MDc0NTg2Nw&amp;ixlib=rb-4.0.3&amp;h=200"
                 rootClassName="rootClassName2"
@@ -564,7 +564,7 @@ const Home = (props) => {
                 label="HOW"
                 title="How YOU can contribute?"
                 image_alt="the cartoon shows full profile of 6 individuals from front. They are all laughing and smiling. The group is a mixture of genders, heights and complexions."
-                image_src="/playground_assets/how-1500w.jpeg"
+                image_src="/Pictures/Why,what,how/how-1500w.jpeg"
                 description="By writing to us at careers@kshoonya.com if you want to share your time &amp; expertise, and reaching out via contact@kshoonya.com if you’d like to fund the project or have any suggestions for us!"
                 rootClassName="rootClassName1"
               ></BlogPostCard1>
@@ -587,14 +587,14 @@ const Home = (props) => {
             <div className="home-container39">
               <img
                 alt="image"
-                src="/playground_assets/dall%C2%B7e%202023-04-05%2022.21.59%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20an%20mobile%20app-300w.png"
+                src="/Pictures/Extras/dall%C2%B7e%202023-04-05%2022.21.59%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20an%20mobile%20app-300w.png"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
                 className="home-image05"
               />
               <img
                 alt="image"
-                src="/playground_assets/dall%C2%B7e%202023-04-05%2022.23.36%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20a%20mobile%20app%2C%20and%20helps%20to%20reach%20destination-300h.png"
+                src="/Pictures/Extras/dall%C2%B7e%202023-04-05%2022.23.36%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20a%20mobile%20app%2C%20and%20helps%20to%20reach%20destination-300h.png"
                 loading="lazy"
                 className="home-image06"
               />
@@ -602,14 +602,14 @@ const Home = (props) => {
             <div className="home-container40">
               <img
                 alt="image"
-                src="/playground_assets/_3a1e396a-8fc7-404a-8251-91dc346d23e4-1200w.jpeg"
+                src="/Pictures/First/_3a1e396a-8fc7-404a-8251-91dc346d23e4-1200w.jpeg"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
                 className="home-image07"
               />
               <img
                 alt="image"
-                src="/playground_assets/_12f666b0-d77f-4988-a2d4-86fdca45e463-300w.jpeg"
+                src="/Pictures/Extras/_12f666b0-d77f-4988-a2d4-86fdca45e463-300w.jpeg"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
                 className="home-image08"
@@ -621,7 +621,7 @@ const Home = (props) => {
           <footer className="home-container41">
             <img
               alt="image"
-              src="/playground_assets/new_design_full%203-400w.png"
+              src="/new_design_full%203-400w.png"
               loading="lazy"
               className="home-image09"
             />

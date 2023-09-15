@@ -30,7 +30,7 @@ const Jobs = (props) => {
               <a className="jobs-link">
                 <img
                   alt="image"
-                  src="/playground_assets/new_design_full%203-400w.png"
+                  src="/new_design_full%203-400w.png"
                   className="jobs-image"
                 />
               </a>
@@ -57,7 +57,7 @@ const Jobs = (props) => {
               <div className="jobs-logo1">
                 <img
                   alt="image"
-                  src="/playground_assets/logotype-dark.svg"
+                  src="/logotype-dark.svg"
                   className="jobs-image1"
                 />
               </div>
@@ -150,7 +150,7 @@ const Jobs = (props) => {
           </div>
           <img
             alt="image"
-            src="/playground_assets/turquoise-circle.svg"
+            src="/turquoise-circle.svg"
             className="jobs-turquoise-cirble"
           />
         </div>
@@ -162,11 +162,11 @@ const Jobs = (props) => {
               rootClassName="rootClassName"
             ></FeatureCard1>
             <FeatureCard1
-              title="DESIGN ENGINEER FULL STACK APPLICATION DEVELOPER"
+              title="Internship: System Engineer and Robotics"
               rootClassName="rootClassName1"
             ></FeatureCard1>
             <FeatureCard1
-              title="Machine Learning Engineer"
+              title="Communication Designer"
               rootClassName="rootClassName2"
             ></FeatureCard1>
             <FeatureCard1
@@ -183,28 +183,28 @@ const Jobs = (props) => {
             <div className="jobs-container10">
               <img
                 alt="image"
-                src="/playground_assets/dall%C2%B7e%202023-04-05%2022.21.59%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20an%20mobile%20app-300w.png"
+                src="/Pictures/Extras/dall%C2%B7e%202023-04-05%2022.21.59%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20an%20mobile%20app-300w.png"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
                 className="jobs-image3"
               />
               <img
                 alt="image"
-                src="/playground_assets/dall%C2%B7e%202023-04-05%2022.23.36%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20a%20mobile%20app%2C%20and%20helps%20to%20reach%20destination-300h.png"
+                src="/Pictures/Extras/dall%C2%B7e%202023-04-05%2022.23.36%20-%20a%20%20man%20walking%20and%20wearing%20smart%20shoes%20and%20connected%20to%20a%20mobile%20app%2C%20and%20helps%20to%20reach%20destination-300h.png"
                 className="jobs-image4"
               />
             </div>
             <div className="jobs-container11">
               <img
                 alt="image"
-                src="/playground_assets/_3a1e396a-8fc7-404a-8251-91dc346d23e4-1200w.jpeg"
+                src="/Pictures/First/_3a1e396a-8fc7-404a-8251-91dc346d23e4-1200w.jpeg"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
                 className="jobs-image5"
               />
               <img
                 alt="image"
-                src="/playground_assets/_12f666b0-d77f-4988-a2d4-86fdca45e463-300w.jpeg"
+                src="/Pictures/Extras/_12f666b0-d77f-4988-a2d4-86fdca45e463-300w.jpeg"
                 loading="lazy"
                 image_src="dab1286f-0104-48fa-bd7d-135e132129dd"
                 className="jobs-image6"
@@ -217,7 +217,7 @@ const Jobs = (props) => {
             <a className="jobs-link08">
               <img
                 alt="image"
-                src="/playground_assets/new_design_full%203-400w.png"
+                src="/new_design_full%203-400w.png"
                 loading="lazy"
                 className="jobs-image7"
               />
@@ -978,6 +978,7 @@ const Jobs = (props) => {
               flex-direction: column;
             }
             .jobs-text07 {
+              font-size: 25px;
               text-align: center;
             }
             .jobs-text08 {
@@ -1032,6 +1033,9 @@ const Jobs = (props) => {
             .jobs-bot {
               width: 100%;
             }
+            .jobs-text07 {
+              font-size: 25px;
+            }
             .jobs-features {
               padding-top: 32px;
               padding-left: var(--dl-space-space-unit);
@@ -1040,6 +1044,9 @@ const Jobs = (props) => {
             }
             .jobs-container06 {
               grid-gap: var(--dl-space-space-halfunit);
+            }
+            .jobs-link09 {
+              text-decoration: none;
             }
             .jobs-link10 {
               text-decoration: none;

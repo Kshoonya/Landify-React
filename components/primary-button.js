@@ -7,8 +7,8 @@ const PrimaryButton = (props) => {
     <>
       <div className="primary-button-container">
         <button
-          type="button"
           name="Dream with shoonya - unleash your potential"
+          type="button"
           className="primary-button-button MediumLabel button"
         >
           {props.button}
