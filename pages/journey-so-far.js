@@ -42,7 +42,14 @@ const JourneySoFar = (props) => {
               <Link href="/jobs">
                 <a className="journey-so-far-link02">Jobs</a>
               </Link>
-              <span className="journey-so-far-text01">More</span>
+              <a
+                href="https://outlook.com/kshoonya.in"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="journey-so-far-link03"
+              >
+                MyKshoonya
+              </a>
               <svg viewBox="0 0 1024 1024" className="journey-so-far-icon list">
                 <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
               </svg>
@@ -67,12 +74,12 @@ const JourneySoFar = (props) => {
               </div>
             </div>
             <div className="journey-so-far-mid">
-              <span className="journey-so-far-text02">About</span>
-              <span className="journey-so-far-text03">Products</span>
-              <span className="journey-so-far-text04">Pricing</span>
-              <span className="journey-so-far-text05">Blog</span>
-              <span className="journey-so-far-text06">Jobs</span>
-              <span className="journey-so-far-text07">More</span>
+              <span className="journey-so-far-text01">About</span>
+              <span className="journey-so-far-text02">Products</span>
+              <span className="journey-so-far-text03">Pricing</span>
+              <span className="journey-so-far-text04">Blog</span>
+              <span className="journey-so-far-text05">Jobs</span>
+              <span className="journey-so-far-text06">More</span>
             </div>
             <div className="journey-so-far-bot">
               <div className="journey-so-far-container01">
@@ -80,7 +87,7 @@ const JourneySoFar = (props) => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="journey-so-far-link03"
+                  className="journey-so-far-link04"
                 >
                   <div className="journey-so-far-container02">
                     <svg
@@ -95,7 +102,7 @@ const JourneySoFar = (props) => {
                   href="https://dribbble.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="journey-so-far-link04"
+                  className="journey-so-far-link05"
                 >
                   <div className="journey-so-far-container03">
                     <svg
@@ -110,7 +117,7 @@ const JourneySoFar = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="journey-so-far-link05"
+                  className="journey-so-far-link06"
                 >
                   <div className="journey-so-far-container04">
                     <svg
@@ -125,7 +132,7 @@ const JourneySoFar = (props) => {
                   href="https://youtube.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="journey-so-far-link06"
+                  className="journey-so-far-link07"
                 >
                   <div className="journey-so-far-container05">
                     <svg
@@ -143,7 +150,7 @@ const JourneySoFar = (props) => {
         <div className="journey-so-far-main">
           <div className="journey-so-far-blur-background"></div>
           <div className="journey-so-far-hero">
-            <h1 className="journey-so-far-text08">Journey of Kshoonya</h1>
+            <h1 className="journey-so-far-text07">Journey of Kshoonya</h1>
             <img
               alt="An image where a girl rejoicing the journey"
               src="/external/_2e9c8e47-01fd-4d7b-9d91-51a01e47621f-1500h.jpg"
@@ -161,9 +168,9 @@ const JourneySoFar = (props) => {
           <div className="journey-so-far-container07"></div>
         </div>
         <div className="journey-so-far-hero1">
-          <h1 className="journey-so-far-text09">Startup</h1>
+          <h1 className="journey-so-far-text08">Startup</h1>
           <div className="journey-so-far-container08">
-            <span className="journey-so-far-text10">
+            <span className="journey-so-far-text09">
               <span>
                 While Kshoonya might be in its nascent stage, the experience of
                 those behind it is not. With a team of extremely qualified
@@ -335,15 +342,15 @@ const JourneySoFar = (props) => {
         <div className="journey-so-far-blog">
           <div className="journey-so-far-container09"></div>
           <div className="journey-so-far-steps">
-            <h1 className="journey-so-far-text48">Development Stage</h1>
+            <h1 className="journey-so-far-text47">Development Stage</h1>
             <div className="journey-so-far-container10">
               <div className="journey-so-far-container11">
                 <div className="journey-so-far-step">
-                  <h1 className="journey-so-far-text49">
+                  <h1 className="journey-so-far-text48">
                     <span>1</span>
                   </h1>
-                  <h1 className="journey-so-far-text51">Phase</h1>
-                  <span className="journey-so-far-text52">
+                  <h1 className="journey-so-far-text50">Phase</h1>
+                  <span className="journey-so-far-text51">
                     <span>
                       Project funding for our technology is an important part of
                       the development process. We are currently in Phase 1 of
@@ -359,11 +366,11 @@ const JourneySoFar = (props) => {
                   </span>
                 </div>
                 <div className="journey-so-far-step1">
-                  <h1 className="journey-so-far-text55">
+                  <h1 className="journey-so-far-text54">
                     <span>2</span>
                   </h1>
-                  <h1 className="journey-so-far-text57">Phase</h1>
-                  <span className="journey-so-far-text58">
+                  <h1 className="journey-so-far-text56">Phase</h1>
+                  <span className="journey-so-far-text57">
                     <span>Coming soon</span>
                     <br></br>
                   </span>
@@ -371,21 +378,21 @@ const JourneySoFar = (props) => {
               </div>
               <div className="journey-so-far-container12">
                 <div className="journey-so-far-step2">
-                  <h1 className="journey-so-far-text61">
+                  <h1 className="journey-so-far-text60">
                     <span>3</span>
                   </h1>
-                  <h1 className="journey-so-far-text63">Phase</h1>
-                  <span className="journey-so-far-text64">
+                  <h1 className="journey-so-far-text62">Phase</h1>
+                  <span className="journey-so-far-text63">
                     <span>coming soon</span>
                     <br></br>
                   </span>
                 </div>
                 <div className="journey-so-far-step3">
-                  <h1 className="journey-so-far-text67">
+                  <h1 className="journey-so-far-text66">
                     <span>4</span>
                   </h1>
-                  <h1 className="journey-so-far-text69">Production</h1>
-                  <span className="journey-so-far-text70">
+                  <h1 className="journey-so-far-text68">Production</h1>
+                  <span className="journey-so-far-text69">
                     <span>
                       coming
                       <span
@@ -440,7 +447,7 @@ const JourneySoFar = (props) => {
         <div className="journey-so-far-footer">
           <footer className="journey-so-far-container16">
             <Link href="/">
-              <a className="journey-so-far-link07">
+              <a className="journey-so-far-link08">
                 <img
                   alt="image"
                   src="/new_design_full%203-400w.png"
@@ -452,22 +459,22 @@ const JourneySoFar = (props) => {
             <div className="journey-so-far-container17">
               <div className="journey-so-far-container18">
                 <Link href="/jobs">
-                  <a className="journey-so-far-link08">Careers</a>
+                  <a className="journey-so-far-link09">Careers</a>
                 </Link>
                 <Link href="/about-us">
-                  <a className="journey-so-far-link09">About us</a>
+                  <a className="journey-so-far-link10">About us</a>
                 </Link>
                 <Link href="/journey-so-far">
-                  <a className="journey-so-far-link10">Journey</a>
+                  <a className="journey-so-far-link11">Journey</a>
                 </Link>
                 <Link href="/privacy-policy">
-                  <a className="journey-so-far-link11">Privacy Policy</a>
+                  <a className="journey-so-far-link12">Privacy Policy</a>
                 </Link>
               </div>
             </div>
             <div className="journey-so-far-divider"></div>
             <div className="journey-so-far-container19">
-              <span className="journey-so-far-text75 Body2">
+              <span className="journey-so-far-text74 Body2">
                 © 2023 Kshoonya Inc. All rights reserved
               </span>
               <div className="journey-so-far-container20">
@@ -475,7 +482,7 @@ const JourneySoFar = (props) => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="journey-so-far-link12"
+                  className="journey-so-far-link13"
                 >
                   <div className="journey-so-far-container21">
                     <svg
@@ -490,7 +497,7 @@ const JourneySoFar = (props) => {
                   href="https://dribbble.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="journey-so-far-link13"
+                  className="journey-so-far-link14"
                 >
                   <div className="journey-so-far-container22">
                     <svg
@@ -505,7 +512,7 @@ const JourneySoFar = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="journey-so-far-link14"
+                  className="journey-so-far-link15"
                 >
                   <div className="journey-so-far-container23">
                     <svg
@@ -520,7 +527,7 @@ const JourneySoFar = (props) => {
                   href="https://youtube.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="journey-so-far-link15"
+                  className="journey-so-far-link16"
                 >
                   <div className="journey-so-far-container24">
                     <svg
@@ -618,12 +625,12 @@ const JourneySoFar = (props) => {
           .journey-so-far-link02:hover {
             color: var(--dl-color-turquoise-default);
           }
-          .journey-so-far-text01 {
+          .journey-so-far-link03 {
             transition: 0.3s;
             font-weight: bold;
             text-decoration: none;
           }
-          .journey-so-far-text01:hover {
+          .journey-so-far-link03:hover {
             color: var(--dl-color-turquoise-default);
           }
           .journey-so-far-icon {
@@ -681,6 +688,13 @@ const JourneySoFar = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+          .journey-so-far-text01 {
+            transition: 0.3s;
+            margin-bottom: var(--dl-space-space-halfunit);
+          }
+          .journey-so-far-text01:hover {
+            color: var(--dl-color-turquoise-default);
+          }
           .journey-so-far-text02 {
             transition: 0.3s;
             margin-bottom: var(--dl-space-space-halfunit);
@@ -711,15 +725,8 @@ const JourneySoFar = (props) => {
           }
           .journey-so-far-text06 {
             transition: 0.3s;
-            margin-bottom: var(--dl-space-space-halfunit);
           }
           .journey-so-far-text06:hover {
-            color: var(--dl-color-turquoise-default);
-          }
-          .journey-so-far-text07 {
-            transition: 0.3s;
-          }
-          .journey-so-far-text07:hover {
             color: var(--dl-color-turquoise-default);
           }
           .journey-so-far-bot {
@@ -736,7 +743,7 @@ const JourneySoFar = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .journey-so-far-link03 {
+          .journey-so-far-link04 {
             display: contents;
           }
           .journey-so-far-container02 {
@@ -756,7 +763,7 @@ const JourneySoFar = (props) => {
           .journey-so-far-icon04:hover {
             fill: var(--dl-color-purple-default);
           }
-          .journey-so-far-link04 {
+          .journey-so-far-link05 {
             display: contents;
           }
           .journey-so-far-container03 {
@@ -777,7 +784,7 @@ const JourneySoFar = (props) => {
           .journey-so-far-icon06:hover {
             fill: var(--dl-color-pink-default);
           }
-          .journey-so-far-link05 {
+          .journey-so-far-link06 {
             display: contents;
           }
           .journey-so-far-container04 {
@@ -798,7 +805,7 @@ const JourneySoFar = (props) => {
           .journey-so-far-icon08:hover {
             fill: var(--dl-color-turquoise-default);
           }
-          .journey-so-far-link06 {
+          .journey-so-far-link07 {
             display: contents;
           }
           .journey-so-far-container05 {
@@ -854,7 +861,7 @@ const JourneySoFar = (props) => {
             justify-content: flex-start;
           }
 
-          .journey-so-far-text08 {
+          .journey-so-far-text07 {
             font-size: 72px;
             align-self: center;
             margin-bottom: var(--dl-space-space-doubleunit);
@@ -902,7 +909,7 @@ const JourneySoFar = (props) => {
             justify-content: center;
             background-color: #f7f1f1;
           }
-          .journey-so-far-text09 {
+          .journey-so-far-text08 {
             font-size: 3rem;
           }
           .journey-so-far-container08 {
@@ -910,7 +917,7 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .journey-so-far-text10 {
+          .journey-so-far-text09 {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             text-align: justify;
@@ -944,7 +951,7 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .journey-so-far-text48 {
+          .journey-so-far-text47 {
             color: var(--dl-color-gray-black);
             font-size: 3rem;
             margin-bottom: var(--dl-space-space-unit);
@@ -965,18 +972,18 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .journey-so-far-text49 {
+          .journey-so-far-text48 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .journey-so-far-text51 {
+          .journey-so-far-text50 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .journey-so-far-text52 {
+          .journey-so-far-text51 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
             margin-top: 24px;
@@ -988,18 +995,18 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .journey-so-far-text55 {
+          .journey-so-far-text54 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .journey-so-far-text57 {
+          .journey-so-far-text56 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .journey-so-far-text58 {
+          .journey-so-far-text57 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
             margin-top: 24px;
@@ -1016,18 +1023,18 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .journey-so-far-text61 {
+          .journey-so-far-text60 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .journey-so-far-text63 {
+          .journey-so-far-text62 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .journey-so-far-text64 {
+          .journey-so-far-text63 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
             margin-top: 24px;
@@ -1039,18 +1046,18 @@ const JourneySoFar = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .journey-so-far-text67 {
+          .journey-so-far-text66 {
             color: var(--dl-color-gray-900);
             font-size: 4rem;
             text-align: center;
             font-weight: 900;
             margin-bottom: -30px;
           }
-          .journey-so-far-text69 {
+          .journey-so-far-text68 {
             font-size: 1.15rem;
             font-weight: 500;
           }
-          .journey-so-far-text70 {
+          .journey-so-far-text69 {
             color: rgb(89, 89, 89);
             font-size: 0.75rem;
             margin-top: 24px;
@@ -1147,7 +1154,7 @@ const JourneySoFar = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .journey-so-far-link07 {
+          .journey-so-far-link08 {
             display: contents;
           }
           .journey-so-far-image7 {
@@ -1172,14 +1179,6 @@ const JourneySoFar = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .journey-so-far-link08 {
-            transition: 0.3s;
-            margin-right: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
-          .journey-so-far-link08:hover {
-            color: var(--dl-color-turquoise-default);
-          }
           .journey-so-far-link09 {
             transition: 0.3s;
             margin-right: var(--dl-space-space-unit);
@@ -1198,10 +1197,18 @@ const JourneySoFar = (props) => {
           }
           .journey-so-far-link11 {
             transition: 0.3s;
-            white-space: nowrap;
+            margin-right: var(--dl-space-space-unit);
             text-decoration: none;
           }
           .journey-so-far-link11:hover {
+            color: var(--dl-color-turquoise-default);
+          }
+          .journey-so-far-link12 {
+            transition: 0.3s;
+            white-space: nowrap;
+            text-decoration: none;
+          }
+          .journey-so-far-link12:hover {
             color: var(--dl-color-turquoise-default);
           }
           .journey-so-far-divider {
@@ -1218,7 +1225,7 @@ const JourneySoFar = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .journey-so-far-text75 {
+          .journey-so-far-text74 {
             color: var(--dl-color-gray-300);
             margin-top: var(--dl-space-space-unit);
           }
@@ -1229,7 +1236,7 @@ const JourneySoFar = (props) => {
             align-items: flex-start;
             flex-direction: row;
           }
-          .journey-so-far-link12 {
+          .journey-so-far-link13 {
             display: contents;
           }
           .journey-so-far-container21 {
@@ -1249,7 +1256,7 @@ const JourneySoFar = (props) => {
           .journey-so-far-icon12:hover {
             fill: var(--dl-color-purple-default);
           }
-          .journey-so-far-link13 {
+          .journey-so-far-link14 {
             display: contents;
           }
           .journey-so-far-container22 {
@@ -1270,7 +1277,7 @@ const JourneySoFar = (props) => {
           .journey-so-far-icon14:hover {
             fill: var(--dl-color-pink-default);
           }
-          .journey-so-far-link14 {
+          .journey-so-far-link15 {
             display: contents;
           }
           .journey-so-far-container23 {
@@ -1291,7 +1298,7 @@ const JourneySoFar = (props) => {
           .journey-so-far-icon16:hover {
             fill: var(--dl-color-turquoise-default);
           }
-          .journey-so-far-link15 {
+          .journey-so-far-link16 {
             display: contents;
           }
           .journey-so-far-container24 {
@@ -1331,13 +1338,17 @@ const JourneySoFar = (props) => {
             .journey-so-far-hero1 {
               background-color: #f7f1f1;
             }
-            .journey-so-far-text10 {
+            .journey-so-far-text09 {
               font-style: normal;
               font-weight: 700;
             }
           }
           @media (max-width: 1200px) {
-            .journey-so-far-text10 {
+            .journey-so-far-link03 {
+              font-weight: bold;
+              text-decoration: none;
+            }
+            .journey-so-far-text09 {
               font-style: normal;
               font-weight: 700;
             }
@@ -1351,13 +1362,13 @@ const JourneySoFar = (props) => {
               height: auto;
               flex-direction: column;
             }
-            .journey-so-far-text08 {
+            .journey-so-far-text07 {
               text-align: center;
             }
             .journey-so-far-hero1 {
               flex-direction: column;
             }
-            .journey-so-far-text09 {
+            .journey-so-far-text08 {
               text-align: center;
             }
             .journey-so-far-container08 {
@@ -1365,43 +1376,43 @@ const JourneySoFar = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .journey-so-far-text10 {
+            .journey-so-far-text09 {
+              text-align: center;
+            }
+            .journey-so-far-text47 {
               text-align: center;
             }
             .journey-so-far-text48 {
               text-align: center;
             }
-            .journey-so-far-text49 {
+            .journey-so-far-text50 {
               text-align: center;
             }
-            .journey-so-far-text51 {
+            .journey-so-far-text54 {
               text-align: center;
             }
-            .journey-so-far-text55 {
+            .journey-so-far-text56 {
               text-align: center;
             }
-            .journey-so-far-text57 {
+            .journey-so-far-text60 {
               text-align: center;
             }
-            .journey-so-far-text61 {
+            .journey-so-far-text62 {
               text-align: center;
             }
-            .journey-so-far-text63 {
+            .journey-so-far-text66 {
               text-align: center;
             }
-            .journey-so-far-text67 {
-              text-align: center;
-            }
-            .journey-so-far-text69 {
+            .journey-so-far-text68 {
               text-align: center;
             }
             .journey-so-far-container15 {
               display: none;
             }
-            .journey-so-far-link09 {
+            .journey-so-far-link10 {
               text-decoration: none;
             }
-            .journey-so-far-link10 {
+            .journey-so-far-link11 {
               text-decoration: none;
             }
           }
@@ -1413,7 +1424,7 @@ const JourneySoFar = (props) => {
             .journey-so-far-menu {
               display: none;
             }
-            .journey-so-far-text08 {
+            .journey-so-far-text07 {
               font-size: 50px;
               align-self: center;
               text-align: center;
@@ -1422,7 +1433,7 @@ const JourneySoFar = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .journey-so-far-text10 {
+            .journey-so-far-text09 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
@@ -1456,7 +1467,7 @@ const JourneySoFar = (props) => {
             .journey-so-far-container19 {
               flex-direction: column;
             }
-            .journey-so-far-text75 {
+            .journey-so-far-text74 {
               margin-top: var(--dl-space-space-unit);
               margin-bottom: var(--dl-space-space-unit);
             }
@@ -1498,10 +1509,10 @@ const JourneySoFar = (props) => {
             .journey-so-far-container12 {
               flex-direction: column;
             }
-            .journey-so-far-link09 {
+            .journey-so-far-link10 {
               text-decoration: none;
             }
-            .journey-so-far-link10 {
+            .journey-so-far-link11 {
               text-decoration: none;
             }
           }

@@ -24,38 +24,11 @@ const Page = (props) => {
           />
         </Head>
         <div className="page-div">
-          <React.Fragment>
-            <div style={{ maxWidth: '1280px' }}>
-              <div
-                style={{
-                  position: 'relative',
-                  paddingBottom: '56.25%',
-                  height: '0',
-                  overflow: 'hidden',
-                }}
-              >
-                <iframe
-                  src="https://kshoonyaai-my.sharepoint.com/personal/harshit_kshoonya_com/_layouts/15/embed.aspx?UniqueId=8aa1126b-6cb2-4c29-9490-35a768f88a51&embed=%7B%22af%22%3Atrue%2C%22ust%22%3Afalse%7D&referrer=OneUpFileViewer&referrerScenario=EmbedDialog.Create"
-                  width={1280}
-                  height={720}
-                  frameBorder="0"
-                  scrolling="no"
-                  allowFullScreen={true}
-                  title="20230612_145718000_iOS.mov"
-                  style={{
-                    border: 'none',
-                    position: 'absolute',
-                    top: '0',
-                    left: '0',
-                    right: '0',
-                    bottom: '0',
-                    height: '100%',
-                    maxWidth: '100%',
-                  }}
-                ></iframe>
-              </div>
-            </div>
-          </React.Fragment>
+          <Script
+            html={`<div style="max-width: 1280px">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://kshoonyaai-my.sharepoint.com/personal/harshit_kshoonya_com/_layouts/15/embed.aspx?UniqueId=8aa1126b-6cb2-4c29-9490-35a768f88a51&embed=%7B%22af%22%3Atrue%2C%22ust%22%3Afalse%7D&referrer=OneUpFileViewer&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="20230612_145718000_iOS.mov" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;">
+</iframe></div></div>`}
+          ></Script>
         </div>
         <video
           src="https://kshoonyaai-my.sharepoint.com/personal/harshit_kshoonya_com//_layouts/15/onedrive.aspx?login_hint=harshit%40KSHOONYA%2ECOM&amp;id=%2Fpersonal%2Fharshit%5Fkshoonya%5Fcom%2FDocuments%2FHarshit%2F20230612%5F145718000%5FiOS%2Emov&amp;parent=%2Fpersonal%2Fharshit%5Fkshoonya%5Fcom%2FDocuments%2FHarshit"
